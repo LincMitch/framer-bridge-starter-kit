@@ -102,3 +102,10 @@
 [2019-05-02 08:21:48.9170] - ERROR - ERROR in ../design-system/components/Tooltip.tsx
 [2019-05-02 08:21:48.9170] - ERROR - Module not found: Error: Can't resolve 'styled-components' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components'
 [2019-05-02 08:22:13.0660] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 08.22.13.zip
+[2019-05-02 08:32:00.7640] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 08:32:00.7640] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-05-02 08:32:00.7640] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-05-02 08:32:00.7760] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-05-02 08:32:00.7760] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-05-02 08:32:00.7800] - DEBUG - [Save session: 1] Completed super.save
+[2019-05-02 08:32:34.0600] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 08.32.34.zip
