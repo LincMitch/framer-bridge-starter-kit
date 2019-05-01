@@ -29,7 +29,7 @@ export const Button: React.FC<Props> = ({
     className={`${fluid ? "fluid" : ""} ${disabled ? "disabled" : ""} ${
       kind ? kind : ""
     }`}
-  >
+  >ZZZ
     {text || children}
   </StyledButton>
 )
