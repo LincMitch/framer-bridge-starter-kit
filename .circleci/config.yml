@@ -13,7 +13,7 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run: npx framer-cli design-system.framerfx build
+      - run: npx framer-cli design-system-v2.framerfx build
 
   publish:
     docker:
@@ -24,7 +24,7 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run: npx framer-cli publish design-system.framerfx --yes
+      - run: npx framer-cli publish design-system-v2.framerfx --yes
 
 workflows:
   version: 2
