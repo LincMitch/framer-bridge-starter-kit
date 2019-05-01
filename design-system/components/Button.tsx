@@ -29,7 +29,7 @@ export const Button: React.FC<Props> = ({
     className={`${fluid ? "fluid" : ""} ${disabled ? "disabled" : ""} ${
       kind ? kind : ""
     }`}
-  >
+  >test circle CI after initial publish to Store
     {text || children}
   </StyledButton>
 )
