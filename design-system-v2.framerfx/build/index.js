@@ -183,6 +183,25 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
+/***/ "../../../../Applications/Framer X.app/Contents/Resources/Server/node_modules/css-loader/index.js!../node_modules/@material/typography/dist/mdc.typography.css":
+/*!*************************************************************************************************************************************************!*\
+  !*** /Applications/Framer X.app/Contents/Resources/Server/node_modules/css-loader!../node_modules/@material/typography/dist/mdc.typography.css ***!
+  \*************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../Applications/Framer X.app/Contents/Resources/Server/node_modules/css-loader/lib/css-base.js */ "../../../../Applications/Framer X.app/Contents/Resources/Server/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-typography {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n}\n\n.mdc-typography--headline1 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 6rem;\n  line-height: 6rem;\n  font-weight: 300;\n  letter-spacing: -0.015625em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline2 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 3.75rem;\n  line-height: 3.75rem;\n  font-weight: 300;\n  letter-spacing: -0.0083333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline3 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 3rem;\n  line-height: 3.125rem;\n  font-weight: 400;\n  letter-spacing: normal;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline4 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 2.125rem;\n  line-height: 2.5rem;\n  font-weight: 400;\n  letter-spacing: 0.0073529412em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline5 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1.5rem;\n  line-height: 2rem;\n  font-weight: 400;\n  letter-spacing: normal;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline6 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1.25rem;\n  line-height: 2rem;\n  font-weight: 500;\n  letter-spacing: 0.0125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--subtitle1 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.75rem;\n  font-weight: 400;\n  letter-spacing: 0.009375em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--subtitle2 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.375rem;\n  font-weight: 500;\n  letter-spacing: 0.0071428571em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--body1 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  font-weight: 400;\n  letter-spacing: 0.03125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--body2 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0178571429em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--caption {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0333333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--button {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 2.25rem;\n  font-weight: 500;\n  letter-spacing: 0.0892857143em;\n  text-decoration: none;\n  text-transform: uppercase;\n}\n\n.mdc-typography--overline {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 2rem;\n  font-weight: 500;\n  letter-spacing: 0.1666666667em;\n  text-decoration: none;\n  text-transform: uppercase;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "../../../../Applications/Framer X.app/Contents/Resources/Server/node_modules/css-loader/index.js!../node_modules/@rmwc/icon/icon.css":
 /*!************************************************************************************************************************!*\
   !*** /Applications/Framer X.app/Contents/Resources/Server/node_modules/css-loader!../node_modules/@rmwc/icon/icon.css ***!
@@ -388,6 +407,18 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst 
 
 /***/ }),
 
+/***/ "../design-system/components/Typography.tsx":
+/*!**************************************************!*\
+  !*** ../design-system/components/Typography.tsx ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar __rest = (this && this.__rest) || function (s, e) {\n    var t = {};\n    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)\n        t[p] = s[p];\n    if (s != null && typeof Object.getOwnPropertySymbols === \"function\")\n        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)\n            t[p[i]] = s[p[i]];\n    return t;\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst React = __webpack_require__(/*! react */ \"react\");\nconst typography_1 = __webpack_require__(/*! @rmwc/typography */ \"../node_modules/@rmwc/typography/next/index.js\");\n__webpack_require__(/*! @material/typography/dist/mdc.typography.css */ \"../node_modules/@material/typography/dist/mdc.typography.css\");\nconst FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ \"../design-system/components/FramerXWrapper.tsx\");\n// Component\nexports.Typography = (_a) => {\n    var { use, text } = _a, rest = __rest(_a, [\"use\", \"text\"]);\n    return (React.createElement(FramerXWrapper_1.default, null,\n        React.createElement(typography_1.Typography, Object.assign({ use: use }, rest), text)));\n};\nexports.__info__ = [{ name: \"Typography\", children: false, type: \"component\" }];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL1R5cG9ncmFwaHkudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDREQUE0RCxjQUFjO0FBQzFFO0FBQ0E7QUFDQTtBQUNBLDhDQUE4QyxjQUFjO0FBQzVEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLFNBQVMsWUFBWTtBQUNyQjtBQUNBLG9FQUFvRSxXQUFXO0FBQy9FO0FBQ0EscUJBQXFCLHlEQUF5RCIsImZpbGUiOiIuLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvVHlwb2dyYXBoeS50c3guanMiLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzdHJpY3RcIjtcbnZhciBfX3Jlc3QgPSAodGhpcyAmJiB0aGlzLl9fcmVzdCkgfHwgZnVuY3Rpb24gKHMsIGUpIHtcbiAgICB2YXIgdCA9IHt9O1xuICAgIGZvciAodmFyIHAgaW4gcykgaWYgKE9iamVjdC5wcm90b3R5cGUuaGFzT3duUHJvcGVydHkuY2FsbChzLCBwKSAmJiBlLmluZGV4T2YocCkgPCAwKVxuICAgICAgICB0W3BdID0gc1twXTtcbiAgICBpZiAocyAhPSBudWxsICYmIHR5cGVvZiBPYmplY3QuZ2V0T3duUHJvcGVydHlTeW1ib2xzID09PSBcImZ1bmN0aW9uXCIpXG4gICAgICAgIGZvciAodmFyIGkgPSAwLCBwID0gT2JqZWN0LmdldE93blByb3BlcnR5U3ltYm9scyhzKTsgaSA8IHAubGVuZ3RoOyBpKyspIGlmIChlLmluZGV4T2YocFtpXSkgPCAwKVxuICAgICAgICAgICAgdFtwW2ldXSA9IHNbcFtpXV07XG4gICAgcmV0dXJuIHQ7XG59O1xuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7IHZhbHVlOiB0cnVlIH0pO1xuY29uc3QgUmVhY3QgPSByZXF1aXJlKFwicmVhY3RcIik7XG5jb25zdCB0eXBvZ3JhcGh5XzEgPSByZXF1aXJlKFwiQHJtd2MvdHlwb2dyYXBoeVwiKTtcbnJlcXVpcmUoXCJAbWF0ZXJpYWwvdHlwb2dyYXBoeS9kaXN0L21kYy50eXBvZ3JhcGh5LmNzc1wiKTtcbmNvbnN0IEZyYW1lclhXcmFwcGVyXzEgPSByZXF1aXJlKFwiLi9GcmFtZXJYV3JhcHBlclwiKTtcbi8vIENvbXBvbmVudFxuZXhwb3J0cy5UeXBvZ3JhcGh5ID0gKF9hKSA9PiB7XG4gICAgdmFyIHsgdXNlLCB0ZXh0IH0gPSBfYSwgcmVzdCA9IF9fcmVzdChfYSwgW1widXNlXCIsIFwidGV4dFwiXSk7XG4gICAgcmV0dXJuIChSZWFjdC5jcmVhdGVFbGVtZW50KEZyYW1lclhXcmFwcGVyXzEuZGVmYXVsdCwgbnVsbCxcbiAgICAgICAgUmVhY3QuY3JlYXRlRWxlbWVudCh0eXBvZ3JhcGh5XzEuVHlwb2dyYXBoeSwgT2JqZWN0LmFzc2lnbih7IHVzZTogdXNlIH0sIHJlc3QpLCB0ZXh0KSkpO1xufTtcbmV4cG9ydHMuX19pbmZvX18gPSBbeyBuYW1lOiBcIlR5cG9ncmFwaHlcIiwgY2hpbGRyZW46IGZhbHNlLCB0eXBlOiBcImNvbXBvbmVudFwiIH1dO1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///../design-system/components/Typography.tsx\n");
+
+/***/ }),
+
 /***/ "../design-system/components/framerx-integration.ts":
 /*!**********************************************************!*\
   !*** ../design-system/components/framerx-integration.ts ***!
@@ -420,7 +451,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Button_1 = __webpack_require__(/*! ./components/Button */ \"../design-system/components/Button.tsx\");\nexports.Button = Button_1.Button;\nexports.ButtonProps = Button_1.Props;\nvar Input_1 = __webpack_require__(/*! ./components/Input */ \"../design-system/components/Input.tsx\");\nexports.Input = Input_1.Input;\nexports.InputProps = Input_1.Props;\nvar Toggle_1 = __webpack_require__(/*! ./components/Toggle */ \"../design-system/components/Toggle.tsx\");\nexports.Toggle = Toggle_1.Toggle;\nexports.ToggleProps = Toggle_1.Props;\nvar Tooltip_1 = __webpack_require__(/*! ./components/Tooltip */ \"../design-system/components/Tooltip.tsx\");\nexports.Tooltip = Tooltip_1.Tooltip;\nexports.TooltipProps = Tooltip_1.Props;\nvar Chip_1 = __webpack_require__(/*! ./components/Chip */ \"../design-system/components/Chip.tsx\");\nexports.Chip = Chip_1.Chip;\nexports.ChipProps = Chip_1.Props;\nvar Elevation_1 = __webpack_require__(/*! ./components/Elevation */ \"../design-system/components/Elevation.tsx\");\nexports.Elevation = Elevation_1.Elevation;\nexports.ElevationProps = Elevation_1.Props;\nvar Fab_1 = __webpack_require__(/*! ./components/Fab */ \"../design-system/components/Fab.tsx\");\nexports.Fab = Fab_1.Fab;\nexports.FabProps = Fab_1.Props;\nvar IconButton_1 = __webpack_require__(/*! ./components/IconButton */ \"../design-system/components/IconButton.tsx\");\nexports.IconButton = IconButton_1.IconButton;\nexports.IconButtonProps = IconButton_1.Props;\nvar Icon_1 = __webpack_require__(/*! ./components/Icon */ \"../design-system/components/Icon.tsx\");\nexports.Icon = Icon_1.Icon;\nexports.IconProps = Icon_1.Props;\nexports.__info__ = [];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi4vZGVzaWduLXN5c3RlbS9pbmRleC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSw4Q0FBOEMsY0FBYztBQUM1RDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsImZpbGUiOiIuLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHN0cmljdFwiO1xuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7IHZhbHVlOiB0cnVlIH0pO1xudmFyIEJ1dHRvbl8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9CdXR0b25cIik7XG5leHBvcnRzLkJ1dHRvbiA9IEJ1dHRvbl8xLkJ1dHRvbjtcbmV4cG9ydHMuQnV0dG9uUHJvcHMgPSBCdXR0b25fMS5Qcm9wcztcbnZhciBJbnB1dF8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9JbnB1dFwiKTtcbmV4cG9ydHMuSW5wdXQgPSBJbnB1dF8xLklucHV0O1xuZXhwb3J0cy5JbnB1dFByb3BzID0gSW5wdXRfMS5Qcm9wcztcbnZhciBUb2dnbGVfMSA9IHJlcXVpcmUoXCIuL2NvbXBvbmVudHMvVG9nZ2xlXCIpO1xuZXhwb3J0cy5Ub2dnbGUgPSBUb2dnbGVfMS5Ub2dnbGU7XG5leHBvcnRzLlRvZ2dsZVByb3BzID0gVG9nZ2xlXzEuUHJvcHM7XG52YXIgVG9vbHRpcF8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9Ub29sdGlwXCIpO1xuZXhwb3J0cy5Ub29sdGlwID0gVG9vbHRpcF8xLlRvb2x0aXA7XG5leHBvcnRzLlRvb2x0aXBQcm9wcyA9IFRvb2x0aXBfMS5Qcm9wcztcbnZhciBDaGlwXzEgPSByZXF1aXJlKFwiLi9jb21wb25lbnRzL0NoaXBcIik7XG5leHBvcnRzLkNoaXAgPSBDaGlwXzEuQ2hpcDtcbmV4cG9ydHMuQ2hpcFByb3BzID0gQ2hpcF8xLlByb3BzO1xudmFyIEVsZXZhdGlvbl8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9FbGV2YXRpb25cIik7XG5leHBvcnRzLkVsZXZhdGlvbiA9IEVsZXZhdGlvbl8xLkVsZXZhdGlvbjtcbmV4cG9ydHMuRWxldmF0aW9uUHJvcHMgPSBFbGV2YXRpb25fMS5Qcm9wcztcbnZhciBGYWJfMSA9IHJlcXVpcmUoXCIuL2NvbXBvbmVudHMvRmFiXCIpO1xuZXhwb3J0cy5GYWIgPSBGYWJfMS5GYWI7XG5leHBvcnRzLkZhYlByb3BzID0gRmFiXzEuUHJvcHM7XG52YXIgSWNvbkJ1dHRvbl8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9JY29uQnV0dG9uXCIpO1xuZXhwb3J0cy5JY29uQnV0dG9uID0gSWNvbkJ1dHRvbl8xLkljb25CdXR0b247XG5leHBvcnRzLkljb25CdXR0b25Qcm9wcyA9IEljb25CdXR0b25fMS5Qcm9wcztcbnZhciBJY29uXzEgPSByZXF1aXJlKFwiLi9jb21wb25lbnRzL0ljb25cIik7XG5leHBvcnRzLkljb24gPSBJY29uXzEuSWNvbjtcbmV4cG9ydHMuSWNvblByb3BzID0gSWNvbl8xLlByb3BzO1xuZXhwb3J0cy5fX2luZm9fXyA9IFtdO1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///../design-system/index.tsx\n");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Button_1 = __webpack_require__(/*! ./components/Button */ \"../design-system/components/Button.tsx\");\nexports.Button = Button_1.Button;\nexports.ButtonProps = Button_1.Props;\nvar Input_1 = __webpack_require__(/*! ./components/Input */ \"../design-system/components/Input.tsx\");\nexports.Input = Input_1.Input;\nexports.InputProps = Input_1.Props;\nvar Toggle_1 = __webpack_require__(/*! ./components/Toggle */ \"../design-system/components/Toggle.tsx\");\nexports.Toggle = Toggle_1.Toggle;\nexports.ToggleProps = Toggle_1.Props;\nvar Tooltip_1 = __webpack_require__(/*! ./components/Tooltip */ \"../design-system/components/Tooltip.tsx\");\nexports.Tooltip = Tooltip_1.Tooltip;\nexports.TooltipProps = Tooltip_1.Props;\nvar Chip_1 = __webpack_require__(/*! ./components/Chip */ \"../design-system/components/Chip.tsx\");\nexports.Chip = Chip_1.Chip;\nexports.ChipProps = Chip_1.Props;\nvar Elevation_1 = __webpack_require__(/*! ./components/Elevation */ \"../design-system/components/Elevation.tsx\");\nexports.Elevation = Elevation_1.Elevation;\nexports.ElevationProps = Elevation_1.Props;\nvar Fab_1 = __webpack_require__(/*! ./components/Fab */ \"../design-system/components/Fab.tsx\");\nexports.Fab = Fab_1.Fab;\nexports.FabProps = Fab_1.Props;\nvar IconButton_1 = __webpack_require__(/*! ./components/IconButton */ \"../design-system/components/IconButton.tsx\");\nexports.IconButton = IconButton_1.IconButton;\nexports.IconButtonProps = IconButton_1.Props;\nvar Icon_1 = __webpack_require__(/*! ./components/Icon */ \"../design-system/components/Icon.tsx\");\nexports.Icon = Icon_1.Icon;\nexports.IconProps = Icon_1.Props;\nvar Typography_1 = __webpack_require__(/*! ./components/Typography */ \"../design-system/components/Typography.tsx\");\nexports.Typography = Typography_1.Typography;\nexports.TypographyProps = Typography_1.Props;\nexports.__info__ = [];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi4vZGVzaWduLXN5c3RlbS9pbmRleC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSw4Q0FBOEMsY0FBYztBQUM1RDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsImZpbGUiOiIuLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHN0cmljdFwiO1xuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7IHZhbHVlOiB0cnVlIH0pO1xudmFyIEJ1dHRvbl8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9CdXR0b25cIik7XG5leHBvcnRzLkJ1dHRvbiA9IEJ1dHRvbl8xLkJ1dHRvbjtcbmV4cG9ydHMuQnV0dG9uUHJvcHMgPSBCdXR0b25fMS5Qcm9wcztcbnZhciBJbnB1dF8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9JbnB1dFwiKTtcbmV4cG9ydHMuSW5wdXQgPSBJbnB1dF8xLklucHV0O1xuZXhwb3J0cy5JbnB1dFByb3BzID0gSW5wdXRfMS5Qcm9wcztcbnZhciBUb2dnbGVfMSA9IHJlcXVpcmUoXCIuL2NvbXBvbmVudHMvVG9nZ2xlXCIpO1xuZXhwb3J0cy5Ub2dnbGUgPSBUb2dnbGVfMS5Ub2dnbGU7XG5leHBvcnRzLlRvZ2dsZVByb3BzID0gVG9nZ2xlXzEuUHJvcHM7XG52YXIgVG9vbHRpcF8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9Ub29sdGlwXCIpO1xuZXhwb3J0cy5Ub29sdGlwID0gVG9vbHRpcF8xLlRvb2x0aXA7XG5leHBvcnRzLlRvb2x0aXBQcm9wcyA9IFRvb2x0aXBfMS5Qcm9wcztcbnZhciBDaGlwXzEgPSByZXF1aXJlKFwiLi9jb21wb25lbnRzL0NoaXBcIik7XG5leHBvcnRzLkNoaXAgPSBDaGlwXzEuQ2hpcDtcbmV4cG9ydHMuQ2hpcFByb3BzID0gQ2hpcF8xLlByb3BzO1xudmFyIEVsZXZhdGlvbl8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9FbGV2YXRpb25cIik7XG5leHBvcnRzLkVsZXZhdGlvbiA9IEVsZXZhdGlvbl8xLkVsZXZhdGlvbjtcbmV4cG9ydHMuRWxldmF0aW9uUHJvcHMgPSBFbGV2YXRpb25fMS5Qcm9wcztcbnZhciBGYWJfMSA9IHJlcXVpcmUoXCIuL2NvbXBvbmVudHMvRmFiXCIpO1xuZXhwb3J0cy5GYWIgPSBGYWJfMS5GYWI7XG5leHBvcnRzLkZhYlByb3BzID0gRmFiXzEuUHJvcHM7XG52YXIgSWNvbkJ1dHRvbl8xID0gcmVxdWlyZShcIi4vY29tcG9uZW50cy9JY29uQnV0dG9uXCIpO1xuZXhwb3J0cy5JY29uQnV0dG9uID0gSWNvbkJ1dHRvbl8xLkljb25CdXR0b247XG5leHBvcnRzLkljb25CdXR0b25Qcm9wcyA9IEljb25CdXR0b25fMS5Qcm9wcztcbnZhciBJY29uXzEgPSByZXF1aXJlKFwiLi9jb21wb25lbnRzL0ljb25cIik7XG5leHBvcnRzLkljb24gPSBJY29uXzEuSWNvbjtcbmV4cG9ydHMuSWNvblByb3BzID0gSWNvbl8xLlByb3BzO1xudmFyIFR5cG9ncmFwaHlfMSA9IHJlcXVpcmUoXCIuL2NvbXBvbmVudHMvVHlwb2dyYXBoeVwiKTtcbmV4cG9ydHMuVHlwb2dyYXBoeSA9IFR5cG9ncmFwaHlfMS5UeXBvZ3JhcGh5O1xuZXhwb3J0cy5UeXBvZ3JhcGh5UHJvcHMgPSBUeXBvZ3JhcGh5XzEuUHJvcHM7XG5leHBvcnRzLl9faW5mb19fID0gW107XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///../design-system/index.tsx\n");
 
 /***/ }),
 
@@ -886,6 +917,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "../node_modules/@material/typography/dist/mdc.typography.css":
+/*!********************************************************************!*\
+  !*** ../node_modules/@material/typography/dist/mdc.typography.css ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../../../Applications/Framer X.app/Contents/Resources/Server/node_modules/css-loader!./mdc.typography.css */ "../../../../Applications/Framer X.app/Contents/Resources/Server/node_modules/css-loader/index.js!../node_modules/@material/typography/dist/mdc.typography.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../../../Applications/Framer X.app/Contents/Resources/Server/node_modules/style-loader/lib/addStyles.js */ "../../../../Applications/Framer X.app/Contents/Resources/Server/node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "../node_modules/@rmwc/Button/next/index.js":
 /*!**************************************************!*\
   !*** ../node_modules/@rmwc/Button/next/index.js ***!
@@ -1180,6 +1241,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "../node_modules/@rmwc/typography/next/index.js":
+/*!******************************************************!*\
+  !*** ../node_modules/@rmwc/typography/next/index.js ***!
+  \******************************************************/
+/*! exports provided: Typography */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Typography\", function() { return Typography; });\n/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @rmwc/base */ \"../node_modules/@rmwc/base/next/index.js\");\n\n/** The Typography Component */\nvar Typography = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_0__[\"componentFactory\"])({\n    displayName: 'Typography',\n    tag: 'span',\n    classNames: function (props) {\n        var _a;\n        return [\n            (_a = {},\n                _a[\"mdc-typography--\" + props.use] = props.use,\n                _a)\n        ];\n    },\n    consumeProps: ['use']\n});\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi4vbm9kZV9tb2R1bGVzL0BybXdjL3R5cG9ncmFwaHkvbmV4dC9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBMkI7QUFDM0I7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxvQkFBb0I7QUFDcEI7QUFDQTtBQUNBO0FBQ0EsS0FBSztBQUNMO0FBQ0EsQ0FBQyIsImZpbGUiOiIuLi9ub2RlX21vZHVsZXMvQHJtd2MvdHlwb2dyYXBoeS9uZXh0L2luZGV4LmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY29tcG9uZW50RmFjdG9yeSB9IGZyb20gJ0BybXdjL2Jhc2UnO1xuLyoqIFRoZSBUeXBvZ3JhcGh5IENvbXBvbmVudCAqL1xuZXhwb3J0IHZhciBUeXBvZ3JhcGh5ID0gY29tcG9uZW50RmFjdG9yeSh7XG4gICAgZGlzcGxheU5hbWU6ICdUeXBvZ3JhcGh5JyxcbiAgICB0YWc6ICdzcGFuJyxcbiAgICBjbGFzc05hbWVzOiBmdW5jdGlvbiAocHJvcHMpIHtcbiAgICAgICAgdmFyIF9hO1xuICAgICAgICByZXR1cm4gW1xuICAgICAgICAgICAgKF9hID0ge30sXG4gICAgICAgICAgICAgICAgX2FbXCJtZGMtdHlwb2dyYXBoeS0tXCIgKyBwcm9wcy51c2VdID0gcHJvcHMudXNlLFxuICAgICAgICAgICAgICAgIF9hKVxuICAgICAgICBdO1xuICAgIH0sXG4gICAgY29uc3VtZVByb3BzOiBbJ3VzZSddXG59KTtcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///../node_modules/@rmwc/typography/next/index.js\n");
+
+/***/ }),
+
 /***/ "../node_modules/classnames/index.js":
 /*!*******************************************!*\
   !*** ../node_modules/classnames/index.js ***!
@@ -1461,6 +1534,7 @@ var map = {
 	"./Input.tsx": "./code/Input.tsx",
 	"./Toggle.tsx": "./code/Toggle.tsx",
 	"./Tooltip.tsx": "./code/Tooltip.tsx",
+	"./Typography.tsx": "./code/Typography.tsx",
 	"./canvas.tsx": "./code/canvas.tsx",
 	"./icons.ts": "./code/icons.ts"
 };
@@ -1597,6 +1671,18 @@ eval("\nvar __rest = (this && this.__rest) || function (s, e) {\n    var t = {};
 
 /***/ }),
 
+/***/ "./code/Typography.tsx":
+/*!*****************************!*\
+  !*** ./code/Typography.tsx ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst React = __webpack_require__(/*! react */ \"react\");\nconst System = __webpack_require__(/*! ../../design-system */ \"../design-system/index.tsx\");\nconst framer_1 = __webpack_require__(/*! framer */ \"framer\");\nclass Typography extends React.Component {\n    render() {\n        window[\"__checkBudget__\"]();\n        return React.createElement(System.Typography, Object.assign({}, this.props));\n    }\n}\nTypography.defaultProps = {\n    width: 150,\n    height: 48,\n    use: \"headline6\",\n    text: \"Text\"\n};\nTypography.propertyControls = {\n    use: { type: framer_1.ControlType.String, title: \"Use\" },\n    text: { type: framer_1.ControlType.String, title: \"Text\" }\n};\nexports.Typography = Typography;\nexports.__info__ = [{ name: \"Typography\", children: false, type: \"component\" }];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jb2RlL1R5cG9ncmFwaHkudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0EsOENBQThDLGNBQWM7QUFDNUQ7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esc0VBQXNFO0FBQ3RFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLFVBQVUsa0RBQWtEO0FBQzVELFdBQVc7QUFDWDtBQUNBO0FBQ0EscUJBQXFCLHlEQUF5RCIsImZpbGUiOiIuL2NvZGUvVHlwb2dyYXBoeS50c3guanMiLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzdHJpY3RcIjtcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBcIl9fZXNNb2R1bGVcIiwgeyB2YWx1ZTogdHJ1ZSB9KTtcbmNvbnN0IFJlYWN0ID0gcmVxdWlyZShcInJlYWN0XCIpO1xuY29uc3QgU3lzdGVtID0gcmVxdWlyZShcIi4uLy4uL2Rlc2lnbi1zeXN0ZW1cIik7XG5jb25zdCBmcmFtZXJfMSA9IHJlcXVpcmUoXCJmcmFtZXJcIik7XG5jbGFzcyBUeXBvZ3JhcGh5IGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgICByZW5kZXIoKSB7XG4gICAgICAgIHdpbmRvd1tcIl9fY2hlY2tCdWRnZXRfX1wiXSgpO1xuICAgICAgICByZXR1cm4gUmVhY3QuY3JlYXRlRWxlbWVudChTeXN0ZW0uVHlwb2dyYXBoeSwgT2JqZWN0LmFzc2lnbih7fSwgdGhpcy5wcm9wcykpO1xuICAgIH1cbn1cblR5cG9ncmFwaHkuZGVmYXVsdFByb3BzID0ge1xuICAgIHdpZHRoOiAxNTAsXG4gICAgaGVpZ2h0OiA0OCxcbiAgICB1c2U6IFwiaGVhZGxpbmU2XCIsXG4gICAgdGV4dDogXCJUZXh0XCJcbn07XG5UeXBvZ3JhcGh5LnByb3BlcnR5Q29udHJvbHMgPSB7XG4gICAgdXNlOiB7IHR5cGU6IGZyYW1lcl8xLkNvbnRyb2xUeXBlLlN0cmluZywgdGl0bGU6IFwiVXNlXCIgfSxcbiAgICB0ZXh0OiB7IHR5cGU6IGZyYW1lcl8xLkNvbnRyb2xUeXBlLlN0cmluZywgdGl0bGU6IFwiVGV4dFwiIH1cbn07XG5leHBvcnRzLlR5cG9ncmFwaHkgPSBUeXBvZ3JhcGh5O1xuZXhwb3J0cy5fX2luZm9fXyA9IFt7IG5hbWU6IFwiVHlwb2dyYXBoeVwiLCBjaGlsZHJlbjogZmFsc2UsIHR5cGU6IFwiY29tcG9uZW50XCIgfV07XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./code/Typography.tsx\n");
+
+/***/ }),
+
 /***/ "./code/canvas.tsx":
 /*!*************************!*\
   !*** ./code/canvas.tsx ***!
@@ -1680,7 +1766,7 @@ exports.__framer__ = package
 /*! exports provided: main, license, devDependencies, peerDependencies, version, dependencies, framer, author, name, default */
 /***/ (function(module) {
 
-module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16","framer":"^0.10"},"peerDependencies":{"framer":"^0.10","react":"^16.3.0","react-dom":"^16.3.0"},"version":"1.4.0","dependencies":{"styled-components":"^4.2.0"},"framer":{"id":"7c15e4fe-2858-41e1-b306-c66029e297e7","displayName":"Design System V2"},"author":"Lincoln Mitchell","name":"@framer/interfacesncreatives.design-system-v2"};
+module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16","framer":"^0.10"},"peerDependencies":{"framer":"^0.10","react":"^16.3.0","react-dom":"^16.3.0"},"version":"1.5.0","dependencies":{"styled-components":"^4.2.0"},"framer":{"id":"7c15e4fe-2858-41e1-b306-c66029e297e7","displayName":"Design System V2"},"author":"Lincoln Mitchell","name":"@framer/interfacesncreatives.design-system-v2"};
 
 /***/ }),
 
