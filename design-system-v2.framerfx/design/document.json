@@ -316,7 +316,8 @@
         "clip" : true,
         "codeComponentIdentifier" : ".\/Icon.tsx_Icon",
         "codeComponentProps" : {
-          "icon" : "star"
+          "icon" : "star",
+          "theme" : "textPrimaryOnDark"
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -375,7 +376,7 @@
         "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
         "codeComponentProps" : {
           "text" : "sadsd asds ",
-          "theme" : "secondary",
+          "theme" : "textPrimaryOnDark",
           "use" : "headline6"
         },
         "codeOverrideEnabled" : false,

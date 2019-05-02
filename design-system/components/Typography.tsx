@@ -4,7 +4,7 @@ import '@material/typography/dist/mdc.typography.css';
 import FramerXWrapper from './FramerXWrapper';
 
 import { Theme } from "@rmwc/theme"
-import '@material/theme/dist/mdc.theme.css';
+// import '@material/theme/dist/mdc.theme.css';
 // import { theme } from "../theme"
 import styled from "styled-components"
 

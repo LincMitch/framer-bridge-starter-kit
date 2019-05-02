@@ -15,10 +15,12 @@ export class Icon extends React.Component<Props> {
   static defaultProps: Props = {
     width: 150,
     height: 48,
-    icon: "star"
+    icon: "star",
+    theme: ""
   }
 
   static propertyControls: PropertyControls<Props> = {
-    icon: { type: ControlType.String, title: "Icon" }
+    icon: { type: ControlType.String, title: "Icon" },
+    theme: { type: ControlType.String, title: "Theme" }
   }
 }

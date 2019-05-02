@@ -6,23 +6,29 @@ import {
   processIconProps
 } from "./framerx-integration";
 
+import { Theme } from "@rmwc/theme"
+
 
 // Types
 export type Props = {
   icon?: string;
+  theme?: string;
  }
 
 // Component
 export const Icon: React.FC<Props> = ({
   icon,
+  theme,
   ...rest
   
 } = processIconProps(this.props)) =>  (
   
   <FramerXWrapper>
-    <_Icon 
-      icon={icon}
-      {...rest} >
+    <Theme use={theme}>
+      <_Icon 
+        icon={icon}
+        {...rest} >
       </_Icon>
+    </Theme>
     </FramerXWrapper>
 )
