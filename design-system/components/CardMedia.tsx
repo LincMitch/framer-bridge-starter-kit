@@ -1,5 +1,5 @@
 import * as React from "react"
-import { CardMedia as _CardMedia} from "@rmwc/card"
+import { CardMedia as _CardMedia, CardMediaContent} from "@rmwc/card"
 import '@material/card/dist/mdc.card.css';
 
 // Types
@@ -21,8 +21,8 @@ export const CardMedia: React.FC<Props> = ({
       sixteenByNine={sixteenByNine}
       square={square}
       style={{
-        height: "100%",
         width: "100%",
+        height: "100%",
         backgroundImage:
           'url(https://material-components-web.appspot.com/images/16-9.jpg)'
       }}
