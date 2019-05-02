@@ -1072,3 +1072,110 @@
 [2019-05-02 13:59:06.6100] - DEBUG - [Save session: 7] Completed container.writeChanges
 [2019-05-02 13:59:06.6100] - DEBUG - [Save session: 7] Completed waitUsingRecursiveRunLoop
 [2019-05-02 13:59:06.6140] - DEBUG - [Save session: 7] Completed super.save
+[2019-05-02 14:01:36.4030] - DEBUG - [Save session: 8] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:01:36.4030] - DEBUG - [Save session: 8] Before container.writeChanges
+[2019-05-02 14:01:36.4030] - DEBUG - [Save session: 8] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:01:36.4110] - DEBUG - [Save session: 8] Completed container.writeChanges
+[2019-05-02 14:01:36.4110] - DEBUG - [Save session: 8] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:01:36.4150] - DEBUG - [Save session: 8] Completed super.save
+[2019-05-02 14:05:11.3880] - DEBUG - [Save session: 9] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:05:11.3880] - DEBUG - [Save session: 9] Before container.writeChanges
+[2019-05-02 14:05:11.3880] - DEBUG - [Save session: 9] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:05:11.3960] - DEBUG - [Save session: 9] Completed container.writeChanges
+[2019-05-02 14:05:11.3960] - DEBUG - [Save session: 9] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:05:11.3990] - DEBUG - [Save session: 9] Completed super.save
+[2019-05-02 14:10:10.2420] - DEBUG - [Save session: 10] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:10:10.2420] - DEBUG - [Save session: 10] Before container.writeChanges
+[2019-05-02 14:10:10.2420] - DEBUG - [Save session: 10] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:10:10.2520] - DEBUG - [Save session: 10] Completed container.writeChanges
+[2019-05-02 14:10:10.2530] - DEBUG - [Save session: 10] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:10:10.2570] - DEBUG - [Save session: 10] Completed super.save
+[2019-05-02 14:15:34.2000] - ERROR -    284 modules
+[2019-05-02 14:15:34.2010] - ERROR - ERROR in Select.tsx
+[2019-05-02 14:15:34.2010] - ERROR - ./code/Select.tsx
+[2019-05-02 14:15:34.2010] - ERROR - [tsl] ERROR in Select.tsx(35,1)
+[2019-05-02 14:15:34.2010] - ERROR -       TS1136: Property assignment expected.
+[2019-05-02 14:15:54.1450] - DEBUG - [Save session: 11] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:15:54.1450] - DEBUG - [Save session: 11] Before container.writeChanges
+[2019-05-02 14:15:54.1450] - DEBUG - [Save session: 11] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:15:54.1590] - DEBUG - [Save session: 11] Completed container.writeChanges
+[2019-05-02 14:15:54.1590] - DEBUG - [Save session: 11] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:15:54.1630] - DEBUG - [Save session: 11] Completed super.save
+[2019-05-02 14:16:24.0610] - ERROR -    284 modules
+[2019-05-02 14:16:24.0610] - ERROR - ERROR in Select.tsx
+[2019-05-02 14:16:24.0610] - ERROR - ./code/Select.tsx
+[2019-05-02 14:16:24.0610] - ERROR - [tsl] ERROR in Select.tsx(35,1)
+[2019-05-02 14:16:24.0610] - ERROR -       TS1136: Property assignment expected.
+[2019-05-02 14:17:56.8040] - ERROR -    284 modules
+[2019-05-02 14:17:56.8040] - ERROR - ERROR in Select.tsx
+[2019-05-02 14:17:56.8040] - ERROR - ./code/Select.tsx
+[2019-05-02 14:17:56.8040] - ERROR - [tsl] ERROR in Select.tsx(35,1)
+[2019-05-02 14:17:56.8040] - ERROR -       TS1136: Property assignment expected.
+[2019-05-02 14:21:53.8790] - INFO - GET 200 /README.md 0 B (27ms)
+[2019-05-02 14:21:53.8800] - INFO - GET 200 /package.json 486 B (27ms)
+[2019-05-02 14:22:00.1910] - DEBUG - [Save session: 12] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:22:00.1910] - DEBUG - [Save session: 12] Before container.writeChanges
+[2019-05-02 14:22:00.1910] - DEBUG - [Save session: 12] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:22:00.2020] - DEBUG - [Save session: 12] Completed container.writeChanges
+[2019-05-02 14:22:00.2020] - DEBUG - [Save session: 12] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:22:00.2060] - DEBUG - [Save session: 12] Completed super.save
+[2019-05-02 14:25:29.7990] - DEBUG - [Save session: 13] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:25:29.7990] - DEBUG - [Save session: 13] Before container.writeChanges
+[2019-05-02 14:25:29.7990] - DEBUG - [Save session: 13] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:25:29.8070] - DEBUG - [Save session: 13] Completed container.writeChanges
+[2019-05-02 14:25:29.8070] - DEBUG - [Save session: 13] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:25:29.8110] - DEBUG - [Save session: 13] Completed super.save
+[2019-05-02 14:30:51.2070] - DEBUG - [Save session: 14] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:30:51.2070] - DEBUG - [Save session: 14] Before container.writeChanges
+[2019-05-02 14:30:51.2070] - DEBUG - [Save session: 14] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:30:51.2150] - DEBUG - [Save session: 14] Completed container.writeChanges
+[2019-05-02 14:30:51.2150] - DEBUG - [Save session: 14] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:30:51.2190] - DEBUG - [Save session: 14] Completed super.save
+[2019-05-02 14:32:16.8500] - DEBUG - [Save session: 15] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:32:16.8500] - DEBUG - [Save session: 15] Before container.writeChanges
+[2019-05-02 14:32:16.8500] - DEBUG - [Save session: 15] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:32:16.8620] - DEBUG - [Save session: 15] Completed container.writeChanges
+[2019-05-02 14:32:16.8620] - DEBUG - [Save session: 15] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:32:16.8650] - DEBUG - [Save session: 15] Completed super.save
+[2019-05-02 14:33:07.1810] - DEBUG - [Save session: 16] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:33:07.1810] - DEBUG - [Save session: 16] Before container.writeChanges
+[2019-05-02 14:33:07.1810] - DEBUG - [Save session: 16] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:33:07.1930] - DEBUG - [Save session: 16] Completed container.writeChanges
+[2019-05-02 14:33:07.1930] - DEBUG - [Save session: 16] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:33:07.1970] - DEBUG - [Save session: 16] Completed super.save
+[2019-05-02 14:33:52.8550] - DEBUG - [Save session: 17] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:33:52.8550] - DEBUG - [Save session: 17] Before container.writeChanges
+[2019-05-02 14:33:52.8550] - DEBUG - [Save session: 17] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:33:52.8680] - DEBUG - [Save session: 17] Completed container.writeChanges
+[2019-05-02 14:33:52.8680] - DEBUG - [Save session: 17] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:33:52.8710] - DEBUG - [Save session: 17] Completed super.save
+[2019-05-02 14:34:56.5860] - DEBUG - [Save session: 18] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:34:56.5860] - DEBUG - [Save session: 18] Before container.writeChanges
+[2019-05-02 14:34:56.5860] - DEBUG - [Save session: 18] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:34:56.5950] - DEBUG - [Save session: 18] Completed container.writeChanges
+[2019-05-02 14:34:56.5950] - DEBUG - [Save session: 18] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:34:56.5990] - DEBUG - [Save session: 18] Completed super.save
+[2019-05-02 14:36:29.6330] - DEBUG - [Save session: 19] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:36:29.6330] - DEBUG - [Save session: 19] Before container.writeChanges
+[2019-05-02 14:36:29.6330] - DEBUG - [Save session: 19] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:36:29.7230] - DEBUG - [Save session: 19] Completed container.writeChanges
+[2019-05-02 14:36:29.7260] - DEBUG - [Save session: 19] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:36:29.7290] - DEBUG - [Save session: 19] Completed super.save
+[2019-05-02 14:38:05.4740] - DEBUG - [Save session: 20] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:38:05.4740] - DEBUG - [Save session: 20] Before container.writeChanges
+[2019-05-02 14:38:05.4740] - DEBUG - [Save session: 20] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:38:05.4840] - DEBUG - [Save session: 20] Completed container.writeChanges
+[2019-05-02 14:38:05.4840] - DEBUG - [Save session: 20] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:38:05.4890] - DEBUG - [Save session: 20] Completed super.save
+[2019-05-02 14:45:34.5010] - DEBUG - [Save session: 21] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:45:34.5010] - DEBUG - [Save session: 21] Before container.writeChanges
+[2019-05-02 14:45:34.5010] - DEBUG - [Save session: 21] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:45:34.5140] - DEBUG - [Save session: 21] Completed container.writeChanges
+[2019-05-02 14:45:34.5140] - DEBUG - [Save session: 21] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:45:34.5170] - DEBUG - [Save session: 21] Completed super.save
+[2019-05-02 14:46:28.1990] - DEBUG - [Save session: 22] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 14:46:28.1990] - DEBUG - [Save session: 22] Before container.writeChanges
+[2019-05-02 14:46:28.1990] - DEBUG - [Save session: 22] Before waitUsingRecursiveRunLoop
+[2019-05-02 14:46:28.2130] - DEBUG - [Save session: 22] Completed container.writeChanges
+[2019-05-02 14:46:28.2130] - DEBUG - [Save session: 22] Completed waitUsingRecursiveRunLoop
+[2019-05-02 14:46:28.2170] - DEBUG - [Save session: 22] Completed super.save
