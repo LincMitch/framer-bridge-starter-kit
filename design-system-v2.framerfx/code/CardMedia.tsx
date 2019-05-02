@@ -15,7 +15,7 @@ export class CardMedia extends React.Component<Props> {
   static defaultProps: Props = {
     width: 150,
     height: 48,
-    sixteenByNine: true,
+    sixteenByNine: false,
   }
 
   static propertyControls: PropertyControls<Props> = {

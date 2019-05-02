@@ -375,6 +375,7 @@
         "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
         "codeComponentProps" : {
           "text" : "sadsd asds ",
+          "theme" : "secondary",
           "use" : "headline6"
         },
         "codeOverrideEnabled" : false,

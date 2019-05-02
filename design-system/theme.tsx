@@ -12,6 +12,7 @@ type Colors = {
   bodyLight: string
   bodyLighter: string
   bodyLightest: string
+  white: string
 }
 
 const color: Colors = {
@@ -27,7 +28,8 @@ const color: Colors = {
   body: "#222",
   bodyLight: "#444",
   bodyLighter: "#666",
-  bodyLightest: "#AAA"
+  bodyLightest: "#AAA",
+  white: "#FFF"
 }
 
 const space: string[] = ["0", "4px", "8px", "16px", "32px"]

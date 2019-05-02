@@ -12,11 +12,14 @@ export class Typography extends React.Component<Props> {
 
   static defaultProps: Props = {
     use: "headline6",
-    text: "Text"
+    text: "Text",
+    color: "#000",
+    theme: "primary"
   }
 
   static propertyControls: PropertyControls<Props> = {
     use: { type: ControlType.String, title: "Use" },
-    text: { type: ControlType.String, title: "Text" }
+    text: { type: ControlType.String, title: "Text" },
+    theme: { type: ControlType.String, title: "Theme" }
   }
 }
