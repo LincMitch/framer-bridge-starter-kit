@@ -51,7 +51,7 @@ export const Button: React.FC<Props> = ({
       ripple={ripple}
       trailingIcon={trailingIcon}
       unelevated={unelevated}   
-      {...rest} >YES
+      {...rest} >
       </_Button>
     </FramerXWrapper>
 )

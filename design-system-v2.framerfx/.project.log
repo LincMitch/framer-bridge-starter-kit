@@ -327,3 +327,9 @@
 [2019-05-02 10:11:27.8310] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
 [2019-05-02 10:11:27.8350] - DEBUG - [Save session: 2] Completed super.save
 [2019-05-02 10:11:54.5680] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.11.54.zip
+[2019-05-02 10:14:13.9360] - DEBUG - [Save session: 3] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 10:14:13.9360] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-05-02 10:14:13.9360] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-05-02 10:14:13.9510] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-05-02 10:14:13.9510] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-05-02 10:14:13.9560] - DEBUG - [Save session: 3] Completed super.save
