@@ -436,6 +436,7 @@
         "codeComponentIdentifier" : ".\/TextField.tsx_TextField",
         "codeComponentProps" : {
           "disabled" : false,
+          "label" : "TextField",
           "outlined" : true
         },
         "codeOverrideEnabled" : false,
