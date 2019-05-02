@@ -103,14 +103,29 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css ***!
-  \*****************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/Tab/dist/mdc.Tab.css":
+/*!************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/Tab/dist/mdc.Tab.css ***!
+  \************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n/**\n * @license\n * Copyright 2018 Google Inc.\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n.mdc-tab {\n  position: relative;\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 2.25rem;\n  font-weight: 500;\n  letter-spacing: 0.0892857143em;\n  text-decoration: none;\n  text-transform: uppercase;\n  display: flex;\n  flex: 1 0 auto;\n  justify-content: center;\n  box-sizing: border-box;\n  height: 48px;\n  padding: 0 24px;\n  border: none;\n  outline: none;\n  background: none;\n  text-align: center;\n  white-space: nowrap;\n  cursor: pointer;\n  -webkit-appearance: none;\n  z-index: 1;\n}\n.mdc-tab .mdc-tab__text-label {\n  color: #000;\n  /* @alternate */\n  color: var(--mdc-theme-on-surface, #000);\n}\n.mdc-tab .mdc-tab__icon {\n  color: #000;\n  /* @alternate */\n  color: var(--mdc-theme-on-surface, #000);\n  fill: currentColor;\n}\n.mdc-tab::-moz-focus-inner {\n  padding: 0;\n  border: 0;\n}\n\n.mdc-tab--min-width {\n  flex: 0 1 auto;\n}\n\n.mdc-tab__ripple {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n}\n.mdc-tab__ripple::before, .mdc-tab__ripple::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-tab__ripple::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-tab__ripple.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-tab__ripple.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-tab__ripple.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-tab__ripple.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-tab__ripple.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-tab__ripple::before, .mdc-tab__ripple::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-tab__ripple.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-tab__ripple::before, .mdc-tab__ripple::after {\n  background-color: #6200ee;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-tab__ripple::before, .mdc-tab__ripple::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-primary, #6200ee);\n  }\n}\n.mdc-tab__ripple:hover::before {\n  opacity: 0.04;\n}\n.mdc-tab__ripple:not(.mdc-ripple-upgraded):focus::before, .mdc-tab__ripple.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-tab__ripple:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-tab__ripple:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-tab__ripple.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.12;\n}\n\n.mdc-tab__content {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: inherit;\n  pointer-events: none;\n}\n\n.mdc-tab__text-label,\n.mdc-tab__icon {\n  transition: 150ms color linear, 150ms opacity linear;\n  z-index: 2;\n}\n\n.mdc-tab__text-label {\n  display: inline-block;\n  opacity: 0.6;\n  line-height: 1;\n}\n\n.mdc-tab__icon {\n  width: 24px;\n  height: 24px;\n  opacity: 0.54;\n  font-size: 24px;\n}\n\n.mdc-tab--stacked {\n  height: 72px;\n}\n\n.mdc-tab--stacked .mdc-tab__content {\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.mdc-tab--stacked .mdc-tab__icon {\n  padding-top: 12px;\n}\n\n.mdc-tab--stacked .mdc-tab__text-label {\n  padding-bottom: 16px;\n}\n\n.mdc-tab--active .mdc-tab__text-label {\n  color: #6200ee;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-tab--active .mdc-tab__icon {\n  color: #6200ee;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee);\n  fill: currentColor;\n}\n.mdc-tab--active .mdc-tab__text-label,\n.mdc-tab--active .mdc-tab__icon {\n  transition-delay: 100ms;\n  opacity: 1;\n}\n\n.mdc-tab:not(.mdc-tab--stacked) .mdc-tab__icon + .mdc-tab__text-label {\n  /* @noflip */\n  padding-left: 8px;\n  /* @noflip */\n  padding-right: 0;\n}\n[dir=rtl] .mdc-tab:not(.mdc-tab--stacked) .mdc-tab__icon + .mdc-tab__text-label, .mdc-tab:not(.mdc-tab--stacked) .mdc-tab__icon + .mdc-tab__text-label[dir=rtl] {\n  /* @noflip */\n  padding-left: 0;\n  /* @noflip */\n  padding-right: 8px;\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css":
+/*!******************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css ***!
+  \******************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-button {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 2.25rem;\n  font-weight: 500;\n  letter-spacing: 0.0892857143em;\n  text-decoration: none;\n  text-transform: uppercase;\n  padding: 0 8px 0 8px;\n  display: inline-flex;\n  position: relative;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n  min-width: 64px;\n  height: 36px;\n  border: none;\n  outline: none;\n  /* @alternate */\n  line-height: inherit;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  -webkit-appearance: none;\n  overflow: hidden;\n  vertical-align: middle;\n  border-radius: 4px;\n}\n.mdc-button::-moz-focus-inner {\n  padding: 0;\n  border: 0;\n}\n.mdc-button:active {\n  outline: none;\n}\n.mdc-button:hover {\n  cursor: pointer;\n}\n.mdc-button:disabled {\n  background-color: transparent;\n  color: rgba(0, 0, 0, 0.37);\n  cursor: default;\n  pointer-events: none;\n}\n.mdc-button.mdc-button--dense {\n  border-radius: 4px;\n}\n.mdc-button:not(:disabled) {\n  background-color: transparent;\n}\n.mdc-button .mdc-button__icon {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 8px;\n  display: inline-block;\n  width: 18px;\n  height: 18px;\n  font-size: 18px;\n  vertical-align: top;\n}\n[dir=rtl] .mdc-button .mdc-button__icon, .mdc-button .mdc-button__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: 0;\n}\n.mdc-button:not(:disabled) {\n  color: #6200ee;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee);\n}\n\n.mdc-button__label + .mdc-button__icon {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: 0;\n}\n[dir=rtl] .mdc-button__label + .mdc-button__icon, .mdc-button__label + .mdc-button__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 8px;\n}\n\nsvg.mdc-button__icon {\n  fill: currentColor;\n}\n\n.mdc-button--raised .mdc-button__icon,\n.mdc-button--unelevated .mdc-button__icon,\n.mdc-button--outlined .mdc-button__icon {\n  /* @noflip */\n  margin-left: -4px;\n  /* @noflip */\n  margin-right: 8px;\n}\n[dir=rtl] .mdc-button--raised .mdc-button__icon, .mdc-button--raised .mdc-button__icon[dir=rtl],\n[dir=rtl] .mdc-button--unelevated .mdc-button__icon,\n.mdc-button--unelevated .mdc-button__icon[dir=rtl],\n[dir=rtl] .mdc-button--outlined .mdc-button__icon,\n.mdc-button--outlined .mdc-button__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: -4px;\n}\n.mdc-button--raised .mdc-button__label + .mdc-button__icon,\n.mdc-button--unelevated .mdc-button__label + .mdc-button__icon,\n.mdc-button--outlined .mdc-button__label + .mdc-button__icon {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: -4px;\n}\n[dir=rtl] .mdc-button--raised .mdc-button__label + .mdc-button__icon, .mdc-button--raised .mdc-button__label + .mdc-button__icon[dir=rtl],\n[dir=rtl] .mdc-button--unelevated .mdc-button__label + .mdc-button__icon,\n.mdc-button--unelevated .mdc-button__label + .mdc-button__icon[dir=rtl],\n[dir=rtl] .mdc-button--outlined .mdc-button__label + .mdc-button__icon,\n.mdc-button--outlined .mdc-button__label + .mdc-button__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: -4px;\n  /* @noflip */\n  margin-right: 8px;\n}\n\n.mdc-button--raised,\n.mdc-button--unelevated {\n  padding: 0 16px 0 16px;\n}\n.mdc-button--raised:disabled,\n.mdc-button--unelevated:disabled {\n  background-color: rgba(0, 0, 0, 0.12);\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-button--raised:not(:disabled),\n.mdc-button--unelevated:not(:disabled) {\n  background-color: #6200ee;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-button--raised:not(:disabled),\n.mdc-button--unelevated:not(:disabled) {\n    /* @alternate */\n    background-color: var(--mdc-theme-primary, #6200ee);\n  }\n}\n.mdc-button--raised:not(:disabled),\n.mdc-button--unelevated:not(:disabled) {\n  color: #fff;\n  /* @alternate */\n  color: var(--mdc-theme-on-primary, #fff);\n}\n\n.mdc-button--raised {\n  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n.mdc-button--raised:hover, .mdc-button--raised:focus {\n  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);\n}\n.mdc-button--raised:active {\n  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);\n}\n.mdc-button--raised:disabled {\n  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-button--outlined {\n  border-style: solid;\n  padding: 0 14px 0 14px;\n  border-width: 2px;\n}\n.mdc-button--outlined:disabled {\n  border-color: rgba(0, 0, 0, 0.37);\n}\n.mdc-button--outlined:not(:disabled) {\n  border-color: #6200ee;\n  /* @alternate */\n  border-color: var(--mdc-theme-primary, #6200ee);\n}\n\n.mdc-button--dense {\n  height: 32px;\n  font-size: 0.8125rem;\n}\n\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-button {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n}\n.mdc-button::before, .mdc-button::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-button::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-button.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-button.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-button.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-button.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-button.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-button::before, .mdc-button::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-button.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-button::before, .mdc-button::after {\n  background-color: #6200ee;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-button::before, .mdc-button::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-primary, #6200ee);\n  }\n}\n.mdc-button:hover::before {\n  opacity: 0.04;\n}\n.mdc-button:not(.mdc-ripple-upgraded):focus::before, .mdc-button.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-button:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-button:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-button.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.12;\n}\n\n.mdc-button--raised::before, .mdc-button--raised::after,\n.mdc-button--unelevated::before,\n.mdc-button--unelevated::after {\n  background-color: #fff;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-button--raised::before, .mdc-button--raised::after,\n.mdc-button--unelevated::before,\n.mdc-button--unelevated::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-on-primary, #fff);\n  }\n}\n.mdc-button--raised:hover::before,\n.mdc-button--unelevated:hover::before {\n  opacity: 0.08;\n}\n.mdc-button--raised:not(.mdc-ripple-upgraded):focus::before, .mdc-button--raised.mdc-ripple-upgraded--background-focused::before,\n.mdc-button--unelevated:not(.mdc-ripple-upgraded):focus::before,\n.mdc-button--unelevated.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.24;\n}\n.mdc-button--raised:not(.mdc-ripple-upgraded)::after,\n.mdc-button--unelevated:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-button--raised:not(.mdc-ripple-upgraded):active::after,\n.mdc-button--unelevated:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.24;\n}\n.mdc-button--raised.mdc-ripple-upgraded,\n.mdc-button--unelevated.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.24;\n}", ""]);
 
@@ -118,14 +133,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/card/dist/mdc.card.css":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/card/dist/mdc.card.css ***!
-  \*************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/card/dist/mdc.card.css":
+/*!**************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/card/dist/mdc.card.css ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-card {\n  border-radius: 4px;\n  background-color: #fff;\n  /* @alternate */\n  background-color: var(--mdc-theme-surface, #fff);\n  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);\n  display: flex;\n  flex-direction: column;\n  box-sizing: border-box;\n}\n\n.mdc-card--outlined {\n  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);\n  border-width: 1px;\n  border-style: solid;\n  border-color: #e0e0e0;\n}\n\n.mdc-card__media {\n  position: relative;\n  box-sizing: border-box;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n}\n.mdc-card__media::before {\n  display: block;\n  content: \"\";\n}\n\n.mdc-card__media:first-child {\n  border-top-left-radius: inherit;\n  border-top-right-radius: inherit;\n}\n\n.mdc-card__media:last-child {\n  border-bottom-left-radius: inherit;\n  border-bottom-right-radius: inherit;\n}\n\n.mdc-card__media--square::before {\n  margin-top: 100%;\n}\n\n.mdc-card__media--16-9::before {\n  margin-top: 56.25%;\n}\n\n.mdc-card__media-content {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  box-sizing: border-box;\n}\n\n.mdc-card__primary-action {\n  display: flex;\n  flex-direction: column;\n  box-sizing: border-box;\n  position: relative;\n  outline: none;\n  color: inherit;\n  text-decoration: none;\n  cursor: pointer;\n  overflow: hidden;\n}\n\n.mdc-card__primary-action:first-child {\n  border-top-left-radius: inherit;\n  border-top-right-radius: inherit;\n}\n\n.mdc-card__primary-action:last-child {\n  border-bottom-left-radius: inherit;\n  border-bottom-right-radius: inherit;\n}\n\n.mdc-card__actions {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  box-sizing: border-box;\n  min-height: 52px;\n  padding: 8px;\n}\n\n.mdc-card__actions--full-bleed {\n  padding: 0;\n}\n\n.mdc-card__action-buttons,\n.mdc-card__action-icons {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  box-sizing: border-box;\n}\n\n.mdc-card__action-icons {\n  color: rgba(0, 0, 0, 0.6);\n  flex-grow: 1;\n  justify-content: flex-end;\n}\n\n.mdc-card__action-buttons + .mdc-card__action-icons {\n  /* @noflip */\n  margin-left: 16px;\n  /* @noflip */\n  margin-right: 0;\n}\n[dir=rtl] .mdc-card__action-buttons + .mdc-card__action-icons, .mdc-card__action-buttons + .mdc-card__action-icons[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 16px;\n}\n\n.mdc-card__action {\n  display: inline-flex;\n  flex-direction: row;\n  align-items: center;\n  box-sizing: border-box;\n  justify-content: center;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n.mdc-card__action:focus {\n  outline: none;\n}\n\n.mdc-card__action--button {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 8px;\n  padding: 0 8px;\n}\n[dir=rtl] .mdc-card__action--button, .mdc-card__action--button[dir=rtl] {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: 0;\n}\n.mdc-card__action--button:last-child {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 0;\n}\n[dir=rtl] .mdc-card__action--button:last-child, .mdc-card__action--button:last-child[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 0;\n}\n\n.mdc-card__actions--full-bleed .mdc-card__action--button {\n  justify-content: space-between;\n  width: 100%;\n  height: auto;\n  max-height: none;\n  margin: 0;\n  padding: 8px 16px;\n  /* @noflip */\n  text-align: left;\n}\n[dir=rtl] .mdc-card__actions--full-bleed .mdc-card__action--button, .mdc-card__actions--full-bleed .mdc-card__action--button[dir=rtl] {\n  /* @noflip */\n  text-align: right;\n}\n\n.mdc-card__action--icon {\n  margin: -6px 0;\n  padding: 12px;\n}\n\n.mdc-card__action--icon:not(:disabled) {\n  color: rgba(0, 0, 0, 0.6);\n}\n\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-card__primary-action {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n}\n.mdc-card__primary-action::before, .mdc-card__primary-action::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-card__primary-action::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-card__primary-action.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-card__primary-action.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-card__primary-action.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-card__primary-action.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-card__primary-action.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-card__primary-action::before, .mdc-card__primary-action::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-card__primary-action.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-card__primary-action::before, .mdc-card__primary-action::after {\n  background-color: #000;\n}\n.mdc-card__primary-action:hover::before {\n  opacity: 0.04;\n}\n.mdc-card__primary-action:not(.mdc-ripple-upgraded):focus::before, .mdc-card__primary-action.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-card__primary-action:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-card__primary-action:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-card__primary-action.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.12;\n}", ""]);
 
@@ -133,14 +148,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/checkbox/dist/mdc.checkbox.css":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/checkbox/dist/mdc.checkbox.css ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/checkbox/dist/mdc.checkbox.css":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/checkbox/dist/mdc.checkbox.css ***!
+  \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n@-webkit-keyframes mdc-checkbox-unchecked-checked-checkmark-path {\n  0%, 50% {\n    stroke-dashoffset: 29.7833385;\n  }\n  50% {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n@keyframes mdc-checkbox-unchecked-checked-checkmark-path {\n  0%, 50% {\n    stroke-dashoffset: 29.7833385;\n  }\n  50% {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n@-webkit-keyframes mdc-checkbox-unchecked-indeterminate-mixedmark {\n  0%, 68.2% {\n    -webkit-transform: scaleX(0);\n            transform: scaleX(0);\n  }\n  68.2% {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0, 1);\n  }\n  100% {\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n  }\n}\n@keyframes mdc-checkbox-unchecked-indeterminate-mixedmark {\n  0%, 68.2% {\n    -webkit-transform: scaleX(0);\n            transform: scaleX(0);\n  }\n  68.2% {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0, 1);\n  }\n  100% {\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n  }\n}\n@-webkit-keyframes mdc-checkbox-checked-unchecked-checkmark-path {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 1, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 1, 1);\n    opacity: 1;\n    stroke-dashoffset: 0;\n  }\n  to {\n    opacity: 0;\n    stroke-dashoffset: -29.7833385;\n  }\n}\n@keyframes mdc-checkbox-checked-unchecked-checkmark-path {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 1, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 1, 1);\n    opacity: 1;\n    stroke-dashoffset: 0;\n  }\n  to {\n    opacity: 0;\n    stroke-dashoffset: -29.7833385;\n  }\n}\n@-webkit-keyframes mdc-checkbox-checked-indeterminate-checkmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n  to {\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg);\n    opacity: 0;\n  }\n}\n@keyframes mdc-checkbox-checked-indeterminate-checkmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n  to {\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg);\n    opacity: 0;\n  }\n}\n@-webkit-keyframes mdc-checkbox-indeterminate-checked-checkmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg);\n    opacity: 0;\n  }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n    opacity: 1;\n  }\n}\n@keyframes mdc-checkbox-indeterminate-checked-checkmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg);\n    opacity: 0;\n  }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n    opacity: 1;\n  }\n}\n@-webkit-keyframes mdc-checkbox-checked-indeterminate-mixedmark {\n  from {\n    -webkit-animation-timing-function: mdc-animation-deceleration-curve-timing-function;\n            animation-timing-function: mdc-animation-deceleration-curve-timing-function;\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg);\n    opacity: 0;\n  }\n  to {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n}\n@keyframes mdc-checkbox-checked-indeterminate-mixedmark {\n  from {\n    -webkit-animation-timing-function: mdc-animation-deceleration-curve-timing-function;\n            animation-timing-function: mdc-animation-deceleration-curve-timing-function;\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg);\n    opacity: 0;\n  }\n  to {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n}\n@-webkit-keyframes mdc-checkbox-indeterminate-checked-mixedmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n  to {\n    -webkit-transform: rotate(315deg);\n            transform: rotate(315deg);\n    opacity: 0;\n  }\n}\n@keyframes mdc-checkbox-indeterminate-checked-mixedmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n  to {\n    -webkit-transform: rotate(315deg);\n            transform: rotate(315deg);\n    opacity: 0;\n  }\n}\n@-webkit-keyframes mdc-checkbox-indeterminate-unchecked-mixedmark {\n  0% {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n    opacity: 1;\n  }\n  32.8%, 100% {\n    -webkit-transform: scaleX(0);\n            transform: scaleX(0);\n    opacity: 0;\n  }\n}\n@keyframes mdc-checkbox-indeterminate-unchecked-mixedmark {\n  0% {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n    opacity: 1;\n  }\n  32.8%, 100% {\n    -webkit-transform: scaleX(0);\n            transform: scaleX(0);\n    opacity: 0;\n  }\n}\n.mdc-checkbox {\n  display: inline-block;\n  position: relative;\n  flex: 0 0 18px;\n  box-sizing: content-box;\n  width: 18px;\n  height: 18px;\n  padding: 11px;\n  line-height: 0;\n  white-space: nowrap;\n  cursor: pointer;\n  vertical-align: bottom;\n}\n\n.mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background {\n  border-color: rgba(0, 0, 0, 0.54);\n  background-color: transparent;\n}\n\n.mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background,\n.mdc-checkbox__native-control:enabled:indeterminate ~ .mdc-checkbox__background {\n  border-color: #018786;\n  /* @alternate */\n  border-color: var(--mdc-theme-secondary, #018786);\n  background-color: #018786;\n  /* @alternate */\n  background-color: var(--mdc-theme-secondary, #018786);\n}\n\n@-webkit-keyframes mdc-checkbox-fade-in-background-0 {\n  0% {\n    border-color: rgba(0, 0, 0, 0.54);\n    background-color: transparent;\n  }\n  50% {\n    border-color: #018786;\n    /* @alternate */\n    border-color: var(--mdc-theme-secondary, #018786);\n    background-color: #018786;\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n\n@keyframes mdc-checkbox-fade-in-background-0 {\n  0% {\n    border-color: rgba(0, 0, 0, 0.54);\n    background-color: transparent;\n  }\n  50% {\n    border-color: #018786;\n    /* @alternate */\n    border-color: var(--mdc-theme-secondary, #018786);\n    background-color: #018786;\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n@-webkit-keyframes mdc-checkbox-fade-out-background-0 {\n  0%, 80% {\n    border-color: #018786;\n    /* @alternate */\n    border-color: var(--mdc-theme-secondary, #018786);\n    background-color: #018786;\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n  100% {\n    border-color: rgba(0, 0, 0, 0.54);\n    background-color: transparent;\n  }\n}\n@keyframes mdc-checkbox-fade-out-background-0 {\n  0%, 80% {\n    border-color: #018786;\n    /* @alternate */\n    border-color: var(--mdc-theme-secondary, #018786);\n    background-color: #018786;\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n  100% {\n    border-color: rgba(0, 0, 0, 0.54);\n    background-color: transparent;\n  }\n}\n.mdc-checkbox--anim-unchecked-checked .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background, .mdc-checkbox--anim-unchecked-indeterminate .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background {\n  -webkit-animation-name: mdc-checkbox-fade-in-background-0;\n          animation-name: mdc-checkbox-fade-in-background-0;\n}\n.mdc-checkbox--anim-checked-unchecked .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background, .mdc-checkbox--anim-indeterminate-unchecked .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background {\n  -webkit-animation-name: mdc-checkbox-fade-out-background-0;\n          animation-name: mdc-checkbox-fade-out-background-0;\n}\n\n.mdc-checkbox__checkmark {\n  color: #fff;\n}\n\n.mdc-checkbox__mixedmark {\n  border-color: #fff;\n}\n\n.mdc-checkbox__background::before {\n  background-color: #018786;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-checkbox__background::before {\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n\n.mdc-checkbox__native-control:disabled:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background {\n  border-color: rgba(0, 0, 0, 0.26);\n}\n\n.mdc-checkbox__native-control:disabled:checked ~ .mdc-checkbox__background,\n.mdc-checkbox__native-control:disabled:indeterminate ~ .mdc-checkbox__background {\n  border-color: transparent;\n  background-color: rgba(0, 0, 0, 0.26);\n}\n\n@media screen and (-ms-high-contrast: active) {\n  .mdc-checkbox__mixedmark {\n    margin: 0 1px;\n  }\n}\n.mdc-checkbox--disabled {\n  cursor: default;\n  pointer-events: none;\n}\n\n.mdc-checkbox__background {\n  /* @noflip */\n  left: 11px;\n  /* @noflip */\n  right: initial;\n  display: inline-flex;\n  position: absolute;\n  top: 11px;\n  bottom: 0;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n  width: 45%;\n  height: 45%;\n  border: 2px solid currentColor;\n  border-radius: 2px;\n  background-color: transparent;\n  pointer-events: none;\n  will-change: background-color, border-color;\n  transition: background-color 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), border-color 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n.mdc-checkbox[dir=rtl] .mdc-checkbox__background, [dir=rtl] .mdc-checkbox .mdc-checkbox__background {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 11px;\n}\n\n.mdc-checkbox__checkmark {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  opacity: 0;\n  transition: opacity 180ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n.mdc-checkbox--upgraded .mdc-checkbox__checkmark {\n  opacity: 1;\n}\n\n.mdc-checkbox__checkmark-path {\n  transition: stroke-dashoffset 180ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  stroke: currentColor;\n  stroke-width: 3.12px;\n  stroke-dashoffset: 29.7833385;\n  stroke-dasharray: 29.7833385;\n}\n\n.mdc-checkbox__mixedmark {\n  width: 100%;\n  height: 0;\n  -webkit-transform: scaleX(0) rotate(0deg);\n          transform: scaleX(0) rotate(0deg);\n  border-width: 1px;\n  border-style: solid;\n  opacity: 0;\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n\n.mdc-checkbox--upgraded .mdc-checkbox__background,\n.mdc-checkbox--upgraded .mdc-checkbox__checkmark,\n.mdc-checkbox--upgraded .mdc-checkbox__checkmark-path,\n.mdc-checkbox--upgraded .mdc-checkbox__mixedmark {\n  transition: none !important;\n}\n\n.mdc-checkbox--anim-unchecked-checked .mdc-checkbox__background, .mdc-checkbox--anim-unchecked-indeterminate .mdc-checkbox__background, .mdc-checkbox--anim-checked-unchecked .mdc-checkbox__background, .mdc-checkbox--anim-indeterminate-unchecked .mdc-checkbox__background {\n  -webkit-animation-duration: 180ms;\n          animation-duration: 180ms;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n}\n.mdc-checkbox--anim-unchecked-checked .mdc-checkbox__checkmark-path {\n  -webkit-animation: mdc-checkbox-unchecked-checked-checkmark-path 180ms linear 0s;\n          animation: mdc-checkbox-unchecked-checked-checkmark-path 180ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-unchecked-indeterminate .mdc-checkbox__mixedmark {\n  -webkit-animation: mdc-checkbox-unchecked-indeterminate-mixedmark 90ms linear 0s;\n          animation: mdc-checkbox-unchecked-indeterminate-mixedmark 90ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-checked-unchecked .mdc-checkbox__checkmark-path {\n  -webkit-animation: mdc-checkbox-checked-unchecked-checkmark-path 90ms linear 0s;\n          animation: mdc-checkbox-checked-unchecked-checkmark-path 90ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-checked-indeterminate .mdc-checkbox__checkmark {\n  -webkit-animation: mdc-checkbox-checked-indeterminate-checkmark 90ms linear 0s;\n          animation: mdc-checkbox-checked-indeterminate-checkmark 90ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-checked-indeterminate .mdc-checkbox__mixedmark {\n  -webkit-animation: mdc-checkbox-checked-indeterminate-mixedmark 90ms linear 0s;\n          animation: mdc-checkbox-checked-indeterminate-mixedmark 90ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-indeterminate-checked .mdc-checkbox__checkmark {\n  -webkit-animation: mdc-checkbox-indeterminate-checked-checkmark 500ms linear 0s;\n          animation: mdc-checkbox-indeterminate-checked-checkmark 500ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-indeterminate-checked .mdc-checkbox__mixedmark {\n  -webkit-animation: mdc-checkbox-indeterminate-checked-mixedmark 500ms linear 0s;\n          animation: mdc-checkbox-indeterminate-checked-mixedmark 500ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-indeterminate-unchecked .mdc-checkbox__mixedmark {\n  -webkit-animation: mdc-checkbox-indeterminate-unchecked-mixedmark 300ms linear 0s;\n          animation: mdc-checkbox-indeterminate-unchecked-mixedmark 300ms linear 0s;\n  transition: none;\n}\n\n.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background,\n.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background {\n  transition: border-color 90ms 0ms cubic-bezier(0, 0, 0.2, 1), background-color 90ms 0ms cubic-bezier(0, 0, 0.2, 1);\n}\n.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background .mdc-checkbox__checkmark-path,\n.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background .mdc-checkbox__checkmark-path {\n  stroke-dashoffset: 0;\n}\n\n.mdc-checkbox__background::before {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -webkit-transform: scale(0, 0);\n          transform: scale(0, 0);\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n  will-change: opacity, transform;\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n\n.mdc-checkbox__native-control:focus ~ .mdc-checkbox__background::before {\n  -webkit-transform: scale(2.75, 2.75);\n          transform: scale(2.75, 2.75);\n  opacity: 0.12;\n  transition: opacity 80ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 80ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 80ms 0ms cubic-bezier(0, 0, 0.2, 1), transform 80ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 80ms 0ms cubic-bezier(0, 0, 0.2, 1), transform 80ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 80ms 0ms cubic-bezier(0, 0, 0.2, 1);\n}\n\n.mdc-checkbox__native-control {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0;\n  opacity: 0;\n  cursor: inherit;\n}\n.mdc-checkbox__native-control:disabled {\n  cursor: default;\n  pointer-events: none;\n}\n\n.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background .mdc-checkbox__checkmark {\n  transition: opacity 180ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 180ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 180ms 0ms cubic-bezier(0, 0, 0.2, 1), transform 180ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 180ms 0ms cubic-bezier(0, 0, 0.2, 1), transform 180ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 180ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  opacity: 1;\n}\n.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background .mdc-checkbox__mixedmark {\n  -webkit-transform: scaleX(1) rotate(-45deg);\n          transform: scaleX(1) rotate(-45deg);\n}\n\n.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background .mdc-checkbox__checkmark {\n  -webkit-transform: rotate(45deg);\n          transform: rotate(45deg);\n  opacity: 0;\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background .mdc-checkbox__mixedmark {\n  -webkit-transform: scaleX(1) rotate(0deg);\n          transform: scaleX(1) rotate(0deg);\n  opacity: 1;\n}\n\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-checkbox {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n}\n.mdc-checkbox::before, .mdc-checkbox::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-checkbox::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-checkbox.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-checkbox.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-checkbox.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-checkbox.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-checkbox.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-checkbox::before, .mdc-checkbox::after {\n  background-color: #018786;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-checkbox::before, .mdc-checkbox::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n.mdc-checkbox:hover::before {\n  opacity: 0.04;\n}\n.mdc-checkbox:not(.mdc-ripple-upgraded):focus::before, .mdc-checkbox.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-checkbox:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-checkbox:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-checkbox.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.12;\n}\n.mdc-checkbox::before, .mdc-checkbox::after {\n  top: calc(50% - 50%);\n  /* @noflip */\n  left: calc(50% - 50%);\n  width: 100%;\n  height: 100%;\n}\n.mdc-checkbox.mdc-ripple-upgraded::before, .mdc-checkbox.mdc-ripple-upgraded::after {\n  top: var(--mdc-ripple-top, calc(50% - 50%));\n  /* @noflip */\n  left: var(--mdc-ripple-left, calc(50% - 50%));\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-checkbox.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n\n.mdc-ripple-upgraded--background-focused .mdc-checkbox__background::before {\n  content: none;\n}", ""]);
 
@@ -148,14 +163,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css ***!
-  \***************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css":
+/*!****************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css ***!
+  \****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-chip {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n  border-radius: 16px;\n  background-color: #e0e0e0;\n  color: rgba(0, 0, 0, 0.87);\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0178571429em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  height: 32px;\n  display: inline-flex;\n  position: relative;\n  align-items: center;\n  box-sizing: border-box;\n  padding: 7px 12px;\n  outline: none;\n  cursor: pointer;\n  overflow: hidden;\n}\n.mdc-chip::before, .mdc-chip::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-chip::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-chip.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-chip.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-chip.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-chip.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-chip.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-chip::before, .mdc-chip::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-chip.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-chip::before, .mdc-chip::after {\n  background-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-chip:hover::before {\n  opacity: 0.04;\n}\n.mdc-chip:not(.mdc-ripple-upgraded):focus::before, .mdc-chip.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-chip:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-chip:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-chip.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.12;\n}\n.mdc-chip:hover {\n  color: rgba(0, 0, 0, 0.87);\n}\n.mdc-chip.mdc-chip--selected .mdc-chip__checkmark,\n.mdc-chip .mdc-chip__icon--leading:not(.mdc-chip__icon--leading-hidden) {\n  /* @noflip */\n  margin-left: -4px;\n  /* @noflip */\n  margin-right: 4px;\n  margin-top: -4px;\n  margin-bottom: -4px;\n}\n[dir=rtl] .mdc-chip.mdc-chip--selected .mdc-chip__checkmark, .mdc-chip.mdc-chip--selected .mdc-chip__checkmark[dir=rtl],\n[dir=rtl] .mdc-chip .mdc-chip__icon--leading:not(.mdc-chip__icon--leading-hidden),\n.mdc-chip .mdc-chip__icon--leading:not(.mdc-chip__icon--leading-hidden)[dir=rtl] {\n  /* @noflip */\n  margin-left: 4px;\n  /* @noflip */\n  margin-right: -4px;\n}\n.mdc-chip:hover {\n  color: #000;\n  /* @alternate */\n  color: var(--mdc-theme-on-surface, #000);\n}\n\n.mdc-chip__icon--leading {\n  color: rgba(0, 0, 0, 0.54);\n}\n\n.mdc-chip__icon--trailing {\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-chip__icon--trailing:hover {\n  color: rgba(0, 0, 0, 0.62);\n}\n.mdc-chip__icon--trailing:focus {\n  color: rgba(0, 0, 0, 0.87);\n}\n\n.mdc-chip__icon.mdc-chip__icon--leading:not(.mdc-chip__icon--leading-hidden) {\n  width: 20px;\n  height: 20px;\n  font-size: 20px;\n}\n\n.mdc-chip__icon.mdc-chip__icon--trailing {\n  width: 18px;\n  height: 18px;\n  font-size: 18px;\n}\n\n.mdc-chip__icon--trailing {\n  margin: 0 -4px 0 4px;\n}\n\n.mdc-chip--exit {\n  transition: opacity 75ms cubic-bezier(0.4, 0, 0.2, 1), width 150ms cubic-bezier(0, 0, 0.2, 1), padding 100ms linear, margin 100ms linear;\n  opacity: 0;\n}\n\n.mdc-chip__text {\n  white-space: nowrap;\n}\n\n.mdc-chip__icon {\n  border-radius: 50%;\n  outline: none;\n  vertical-align: middle;\n}\n\n.mdc-chip__checkmark {\n  height: 20px;\n}\n\n.mdc-chip__checkmark-path {\n  transition: stroke-dashoffset 150ms 50ms cubic-bezier(0.4, 0, 0.6, 1);\n  stroke-width: 2px;\n  stroke-dashoffset: 29.7833385;\n  stroke-dasharray: 29.7833385;\n}\n\n.mdc-chip--selected .mdc-chip__checkmark-path {\n  stroke-dashoffset: 0;\n}\n\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected::before {\n  opacity: 0.08;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected::before, .mdc-chip-set--choice .mdc-chip.mdc-chip--selected::after {\n  background-color: #6200ee;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-chip-set--choice .mdc-chip.mdc-chip--selected::before, .mdc-chip-set--choice .mdc-chip.mdc-chip--selected::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-primary, #6200ee);\n  }\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:hover::before {\n  opacity: 0.12;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:not(.mdc-ripple-upgraded):focus::before, .mdc-chip-set--choice .mdc-chip.mdc-chip--selected.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.2;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.2;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.2;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected {\n  color: #6200ee;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected .mdc-chip__icon--leading {\n  color: rgba(98, 0, 238, 0.54);\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:hover {\n  color: #6200ee;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-chip-set--choice .mdc-chip .mdc-chip__checkmark-path {\n  stroke: #6200ee;\n  /* @alternate */\n  stroke: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-chip-set--choice .mdc-chip--selected {\n  background-color: #fff;\n  /* @alternate */\n  background-color: var(--mdc-theme-surface, #fff);\n}\n\n.mdc-chip__checkmark-svg {\n  width: 0;\n  height: 20px;\n  transition: width 150ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.mdc-chip--selected .mdc-chip__checkmark-svg {\n  width: 20px;\n}\n\n.mdc-chip-set--filter .mdc-chip__icon--leading {\n  transition: opacity 75ms linear;\n  transition-delay: -50ms;\n  opacity: 1;\n}\n.mdc-chip-set--filter .mdc-chip__icon--leading + .mdc-chip__checkmark {\n  transition: opacity 75ms linear;\n  transition-delay: 80ms;\n  opacity: 0;\n}\n.mdc-chip-set--filter .mdc-chip__icon--leading + .mdc-chip__checkmark .mdc-chip__checkmark-svg {\n  transition: width 0ms;\n}\n.mdc-chip-set--filter .mdc-chip--selected .mdc-chip__icon--leading {\n  opacity: 0;\n}\n.mdc-chip-set--filter .mdc-chip--selected .mdc-chip__icon--leading + .mdc-chip__checkmark {\n  width: 0;\n  opacity: 1;\n}\n.mdc-chip-set--filter .mdc-chip__icon--leading-hidden.mdc-chip__icon--leading {\n  width: 0;\n  opacity: 0;\n}\n.mdc-chip-set--filter .mdc-chip__icon--leading-hidden.mdc-chip__icon--leading + .mdc-chip__checkmark {\n  width: 20px;\n}\n\n@-webkit-keyframes mdc-chip-entry {\n  from {\n    -webkit-transform: scale(0.8);\n            transform: scale(0.8);\n    opacity: 0.4;\n  }\n  to {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n    opacity: 1;\n  }\n}\n\n@keyframes mdc-chip-entry {\n  from {\n    -webkit-transform: scale(0.8);\n            transform: scale(0.8);\n    opacity: 0.4;\n  }\n  to {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n    opacity: 1;\n  }\n}\n.mdc-chip-set {\n  padding: 4px;\n  display: flex;\n  flex-wrap: wrap;\n  box-sizing: border-box;\n}\n.mdc-chip-set .mdc-chip {\n  margin: 4px;\n}\n\n.mdc-chip-set--input .mdc-chip {\n  -webkit-animation: mdc-chip-entry 100ms cubic-bezier(0, 0, 0.2, 1);\n          animation: mdc-chip-entry 100ms cubic-bezier(0, 0, 0.2, 1);\n}", ""]);
 
@@ -163,14 +178,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/dialog/dist/mdc.dialog.css":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/dialog/dist/mdc.dialog.css ***!
-  \*****************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/dialog/dist/mdc.dialog.css":
+/*!******************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/dialog/dist/mdc.dialog.css ***!
+  \******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-dialog,\n.mdc-dialog__scrim {\n  position: fixed;\n  top: 0;\n  left: 0;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n  width: 100%;\n  height: 100%;\n}\n\n.mdc-dialog {\n  display: none;\n  z-index: 7;\n}\n.mdc-dialog .mdc-dialog__surface {\n  background-color: #fff;\n  /* @alternate */\n  background-color: var(--mdc-theme-surface, #fff);\n}\n.mdc-dialog .mdc-dialog__scrim {\n  background-color: rgba(0, 0, 0, 0.32);\n}\n.mdc-dialog .mdc-dialog__title {\n  color: rgba(0, 0, 0, 0.87);\n}\n.mdc-dialog .mdc-dialog__content {\n  color: rgba(0, 0, 0, 0.6);\n}\n.mdc-dialog.mdc-dialog--scrollable .mdc-dialog__title, .mdc-dialog.mdc-dialog--scrollable .mdc-dialog__actions {\n  border-color: rgba(0, 0, 0, 0.12);\n}\n.mdc-dialog .mdc-dialog__surface {\n  min-width: 280px;\n}\n@media (max-width: 592px) {\n  .mdc-dialog .mdc-dialog__surface {\n    max-width: calc(100vw - 32px);\n  }\n}\n@media (min-width: 592px) {\n  .mdc-dialog .mdc-dialog__surface {\n    max-width: 560px;\n  }\n}\n.mdc-dialog .mdc-dialog__surface {\n  max-height: calc(100vh - 32px);\n}\n.mdc-dialog .mdc-dialog__surface {\n  border-radius: 4px;\n}\n\n.mdc-dialog__scrim {\n  opacity: 0;\n  z-index: -1;\n}\n\n.mdc-dialog__container {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  box-sizing: border-box;\n  -webkit-transform: scale(0.8);\n          transform: scale(0.8);\n  opacity: 0;\n}\n\n.mdc-dialog__surface {\n  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);\n  display: flex;\n  flex-direction: column;\n  flex-grow: 0;\n  flex-shrink: 0;\n  box-sizing: border-box;\n  max-width: 100%;\n  max-height: 100%;\n}\n.mdc-dialog[dir=rtl] .mdc-dialog__surface, [dir=rtl] .mdc-dialog .mdc-dialog__surface {\n  text-align: right;\n}\n\n.mdc-dialog__title {\n  display: block;\n  margin-top: 0;\n  /* @alternate */\n  line-height: normal;\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1.25rem;\n  line-height: 2rem;\n  font-weight: 500;\n  letter-spacing: 0.0125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  display: block;\n  position: relative;\n  flex-shrink: 0;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0 24px 9px;\n  border-bottom: 1px solid transparent;\n}\n.mdc-dialog__title::before {\n  display: inline-block;\n  width: 0;\n  height: 40px;\n  content: \"\";\n  vertical-align: 0;\n}\n.mdc-dialog[dir=rtl] .mdc-dialog__title, [dir=rtl] .mdc-dialog .mdc-dialog__title {\n  text-align: right;\n}\n\n.mdc-dialog--scrollable .mdc-dialog__title {\n  padding-bottom: 15px;\n}\n\n.mdc-dialog__content {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  font-weight: 400;\n  letter-spacing: 0.03125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  flex-grow: 1;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 20px 24px;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.mdc-dialog__content > :first-child {\n  margin-top: 0;\n}\n.mdc-dialog__content > :last-child {\n  margin-bottom: 0;\n}\n\n.mdc-dialog__title + .mdc-dialog__content {\n  padding-top: 0;\n}\n\n.mdc-dialog--scrollable .mdc-dialog__content {\n  padding-top: 8px;\n  padding-bottom: 8px;\n}\n\n.mdc-dialog__content .mdc-list:first-child:last-child {\n  padding: 6px 0 0;\n}\n\n.mdc-dialog--scrollable .mdc-dialog__content .mdc-list:first-child:last-child {\n  padding: 0;\n}\n\n.mdc-dialog__actions {\n  display: flex;\n  position: relative;\n  flex-shrink: 0;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: flex-end;\n  box-sizing: border-box;\n  min-height: 52px;\n  margin: 0;\n  padding: 8px;\n  border-top: 1px solid transparent;\n}\n.mdc-dialog--stacked .mdc-dialog__actions {\n  flex-direction: column;\n  align-items: flex-end;\n}\n\n.mdc-dialog__button {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: 0;\n  max-width: 100%;\n  text-align: right;\n}\n[dir=rtl] .mdc-dialog__button, .mdc-dialog__button[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 8px;\n}\n.mdc-dialog__button:first-child {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 0;\n}\n[dir=rtl] .mdc-dialog__button:first-child, .mdc-dialog__button:first-child[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 0;\n}\n.mdc-dialog[dir=rtl] .mdc-dialog__button, [dir=rtl] .mdc-dialog .mdc-dialog__button {\n  text-align: left;\n}\n\n.mdc-dialog--stacked .mdc-dialog__button:not(:first-child) {\n  margin-top: 12px;\n}\n\n.mdc-dialog--open,\n.mdc-dialog--opening,\n.mdc-dialog--closing {\n  display: flex;\n}\n\n.mdc-dialog--opening .mdc-dialog__scrim {\n  transition: opacity 150ms linear;\n}\n.mdc-dialog--opening .mdc-dialog__container {\n  transition: opacity 75ms linear, -webkit-transform 150ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 75ms linear, transform 150ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 75ms linear, transform 150ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 150ms 0ms cubic-bezier(0, 0, 0.2, 1);\n}\n\n.mdc-dialog--closing .mdc-dialog__scrim,\n.mdc-dialog--closing .mdc-dialog__container {\n  transition: opacity 75ms linear;\n}\n.mdc-dialog--closing .mdc-dialog__container {\n  -webkit-transform: scale(1);\n          transform: scale(1);\n}\n\n.mdc-dialog--open .mdc-dialog__scrim {\n  opacity: 1;\n}\n.mdc-dialog--open .mdc-dialog__container {\n  -webkit-transform: scale(1);\n          transform: scale(1);\n  opacity: 1;\n}\n\n.mdc-dialog-scroll-lock {\n  overflow: hidden;\n}", ""]);
 
@@ -178,14 +193,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css ***!
-  \***********************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css":
+/*!************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css ***!
+  \************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-elevation--z0 {\n  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z1 {\n  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z2 {\n  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z3 {\n  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z4 {\n  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z5 {\n  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z6 {\n  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z7 {\n  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z8 {\n  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z9 {\n  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.2), 0px 9px 12px 1px rgba(0, 0, 0, 0.14), 0px 3px 16px 2px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z10 {\n  box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z11 {\n  box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.2), 0px 11px 15px 1px rgba(0, 0, 0, 0.14), 0px 4px 20px 3px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z12 {\n  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z13 {\n  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 13px 19px 2px rgba(0, 0, 0, 0.14), 0px 5px 24px 4px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z14 {\n  box-shadow: 0px 7px 9px -4px rgba(0, 0, 0, 0.2), 0px 14px 21px 2px rgba(0, 0, 0, 0.14), 0px 5px 26px 4px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z15 {\n  box-shadow: 0px 8px 9px -5px rgba(0, 0, 0, 0.2), 0px 15px 22px 2px rgba(0, 0, 0, 0.14), 0px 6px 28px 5px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z16 {\n  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z17 {\n  box-shadow: 0px 8px 11px -5px rgba(0, 0, 0, 0.2), 0px 17px 26px 2px rgba(0, 0, 0, 0.14), 0px 6px 32px 5px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z18 {\n  box-shadow: 0px 9px 11px -5px rgba(0, 0, 0, 0.2), 0px 18px 28px 2px rgba(0, 0, 0, 0.14), 0px 7px 34px 6px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z19 {\n  box-shadow: 0px 9px 12px -6px rgba(0, 0, 0, 0.2), 0px 19px 29px 2px rgba(0, 0, 0, 0.14), 0px 7px 36px 6px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z20 {\n  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 20px 31px 3px rgba(0, 0, 0, 0.14), 0px 8px 38px 7px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z21 {\n  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 21px 33px 3px rgba(0, 0, 0, 0.14), 0px 8px 40px 7px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z22 {\n  box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.2), 0px 22px 35px 3px rgba(0, 0, 0, 0.14), 0px 8px 42px 7px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z23 {\n  box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.2), 0px 23px 36px 3px rgba(0, 0, 0, 0.14), 0px 9px 44px 8px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z24 {\n  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation-transition {\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);\n  will-change: box-shadow;\n}", ""]);
 
@@ -193,14 +208,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css ***!
-  \***********************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css":
+/*!************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css ***!
+  \************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-fab {\n  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);\n  display: inline-flex;\n  position: relative;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n  width: 56px;\n  height: 56px;\n  padding: 0;\n  border: none;\n  fill: currentColor;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  overflow: hidden;\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms, -webkit-transform 270ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms, transform 270ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms, transform 270ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 270ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  background-color: #018786;\n  color: #fff;\n  /* @alternate */\n  color: var(--mdc-theme-on-secondary, #fff);\n}\n.mdc-fab:not(.mdc-fab--extended) {\n  border-radius: 50%;\n}\n.mdc-fab::-moz-focus-inner {\n  padding: 0;\n  border: 0;\n}\n.mdc-fab:hover, .mdc-fab:focus {\n  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);\n}\n.mdc-fab:active {\n  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12);\n}\n.mdc-fab:active, .mdc-fab:focus {\n  outline: none;\n}\n.mdc-fab:hover {\n  cursor: pointer;\n}\n.mdc-fab > svg {\n  width: 100%;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-fab {\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n.mdc-fab .mdc-fab__icon {\n  width: 24px;\n  height: 24px;\n  font-size: 24px;\n}\n\n.mdc-fab--mini {\n  width: 40px;\n  height: 40px;\n}\n\n.mdc-fab--extended {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 2.25rem;\n  font-weight: 500;\n  letter-spacing: 0.0892857143em;\n  text-decoration: none;\n  text-transform: uppercase;\n  border-radius: 24px;\n  padding: 0 20px;\n  width: auto;\n  max-width: 100%;\n  height: 48px;\n}\n.mdc-fab--extended .mdc-fab__icon {\n  /* @noflip */\n  margin-left: -8px;\n  /* @noflip */\n  margin-right: 12px;\n}\n[dir=rtl] .mdc-fab--extended .mdc-fab__icon, .mdc-fab--extended .mdc-fab__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: 12px;\n  /* @noflip */\n  margin-right: -8px;\n}\n.mdc-fab--extended .mdc-fab__label + .mdc-fab__icon {\n  /* @noflip */\n  margin-left: 12px;\n  /* @noflip */\n  margin-right: -8px;\n}\n[dir=rtl] .mdc-fab--extended .mdc-fab__label + .mdc-fab__icon, .mdc-fab--extended .mdc-fab__label + .mdc-fab__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: -8px;\n  /* @noflip */\n  margin-right: 12px;\n}\n\n.mdc-fab__label {\n  justify-content: flex-start;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n}\n\n.mdc-fab__icon {\n  transition: -webkit-transform 180ms 90ms cubic-bezier(0, 0, 0.2, 1);\n  transition: transform 180ms 90ms cubic-bezier(0, 0, 0.2, 1);\n  transition: transform 180ms 90ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 180ms 90ms cubic-bezier(0, 0, 0.2, 1);\n  fill: currentColor;\n  will-change: transform;\n}\n\n.mdc-fab .mdc-fab__icon {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.mdc-fab--exited {\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  opacity: 0;\n  transition: opacity 15ms linear 150ms, -webkit-transform 180ms 0ms cubic-bezier(0.4, 0, 1, 1);\n  transition: opacity 15ms linear 150ms, transform 180ms 0ms cubic-bezier(0.4, 0, 1, 1);\n  transition: opacity 15ms linear 150ms, transform 180ms 0ms cubic-bezier(0.4, 0, 1, 1), -webkit-transform 180ms 0ms cubic-bezier(0.4, 0, 1, 1);\n}\n.mdc-fab--exited .mdc-fab__icon {\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  transition: -webkit-transform 135ms 0ms cubic-bezier(0.4, 0, 1, 1);\n  transition: transform 135ms 0ms cubic-bezier(0.4, 0, 1, 1);\n  transition: transform 135ms 0ms cubic-bezier(0.4, 0, 1, 1), -webkit-transform 135ms 0ms cubic-bezier(0.4, 0, 1, 1);\n}\n\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-fab {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n}\n.mdc-fab::before, .mdc-fab::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-fab::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-fab.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-fab.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-fab.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-fab.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-fab.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-fab::before, .mdc-fab::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-fab.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-fab::before, .mdc-fab::after {\n  background-color: #fff;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-fab::before, .mdc-fab::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-on-secondary, #fff);\n  }\n}\n.mdc-fab:hover::before {\n  opacity: 0.08;\n}\n.mdc-fab:not(.mdc-ripple-upgraded):focus::before, .mdc-fab.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.24;\n}\n.mdc-fab:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-fab:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.24;\n}\n.mdc-fab.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.24;\n}", ""]);
 
@@ -208,14 +223,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/floating-label/dist/mdc.floating-label.css":
-/*!*********************************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/floating-label/dist/mdc.floating-label.css ***!
-  \*********************************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/floating-label/dist/mdc.floating-label.css":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/floating-label/dist/mdc.floating-label.css ***!
+  \**********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-floating-label {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.75rem;\n  font-weight: 400;\n  letter-spacing: 0.009375em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  position: absolute;\n  /* @noflip */\n  left: 0;\n  /* @noflip */\n  -webkit-transform-origin: left top;\n          transform-origin: left top;\n  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  /* @alternate */\n  line-height: 1.15rem;\n  text-align: left;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  cursor: text;\n  overflow: hidden;\n  will-change: transform;\n}\n[dir=rtl] .mdc-floating-label, .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  right: 0;\n  /* @noflip */\n  left: auto;\n  /* @noflip */\n  -webkit-transform-origin: right top;\n          transform-origin: right top;\n  /* @noflip */\n  text-align: right;\n}\n\n.mdc-floating-label--float-above {\n  cursor: auto;\n}\n\n.mdc-floating-label--float-above {\n  -webkit-transform: translateY(-50%) scale(0.75);\n          transform: translateY(-50%) scale(0.75);\n}\n\n.mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-standard 250ms 1;\n          animation: mdc-floating-label-shake-float-above-standard 250ms 1;\n}\n\n@-webkit-keyframes mdc-floating-label-shake-float-above-standard {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n}\n\n@keyframes mdc-floating-label-shake-float-above-standard {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n}", ""]);
 
@@ -223,14 +238,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/form-field/dist/mdc.form-field.css":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/form-field/dist/mdc.form-field.css ***!
-  \*************************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/form-field/dist/mdc.form-field.css":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/form-field/dist/mdc.form-field.css ***!
+  \**************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-form-field {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0178571429em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  color: rgba(0, 0, 0, 0.87);\n  /* @alternate */\n  color: var(--mdc-theme-text-primary-on-background, rgba(0, 0, 0, 0.87));\n  display: inline-flex;\n  align-items: center;\n  vertical-align: middle;\n}\n.mdc-form-field > label {\n  order: 0;\n  /* @noflip */\n  margin-right: auto;\n  /* @noflip */\n  padding-left: 4px;\n}\n[dir=rtl] .mdc-form-field > label, .mdc-form-field[dir=rtl] > label {\n  /* @noflip */\n  margin-left: auto;\n  /* @noflip */\n  padding-right: 4px;\n}\n\n.mdc-form-field--align-end > label {\n  order: -1;\n  /* @noflip */\n  margin-left: auto;\n  /* @noflip */\n  padding-right: 4px;\n}\n[dir=rtl] .mdc-form-field--align-end > label, .mdc-form-field--align-end[dir=rtl] > label {\n  /* @noflip */\n  margin-right: auto;\n  /* @noflip */\n  padding-left: 4px;\n}", ""]);
 
@@ -238,14 +253,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/line-ripple/dist/mdc.line-ripple.css":
-/*!***************************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/line-ripple/dist/mdc.line-ripple.css ***!
-  \***************************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/line-ripple/dist/mdc.line-ripple.css":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/line-ripple/dist/mdc.line-ripple.css ***!
+  \****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-line-ripple {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  -webkit-transform: scaleX(0);\n          transform: scaleX(0);\n  transition: opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1), opacity 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1), opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  z-index: 2;\n}\n\n.mdc-line-ripple--active {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n  opacity: 1;\n}\n\n.mdc-line-ripple--deactivating {\n  opacity: 0;\n}", ""]);
 
@@ -253,14 +268,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/notched-outline/dist/mdc.notched-outline.css":
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/notched-outline/dist/mdc.notched-outline.css ***!
-  \***********************************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/notched-outline/dist/mdc.notched-outline.css":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/notched-outline/dist/mdc.notched-outline.css ***!
+  \************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-notched-outline {\n  display: flex;\n  position: absolute;\n  right: 0;\n  left: 0;\n  box-sizing: border-box;\n  width: 100%;\n  max-width: 100%;\n  height: 100%;\n  /* @noflip */\n  text-align: left;\n  pointer-events: none;\n}\n[dir=rtl] .mdc-notched-outline, .mdc-notched-outline[dir=rtl] {\n  /* @noflip */\n  text-align: right;\n}\n.mdc-notched-outline__leading, .mdc-notched-outline__notch, .mdc-notched-outline__trailing {\n  box-sizing: border-box;\n  height: 100%;\n  transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  border-top: 1px solid;\n  border-bottom: 1px solid;\n  pointer-events: none;\n}\n.mdc-notched-outline__leading {\n  /* @noflip */\n  border-left: 1px solid;\n  /* @noflip */\n  border-right: none;\n  width: 12px;\n}\n[dir=rtl] .mdc-notched-outline__leading, .mdc-notched-outline__leading[dir=rtl] {\n  /* @noflip */\n  border-left: none;\n  /* @noflip */\n  border-right: 1px solid;\n}\n.mdc-notched-outline__trailing {\n  /* @noflip */\n  border-left: none;\n  /* @noflip */\n  border-right: 1px solid;\n  flex-grow: 1;\n}\n[dir=rtl] .mdc-notched-outline__trailing, .mdc-notched-outline__trailing[dir=rtl] {\n  /* @noflip */\n  border-left: 1px solid;\n  /* @noflip */\n  border-right: none;\n}\n.mdc-notched-outline__notch {\n  flex: 0 0 auto;\n  width: auto;\n  max-width: calc(100% - 12px * 2);\n}\n.mdc-notched-outline .mdc-floating-label {\n  display: inline-block;\n  position: relative;\n  top: 17px;\n  bottom: auto;\n  max-width: 100%;\n}\n.mdc-notched-outline .mdc-floating-label--float-above {\n  text-overflow: clip;\n}\n.mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  max-width: calc(100% / .75);\n}\n\n.mdc-notched-outline--notched .mdc-notched-outline__notch {\n  /* @noflip */\n  padding-left: 0;\n  /* @noflip */\n  padding-right: 8px;\n  border-top: none;\n}\n[dir=rtl] .mdc-notched-outline--notched .mdc-notched-outline__notch, .mdc-notched-outline--notched .mdc-notched-outline__notch[dir=rtl] {\n  /* @noflip */\n  padding-left: 8px;\n  /* @noflip */\n  padding-right: 0;\n}\n\n.mdc-notched-outline--no-label .mdc-notched-outline__notch {\n  padding: 0;\n}", ""]);
 
@@ -268,14 +283,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/textfield/dist/mdc.textfield.css":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/textfield/dist/mdc.textfield.css ***!
-  \***********************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/textfield/dist/mdc.textfield.css":
+/*!************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/textfield/dist/mdc.textfield.css ***!
+  \************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-floating-label {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.75rem;\n  font-weight: 400;\n  letter-spacing: 0.009375em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  position: absolute;\n  /* @noflip */\n  left: 0;\n  /* @noflip */\n  -webkit-transform-origin: left top;\n          transform-origin: left top;\n  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  /* @alternate */\n  line-height: 1.15rem;\n  text-align: left;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  cursor: text;\n  overflow: hidden;\n  will-change: transform;\n}\n[dir=rtl] .mdc-floating-label, .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  right: 0;\n  /* @noflip */\n  left: auto;\n  /* @noflip */\n  -webkit-transform-origin: right top;\n          transform-origin: right top;\n  /* @noflip */\n  text-align: right;\n}\n\n.mdc-floating-label--float-above {\n  cursor: auto;\n}\n\n.mdc-floating-label--float-above {\n  -webkit-transform: translateY(-50%) scale(0.75);\n          transform: translateY(-50%) scale(0.75);\n}\n\n.mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-standard 250ms 1;\n          animation: mdc-floating-label-shake-float-above-standard 250ms 1;\n}\n\n@-webkit-keyframes mdc-floating-label-shake-float-above-standard {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n}\n\n@keyframes mdc-floating-label-shake-float-above-standard {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n}\n.mdc-line-ripple {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  -webkit-transform: scaleX(0);\n          transform: scaleX(0);\n  transition: opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1), opacity 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1), opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  z-index: 2;\n}\n\n.mdc-line-ripple--active {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n  opacity: 1;\n}\n\n.mdc-line-ripple--deactivating {\n  opacity: 0;\n}\n\n.mdc-notched-outline {\n  display: flex;\n  position: absolute;\n  right: 0;\n  left: 0;\n  box-sizing: border-box;\n  width: 100%;\n  max-width: 100%;\n  height: 100%;\n  /* @noflip */\n  text-align: left;\n  pointer-events: none;\n}\n[dir=rtl] .mdc-notched-outline, .mdc-notched-outline[dir=rtl] {\n  /* @noflip */\n  text-align: right;\n}\n.mdc-notched-outline__leading, .mdc-notched-outline__notch, .mdc-notched-outline__trailing {\n  box-sizing: border-box;\n  height: 100%;\n  transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  border-top: 1px solid;\n  border-bottom: 1px solid;\n  pointer-events: none;\n}\n.mdc-notched-outline__leading {\n  /* @noflip */\n  border-left: 1px solid;\n  /* @noflip */\n  border-right: none;\n  width: 12px;\n}\n[dir=rtl] .mdc-notched-outline__leading, .mdc-notched-outline__leading[dir=rtl] {\n  /* @noflip */\n  border-left: none;\n  /* @noflip */\n  border-right: 1px solid;\n}\n.mdc-notched-outline__trailing {\n  /* @noflip */\n  border-left: none;\n  /* @noflip */\n  border-right: 1px solid;\n  flex-grow: 1;\n}\n[dir=rtl] .mdc-notched-outline__trailing, .mdc-notched-outline__trailing[dir=rtl] {\n  /* @noflip */\n  border-left: 1px solid;\n  /* @noflip */\n  border-right: none;\n}\n.mdc-notched-outline__notch {\n  flex: 0 0 auto;\n  width: auto;\n  max-width: calc(100% - 12px * 2);\n}\n.mdc-notched-outline .mdc-floating-label {\n  display: inline-block;\n  position: relative;\n  top: 17px;\n  bottom: auto;\n  max-width: 100%;\n}\n.mdc-notched-outline .mdc-floating-label--float-above {\n  text-overflow: clip;\n}\n.mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  max-width: calc(100% / .75);\n}\n\n.mdc-notched-outline--notched .mdc-notched-outline__notch {\n  /* @noflip */\n  padding-left: 0;\n  /* @noflip */\n  padding-right: 8px;\n  border-top: none;\n}\n[dir=rtl] .mdc-notched-outline--notched .mdc-notched-outline__notch, .mdc-notched-outline--notched .mdc-notched-outline__notch[dir=rtl] {\n  /* @noflip */\n  padding-left: 8px;\n  /* @noflip */\n  padding-right: 0;\n}\n\n.mdc-notched-outline--no-label .mdc-notched-outline__notch {\n  padding: 0;\n}\n\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-text-field-helper-text {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0333333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  display: block;\n  margin-top: 0;\n  /* @alternate */\n  line-height: normal;\n  margin: 0;\n  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  will-change: opacity;\n}\n.mdc-text-field-helper-text::before {\n  display: inline-block;\n  width: 0;\n  height: 16px;\n  content: \"\";\n  vertical-align: 0;\n}\n\n.mdc-text-field-helper-text--persistent {\n  transition: none;\n  opacity: 1;\n  will-change: initial;\n}\n\n.mdc-text-field-character-counter {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0333333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  display: block;\n  margin-top: 0;\n  /* @alternate */\n  line-height: normal;\n  /* @noflip */\n  margin-left: auto;\n  /* @noflip */\n  margin-right: 0;\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 0;\n  white-space: nowrap;\n}\n.mdc-text-field-character-counter::before {\n  display: inline-block;\n  width: 0;\n  height: 16px;\n  content: \"\";\n  vertical-align: 0;\n}\n[dir=rtl] .mdc-text-field-character-counter, .mdc-text-field-character-counter[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: auto;\n}\n[dir=rtl] .mdc-text-field-character-counter, .mdc-text-field-character-counter[dir=rtl] {\n  /* @noflip */\n  padding-left: 0;\n  /* @noflip */\n  padding-right: 16px;\n}\n\n.mdc-text-field--with-leading-icon .mdc-text-field__icon,\n.mdc-text-field--with-trailing-icon .mdc-text-field__icon {\n  position: absolute;\n  bottom: 16px;\n  cursor: pointer;\n}\n\n.mdc-text-field__icon:not([tabindex]),\n.mdc-text-field__icon[tabindex=\"-1\"] {\n  cursor: default;\n  pointer-events: none;\n}\n\n.mdc-text-field {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n  border-radius: 4px 4px 0 0;\n  display: inline-flex;\n  position: relative;\n  box-sizing: border-box;\n  height: 56px;\n  overflow: hidden;\n  /* @alternate */\n  will-change: opacity, transform, color;\n}\n.mdc-text-field::before, .mdc-text-field::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-text-field::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-text-field.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-text-field.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-text-field.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-text-field.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-text-field.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-text-field::before, .mdc-text-field::after {\n  background-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field:hover::before {\n  opacity: 0.04;\n}\n.mdc-text-field:not(.mdc-ripple-upgraded):focus::before, .mdc-text-field.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-text-field::before, .mdc-text-field::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-text-field.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label {\n  color: rgba(0, 0, 0, 0.6);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {\n  color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field .mdc-text-field__input {\n  caret-color: #6200ee;\n  /* @alternate */\n  caret-color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {\n  border-bottom-color: rgba(0, 0, 0, 0.42);\n}\n.mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input:hover {\n  border-bottom-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field .mdc-line-ripple {\n  background-color: #6200ee;\n  /* @alternate */\n  background-color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--textarea) {\n  border-bottom-color: rgba(0, 0, 0, 0.12);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) + .mdc-text-field-helper-line .mdc-text-field-helper-text {\n  color: rgba(0, 0, 0, 0.6);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field-character-counter,\n.mdc-text-field:not(.mdc-text-field--disabled) + .mdc-text-field-helper-line .mdc-text-field-character-counter {\n  color: rgba(0, 0, 0, 0.6);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__icon {\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) {\n  background-color: whitesmoke;\n}\n.mdc-text-field .mdc-floating-label {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n  top: 18px;\n  pointer-events: none;\n}\n[dir=rtl] .mdc-text-field .mdc-floating-label, .mdc-text-field .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n}\n.mdc-text-field--textarea .mdc-floating-label {\n  /* @noflip */\n  left: 4px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--textarea .mdc-floating-label, .mdc-text-field--textarea .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 4px;\n}\n.mdc-text-field--outlined .mdc-floating-label {\n  /* @noflip */\n  left: 4px;\n  /* @noflip */\n  right: initial;\n  top: 17px;\n}\n[dir=rtl] .mdc-text-field--outlined .mdc-floating-label, .mdc-text-field--outlined .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 4px;\n}\n.mdc-text-field--outlined--with-leading-icon .mdc-floating-label {\n  /* @noflip */\n  left: 36px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--outlined--with-leading-icon .mdc-floating-label, .mdc-text-field--outlined--with-leading-icon .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 36px;\n}\n.mdc-text-field--outlined--with-leading-icon .mdc-floating-label--float-above {\n  /* @noflip */\n  left: 40px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--outlined--with-leading-icon .mdc-floating-label--float-above, .mdc-text-field--outlined--with-leading-icon .mdc-floating-label--float-above[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 40px;\n}\n\n.mdc-text-field__input {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.75rem;\n  font-weight: 400;\n  letter-spacing: 0.009375em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  align-self: flex-end;\n  box-sizing: border-box;\n  width: 100%;\n  height: 100%;\n  padding: 20px 16px 6px;\n  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  border: none;\n  border-bottom: 1px solid;\n  border-radius: 0;\n  background: none;\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n}\n.mdc-text-field__input::-webkit-input-placeholder {\n  transition: opacity 67ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field__input:-ms-input-placeholder {\n  transition: opacity 67ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field__input::-ms-input-placeholder {\n  transition: opacity 67ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field__input::placeholder {\n  transition: opacity 67ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field__input:-ms-input-placeholder {\n  color: rgba(0, 0, 0, 0.54) !important;\n}\n.mdc-text-field--fullwidth .mdc-text-field__input::-webkit-input-placeholder, .mdc-text-field--no-label .mdc-text-field__input::-webkit-input-placeholder, .mdc-text-field--focused .mdc-text-field__input::-webkit-input-placeholder {\n  transition-delay: 40ms;\n  transition-duration: 110ms;\n  opacity: 1;\n}\n.mdc-text-field--fullwidth .mdc-text-field__input:-ms-input-placeholder, .mdc-text-field--no-label .mdc-text-field__input:-ms-input-placeholder, .mdc-text-field--focused .mdc-text-field__input:-ms-input-placeholder {\n  transition-delay: 40ms;\n  transition-duration: 110ms;\n  opacity: 1;\n}\n.mdc-text-field--fullwidth .mdc-text-field__input::-ms-input-placeholder, .mdc-text-field--no-label .mdc-text-field__input::-ms-input-placeholder, .mdc-text-field--focused .mdc-text-field__input::-ms-input-placeholder {\n  transition-delay: 40ms;\n  transition-duration: 110ms;\n  opacity: 1;\n}\n.mdc-text-field--fullwidth .mdc-text-field__input::placeholder, .mdc-text-field--no-label .mdc-text-field__input::placeholder, .mdc-text-field--focused .mdc-text-field__input::placeholder {\n  transition-delay: 40ms;\n  transition-duration: 110ms;\n  opacity: 1;\n}\n.mdc-text-field__input:focus {\n  outline: none;\n}\n.mdc-text-field__input:invalid {\n  box-shadow: none;\n}\n.mdc-text-field__input:-webkit-autofill {\n  z-index: auto !important;\n}\n.mdc-text-field--no-label:not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {\n  padding: 16px;\n}\n\n.mdc-text-field__input:-webkit-autofill + .mdc-floating-label {\n  -webkit-transform: translateY(-50%) scale(0.75);\n          transform: translateY(-50%) scale(0.75);\n  cursor: auto;\n}\n\n.mdc-text-field--outlined {\n  border: none;\n  overflow: visible;\n}\n.mdc-text-field--outlined:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.24);\n}\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-color: #6200ee;\n  /* @alternate */\n  border-color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-text-field--outlined .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined 250ms 1;\n}\n.mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__leading {\n  /* @noflip */\n  border-radius: 4px 0 0 4px;\n}\n[dir=rtl] .mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__leading, .mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__leading[dir=rtl] {\n  /* @noflip */\n  border-radius: 0 4px 4px 0;\n}\n.mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__trailing {\n  /* @noflip */\n  border-radius: 0 4px 4px 0;\n}\n[dir=rtl] .mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__trailing, .mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__trailing[dir=rtl] {\n  /* @noflip */\n  border-radius: 4px 0 0 4px;\n}\n.mdc-text-field--outlined .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-144%) scale(1);\n          transform: translateY(-144%) scale(1);\n}\n.mdc-text-field--outlined .mdc-floating-label--float-above {\n  font-size: 0.75rem;\n}\n.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-130%) scale(0.75);\n          transform: translateY(-130%) scale(0.75);\n}\n.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--outlined::before, .mdc-text-field--outlined::after {\n  content: none;\n}\n.mdc-text-field--outlined:not(.mdc-text-field--disabled) {\n  background-color: transparent;\n}\n.mdc-text-field--outlined .mdc-text-field__input {\n  display: flex;\n  padding: 12px 16px 14px;\n  border: none !important;\n  background-color: transparent;\n  z-index: 1;\n}\n.mdc-text-field--outlined .mdc-text-field__icon {\n  z-index: 2;\n}\n\n.mdc-text-field--outlined.mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-width: 2px;\n}\n\n.mdc-text-field--outlined.mdc-text-field--disabled {\n  background-color: transparent;\n}\n.mdc-text-field--outlined.mdc-text-field--disabled .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--disabled .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--disabled .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.06);\n}\n.mdc-text-field--outlined.mdc-text-field--disabled .mdc-text-field__input {\n  border-bottom: none;\n}\n\n.mdc-text-field--outlined.mdc-text-field--dense {\n  height: 48px;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-134%) scale(1);\n          transform: translateY(-134%) scale(1);\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above {\n  font-size: 0.8rem;\n}\n.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-120%) scale(0.8);\n          transform: translateY(-120%) scale(0.8);\n}\n.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-dense 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-dense 250ms 1;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-text-field__input {\n  padding: 12px 12px 7px;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label {\n  top: 14px;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-text-field__icon {\n  top: 12px;\n}\n\n.mdc-text-field--with-leading-icon .mdc-text-field__icon {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon .mdc-text-field__icon, .mdc-text-field--with-leading-icon .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n}\n.mdc-text-field--with-leading-icon .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 16px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon .mdc-text-field__input, .mdc-text-field--with-leading-icon .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 48px;\n}\n.mdc-text-field--with-leading-icon .mdc-floating-label {\n  /* @noflip */\n  left: 48px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon .mdc-floating-label, .mdc-text-field--with-leading-icon .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 48px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__icon {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 16px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__input, .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 48px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-144%) translateX(-32px) scale(1);\n          transform: translateY(-144%) translateX(-32px) scale(1);\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--float-above, .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--float-above[dir=rtl] {\n  -webkit-transform: translateY(-144%) translateX(32px) scale(1);\n          transform: translateY(-144%) translateX(32px) scale(1);\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--float-above {\n  font-size: 0.75rem;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-130%) translateX(-32px) scale(0.75);\n          transform: translateY(-130%) translateX(-32px) scale(0.75);\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above[dir=rtl],\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above[dir=rtl] {\n  -webkit-transform: translateY(-130%) translateX(32px) scale(0.75);\n          transform: translateY(-130%) translateX(32px) scale(0.75);\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon 250ms 1;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--shake, .mdc-text-field--with-leading-icon.mdc-text-field--outlined[dir=rtl] .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-rtl 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-rtl 250ms 1;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label {\n  /* @noflip */\n  left: 36px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label, .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 36px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-134%) translateX(-21px) scale(1);\n          transform: translateY(-134%) translateX(-21px) scale(1);\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above[dir=rtl] {\n  -webkit-transform: translateY(-134%) translateX(21px) scale(1);\n          transform: translateY(-134%) translateX(21px) scale(1);\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above {\n  font-size: 0.8rem;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-120%) translateX(-21px) scale(0.8);\n          transform: translateY(-120%) translateX(-21px) scale(0.8);\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above[dir=rtl],\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above[dir=rtl] {\n  -webkit-transform: translateY(-120%) translateX(21px) scale(0.8);\n          transform: translateY(-120%) translateX(21px) scale(0.8);\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense 250ms 1;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--shake, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense[dir=rtl] .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense-rtl 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense-rtl 250ms 1;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label {\n  /* @noflip */\n  left: 32px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 32px;\n}\n\n.mdc-text-field--with-trailing-icon .mdc-text-field__icon {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 12px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon .mdc-text-field__icon, .mdc-text-field--with-trailing-icon .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: 12px;\n  /* @noflip */\n  right: initial;\n}\n.mdc-text-field--with-trailing-icon .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 48px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon .mdc-text-field__input, .mdc-text-field--with-trailing-icon .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 16px;\n}\n.mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__icon {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__icon, .mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n}\n.mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 48px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__input, .mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 16px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: auto;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: auto;\n  /* @noflip */\n  right: 16px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon ~ .mdc-text-field__icon {\n  /* @noflip */\n  right: 12px;\n  /* @noflip */\n  left: auto;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon ~ .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon ~ .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  right: auto;\n  /* @noflip */\n  left: 12px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 48px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__input, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 48px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon,\n.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon {\n  bottom: 16px;\n  -webkit-transform: scale(0.8);\n          transform: scale(0.8);\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon {\n  /* @noflip */\n  left: 12px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 12px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 44px;\n  /* @noflip */\n  padding-right: 16px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__input, .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 44px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-floating-label {\n  /* @noflip */\n  left: 44px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-floating-label, .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 44px;\n}\n\n.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 12px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon, .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: 12px;\n  /* @noflip */\n  right: initial;\n}\n.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 44px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input, .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 44px;\n  /* @noflip */\n  padding-right: 16px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon {\n  /* @noflip */\n  left: 12px;\n  /* @noflip */\n  right: auto;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: auto;\n  /* @noflip */\n  right: 12px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon ~ .mdc-text-field__icon {\n  /* @noflip */\n  right: 12px;\n  /* @noflip */\n  left: auto;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon ~ .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon ~ .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  right: auto;\n  /* @noflip */\n  left: 12px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 44px;\n  /* @noflip */\n  padding-right: 44px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 44px;\n  /* @noflip */\n  padding-right: 44px;\n}\n\n.mdc-text-field--dense .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-70%) scale(0.8);\n          transform: translateY(-70%) scale(0.8);\n}\n.mdc-text-field--dense .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-dense 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-dense 250ms 1;\n}\n.mdc-text-field--dense .mdc-text-field__input {\n  padding: 12px 12px 0;\n}\n.mdc-text-field--dense .mdc-floating-label {\n  font-size: 0.813rem;\n}\n.mdc-text-field--dense .mdc-floating-label--float-above {\n  font-size: 0.813rem;\n}\n\n.mdc-text-field__input:required ~ .mdc-floating-label::after,\n.mdc-text-field__input:required ~ .mdc-notched-outline .mdc-floating-label::after {\n  margin-left: 1px;\n  content: \"*\";\n}\n\n.mdc-text-field--textarea {\n  display: inline-flex;\n  width: auto;\n  height: auto;\n  transition: none;\n  overflow: visible;\n}\n.mdc-text-field--textarea:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.24);\n}\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field--textarea:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-color: #6200ee;\n  /* @alternate */\n  border-color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-text-field--textarea .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined 250ms 1;\n}\n.mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__leading {\n  /* @noflip */\n  border-radius: 4px 0 0 4px;\n}\n[dir=rtl] .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__leading, .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__leading[dir=rtl] {\n  /* @noflip */\n  border-radius: 0 4px 4px 0;\n}\n.mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__trailing {\n  /* @noflip */\n  border-radius: 0 4px 4px 0;\n}\n[dir=rtl] .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__trailing, .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__trailing[dir=rtl] {\n  /* @noflip */\n  border-radius: 4px 0 0 4px;\n}\n.mdc-text-field--textarea::before, .mdc-text-field--textarea::after {\n  content: none;\n}\n.mdc-text-field--textarea:not(.mdc-text-field--disabled) {\n  background-color: transparent;\n}\n.mdc-text-field--textarea .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-144%) scale(1);\n          transform: translateY(-144%) scale(1);\n}\n.mdc-text-field--textarea .mdc-floating-label--float-above {\n  font-size: 0.75rem;\n}\n.mdc-text-field--textarea.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--textarea .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-130%) scale(0.75);\n          transform: translateY(-130%) scale(0.75);\n}\n.mdc-text-field--textarea.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--textarea .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--textarea .mdc-text-field-character-counter {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n  position: absolute;\n  bottom: 13px;\n}\n[dir=rtl] .mdc-text-field--textarea .mdc-text-field-character-counter, .mdc-text-field--textarea .mdc-text-field-character-counter[dir=rtl] {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n}\n.mdc-text-field--textarea .mdc-text-field__input {\n  align-self: auto;\n  box-sizing: border-box;\n  height: auto;\n  margin: 8px 1px 1px 0;\n  padding: 0 16px 16px;\n  border: none;\n}\n.mdc-text-field--textarea .mdc-text-field-character-counter + .mdc-text-field__input {\n  margin-bottom: 28px;\n  padding-bottom: 0;\n}\n.mdc-text-field--textarea .mdc-floating-label {\n  top: 17px;\n  bottom: auto;\n  width: auto;\n  pointer-events: none;\n}\n.mdc-text-field--textarea.mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-width: 2px;\n}\n\n.mdc-text-field--fullwidth {\n  width: 100%;\n}\n.mdc-text-field--fullwidth:not(.mdc-text-field--textarea) {\n  display: block;\n}\n.mdc-text-field--fullwidth:not(.mdc-text-field--textarea)::before, .mdc-text-field--fullwidth:not(.mdc-text-field--textarea)::after {\n  content: none;\n}\n.mdc-text-field--fullwidth:not(.mdc-text-field--textarea):not(.mdc-text-field--disabled) {\n  background-color: transparent;\n}\n.mdc-text-field--fullwidth:not(.mdc-text-field--textarea) .mdc-text-field__input {\n  padding: 0;\n}\n.mdc-text-field--fullwidth.mdc-text-field--textarea .mdc-text-field__input {\n  resize: vertical;\n}\n\n.mdc-text-field--fullwidth.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--textarea) {\n  border-bottom-color: #b00020;\n  /* @alternate */\n  border-bottom-color: var(--mdc-theme-error, #b00020);\n}\n\n.mdc-text-field-helper-line {\n  display: flex;\n  justify-content: space-between;\n  box-sizing: border-box;\n}\n.mdc-text-field--dense + .mdc-text-field-helper-line {\n  margin-bottom: 4px;\n}\n.mdc-text-field + .mdc-text-field-helper-line {\n  padding-right: 16px;\n  padding-left: 16px;\n}\n\n.mdc-form-field > .mdc-text-field + label {\n  align-self: flex-start;\n}\n\n.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {\n  color: rgba(98, 0, 238, 0.87);\n}\n.mdc-text-field--focused .mdc-text-field__input:required ~ .mdc-floating-label::after,\n.mdc-text-field--focused .mdc-text-field__input:required ~ .mdc-notched-outline .mdc-floating-label::after {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--focused + .mdc-text-field-helper-line .mdc-text-field-helper-text:not(.mdc-text-field-helper-text--validation-msg) {\n  opacity: 1;\n}\n\n.mdc-text-field--textarea.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: #6200ee;\n  /* @alternate */\n  border-color: var(--mdc-theme-primary, #6200ee);\n}\n\n.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {\n  border-bottom-color: #b00020;\n  /* @alternate */\n  border-bottom-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input:hover {\n  border-bottom-color: #b00020;\n  /* @alternate */\n  border-bottom-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-line-ripple {\n  background-color: #b00020;\n  /* @alternate */\n  background-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-floating-label {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--invalid + .mdc-text-field-helper-line .mdc-text-field-helper-text--validation-msg {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid .mdc-text-field__input {\n  caret-color: #b00020;\n  /* @alternate */\n  caret-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid.mdc-text-field--with-trailing-icon:not(.mdc-text-field--with-leading-icon):not(.mdc-text-field--disabled) .mdc-text-field__icon {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid.mdc-text-field--with-trailing-icon.mdc-text-field--with-leading-icon:not(.mdc-text-field--disabled) .mdc-text-field__icon ~ .mdc-text-field__icon {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid + .mdc-text-field-helper-line .mdc-text-field-helper-text--validation-msg {\n  opacity: 1;\n}\n\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n\n.mdc-text-field--disabled {\n  background-color: #fafafa;\n  border-bottom: none;\n  pointer-events: none;\n}\n.mdc-text-field--disabled .mdc-text-field__input {\n  border-bottom-color: rgba(0, 0, 0, 0.06);\n}\n.mdc-text-field--disabled .mdc-text-field__input {\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-text-field--disabled .mdc-floating-label {\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-text-field--disabled + .mdc-text-field-helper-line .mdc-text-field-helper-text {\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-text-field--disabled .mdc-text-field-character-counter,\n.mdc-text-field--disabled + .mdc-text-field-helper-line .mdc-text-field-character-counter {\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-text-field--disabled .mdc-text-field__icon {\n  color: rgba(0, 0, 0, 0.3);\n}\n.mdc-text-field--disabled:not(.mdc-text-field--textarea) {\n  border-bottom-color: rgba(0, 0, 0, 0.12);\n}\n.mdc-text-field--disabled .mdc-floating-label {\n  cursor: default;\n}\n\n.mdc-text-field--textarea.mdc-text-field--disabled {\n  background-color: transparent;\n  /* @alternate */\n  background-color: #f9f9f9;\n}\n.mdc-text-field--textarea.mdc-text-field--disabled .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--disabled .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--disabled .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.06);\n}\n.mdc-text-field--textarea.mdc-text-field--disabled .mdc-text-field__input {\n  border-bottom: none;\n}\n\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(4% - 0%)) translateY(-70%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(-4% - 0%)) translateY(-70%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n  }\n}\n\n@keyframes mdc-floating-label-shake-float-above-text-field-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(4% - 0%)) translateY(-70%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(-4% - 0%)) translateY(-70%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - 0%)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - 0%)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - 0%)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - 0%)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - 21px)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - 21px)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - 21px)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - 21px)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-rtl {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-rtl {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense-rtl {\n  0% {\n    -webkit-transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - -21px)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - -21px)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense-rtl {\n  0% {\n    -webkit-transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - -21px)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - -21px)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-textarea {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-textarea {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n}", ""]);
 
@@ -283,14 +298,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css ***!
-  \***************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css":
+/*!****************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css ***!
+  \****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n:root {\n  --mdc-theme-primary: #6200ee;\n  --mdc-theme-secondary: #018786;\n  --mdc-theme-background: #fff;\n  --mdc-theme-surface: #fff;\n  --mdc-theme-error: #b00020;\n  --mdc-theme-on-primary: #fff;\n  --mdc-theme-on-secondary: #fff;\n  --mdc-theme-on-surface: #000;\n  --mdc-theme-on-error: #fff;\n  --mdc-theme-text-primary-on-background: rgba(0, 0, 0, 0.87);\n  --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);\n  --mdc-theme-text-hint-on-background: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-icon-on-background: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-primary-on-light: rgba(0, 0, 0, 0.87);\n  --mdc-theme-text-secondary-on-light: rgba(0, 0, 0, 0.54);\n  --mdc-theme-text-hint-on-light: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-icon-on-light: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-primary-on-dark: white;\n  --mdc-theme-text-secondary-on-dark: rgba(255, 255, 255, 0.7);\n  --mdc-theme-text-hint-on-dark: rgba(255, 255, 255, 0.5);\n  --mdc-theme-text-disabled-on-dark: rgba(255, 255, 255, 0.5);\n  --mdc-theme-text-icon-on-dark: rgba(255, 255, 255, 0.5);\n}\n\n.mdc-theme--primary {\n  color: #6200ee !important;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee) !important;\n}\n\n.mdc-theme--secondary {\n  color: #018786 !important;\n  /* @alternate */\n  color: var(--mdc-theme-secondary, #018786) !important;\n}\n\n.mdc-theme--background {\n  background-color: #fff;\n  /* @alternate */\n  background-color: var(--mdc-theme-background, #fff);\n}\n\n.mdc-theme--surface {\n  background-color: #fff;\n  /* @alternate */\n  background-color: var(--mdc-theme-surface, #fff);\n}\n\n.mdc-theme--error {\n  color: #b00020 !important;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020) !important;\n}\n\n.mdc-theme--on-primary {\n  color: #fff !important;\n  /* @alternate */\n  color: var(--mdc-theme-on-primary, #fff) !important;\n}\n\n.mdc-theme--on-secondary {\n  color: #fff !important;\n  /* @alternate */\n  color: var(--mdc-theme-on-secondary, #fff) !important;\n}\n\n.mdc-theme--on-surface {\n  color: #000 !important;\n  /* @alternate */\n  color: var(--mdc-theme-on-surface, #000) !important;\n}\n\n.mdc-theme--on-error {\n  color: #fff !important;\n  /* @alternate */\n  color: var(--mdc-theme-on-error, #fff) !important;\n}\n\n.mdc-theme--text-primary-on-background {\n  color: rgba(0, 0, 0, 0.87) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-primary-on-background, rgba(0, 0, 0, 0.87)) !important;\n}\n\n.mdc-theme--text-secondary-on-background {\n  color: rgba(0, 0, 0, 0.54) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-secondary-on-background, rgba(0, 0, 0, 0.54)) !important;\n}\n\n.mdc-theme--text-hint-on-background {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-hint-on-background, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-disabled-on-background {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-disabled-on-background, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-icon-on-background {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-icon-on-background, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-primary-on-light {\n  color: rgba(0, 0, 0, 0.87) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-primary-on-light, rgba(0, 0, 0, 0.87)) !important;\n}\n\n.mdc-theme--text-secondary-on-light {\n  color: rgba(0, 0, 0, 0.54) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-secondary-on-light, rgba(0, 0, 0, 0.54)) !important;\n}\n\n.mdc-theme--text-hint-on-light {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-hint-on-light, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-disabled-on-light {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-disabled-on-light, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-icon-on-light {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-icon-on-light, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-primary-on-dark {\n  color: white !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-primary-on-dark, white) !important;\n}\n\n.mdc-theme--text-secondary-on-dark {\n  color: rgba(255, 255, 255, 0.7) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-secondary-on-dark, rgba(255, 255, 255, 0.7)) !important;\n}\n\n.mdc-theme--text-hint-on-dark {\n  color: rgba(255, 255, 255, 0.5) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-hint-on-dark, rgba(255, 255, 255, 0.5)) !important;\n}\n\n.mdc-theme--text-disabled-on-dark {\n  color: rgba(255, 255, 255, 0.5) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-disabled-on-dark, rgba(255, 255, 255, 0.5)) !important;\n}\n\n.mdc-theme--text-icon-on-dark {\n  color: rgba(255, 255, 255, 0.5) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-icon-on-dark, rgba(255, 255, 255, 0.5)) !important;\n}\n\n.mdc-theme--primary-bg {\n  background-color: #6200ee !important;\n  /* @alternate */\n  background-color: var(--mdc-theme-primary, #6200ee) !important;\n}\n\n.mdc-theme--secondary-bg {\n  background-color: #018786 !important;\n  /* @alternate */\n  background-color: var(--mdc-theme-secondary, #018786) !important;\n}", ""]);
 
@@ -298,14 +313,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css ***!
-  \*************************************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css ***!
+  \**************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-typography {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n}\n\n.mdc-typography--headline1 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 6rem;\n  line-height: 6rem;\n  font-weight: 300;\n  letter-spacing: -0.015625em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline2 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 3.75rem;\n  line-height: 3.75rem;\n  font-weight: 300;\n  letter-spacing: -0.0083333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline3 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 3rem;\n  line-height: 3.125rem;\n  font-weight: 400;\n  letter-spacing: normal;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline4 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 2.125rem;\n  line-height: 2.5rem;\n  font-weight: 400;\n  letter-spacing: 0.0073529412em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline5 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1.5rem;\n  line-height: 2rem;\n  font-weight: 400;\n  letter-spacing: normal;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline6 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1.25rem;\n  line-height: 2rem;\n  font-weight: 500;\n  letter-spacing: 0.0125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--subtitle1 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.75rem;\n  font-weight: 400;\n  letter-spacing: 0.009375em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--subtitle2 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.375rem;\n  font-weight: 500;\n  letter-spacing: 0.0071428571em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--body1 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  font-weight: 400;\n  letter-spacing: 0.03125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--body2 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0178571429em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--caption {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0333333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--button {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 2.25rem;\n  font-weight: 500;\n  letter-spacing: 0.0892857143em;\n  text-decoration: none;\n  text-transform: uppercase;\n}\n\n.mdc-typography--overline {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 2rem;\n  font-weight: 500;\n  letter-spacing: 0.1666666667em;\n  text-decoration: none;\n  text-transform: uppercase;\n}", ""]);
 
@@ -313,14 +328,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css":
-/*!************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css ***!
-  \************************************************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css":
+/*!*************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css ***!
+  \*************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, ".rmwc-icon {\n  \n}\n\n.rmwc-icon--image {\n  min-width: 1em;\n  min-height: 1em;\n  background-repeat: no-repeat;\n  font-size: 1.5rem;\n  background-size: 1em;\n  background-position: center center;\n}\n\n.rmwc-icon--size-xsmall {\n  font-size: 1.125rem;\n  width: 1em;\n  height: 1em;\n}\n\n.rmwc-icon--size-small {\n  font-size: 1.25rem;\n  width: 1em;\n  height: 1em;\n}\n\n.rmwc-icon--size-medium {\n  font-size: 1.5rem;\n  width: 1em;\n  height: 1em;\n}\n\n.rmwc-icon--size-large {\n  font-size: 2.25rem;\n  width: 1em;\n  height: 1em;\n}\n\n.rmwc-icon--size-xlarge {\n  font-size: 3rem;\n  width: 1em;\n  height: 1em;\n}\n", ""]);
 
@@ -328,10 +343,10 @@ exports.push([module.i, ".rmwc-icon {\n  \n}\n\n.rmwc-icon--image {\n  min-width
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js":
-/*!********************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js ***!
-  \********************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js":
+/*!*********************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js ***!
+  \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -424,10 +439,10 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/process/browser.js":
-/*!********************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/process/browser.js ***!
-  \********************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/process/browser.js":
+/*!*********************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/process/browser.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -619,10 +634,10 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js":
-/*!*******************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js ***!
-  \*******************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js":
+/*!********************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js ***!
+  \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -689,7 +704,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(/*! ./urls */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js");
+var	fixUrls = __webpack_require__(/*! ./urls */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js");
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -1010,10 +1025,10 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js":
-/*!**************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js ***!
-  \**************************************************************************************************************/
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js":
+/*!***************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1110,7 +1125,7 @@ module.exports = function (css) {
 
 /***/ }),
 
-/***/ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js":
+/***/ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/
@@ -1202,13 +1217,13 @@ __webpack_require__(/*! @material/card/dist/mdc.card.css */ "../node_modules/@ma
 exports.CardMedia = (_a) => {
     var { sixteenByNine, square } = _a, rest = __rest(_a, ["sixteenByNine", "square"]);
     return (React.createElement(card_1.CardMedia, Object.assign({ sixteenByNine: sixteenByNine, square: square, style: {
-            height: "100%",
             width: "100%",
+            height: "100%",
             backgroundImage: 'url(https://material-components-web.appspot.com/images/16-9.jpg)'
         } }, rest)));
 };
 exports.__info__ = [{ name: "CardMedia", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2FyZE1lZGlhLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL0NhcmRNZWRpYS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIscUNBQW1EO0FBQ25ELDRDQUEwQztBQVExQyxZQUFZO0FBQ0MsUUFBQSxTQUFTLEdBQW9CLENBQUMsRUFLMUMsRUFBRyxFQUFFO1FBTHFDLEVBQ3pDLGFBQWEsRUFDYixNQUFNLE9BR1AsRUFGQyw4Q0FBTztJQUVELE9BQUEsQ0FHSixvQkFBQyxnQkFBVSxrQkFDVCxhQUFhLEVBQUUsYUFBYSxFQUM1QixNQUFNLEVBQUUsTUFBTSxFQUNkLEtBQUssRUFBRTtZQUNMLE1BQU0sRUFBRSxNQUFNO1lBQ2QsS0FBSyxFQUFFLE1BQU07WUFDYixlQUFlLEVBQ2Isa0VBQWtFO1NBQ3JFLElBQ0csSUFBSSxFQUVLLENBRWxCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2FyZE1lZGlhLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL0NhcmRNZWRpYS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIscUNBQXFFO0FBQ3JFLDRDQUEwQztBQVExQyxZQUFZO0FBQ0MsUUFBQSxTQUFTLEdBQW9CLENBQUMsRUFLMUMsRUFBRyxFQUFFO1FBTHFDLEVBQ3pDLGFBQWEsRUFDYixNQUFNLE9BR1AsRUFGQyw4Q0FBTztJQUVELE9BQUEsQ0FHSixvQkFBQyxnQkFBVSxrQkFDVCxhQUFhLEVBQUUsYUFBYSxFQUM1QixNQUFNLEVBQUUsTUFBTSxFQUNkLEtBQUssRUFBRTtZQUNMLEtBQUssRUFBRSxNQUFNO1lBQ2IsTUFBTSxFQUFFLE1BQU07WUFDZCxlQUFlLEVBQ2Isa0VBQWtFO1NBQ3JFLElBQ0csSUFBSSxFQUVLLENBRWxCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
 
 /***/ }),
 
@@ -1555,6 +1570,41 @@ const StyledInput = styled_components_1.default.input `
 `;
 exports.__info__ = [{ name: "Input", children: false, type: "component" }];
 //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSW5wdXQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvSW5wdXQudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsK0JBQThCO0FBQzlCLG9DQUFnQztBQUNoQyx5REFBc0M7QUFvQnRDLFlBQVk7QUFDQyxRQUFBLEtBQUssR0FBb0IsQ0FBQyxFQUNyQyxLQUFLLEVBQ0wsV0FBVyxFQUNYLEtBQUssRUFDTCxRQUFRLEVBQ1IsUUFBUSxFQUNULEVBQUUsRUFBRSxDQUFDLENBQ0osb0JBQUMsV0FBVyxJQUNWLElBQUksRUFBQyxNQUFNLEVBQ1gsS0FBSyxFQUFFLEtBQUssRUFDWixXQUFXLEVBQUUsV0FBVyxFQUN4QixTQUFTLEVBQUUsR0FBRyxLQUFLLENBQUMsQ0FBQyxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsRUFBRSxJQUFJLFFBQVEsQ0FBQyxDQUFDLENBQUMsVUFBVSxDQUFDLENBQUMsQ0FBQyxFQUFFLEVBQUUsRUFDbEUsUUFBUSxFQUFFLFFBQVEsR0FDbEIsQ0FDSCxDQUFBO0FBRUQsU0FBUztBQUNULE1BQU0sV0FBVyxHQUFHLDJCQUFNLENBQUMsS0FBSyxDQUFBO2dCQUNoQixhQUFLLENBQUMsS0FBSyxDQUFDLFVBQVU7Ozs7NEJBSVYsYUFBSyxDQUFDLEtBQUssQ0FBQyxVQUFVO1dBQ3ZDLGFBQUssQ0FBQyxLQUFLLENBQUMsSUFBSTtpQkFDVixhQUFLLENBQUMsSUFBSTs7Ozs7O2FBTWQsYUFBSyxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUM7Ozs7Ozs4QkFNRyxhQUFLLENBQUMsS0FBSyxDQUFDLE9BQU87d0JBQ3pCLGFBQUssQ0FBQyxLQUFLLENBQUMsWUFBWTs7Ozs7Ozs7YUFRbkMsYUFBSyxDQUFDLEtBQUssQ0FBQyxZQUFZOzs7OzthQUt4QixhQUFLLENBQUMsS0FBSyxDQUFDLE1BQU07OzhCQUVELGFBQUssQ0FBQyxLQUFLLENBQUMsTUFBTTs7Ozs4QkFJbEIsYUFBSyxDQUFDLEtBQUssQ0FBQyxNQUFNO3dCQUN4QixhQUFLLENBQUMsS0FBSyxDQUFDLFdBQVc7OzthQUdsQyxhQUFLLENBQUMsS0FBSyxDQUFDLE1BQU07OztDQUc5QixDQUFBO0FBQ0QifQ==
+
+/***/ }),
+
+/***/ "../design-system/components/Tab.tsx":
+/*!*******************************************!*\
+  !*** ../design-system/components/Tab.tsx ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const tabs_1 = __webpack_require__(/*! @rmwc/tabs */ "../node_modules/@rmwc/tabs/next/index.js");
+__webpack_require__(/*! @material/Tab/dist/mdc.Tab.css */ "../node_modules/@material/Tab/dist/mdc.Tab.css");
+const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
+const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
+// Component
+exports.Tab = (_a = framerx_integration_1.processIconProps(this.props)) => {
+    var { children, icon, label, onInteraction, restrictIndicator, stacked } = _a, rest = __rest(_a, ["children", "icon", "label", "onInteraction", "restrictIndicator", "stacked"]);
+    return (React.createElement(FramerXWrapper_1.default, null,
+        React.createElement(tabs_1.Tab, Object.assign({ children: children, icon: icon, label: label, onInteraction: onInteraction, restrictIndicator: restrictIndicator, stacked: stacked }, rest))));
+};
+exports.__info__ = [{ name: "Tab", children: true, type: "component" }];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGFiLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL1RhYi50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIscUNBQXVDO0FBQ3ZDLDBDQUF3QztBQUN4QyxxREFBOEM7QUFDOUMsK0RBRStCO0FBYS9CLFlBQVk7QUFDQyxRQUFBLEdBQUcsR0FBb0IsQ0FBQyxLQVNqQyxzQ0FBZ0IsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLEVBQUUsRUFBRTtRQVRDLEVBQ25DLFFBQVEsRUFDUixJQUFJLEVBQ0osS0FBSyxFQUNMLGFBQWEsRUFDYixpQkFBaUIsRUFDakIsT0FBTyxPQUd1QixFQUY5QixpR0FBTztJQUU2QixPQUFBLENBRXBDLG9CQUFDLHdCQUFjO1FBQ2Isb0JBQUMsVUFBSSxrQkFDSCxRQUFRLEVBQUUsUUFBUSxFQUNsQixJQUFJLEVBQUUsSUFBSSxFQUNWLEtBQUssRUFBRSxLQUFLLEVBQ1osYUFBYSxFQUFFLGFBQWEsRUFDNUIsaUJBQWlCLEVBQUUsaUJBQWlCLEVBQ3BDLE9BQU8sRUFBRSxPQUFPLElBQ1osSUFBSSxFQUNELENBQ1EsQ0FDcEIsQ0FBQTtDQUFBLENBQUE7QUFBQSJ9
 
 /***/ }),
 
@@ -2017,8 +2067,11 @@ exports.CheckboxProps = Checkbox_1.Props;
 var CardMedia_1 = __webpack_require__(/*! ./components/CardMedia */ "../design-system/components/CardMedia.tsx");
 exports.CardMedia = CardMedia_1.CardMedia;
 exports.CardMediaProps = CardMedia_1.Props;
+var Tab_1 = __webpack_require__(/*! ./components/Tab */ "../design-system/components/Tab.tsx");
+exports.Tab = Tab_1.Tab;
+exports.TabProps = Tab_1.Props;
 exports.__info__ = [];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsNENBQStEO0FBQXRELHdCQUFBLEtBQUssQ0FBQTtBQUFFLDZCQUFBLEtBQUssQ0FBYztBQUNuQyw4Q0FBa0U7QUFBekQsMEJBQUEsTUFBTSxDQUFBO0FBQUUsK0JBQUEsS0FBSyxDQUFlO0FBQ3JDLGdEQUFxRTtBQUE1RCw0QkFBQSxPQUFPLENBQUE7QUFBRSxpQ0FBQSxLQUFLLENBQWdCO0FBQ3ZDLDBDQUE0RDtBQUFuRCxzQkFBQSxJQUFJLENBQUE7QUFBRSwyQkFBQSxLQUFLLENBQWE7QUFDakMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFDM0Msd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUssQ0FBWTtBQUMvQixzREFBOEU7QUFBckUsa0NBQUEsVUFBVSxDQUFBO0FBQUUsdUNBQUEsS0FBSyxDQUFtQjtBQUM3QywwQ0FBNEQ7QUFBbkQsc0JBQUEsSUFBSSxDQUFBO0FBQUUsMkJBQUEsS0FBSyxDQUFhO0FBQ2pDLHNEQUE4RTtBQUFyRSxrQ0FBQSxVQUFVLENBQUE7QUFBRSx1Q0FBQSxLQUFLLENBQW1CO0FBQzdDLG9EQUEyRTtBQUFsRSxnQ0FBQSxTQUFTLENBQUE7QUFBRSxxQ0FBQSxLQUFLLENBQWtCO0FBQzNDLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsa0RBQXdFO0FBQS9ELDhCQUFBLFFBQVEsQ0FBQTtBQUFFLG1DQUFBLEtBQUssQ0FBaUI7QUFDekMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFBZ0MifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsNENBQStEO0FBQXRELHdCQUFBLEtBQUssQ0FBQTtBQUFFLDZCQUFBLEtBQUssQ0FBYztBQUNuQyw4Q0FBa0U7QUFBekQsMEJBQUEsTUFBTSxDQUFBO0FBQUUsK0JBQUEsS0FBSyxDQUFlO0FBQ3JDLGdEQUFxRTtBQUE1RCw0QkFBQSxPQUFPLENBQUE7QUFBRSxpQ0FBQSxLQUFLLENBQWdCO0FBQ3ZDLDBDQUE0RDtBQUFuRCxzQkFBQSxJQUFJLENBQUE7QUFBRSwyQkFBQSxLQUFLLENBQWE7QUFDakMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFDM0Msd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUssQ0FBWTtBQUMvQixzREFBOEU7QUFBckUsa0NBQUEsVUFBVSxDQUFBO0FBQUUsdUNBQUEsS0FBSyxDQUFtQjtBQUM3QywwQ0FBNEQ7QUFBbkQsc0JBQUEsSUFBSSxDQUFBO0FBQUUsMkJBQUEsS0FBSyxDQUFhO0FBQ2pDLHNEQUE4RTtBQUFyRSxrQ0FBQSxVQUFVLENBQUE7QUFBRSx1Q0FBQSxLQUFLLENBQW1CO0FBQzdDLG9EQUEyRTtBQUFsRSxnQ0FBQSxTQUFTLENBQUE7QUFBRSxxQ0FBQSxLQUFLLENBQWtCO0FBQzNDLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsa0RBQXdFO0FBQS9ELDhCQUFBLFFBQVEsQ0FBQTtBQUFFLG1DQUFBLEtBQUssQ0FBaUI7QUFDekMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFDM0Msd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUssQ0FBWTtBQUEwQiJ9
 
 /***/ }),
 
@@ -2056,6 +2109,36 @@ exports.theme = {
 };
 exports.__info__ = [];
 //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGhlbWUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL3RoZW1lLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQWdCQSxNQUFNLEtBQUssR0FBVztJQUNwQixNQUFNLEVBQUUsTUFBTTtJQUNkLFVBQVUsRUFBRSxTQUFTO0lBQ3JCLFVBQVUsRUFBRSxvQkFBb0I7SUFDaEMsT0FBTyxFQUFFLE1BQU07SUFDZixXQUFXLEVBQUUsTUFBTTtJQUNuQixZQUFZLEVBQUUsTUFBTTtJQUNwQixNQUFNLEVBQUUsTUFBTTtJQUNkLFVBQVUsRUFBRSxNQUFNO0lBQ2xCLFdBQVcsRUFBRSxNQUFNO0lBQ25CLElBQUksRUFBRSxNQUFNO0lBQ1osU0FBUyxFQUFFLE1BQU07SUFDakIsV0FBVyxFQUFFLE1BQU07SUFDbkIsWUFBWSxFQUFFLE1BQU07Q0FDckIsQ0FBQTtBQUVELE1BQU0sS0FBSyxHQUFhLENBQUMsR0FBRyxFQUFFLEtBQUssRUFBRSxLQUFLLEVBQUUsTUFBTSxFQUFFLE1BQU0sQ0FBQyxDQUFBO0FBRTNELE1BQU0sSUFBSSxHQUFHLGlFQUFpRSxDQUFBO0FBRWpFLFFBQUEsS0FBSyxHQUFHO0lBQ25CLEtBQUs7SUFDTCxJQUFJO0lBQ0osS0FBSztDQUNOLENBQUE7QUFDRCJ9
+
+/***/ }),
+
+/***/ "../node_modules/@material/Tab/dist/mdc.Tab.css":
+/*!******************************************************!*\
+  !*** ../node_modules/@material/Tab/dist/mdc.Tab.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.Tab.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/Tab/dist/mdc.Tab.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
@@ -2367,7 +2450,7 @@ var MDCFoundation = /** @class */ (function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.button.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.button.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2381,7 +2464,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -2397,7 +2480,7 @@ if(false) {}
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.card.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/card/dist/mdc.card.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.card.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/card/dist/mdc.card.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2411,7 +2494,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -2689,7 +2772,7 @@ var numbers = {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.checkbox.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/checkbox/dist/mdc.checkbox.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.checkbox.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/checkbox/dist/mdc.checkbox.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2703,7 +2786,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -3847,7 +3930,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.chips.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.chips.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -3861,7 +3944,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -4192,7 +4275,7 @@ var numbers = {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.dialog.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/dialog/dist/mdc.dialog.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.dialog.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/dialog/dist/mdc.dialog.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4206,7 +4289,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -4687,7 +4770,7 @@ function matches(element, selector) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.elevation.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.elevation.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4701,7 +4784,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -4717,7 +4800,7 @@ if(false) {}
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.fab.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.fab.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4731,7 +4814,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -4873,7 +4956,7 @@ var cssClasses = {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.floating-label.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/floating-label/dist/mdc.floating-label.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.floating-label.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/floating-label/dist/mdc.floating-label.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4887,7 +4970,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -5210,7 +5293,7 @@ var strings = {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.form-field.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/form-field/dist/mdc.form-field.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.form-field.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/form-field/dist/mdc.form-field.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5224,7 +5307,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -5793,7 +5876,7 @@ var cssClasses = {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.line-ripple.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/line-ripple/dist/mdc.line-ripple.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.line-ripple.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/line-ripple/dist/mdc.line-ripple.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5807,7 +5890,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -6122,7 +6205,7 @@ var cssClasses = {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.notched-outline.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/notched-outline/dist/mdc.notched-outline.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.notched-outline.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/notched-outline/dist/mdc.notched-outline.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -6136,7 +6219,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -7127,6 +7210,2399 @@ function getNormalizedEventCoords(evt, pageOffset, clientRect) {
 
 /***/ }),
 
+/***/ "../node_modules/@material/tab-bar/component.js":
+/*!******************************************************!*\
+  !*** ../node_modules/@material/tab-bar/component.js ***!
+  \******************************************************/
+/*! exports provided: MDCTabBar */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabBar", function() { return MDCTabBar; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _material_tab_scroller_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material/tab-scroller/index */ "../node_modules/@material/tab-scroller/index.js");
+/* harmony import */ var _material_tab_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material/tab/index */ "../node_modules/@material/tab/index.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab-bar/foundation.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+var strings = _foundation__WEBPACK_IMPORTED_MODULE_4__["MDCTabBarFoundation"].strings;
+var tabIdCounter = 0;
+var MDCTabBar = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabBar, _super);
+    function MDCTabBar() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTabBar.attachTo = function (root) {
+        return new MDCTabBar(root);
+    };
+    Object.defineProperty(MDCTabBar.prototype, "focusOnActivate", {
+        set: function (focusOnActivate) {
+            this.tabList_.forEach(function (tab) { return tab.focusOnActivate = focusOnActivate; });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTabBar.prototype, "useAutomaticActivation", {
+        set: function (useAutomaticActivation) {
+            this.foundation_.setUseAutomaticActivation(useAutomaticActivation);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTabBar.prototype.initialize = function (tabFactory, tabScrollerFactory) {
+        if (tabFactory === void 0) { tabFactory = function (el) { return new _material_tab_index__WEBPACK_IMPORTED_MODULE_3__["MDCTab"](el); }; }
+        if (tabScrollerFactory === void 0) { tabScrollerFactory = function (el) { return new _material_tab_scroller_index__WEBPACK_IMPORTED_MODULE_2__["MDCTabScroller"](el); }; }
+        this.tabList_ = this.instantiateTabs_(tabFactory);
+        this.tabScroller_ = this.instantiateTabScroller_(tabScrollerFactory);
+    };
+    MDCTabBar.prototype.initialSyncWithDOM = function () {
+        var _this = this;
+        this.handleTabInteraction_ = function (evt) { return _this.foundation_.handleTabInteraction(evt); };
+        this.handleKeyDown_ = function (evt) { return _this.foundation_.handleKeyDown(evt); };
+        this.listen(_material_tab_index__WEBPACK_IMPORTED_MODULE_3__["MDCTabFoundation"].strings.INTERACTED_EVENT, this.handleTabInteraction_);
+        this.listen('keydown', this.handleKeyDown_);
+        for (var i = 0; i < this.tabList_.length; i++) {
+            if (this.tabList_[i].active) {
+                this.scrollIntoView(i);
+                break;
+            }
+        }
+    };
+    MDCTabBar.prototype.destroy = function () {
+        _super.prototype.destroy.call(this);
+        this.unlisten(_material_tab_index__WEBPACK_IMPORTED_MODULE_3__["MDCTabFoundation"].strings.INTERACTED_EVENT, this.handleTabInteraction_);
+        this.unlisten('keydown', this.handleKeyDown_);
+        this.tabList_.forEach(function (tab) { return tab.destroy(); });
+        if (this.tabScroller_) {
+            this.tabScroller_.destroy();
+        }
+    };
+    MDCTabBar.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = {
+            scrollTo: function (scrollX) { return _this.tabScroller_.scrollTo(scrollX); },
+            incrementScroll: function (scrollXIncrement) { return _this.tabScroller_.incrementScroll(scrollXIncrement); },
+            getScrollPosition: function () { return _this.tabScroller_.getScrollPosition(); },
+            getScrollContentWidth: function () { return _this.tabScroller_.getScrollContentWidth(); },
+            getOffsetWidth: function () { return _this.root_.offsetWidth; },
+            isRTL: function () { return window.getComputedStyle(_this.root_).getPropertyValue('direction') === 'rtl'; },
+            setActiveTab: function (index) { return _this.foundation_.activateTab(index); },
+            activateTabAtIndex: function (index, clientRect) { return _this.tabList_[index].activate(clientRect); },
+            deactivateTabAtIndex: function (index) { return _this.tabList_[index].deactivate(); },
+            focusTabAtIndex: function (index) { return _this.tabList_[index].focus(); },
+            getTabIndicatorClientRectAtIndex: function (index) { return _this.tabList_[index].computeIndicatorClientRect(); },
+            getTabDimensionsAtIndex: function (index) { return _this.tabList_[index].computeDimensions(); },
+            getPreviousActiveTabIndex: function () {
+                for (var i = 0; i < _this.tabList_.length; i++) {
+                    if (_this.tabList_[i].active) {
+                        return i;
+                    }
+                }
+                return -1;
+            },
+            getFocusedTabIndex: function () {
+                var tabElements = _this.getTabElements_();
+                var activeElement = document.activeElement;
+                return tabElements.indexOf(activeElement);
+            },
+            getIndexOfTabById: function (id) {
+                for (var i = 0; i < _this.tabList_.length; i++) {
+                    if (_this.tabList_[i].id === id) {
+                        return i;
+                    }
+                }
+                return -1;
+            },
+            getTabListLength: function () { return _this.tabList_.length; },
+            notifyTabActivated: function (index) {
+                return _this.emit(strings.TAB_ACTIVATED_EVENT, { index: index }, true);
+            },
+        };
+        // tslint:enable:object-literal-sort-keys
+        return new _foundation__WEBPACK_IMPORTED_MODULE_4__["MDCTabBarFoundation"](adapter);
+    };
+    /**
+     * Activates the tab at the given index
+     * @param index The index of the tab
+     */
+    MDCTabBar.prototype.activateTab = function (index) {
+        this.foundation_.activateTab(index);
+    };
+    /**
+     * Scrolls the tab at the given index into view
+     * @param index THe index of the tab
+     */
+    MDCTabBar.prototype.scrollIntoView = function (index) {
+        this.foundation_.scrollIntoView(index);
+    };
+    /**
+     * Returns all the tab elements in a nice clean array
+     */
+    MDCTabBar.prototype.getTabElements_ = function () {
+        return [].slice.call(this.root_.querySelectorAll(strings.TAB_SELECTOR));
+    };
+    /**
+     * Instantiates tab components on all child tab elements
+     */
+    MDCTabBar.prototype.instantiateTabs_ = function (tabFactory) {
+        return this.getTabElements_().map(function (el) {
+            el.id = el.id || "mdc-tab-" + ++tabIdCounter;
+            return tabFactory(el);
+        });
+    };
+    /**
+     * Instantiates tab scroller component on the child tab scroller element
+     */
+    MDCTabBar.prototype.instantiateTabScroller_ = function (tabScrollerFactory) {
+        var tabScrollerElement = this.root_.querySelector(strings.TAB_SCROLLER_SELECTOR);
+        if (tabScrollerElement) {
+            return tabScrollerFactory(tabScrollerElement);
+        }
+        return null;
+    };
+    return MDCTabBar;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-bar/constants.js":
+/*!******************************************************!*\
+  !*** ../node_modules/@material/tab-bar/constants.js ***!
+  \******************************************************/
+/*! exports provided: numbers, strings */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "numbers", function() { return numbers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var strings = {
+    ARROW_LEFT_KEY: 'ArrowLeft',
+    ARROW_RIGHT_KEY: 'ArrowRight',
+    END_KEY: 'End',
+    ENTER_KEY: 'Enter',
+    HOME_KEY: 'Home',
+    SPACE_KEY: 'Space',
+    TAB_ACTIVATED_EVENT: 'MDCTabBar:activated',
+    TAB_SCROLLER_SELECTOR: '.mdc-tab-scroller',
+    TAB_SELECTOR: '.mdc-tab',
+};
+var numbers = {
+    ARROW_LEFT_KEYCODE: 37,
+    ARROW_RIGHT_KEYCODE: 39,
+    END_KEYCODE: 35,
+    ENTER_KEYCODE: 13,
+    EXTRA_SCROLL_AMOUNT: 20,
+    HOME_KEYCODE: 36,
+    SPACE_KEYCODE: 32,
+};
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-bar/foundation.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/@material/tab-bar/foundation.js ***!
+  \*******************************************************/
+/*! exports provided: MDCTabBarFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabBarFoundation", function() { return MDCTabBarFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/tab-bar/constants.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var ACCEPTABLE_KEYS = new Set();
+// IE11 has no support for new Set with iterable so we need to initialize this by hand
+ACCEPTABLE_KEYS.add(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARROW_LEFT_KEY);
+ACCEPTABLE_KEYS.add(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARROW_RIGHT_KEY);
+ACCEPTABLE_KEYS.add(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].END_KEY);
+ACCEPTABLE_KEYS.add(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].HOME_KEY);
+ACCEPTABLE_KEYS.add(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ENTER_KEY);
+ACCEPTABLE_KEYS.add(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].SPACE_KEY);
+var KEYCODE_MAP = new Map();
+// IE11 has no support for new Map with iterable so we need to initialize this by hand
+KEYCODE_MAP.set(_constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].ARROW_LEFT_KEYCODE, _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARROW_LEFT_KEY);
+KEYCODE_MAP.set(_constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].ARROW_RIGHT_KEYCODE, _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARROW_RIGHT_KEY);
+KEYCODE_MAP.set(_constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].END_KEYCODE, _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].END_KEY);
+KEYCODE_MAP.set(_constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].HOME_KEYCODE, _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].HOME_KEY);
+KEYCODE_MAP.set(_constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].ENTER_KEYCODE, _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ENTER_KEY);
+KEYCODE_MAP.set(_constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].SPACE_KEYCODE, _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].SPACE_KEY);
+var MDCTabBarFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabBarFoundation, _super);
+    function MDCTabBarFoundation(adapter) {
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCTabBarFoundation.defaultAdapter, adapter)) || this;
+        _this.useAutomaticActivation_ = false;
+        return _this;
+    }
+    Object.defineProperty(MDCTabBarFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTabBarFoundation, "numbers", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTabBarFoundation, "defaultAdapter", {
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                scrollTo: function () { return undefined; },
+                incrementScroll: function () { return undefined; },
+                getScrollPosition: function () { return 0; },
+                getScrollContentWidth: function () { return 0; },
+                getOffsetWidth: function () { return 0; },
+                isRTL: function () { return false; },
+                setActiveTab: function () { return undefined; },
+                activateTabAtIndex: function () { return undefined; },
+                deactivateTabAtIndex: function () { return undefined; },
+                focusTabAtIndex: function () { return undefined; },
+                getTabIndicatorClientRectAtIndex: function () { return ({ top: 0, right: 0, bottom: 0, left: 0, width: 0, height: 0 }); },
+                getTabDimensionsAtIndex: function () { return ({ rootLeft: 0, rootRight: 0, contentLeft: 0, contentRight: 0 }); },
+                getPreviousActiveTabIndex: function () { return -1; },
+                getFocusedTabIndex: function () { return -1; },
+                getIndexOfTabById: function () { return -1; },
+                getTabListLength: function () { return 0; },
+                notifyTabActivated: function () { return undefined; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Switches between automatic and manual activation modes.
+     * See https://www.w3.org/TR/wai-aria-practices/#tabpanel for examples.
+     */
+    MDCTabBarFoundation.prototype.setUseAutomaticActivation = function (useAutomaticActivation) {
+        this.useAutomaticActivation_ = useAutomaticActivation;
+    };
+    MDCTabBarFoundation.prototype.activateTab = function (index) {
+        var previousActiveIndex = this.adapter_.getPreviousActiveTabIndex();
+        if (!this.indexIsInRange_(index) || index === previousActiveIndex) {
+            return;
+        }
+        this.adapter_.deactivateTabAtIndex(previousActiveIndex);
+        this.adapter_.activateTabAtIndex(index, this.adapter_.getTabIndicatorClientRectAtIndex(previousActiveIndex));
+        this.scrollIntoView(index);
+        this.adapter_.notifyTabActivated(index);
+    };
+    MDCTabBarFoundation.prototype.handleKeyDown = function (evt) {
+        // Get the key from the event
+        var key = this.getKeyFromEvent_(evt);
+        // Early exit if the event key isn't one of the keyboard navigation keys
+        if (key === undefined) {
+            return;
+        }
+        // Prevent default behavior for movement keys, but not for activation keys, since :active is used to apply ripple
+        if (!this.isActivationKey_(key)) {
+            evt.preventDefault();
+        }
+        if (this.useAutomaticActivation_) {
+            if (this.isActivationKey_(key)) {
+                return;
+            }
+            var index = this.determineTargetFromKey_(this.adapter_.getPreviousActiveTabIndex(), key);
+            this.adapter_.setActiveTab(index);
+            this.scrollIntoView(index);
+        }
+        else {
+            var focusedTabIndex = this.adapter_.getFocusedTabIndex();
+            if (this.isActivationKey_(key)) {
+                this.adapter_.setActiveTab(focusedTabIndex);
+            }
+            else {
+                var index = this.determineTargetFromKey_(focusedTabIndex, key);
+                this.adapter_.focusTabAtIndex(index);
+                this.scrollIntoView(index);
+            }
+        }
+    };
+    /**
+     * Handles the MDCTab:interacted event
+     */
+    MDCTabBarFoundation.prototype.handleTabInteraction = function (evt) {
+        this.adapter_.setActiveTab(this.adapter_.getIndexOfTabById(evt.detail.tabId));
+    };
+    /**
+     * Scrolls the tab at the given index into view
+     * @param index The tab index to make visible
+     */
+    MDCTabBarFoundation.prototype.scrollIntoView = function (index) {
+        // Early exit if the index is out of range
+        if (!this.indexIsInRange_(index)) {
+            return;
+        }
+        // Always scroll to 0 if scrolling to the 0th index
+        if (index === 0) {
+            return this.adapter_.scrollTo(0);
+        }
+        // Always scroll to the max value if scrolling to the Nth index
+        // MDCTabScroller.scrollTo() will never scroll past the max possible value
+        if (index === this.adapter_.getTabListLength() - 1) {
+            return this.adapter_.scrollTo(this.adapter_.getScrollContentWidth());
+        }
+        if (this.isRTL_()) {
+            return this.scrollIntoViewRTL_(index);
+        }
+        this.scrollIntoView_(index);
+    };
+    /**
+     * Private method for determining the index of the destination tab based on what key was pressed
+     * @param origin The original index from which to determine the destination
+     * @param key The name of the key
+     */
+    MDCTabBarFoundation.prototype.determineTargetFromKey_ = function (origin, key) {
+        var isRTL = this.isRTL_();
+        var maxIndex = this.adapter_.getTabListLength() - 1;
+        var shouldGoToEnd = key === _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].END_KEY;
+        var shouldDecrement = key === _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARROW_LEFT_KEY && !isRTL || key === _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARROW_RIGHT_KEY && isRTL;
+        var shouldIncrement = key === _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARROW_RIGHT_KEY && !isRTL || key === _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARROW_LEFT_KEY && isRTL;
+        var index = origin;
+        if (shouldGoToEnd) {
+            index = maxIndex;
+        }
+        else if (shouldDecrement) {
+            index -= 1;
+        }
+        else if (shouldIncrement) {
+            index += 1;
+        }
+        else {
+            index = 0;
+        }
+        if (index < 0) {
+            index = maxIndex;
+        }
+        else if (index > maxIndex) {
+            index = 0;
+        }
+        return index;
+    };
+    /**
+     * Calculates the scroll increment that will make the tab at the given index visible
+     * @param index The index of the tab
+     * @param nextIndex The index of the next tab
+     * @param scrollPosition The current scroll position
+     * @param barWidth The width of the Tab Bar
+     */
+    MDCTabBarFoundation.prototype.calculateScrollIncrement_ = function (index, nextIndex, scrollPosition, barWidth) {
+        var nextTabDimensions = this.adapter_.getTabDimensionsAtIndex(nextIndex);
+        var relativeContentLeft = nextTabDimensions.contentLeft - scrollPosition - barWidth;
+        var relativeContentRight = nextTabDimensions.contentRight - scrollPosition;
+        var leftIncrement = relativeContentRight - _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].EXTRA_SCROLL_AMOUNT;
+        var rightIncrement = relativeContentLeft + _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].EXTRA_SCROLL_AMOUNT;
+        if (nextIndex < index) {
+            return Math.min(leftIncrement, 0);
+        }
+        return Math.max(rightIncrement, 0);
+    };
+    /**
+     * Calculates the scroll increment that will make the tab at the given index visible in RTL
+     * @param index The index of the tab
+     * @param nextIndex The index of the next tab
+     * @param scrollPosition The current scroll position
+     * @param barWidth The width of the Tab Bar
+     * @param scrollContentWidth The width of the scroll content
+     */
+    MDCTabBarFoundation.prototype.calculateScrollIncrementRTL_ = function (index, nextIndex, scrollPosition, barWidth, scrollContentWidth) {
+        var nextTabDimensions = this.adapter_.getTabDimensionsAtIndex(nextIndex);
+        var relativeContentLeft = scrollContentWidth - nextTabDimensions.contentLeft - scrollPosition;
+        var relativeContentRight = scrollContentWidth - nextTabDimensions.contentRight - scrollPosition - barWidth;
+        var leftIncrement = relativeContentRight + _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].EXTRA_SCROLL_AMOUNT;
+        var rightIncrement = relativeContentLeft - _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].EXTRA_SCROLL_AMOUNT;
+        if (nextIndex > index) {
+            return Math.max(leftIncrement, 0);
+        }
+        return Math.min(rightIncrement, 0);
+    };
+    /**
+     * Determines the index of the adjacent tab closest to either edge of the Tab Bar
+     * @param index The index of the tab
+     * @param tabDimensions The dimensions of the tab
+     * @param scrollPosition The current scroll position
+     * @param barWidth The width of the tab bar
+     */
+    MDCTabBarFoundation.prototype.findAdjacentTabIndexClosestToEdge_ = function (index, tabDimensions, scrollPosition, barWidth) {
+        /**
+         * Tabs are laid out in the Tab Scroller like this:
+         *
+         *    Scroll Position
+         *    +---+
+         *    |   |   Bar Width
+         *    |   +-----------------------------------+
+         *    |   |                                   |
+         *    |   V                                   V
+         *    |   +-----------------------------------+
+         *    V   |             Tab Scroller          |
+         *    +------------+--------------+-------------------+
+         *    |    Tab     |      Tab     |        Tab        |
+         *    +------------+--------------+-------------------+
+         *        |                                   |
+         *        +-----------------------------------+
+         *
+         * To determine the next adjacent index, we look at the Tab root left and
+         * Tab root right, both relative to the scroll position. If the Tab root
+         * left is less than 0, then we know it's out of view to the left. If the
+         * Tab root right minus the bar width is greater than 0, we know the Tab is
+         * out of view to the right. From there, we either increment or decrement
+         * the index.
+         */
+        var relativeRootLeft = tabDimensions.rootLeft - scrollPosition;
+        var relativeRootRight = tabDimensions.rootRight - scrollPosition - barWidth;
+        var relativeRootDelta = relativeRootLeft + relativeRootRight;
+        var leftEdgeIsCloser = relativeRootLeft < 0 || relativeRootDelta < 0;
+        var rightEdgeIsCloser = relativeRootRight > 0 || relativeRootDelta > 0;
+        if (leftEdgeIsCloser) {
+            return index - 1;
+        }
+        if (rightEdgeIsCloser) {
+            return index + 1;
+        }
+        return -1;
+    };
+    /**
+     * Determines the index of the adjacent tab closest to either edge of the Tab Bar in RTL
+     * @param index The index of the tab
+     * @param tabDimensions The dimensions of the tab
+     * @param scrollPosition The current scroll position
+     * @param barWidth The width of the tab bar
+     * @param scrollContentWidth The width of the scroller content
+     */
+    MDCTabBarFoundation.prototype.findAdjacentTabIndexClosestToEdgeRTL_ = function (index, tabDimensions, scrollPosition, barWidth, scrollContentWidth) {
+        var rootLeft = scrollContentWidth - tabDimensions.rootLeft - barWidth - scrollPosition;
+        var rootRight = scrollContentWidth - tabDimensions.rootRight - scrollPosition;
+        var rootDelta = rootLeft + rootRight;
+        var leftEdgeIsCloser = rootLeft > 0 || rootDelta > 0;
+        var rightEdgeIsCloser = rootRight < 0 || rootDelta < 0;
+        if (leftEdgeIsCloser) {
+            return index + 1;
+        }
+        if (rightEdgeIsCloser) {
+            return index - 1;
+        }
+        return -1;
+    };
+    /**
+     * Returns the key associated with a keydown event
+     * @param evt The keydown event
+     */
+    MDCTabBarFoundation.prototype.getKeyFromEvent_ = function (evt) {
+        if (ACCEPTABLE_KEYS.has(evt.key)) {
+            return evt.key;
+        }
+        return KEYCODE_MAP.get(evt.keyCode);
+    };
+    MDCTabBarFoundation.prototype.isActivationKey_ = function (key) {
+        return key === _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].SPACE_KEY || key === _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ENTER_KEY;
+    };
+    /**
+     * Returns whether a given index is inclusively between the ends
+     * @param index The index to test
+     */
+    MDCTabBarFoundation.prototype.indexIsInRange_ = function (index) {
+        return index >= 0 && index < this.adapter_.getTabListLength();
+    };
+    /**
+     * Returns the view's RTL property
+     */
+    MDCTabBarFoundation.prototype.isRTL_ = function () {
+        return this.adapter_.isRTL();
+    };
+    /**
+     * Scrolls the tab at the given index into view for left-to-right user agents.
+     * @param index The index of the tab to scroll into view
+     */
+    MDCTabBarFoundation.prototype.scrollIntoView_ = function (index) {
+        var scrollPosition = this.adapter_.getScrollPosition();
+        var barWidth = this.adapter_.getOffsetWidth();
+        var tabDimensions = this.adapter_.getTabDimensionsAtIndex(index);
+        var nextIndex = this.findAdjacentTabIndexClosestToEdge_(index, tabDimensions, scrollPosition, barWidth);
+        if (!this.indexIsInRange_(nextIndex)) {
+            return;
+        }
+        var scrollIncrement = this.calculateScrollIncrement_(index, nextIndex, scrollPosition, barWidth);
+        this.adapter_.incrementScroll(scrollIncrement);
+    };
+    /**
+     * Scrolls the tab at the given index into view in RTL
+     * @param index The tab index to make visible
+     */
+    MDCTabBarFoundation.prototype.scrollIntoViewRTL_ = function (index) {
+        var scrollPosition = this.adapter_.getScrollPosition();
+        var barWidth = this.adapter_.getOffsetWidth();
+        var tabDimensions = this.adapter_.getTabDimensionsAtIndex(index);
+        var scrollWidth = this.adapter_.getScrollContentWidth();
+        var nextIndex = this.findAdjacentTabIndexClosestToEdgeRTL_(index, tabDimensions, scrollPosition, barWidth, scrollWidth);
+        if (!this.indexIsInRange_(nextIndex)) {
+            return;
+        }
+        var scrollIncrement = this.calculateScrollIncrementRTL_(index, nextIndex, scrollPosition, barWidth, scrollWidth);
+        this.adapter_.incrementScroll(scrollIncrement);
+    };
+    return MDCTabBarFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTabBarFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-bar/index.js":
+/*!**************************************************!*\
+  !*** ../node_modules/@material/tab-bar/index.js ***!
+  \**************************************************/
+/*! exports provided: MDCTabBar, MDCTabBarFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/tab-bar/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTabBar", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCTabBar"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab-bar/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTabBarFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabBarFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-indicator/component.js":
+/*!************************************************************!*\
+  !*** ../node_modules/@material/tab-indicator/component.js ***!
+  \************************************************************/
+/*! exports provided: MDCTabIndicator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabIndicator", function() { return MDCTabIndicator; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _fading_foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./fading-foundation */ "../node_modules/@material/tab-indicator/fading-foundation.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab-indicator/foundation.js");
+/* harmony import */ var _sliding_foundation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sliding-foundation */ "../node_modules/@material/tab-indicator/sliding-foundation.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+var MDCTabIndicator = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabIndicator, _super);
+    function MDCTabIndicator() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTabIndicator.attachTo = function (root) {
+        return new MDCTabIndicator(root);
+    };
+    MDCTabIndicator.prototype.initialize = function () {
+        this.content_ = this.root_.querySelector(_foundation__WEBPACK_IMPORTED_MODULE_3__["MDCTabIndicatorFoundation"].strings.CONTENT_SELECTOR);
+    };
+    MDCTabIndicator.prototype.computeContentClientRect = function () {
+        return this.foundation_.computeContentClientRect();
+    };
+    MDCTabIndicator.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = {
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            computeContentClientRect: function () { return _this.content_.getBoundingClientRect(); },
+            setContentStyleProperty: function (prop, value) { return _this.content_.style.setProperty(prop, value); },
+        };
+        // tslint:enable:object-literal-sort-keys
+        if (this.root_.classList.contains(_foundation__WEBPACK_IMPORTED_MODULE_3__["MDCTabIndicatorFoundation"].cssClasses.FADE)) {
+            return new _fading_foundation__WEBPACK_IMPORTED_MODULE_2__["MDCFadingTabIndicatorFoundation"](adapter);
+        }
+        // Default to the sliding indicator
+        return new _sliding_foundation__WEBPACK_IMPORTED_MODULE_4__["MDCSlidingTabIndicatorFoundation"](adapter);
+    };
+    MDCTabIndicator.prototype.activate = function (previousIndicatorClientRect) {
+        this.foundation_.activate(previousIndicatorClientRect);
+    };
+    MDCTabIndicator.prototype.deactivate = function () {
+        this.foundation_.deactivate();
+    };
+    return MDCTabIndicator;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-indicator/constants.js":
+/*!************************************************************!*\
+  !*** ../node_modules/@material/tab-indicator/constants.js ***!
+  \************************************************************/
+/*! exports provided: cssClasses, strings */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    ACTIVE: 'mdc-tab-indicator--active',
+    FADE: 'mdc-tab-indicator--fade',
+    NO_TRANSITION: 'mdc-tab-indicator--no-transition',
+};
+var strings = {
+    CONTENT_SELECTOR: '.mdc-tab-indicator__content',
+};
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-indicator/fading-foundation.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@material/tab-indicator/fading-foundation.js ***!
+  \********************************************************************/
+/*! exports provided: MDCFadingTabIndicatorFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCFadingTabIndicatorFoundation", function() { return MDCFadingTabIndicatorFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab-indicator/foundation.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+/* istanbul ignore next: subclass is not a branch statement */
+var MDCFadingTabIndicatorFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCFadingTabIndicatorFoundation, _super);
+    function MDCFadingTabIndicatorFoundation() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCFadingTabIndicatorFoundation.prototype.activate = function () {
+        this.adapter_.addClass(_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"].cssClasses.ACTIVE);
+    };
+    MDCFadingTabIndicatorFoundation.prototype.deactivate = function () {
+        this.adapter_.removeClass(_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"].cssClasses.ACTIVE);
+    };
+    return MDCFadingTabIndicatorFoundation;
+}(_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCFadingTabIndicatorFoundation);
+//# sourceMappingURL=fading-foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-indicator/foundation.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/@material/tab-indicator/foundation.js ***!
+  \*************************************************************/
+/*! exports provided: MDCTabIndicatorFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabIndicatorFoundation", function() { return MDCTabIndicatorFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/tab-indicator/constants.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCTabIndicatorFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabIndicatorFoundation, _super);
+    function MDCTabIndicatorFoundation(adapter) {
+        return _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCTabIndicatorFoundation.defaultAdapter, adapter)) || this;
+    }
+    Object.defineProperty(MDCTabIndicatorFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTabIndicatorFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTabIndicatorFoundation, "defaultAdapter", {
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                addClass: function () { return undefined; },
+                removeClass: function () { return undefined; },
+                computeContentClientRect: function () { return ({ top: 0, right: 0, bottom: 0, left: 0, width: 0, height: 0 }); },
+                setContentStyleProperty: function () { return undefined; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTabIndicatorFoundation.prototype.computeContentClientRect = function () {
+        return this.adapter_.computeContentClientRect();
+    };
+    return MDCTabIndicatorFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTabIndicatorFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-indicator/index.js":
+/*!********************************************************!*\
+  !*** ../node_modules/@material/tab-indicator/index.js ***!
+  \********************************************************/
+/*! exports provided: MDCTabIndicator, MDCTabIndicatorFoundation, MDCFadingTabIndicatorFoundation, MDCSlidingTabIndicatorFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/tab-indicator/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTabIndicator", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCTabIndicator"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab-indicator/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTabIndicatorFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"]; });
+
+/* harmony import */ var _fading_foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./fading-foundation */ "../node_modules/@material/tab-indicator/fading-foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCFadingTabIndicatorFoundation", function() { return _fading_foundation__WEBPACK_IMPORTED_MODULE_2__["MDCFadingTabIndicatorFoundation"]; });
+
+/* harmony import */ var _sliding_foundation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sliding-foundation */ "../node_modules/@material/tab-indicator/sliding-foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCSlidingTabIndicatorFoundation", function() { return _sliding_foundation__WEBPACK_IMPORTED_MODULE_3__["MDCSlidingTabIndicatorFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-indicator/sliding-foundation.js":
+/*!*********************************************************************!*\
+  !*** ../node_modules/@material/tab-indicator/sliding-foundation.js ***!
+  \*********************************************************************/
+/*! exports provided: MDCSlidingTabIndicatorFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCSlidingTabIndicatorFoundation", function() { return MDCSlidingTabIndicatorFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab-indicator/foundation.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+/* istanbul ignore next: subclass is not a branch statement */
+var MDCSlidingTabIndicatorFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCSlidingTabIndicatorFoundation, _super);
+    function MDCSlidingTabIndicatorFoundation() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCSlidingTabIndicatorFoundation.prototype.activate = function (previousIndicatorClientRect) {
+        // Early exit if no indicator is present to handle cases where an indicator
+        // may be activated without a prior indicator state
+        if (!previousIndicatorClientRect) {
+            this.adapter_.addClass(_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"].cssClasses.ACTIVE);
+            return;
+        }
+        // This animation uses the FLIP approach. You can read more about it at the link below:
+        // https://aerotwist.com/blog/flip-your-animations/
+        // Calculate the dimensions based on the dimensions of the previous indicator
+        var currentClientRect = this.computeContentClientRect();
+        var widthDelta = previousIndicatorClientRect.width / currentClientRect.width;
+        var xPosition = previousIndicatorClientRect.left - currentClientRect.left;
+        this.adapter_.addClass(_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"].cssClasses.NO_TRANSITION);
+        this.adapter_.setContentStyleProperty('transform', "translateX(" + xPosition + "px) scaleX(" + widthDelta + ")");
+        // Force repaint before updating classes and transform to ensure the transform properly takes effect
+        this.computeContentClientRect();
+        this.adapter_.removeClass(_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"].cssClasses.NO_TRANSITION);
+        this.adapter_.addClass(_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"].cssClasses.ACTIVE);
+        this.adapter_.setContentStyleProperty('transform', '');
+    };
+    MDCSlidingTabIndicatorFoundation.prototype.deactivate = function () {
+        this.adapter_.removeClass(_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"].cssClasses.ACTIVE);
+    };
+    return MDCSlidingTabIndicatorFoundation;
+}(_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabIndicatorFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCSlidingTabIndicatorFoundation);
+//# sourceMappingURL=sliding-foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-scroller/component.js":
+/*!***********************************************************!*\
+  !*** ../node_modules/@material/tab-scroller/component.js ***!
+  \***********************************************************/
+/*! exports provided: MDCTabScroller */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabScroller", function() { return MDCTabScroller; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _material_dom_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material/dom/index */ "../node_modules/@material/dom/index.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab-scroller/foundation.js");
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./util */ "../node_modules/@material/tab-scroller/util.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+var MDCTabScroller = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabScroller, _super);
+    function MDCTabScroller() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTabScroller.attachTo = function (root) {
+        return new MDCTabScroller(root);
+    };
+    MDCTabScroller.prototype.initialize = function () {
+        this.area_ = this.root_.querySelector(_foundation__WEBPACK_IMPORTED_MODULE_3__["MDCTabScrollerFoundation"].strings.AREA_SELECTOR);
+        this.content_ = this.root_.querySelector(_foundation__WEBPACK_IMPORTED_MODULE_3__["MDCTabScrollerFoundation"].strings.CONTENT_SELECTOR);
+    };
+    MDCTabScroller.prototype.initialSyncWithDOM = function () {
+        var _this = this;
+        this.handleInteraction_ = function () { return _this.foundation_.handleInteraction(); };
+        this.handleTransitionEnd_ = function (evt) { return _this.foundation_.handleTransitionEnd(evt); };
+        this.area_.addEventListener('wheel', this.handleInteraction_);
+        this.area_.addEventListener('touchstart', this.handleInteraction_);
+        this.area_.addEventListener('pointerdown', this.handleInteraction_);
+        this.area_.addEventListener('mousedown', this.handleInteraction_);
+        this.area_.addEventListener('keydown', this.handleInteraction_);
+        this.content_.addEventListener('transitionend', this.handleTransitionEnd_);
+    };
+    MDCTabScroller.prototype.destroy = function () {
+        _super.prototype.destroy.call(this);
+        this.area_.removeEventListener('wheel', this.handleInteraction_);
+        this.area_.removeEventListener('touchstart', this.handleInteraction_);
+        this.area_.removeEventListener('pointerdown', this.handleInteraction_);
+        this.area_.removeEventListener('mousedown', this.handleInteraction_);
+        this.area_.removeEventListener('keydown', this.handleInteraction_);
+        this.content_.removeEventListener('transitionend', this.handleTransitionEnd_);
+    };
+    MDCTabScroller.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = {
+            eventTargetMatchesSelector: function (evtTarget, selector) { return _material_dom_index__WEBPACK_IMPORTED_MODULE_2__["ponyfill"].matches(evtTarget, selector); },
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            addScrollAreaClass: function (className) { return _this.area_.classList.add(className); },
+            setScrollAreaStyleProperty: function (prop, value) { return _this.area_.style.setProperty(prop, value); },
+            setScrollContentStyleProperty: function (prop, value) { return _this.content_.style.setProperty(prop, value); },
+            getScrollContentStyleValue: function (propName) { return window.getComputedStyle(_this.content_).getPropertyValue(propName); },
+            setScrollAreaScrollLeft: function (scrollX) { return _this.area_.scrollLeft = scrollX; },
+            getScrollAreaScrollLeft: function () { return _this.area_.scrollLeft; },
+            getScrollContentOffsetWidth: function () { return _this.content_.offsetWidth; },
+            getScrollAreaOffsetWidth: function () { return _this.area_.offsetWidth; },
+            computeScrollAreaClientRect: function () { return _this.area_.getBoundingClientRect(); },
+            computeScrollContentClientRect: function () { return _this.content_.getBoundingClientRect(); },
+            computeHorizontalScrollbarHeight: function () { return _util__WEBPACK_IMPORTED_MODULE_4__["computeHorizontalScrollbarHeight"](document); },
+        };
+        // tslint:enable:object-literal-sort-keys
+        return new _foundation__WEBPACK_IMPORTED_MODULE_3__["MDCTabScrollerFoundation"](adapter);
+    };
+    /**
+     * Returns the current visual scroll position
+     */
+    MDCTabScroller.prototype.getScrollPosition = function () {
+        return this.foundation_.getScrollPosition();
+    };
+    /**
+     * Returns the width of the scroll content
+     */
+    MDCTabScroller.prototype.getScrollContentWidth = function () {
+        return this.content_.offsetWidth;
+    };
+    /**
+     * Increments the scroll value by the given amount
+     * @param scrollXIncrement The pixel value by which to increment the scroll value
+     */
+    MDCTabScroller.prototype.incrementScroll = function (scrollXIncrement) {
+        this.foundation_.incrementScroll(scrollXIncrement);
+    };
+    /**
+     * Scrolls to the given pixel position
+     * @param scrollX The pixel value to scroll to
+     */
+    MDCTabScroller.prototype.scrollTo = function (scrollX) {
+        this.foundation_.scrollTo(scrollX);
+    };
+    return MDCTabScroller;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-scroller/constants.js":
+/*!***********************************************************!*\
+  !*** ../node_modules/@material/tab-scroller/constants.js ***!
+  \***********************************************************/
+/*! exports provided: cssClasses, strings */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    ANIMATING: 'mdc-tab-scroller--animating',
+    SCROLL_AREA_SCROLL: 'mdc-tab-scroller__scroll-area--scroll',
+    SCROLL_TEST: 'mdc-tab-scroller__test',
+};
+var strings = {
+    AREA_SELECTOR: '.mdc-tab-scroller__scroll-area',
+    CONTENT_SELECTOR: '.mdc-tab-scroller__scroll-content',
+};
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-scroller/foundation.js":
+/*!************************************************************!*\
+  !*** ../node_modules/@material/tab-scroller/foundation.js ***!
+  \************************************************************/
+/*! exports provided: MDCTabScrollerFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabScrollerFoundation", function() { return MDCTabScrollerFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/tab-scroller/constants.js");
+/* harmony import */ var _rtl_default_scroller__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./rtl-default-scroller */ "../node_modules/@material/tab-scroller/rtl-default-scroller.js");
+/* harmony import */ var _rtl_negative_scroller__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./rtl-negative-scroller */ "../node_modules/@material/tab-scroller/rtl-negative-scroller.js");
+/* harmony import */ var _rtl_reverse_scroller__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./rtl-reverse-scroller */ "../node_modules/@material/tab-scroller/rtl-reverse-scroller.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+
+var MDCTabScrollerFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabScrollerFoundation, _super);
+    function MDCTabScrollerFoundation(adapter) {
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCTabScrollerFoundation.defaultAdapter, adapter)) || this;
+        /**
+         * Controls whether we should handle the transitionend and interaction events during the animation.
+         */
+        _this.isAnimating_ = false;
+        return _this;
+    }
+    Object.defineProperty(MDCTabScrollerFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTabScrollerFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTabScrollerFoundation, "defaultAdapter", {
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                eventTargetMatchesSelector: function () { return false; },
+                addClass: function () { return undefined; },
+                removeClass: function () { return undefined; },
+                addScrollAreaClass: function () { return undefined; },
+                setScrollAreaStyleProperty: function () { return undefined; },
+                setScrollContentStyleProperty: function () { return undefined; },
+                getScrollContentStyleValue: function () { return ''; },
+                setScrollAreaScrollLeft: function () { return undefined; },
+                getScrollAreaScrollLeft: function () { return 0; },
+                getScrollContentOffsetWidth: function () { return 0; },
+                getScrollAreaOffsetWidth: function () { return 0; },
+                computeScrollAreaClientRect: function () { return ({ top: 0, right: 0, bottom: 0, left: 0, width: 0, height: 0 }); },
+                computeScrollContentClientRect: function () { return ({ top: 0, right: 0, bottom: 0, left: 0, width: 0, height: 0 }); },
+                computeHorizontalScrollbarHeight: function () { return 0; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTabScrollerFoundation.prototype.init = function () {
+        // Compute horizontal scrollbar height on scroller with overflow initially hidden, then update overflow to scroll
+        // and immediately adjust bottom margin to avoid the scrollbar initially appearing before JS runs.
+        var horizontalScrollbarHeight = this.adapter_.computeHorizontalScrollbarHeight();
+        this.adapter_.setScrollAreaStyleProperty('margin-bottom', -horizontalScrollbarHeight + 'px');
+        this.adapter_.addScrollAreaClass(MDCTabScrollerFoundation.cssClasses.SCROLL_AREA_SCROLL);
+    };
+    /**
+     * Computes the current visual scroll position
+     */
+    MDCTabScrollerFoundation.prototype.getScrollPosition = function () {
+        if (this.isRTL_()) {
+            return this.computeCurrentScrollPositionRTL_();
+        }
+        var currentTranslateX = this.calculateCurrentTranslateX_();
+        var scrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        return scrollLeft - currentTranslateX;
+    };
+    /**
+     * Handles interaction events that occur during transition
+     */
+    MDCTabScrollerFoundation.prototype.handleInteraction = function () {
+        // Early exit if we aren't animating
+        if (!this.isAnimating_) {
+            return;
+        }
+        // Prevent other event listeners from handling this event
+        this.stopScrollAnimation_();
+    };
+    /**
+     * Handles the transitionend event
+     */
+    MDCTabScrollerFoundation.prototype.handleTransitionEnd = function (evt) {
+        // Early exit if we aren't animating or the event was triggered by a different element.
+        var evtTarget = evt.target;
+        if (!this.isAnimating_ ||
+            !this.adapter_.eventTargetMatchesSelector(evtTarget, MDCTabScrollerFoundation.strings.CONTENT_SELECTOR)) {
+            return;
+        }
+        this.isAnimating_ = false;
+        this.adapter_.removeClass(MDCTabScrollerFoundation.cssClasses.ANIMATING);
+    };
+    /**
+     * Increment the scroll value by the scrollXIncrement
+     * @param scrollXIncrement The value by which to increment the scroll position
+     */
+    MDCTabScrollerFoundation.prototype.incrementScroll = function (scrollXIncrement) {
+        // Early exit for non-operational increment values
+        if (scrollXIncrement === 0) {
+            return;
+        }
+        if (this.isRTL_()) {
+            return this.incrementScrollRTL_(scrollXIncrement);
+        }
+        this.incrementScroll_(scrollXIncrement);
+    };
+    /**
+     * Scrolls to the given scrollX value
+     */
+    MDCTabScrollerFoundation.prototype.scrollTo = function (scrollX) {
+        if (this.isRTL_()) {
+            return this.scrollToRTL_(scrollX);
+        }
+        this.scrollTo_(scrollX);
+    };
+    /**
+     * @return Browser-specific {@link MDCTabScrollerRTL} instance.
+     */
+    MDCTabScrollerFoundation.prototype.getRTLScroller = function () {
+        if (!this.rtlScrollerInstance_) {
+            this.rtlScrollerInstance_ = this.rtlScrollerFactory_();
+        }
+        return this.rtlScrollerInstance_;
+    };
+    /**
+     * @return translateX value from a CSS matrix transform function string.
+     */
+    MDCTabScrollerFoundation.prototype.calculateCurrentTranslateX_ = function () {
+        var transformValue = this.adapter_.getScrollContentStyleValue('transform');
+        // Early exit if no transform is present
+        if (transformValue === 'none') {
+            return 0;
+        }
+        // The transform value comes back as a matrix transformation in the form
+        // of `matrix(a, b, c, d, tx, ty)`. We only care about tx (translateX) so
+        // we're going to grab all the parenthesized values, strip out tx, and
+        // parse it.
+        var match = /\((.+?)\)/.exec(transformValue);
+        if (!match) {
+            return 0;
+        }
+        var matrixParams = match[1];
+        // tslint:disable-next-line:ban-ts-ignore "Unused vars" should be a linter warning, not a compiler error.
+        // @ts-ignore These unused variables should retain their semantic names for clarity.
+        var _a = tslib__WEBPACK_IMPORTED_MODULE_0__["__read"](matrixParams.split(','), 6), a = _a[0], b = _a[1], c = _a[2], d = _a[3], tx = _a[4], ty = _a[5];
+        return parseFloat(tx); // tslint:disable-line:ban
+    };
+    /**
+     * Calculates a safe scroll value that is > 0 and < the max scroll value
+     * @param scrollX The distance to scroll
+     */
+    MDCTabScrollerFoundation.prototype.clampScrollValue_ = function (scrollX) {
+        var edges = this.calculateScrollEdges_();
+        return Math.min(Math.max(edges.left, scrollX), edges.right);
+    };
+    MDCTabScrollerFoundation.prototype.computeCurrentScrollPositionRTL_ = function () {
+        var translateX = this.calculateCurrentTranslateX_();
+        return this.getRTLScroller().getScrollPositionRTL(translateX);
+    };
+    MDCTabScrollerFoundation.prototype.calculateScrollEdges_ = function () {
+        var contentWidth = this.adapter_.getScrollContentOffsetWidth();
+        var rootWidth = this.adapter_.getScrollAreaOffsetWidth();
+        return {
+            left: 0,
+            right: contentWidth - rootWidth,
+        };
+    };
+    /**
+     * Internal scroll method
+     * @param scrollX The new scroll position
+     */
+    MDCTabScrollerFoundation.prototype.scrollTo_ = function (scrollX) {
+        var currentScrollX = this.getScrollPosition();
+        var safeScrollX = this.clampScrollValue_(scrollX);
+        var scrollDelta = safeScrollX - currentScrollX;
+        this.animate_({
+            finalScrollPosition: safeScrollX,
+            scrollDelta: scrollDelta,
+        });
+    };
+    /**
+     * Internal RTL scroll method
+     * @param scrollX The new scroll position
+     */
+    MDCTabScrollerFoundation.prototype.scrollToRTL_ = function (scrollX) {
+        var animation = this.getRTLScroller().scrollToRTL(scrollX);
+        this.animate_(animation);
+    };
+    /**
+     * Internal increment scroll method
+     * @param scrollX The new scroll position increment
+     */
+    MDCTabScrollerFoundation.prototype.incrementScroll_ = function (scrollX) {
+        var currentScrollX = this.getScrollPosition();
+        var targetScrollX = scrollX + currentScrollX;
+        var safeScrollX = this.clampScrollValue_(targetScrollX);
+        var scrollDelta = safeScrollX - currentScrollX;
+        this.animate_({
+            finalScrollPosition: safeScrollX,
+            scrollDelta: scrollDelta,
+        });
+    };
+    /**
+     * Internal increment scroll RTL method
+     * @param scrollX The new scroll position RTL increment
+     */
+    MDCTabScrollerFoundation.prototype.incrementScrollRTL_ = function (scrollX) {
+        var animation = this.getRTLScroller().incrementScrollRTL(scrollX);
+        this.animate_(animation);
+    };
+    /**
+     * Animates the tab scrolling
+     * @param animation The animation to apply
+     */
+    MDCTabScrollerFoundation.prototype.animate_ = function (animation) {
+        var _this = this;
+        // Early exit if translateX is 0, which means there's no animation to perform
+        if (animation.scrollDelta === 0) {
+            return;
+        }
+        this.stopScrollAnimation_();
+        // This animation uses the FLIP approach.
+        // Read more here: https://aerotwist.com/blog/flip-your-animations/
+        this.adapter_.setScrollAreaScrollLeft(animation.finalScrollPosition);
+        this.adapter_.setScrollContentStyleProperty('transform', "translateX(" + animation.scrollDelta + "px)");
+        // Force repaint
+        this.adapter_.computeScrollAreaClientRect();
+        requestAnimationFrame(function () {
+            _this.adapter_.addClass(MDCTabScrollerFoundation.cssClasses.ANIMATING);
+            _this.adapter_.setScrollContentStyleProperty('transform', 'none');
+        });
+        this.isAnimating_ = true;
+    };
+    /**
+     * Stops scroll animation
+     */
+    MDCTabScrollerFoundation.prototype.stopScrollAnimation_ = function () {
+        this.isAnimating_ = false;
+        var currentScrollPosition = this.getAnimatingScrollPosition_();
+        this.adapter_.removeClass(MDCTabScrollerFoundation.cssClasses.ANIMATING);
+        this.adapter_.setScrollContentStyleProperty('transform', 'translateX(0px)');
+        this.adapter_.setScrollAreaScrollLeft(currentScrollPosition);
+    };
+    /**
+     * Gets the current scroll position during animation
+     */
+    MDCTabScrollerFoundation.prototype.getAnimatingScrollPosition_ = function () {
+        var currentTranslateX = this.calculateCurrentTranslateX_();
+        var scrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        if (this.isRTL_()) {
+            return this.getRTLScroller().getAnimatingScrollPosition(scrollLeft, currentTranslateX);
+        }
+        return scrollLeft - currentTranslateX;
+    };
+    /**
+     * Determines the RTL Scroller to use
+     */
+    MDCTabScrollerFoundation.prototype.rtlScrollerFactory_ = function () {
+        // Browsers have three different implementations of scrollLeft in RTL mode,
+        // dependent on the browser. The behavior is based off the max LTR
+        // scrollLeft value and 0.
+        //
+        // * Default scrolling in RTL *
+        //    - Left-most value: 0
+        //    - Right-most value: Max LTR scrollLeft value
+        //
+        // * Negative scrolling in RTL *
+        //    - Left-most value: Negated max LTR scrollLeft value
+        //    - Right-most value: 0
+        //
+        // * Reverse scrolling in RTL *
+        //    - Left-most value: Max LTR scrollLeft value
+        //    - Right-most value: 0
+        //
+        // We use those principles below to determine which RTL scrollLeft
+        // behavior is implemented in the current browser.
+        var initialScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        this.adapter_.setScrollAreaScrollLeft(initialScrollLeft - 1);
+        var newScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        // If the newScrollLeft value is negative,then we know that the browser has
+        // implemented negative RTL scrolling, since all other implementations have
+        // only positive values.
+        if (newScrollLeft < 0) {
+            // Undo the scrollLeft test check
+            this.adapter_.setScrollAreaScrollLeft(initialScrollLeft);
+            return new _rtl_negative_scroller__WEBPACK_IMPORTED_MODULE_4__["MDCTabScrollerRTLNegative"](this.adapter_);
+        }
+        var rootClientRect = this.adapter_.computeScrollAreaClientRect();
+        var contentClientRect = this.adapter_.computeScrollContentClientRect();
+        var rightEdgeDelta = Math.round(contentClientRect.right - rootClientRect.right);
+        // Undo the scrollLeft test check
+        this.adapter_.setScrollAreaScrollLeft(initialScrollLeft);
+        // By calculating the clientRect of the root element and the clientRect of
+        // the content element, we can determine how much the scroll value changed
+        // when we performed the scrollLeft subtraction above.
+        if (rightEdgeDelta === newScrollLeft) {
+            return new _rtl_reverse_scroller__WEBPACK_IMPORTED_MODULE_5__["MDCTabScrollerRTLReverse"](this.adapter_);
+        }
+        return new _rtl_default_scroller__WEBPACK_IMPORTED_MODULE_3__["MDCTabScrollerRTLDefault"](this.adapter_);
+    };
+    MDCTabScrollerFoundation.prototype.isRTL_ = function () {
+        return this.adapter_.getScrollContentStyleValue('direction') === 'rtl';
+    };
+    return MDCTabScrollerFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTabScrollerFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-scroller/index.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/@material/tab-scroller/index.js ***!
+  \*******************************************************/
+/*! exports provided: util, MDCTabScroller, MDCTabScrollerFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util */ "../node_modules/@material/tab-scroller/util.js");
+/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "util", function() { return _util__WEBPACK_IMPORTED_MODULE_0__; });
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component */ "../node_modules/@material/tab-scroller/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTabScroller", function() { return _component__WEBPACK_IMPORTED_MODULE_1__["MDCTabScroller"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab-scroller/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTabScrollerFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_2__["MDCTabScrollerFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-scroller/rtl-default-scroller.js":
+/*!**********************************************************************!*\
+  !*** ../node_modules/@material/tab-scroller/rtl-default-scroller.js ***!
+  \**********************************************************************/
+/*! exports provided: MDCTabScrollerRTLDefault, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabScrollerRTLDefault", function() { return MDCTabScrollerRTLDefault; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _rtl_scroller__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./rtl-scroller */ "../node_modules/@material/tab-scroller/rtl-scroller.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+var MDCTabScrollerRTLDefault = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabScrollerRTLDefault, _super);
+    function MDCTabScrollerRTLDefault() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTabScrollerRTLDefault.prototype.getScrollPositionRTL = function () {
+        var currentScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        var right = this.calculateScrollEdges_().right;
+        // Scroll values on most browsers are ints instead of floats so we round
+        return Math.round(right - currentScrollLeft);
+    };
+    MDCTabScrollerRTLDefault.prototype.scrollToRTL = function (scrollX) {
+        var edges = this.calculateScrollEdges_();
+        var currentScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        var clampedScrollLeft = this.clampScrollValue_(edges.right - scrollX);
+        return {
+            finalScrollPosition: clampedScrollLeft,
+            scrollDelta: clampedScrollLeft - currentScrollLeft,
+        };
+    };
+    MDCTabScrollerRTLDefault.prototype.incrementScrollRTL = function (scrollX) {
+        var currentScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        var clampedScrollLeft = this.clampScrollValue_(currentScrollLeft - scrollX);
+        return {
+            finalScrollPosition: clampedScrollLeft,
+            scrollDelta: clampedScrollLeft - currentScrollLeft,
+        };
+    };
+    MDCTabScrollerRTLDefault.prototype.getAnimatingScrollPosition = function (scrollX) {
+        return scrollX;
+    };
+    MDCTabScrollerRTLDefault.prototype.calculateScrollEdges_ = function () {
+        var contentWidth = this.adapter_.getScrollContentOffsetWidth();
+        var rootWidth = this.adapter_.getScrollAreaOffsetWidth();
+        return {
+            left: 0,
+            right: contentWidth - rootWidth,
+        };
+    };
+    MDCTabScrollerRTLDefault.prototype.clampScrollValue_ = function (scrollX) {
+        var edges = this.calculateScrollEdges_();
+        return Math.min(Math.max(edges.left, scrollX), edges.right);
+    };
+    return MDCTabScrollerRTLDefault;
+}(_rtl_scroller__WEBPACK_IMPORTED_MODULE_1__["MDCTabScrollerRTL"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTabScrollerRTLDefault);
+//# sourceMappingURL=rtl-default-scroller.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-scroller/rtl-negative-scroller.js":
+/*!***********************************************************************!*\
+  !*** ../node_modules/@material/tab-scroller/rtl-negative-scroller.js ***!
+  \***********************************************************************/
+/*! exports provided: MDCTabScrollerRTLNegative, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabScrollerRTLNegative", function() { return MDCTabScrollerRTLNegative; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _rtl_scroller__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./rtl-scroller */ "../node_modules/@material/tab-scroller/rtl-scroller.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+var MDCTabScrollerRTLNegative = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabScrollerRTLNegative, _super);
+    function MDCTabScrollerRTLNegative() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTabScrollerRTLNegative.prototype.getScrollPositionRTL = function (translateX) {
+        var currentScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        return Math.round(translateX - currentScrollLeft);
+    };
+    MDCTabScrollerRTLNegative.prototype.scrollToRTL = function (scrollX) {
+        var currentScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        var clampedScrollLeft = this.clampScrollValue_(-scrollX);
+        return {
+            finalScrollPosition: clampedScrollLeft,
+            scrollDelta: clampedScrollLeft - currentScrollLeft,
+        };
+    };
+    MDCTabScrollerRTLNegative.prototype.incrementScrollRTL = function (scrollX) {
+        var currentScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        var clampedScrollLeft = this.clampScrollValue_(currentScrollLeft - scrollX);
+        return {
+            finalScrollPosition: clampedScrollLeft,
+            scrollDelta: clampedScrollLeft - currentScrollLeft,
+        };
+    };
+    MDCTabScrollerRTLNegative.prototype.getAnimatingScrollPosition = function (scrollX, translateX) {
+        return scrollX - translateX;
+    };
+    MDCTabScrollerRTLNegative.prototype.calculateScrollEdges_ = function () {
+        var contentWidth = this.adapter_.getScrollContentOffsetWidth();
+        var rootWidth = this.adapter_.getScrollAreaOffsetWidth();
+        return {
+            left: rootWidth - contentWidth,
+            right: 0,
+        };
+    };
+    MDCTabScrollerRTLNegative.prototype.clampScrollValue_ = function (scrollX) {
+        var edges = this.calculateScrollEdges_();
+        return Math.max(Math.min(edges.right, scrollX), edges.left);
+    };
+    return MDCTabScrollerRTLNegative;
+}(_rtl_scroller__WEBPACK_IMPORTED_MODULE_1__["MDCTabScrollerRTL"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTabScrollerRTLNegative);
+//# sourceMappingURL=rtl-negative-scroller.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-scroller/rtl-reverse-scroller.js":
+/*!**********************************************************************!*\
+  !*** ../node_modules/@material/tab-scroller/rtl-reverse-scroller.js ***!
+  \**********************************************************************/
+/*! exports provided: MDCTabScrollerRTLReverse, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabScrollerRTLReverse", function() { return MDCTabScrollerRTLReverse; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _rtl_scroller__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./rtl-scroller */ "../node_modules/@material/tab-scroller/rtl-scroller.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+var MDCTabScrollerRTLReverse = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabScrollerRTLReverse, _super);
+    function MDCTabScrollerRTLReverse() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTabScrollerRTLReverse.prototype.getScrollPositionRTL = function (translateX) {
+        var currentScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        // Scroll values on most browsers are ints instead of floats so we round
+        return Math.round(currentScrollLeft - translateX);
+    };
+    MDCTabScrollerRTLReverse.prototype.scrollToRTL = function (scrollX) {
+        var currentScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        var clampedScrollLeft = this.clampScrollValue_(scrollX);
+        return {
+            finalScrollPosition: clampedScrollLeft,
+            scrollDelta: currentScrollLeft - clampedScrollLeft,
+        };
+    };
+    MDCTabScrollerRTLReverse.prototype.incrementScrollRTL = function (scrollX) {
+        var currentScrollLeft = this.adapter_.getScrollAreaScrollLeft();
+        var clampedScrollLeft = this.clampScrollValue_(currentScrollLeft + scrollX);
+        return {
+            finalScrollPosition: clampedScrollLeft,
+            scrollDelta: currentScrollLeft - clampedScrollLeft,
+        };
+    };
+    MDCTabScrollerRTLReverse.prototype.getAnimatingScrollPosition = function (scrollX, translateX) {
+        return scrollX + translateX;
+    };
+    MDCTabScrollerRTLReverse.prototype.calculateScrollEdges_ = function () {
+        var contentWidth = this.adapter_.getScrollContentOffsetWidth();
+        var rootWidth = this.adapter_.getScrollAreaOffsetWidth();
+        return {
+            left: contentWidth - rootWidth,
+            right: 0,
+        };
+    };
+    MDCTabScrollerRTLReverse.prototype.clampScrollValue_ = function (scrollX) {
+        var edges = this.calculateScrollEdges_();
+        return Math.min(Math.max(edges.right, scrollX), edges.left);
+    };
+    return MDCTabScrollerRTLReverse;
+}(_rtl_scroller__WEBPACK_IMPORTED_MODULE_1__["MDCTabScrollerRTL"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTabScrollerRTLReverse);
+//# sourceMappingURL=rtl-reverse-scroller.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-scroller/rtl-scroller.js":
+/*!**************************************************************!*\
+  !*** ../node_modules/@material/tab-scroller/rtl-scroller.js ***!
+  \**************************************************************/
+/*! exports provided: MDCTabScrollerRTL, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabScrollerRTL", function() { return MDCTabScrollerRTL; });
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var MDCTabScrollerRTL = /** @class */ (function () {
+    function MDCTabScrollerRTL(adapter) {
+        this.adapter_ = adapter;
+    }
+    return MDCTabScrollerRTL;
+}());
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTabScrollerRTL);
+//# sourceMappingURL=rtl-scroller.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab-scroller/util.js":
+/*!******************************************************!*\
+  !*** ../node_modules/@material/tab-scroller/util.js ***!
+  \******************************************************/
+/*! exports provided: computeHorizontalScrollbarHeight */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "computeHorizontalScrollbarHeight", function() { return computeHorizontalScrollbarHeight; });
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/tab-scroller/constants.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+/**
+ * Stores result from computeHorizontalScrollbarHeight to avoid redundant processing.
+ */
+var horizontalScrollbarHeight_;
+/**
+ * Computes the height of browser-rendered horizontal scrollbars using a self-created test element.
+ * May return 0 (e.g. on OS X browsers under default configuration).
+ */
+function computeHorizontalScrollbarHeight(documentObj, shouldCacheResult) {
+    if (shouldCacheResult === void 0) { shouldCacheResult = true; }
+    if (shouldCacheResult && typeof horizontalScrollbarHeight_ !== 'undefined') {
+        return horizontalScrollbarHeight_;
+    }
+    var el = documentObj.createElement('div');
+    el.classList.add(_constants__WEBPACK_IMPORTED_MODULE_0__["cssClasses"].SCROLL_TEST);
+    documentObj.body.appendChild(el);
+    var horizontalScrollbarHeight = el.offsetHeight - el.clientHeight;
+    documentObj.body.removeChild(el);
+    if (shouldCacheResult) {
+        horizontalScrollbarHeight_ = horizontalScrollbarHeight;
+    }
+    return horizontalScrollbarHeight;
+}
+//# sourceMappingURL=util.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab/component.js":
+/*!**************************************************!*\
+  !*** ../node_modules/@material/tab/component.js ***!
+  \**************************************************/
+/*! exports provided: MDCTab */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTab", function() { return MDCTab; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _material_ripple_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material/ripple/index */ "../node_modules/@material/ripple/index.js");
+/* harmony import */ var _material_tab_indicator_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material/tab-indicator/index */ "../node_modules/@material/tab-indicator/index.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab/foundation.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+var MDCTab = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTab, _super);
+    function MDCTab() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTab.attachTo = function (root) {
+        return new MDCTab(root);
+    };
+    MDCTab.prototype.initialize = function (rippleFactory, tabIndicatorFactory) {
+        if (rippleFactory === void 0) { rippleFactory = function (el, foundation) { return new _material_ripple_index__WEBPACK_IMPORTED_MODULE_2__["MDCRipple"](el, foundation); }; }
+        if (tabIndicatorFactory === void 0) { tabIndicatorFactory = function (el) { return new _material_tab_indicator_index__WEBPACK_IMPORTED_MODULE_3__["MDCTabIndicator"](el); }; }
+        this.id = this.root_.id;
+        var rippleSurface = this.root_.querySelector(_foundation__WEBPACK_IMPORTED_MODULE_4__["MDCTabFoundation"].strings.RIPPLE_SELECTOR);
+        var rippleAdapter = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, _material_ripple_index__WEBPACK_IMPORTED_MODULE_2__["MDCRipple"].createAdapter(this), { addClass: function (className) { return rippleSurface.classList.add(className); }, removeClass: function (className) { return rippleSurface.classList.remove(className); }, updateCssVariable: function (varName, value) { return rippleSurface.style.setProperty(varName, value); } });
+        var rippleFoundation = new _material_ripple_index__WEBPACK_IMPORTED_MODULE_2__["MDCRippleFoundation"](rippleAdapter);
+        this.ripple_ = rippleFactory(this.root_, rippleFoundation);
+        var tabIndicatorElement = this.root_.querySelector(_foundation__WEBPACK_IMPORTED_MODULE_4__["MDCTabFoundation"].strings.TAB_INDICATOR_SELECTOR);
+        this.tabIndicator_ = tabIndicatorFactory(tabIndicatorElement);
+        this.content_ = this.root_.querySelector(_foundation__WEBPACK_IMPORTED_MODULE_4__["MDCTabFoundation"].strings.CONTENT_SELECTOR);
+    };
+    MDCTab.prototype.initialSyncWithDOM = function () {
+        var _this = this;
+        this.handleClick_ = function () { return _this.foundation_.handleClick(); };
+        this.listen('click', this.handleClick_);
+    };
+    MDCTab.prototype.destroy = function () {
+        this.unlisten('click', this.handleClick_);
+        this.ripple_.destroy();
+        _super.prototype.destroy.call(this);
+    };
+    MDCTab.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = {
+            setAttr: function (attr, value) { return _this.root_.setAttribute(attr, value); },
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            hasClass: function (className) { return _this.root_.classList.contains(className); },
+            activateIndicator: function (previousIndicatorClientRect) { return _this.tabIndicator_.activate(previousIndicatorClientRect); },
+            deactivateIndicator: function () { return _this.tabIndicator_.deactivate(); },
+            notifyInteracted: function () { return _this.emit(_foundation__WEBPACK_IMPORTED_MODULE_4__["MDCTabFoundation"].strings.INTERACTED_EVENT, { tabId: _this.id }, true /* bubble */); },
+            getOffsetLeft: function () { return _this.root_.offsetLeft; },
+            getOffsetWidth: function () { return _this.root_.offsetWidth; },
+            getContentOffsetLeft: function () { return _this.content_.offsetLeft; },
+            getContentOffsetWidth: function () { return _this.content_.offsetWidth; },
+            focus: function () { return _this.root_.focus(); },
+        };
+        // tslint:enable:object-literal-sort-keys
+        return new _foundation__WEBPACK_IMPORTED_MODULE_4__["MDCTabFoundation"](adapter);
+    };
+    Object.defineProperty(MDCTab.prototype, "active", {
+        /**
+         * Getter for the active state of the tab
+         */
+        get: function () {
+            return this.foundation_.isActive();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTab.prototype, "focusOnActivate", {
+        set: function (focusOnActivate) {
+            this.foundation_.setFocusOnActivate(focusOnActivate);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Activates the tab
+     */
+    MDCTab.prototype.activate = function (computeIndicatorClientRect) {
+        this.foundation_.activate(computeIndicatorClientRect);
+    };
+    /**
+     * Deactivates the tab
+     */
+    MDCTab.prototype.deactivate = function () {
+        this.foundation_.deactivate();
+    };
+    /**
+     * Returns the indicator's client rect
+     */
+    MDCTab.prototype.computeIndicatorClientRect = function () {
+        return this.tabIndicator_.computeContentClientRect();
+    };
+    MDCTab.prototype.computeDimensions = function () {
+        return this.foundation_.computeDimensions();
+    };
+    /**
+     * Focuses the tab
+     */
+    MDCTab.prototype.focus = function () {
+        this.root_.focus();
+    };
+    return MDCTab;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab/constants.js":
+/*!**************************************************!*\
+  !*** ../node_modules/@material/tab/constants.js ***!
+  \**************************************************/
+/*! exports provided: cssClasses, strings */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    ACTIVE: 'mdc-tab--active',
+};
+var strings = {
+    ARIA_SELECTED: 'aria-selected',
+    CONTENT_SELECTOR: '.mdc-tab__content',
+    INTERACTED_EVENT: 'MDCTab:interacted',
+    RIPPLE_SELECTOR: '.mdc-tab__ripple',
+    TABINDEX: 'tabIndex',
+    TAB_INDICATOR_SELECTOR: '.mdc-tab-indicator',
+};
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab/foundation.js":
+/*!***************************************************!*\
+  !*** ../node_modules/@material/tab/foundation.js ***!
+  \***************************************************/
+/*! exports provided: MDCTabFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTabFoundation", function() { return MDCTabFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/tab/constants.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCTabFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTabFoundation, _super);
+    function MDCTabFoundation(adapter) {
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCTabFoundation.defaultAdapter, adapter)) || this;
+        _this.focusOnActivate_ = true;
+        return _this;
+    }
+    Object.defineProperty(MDCTabFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTabFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTabFoundation, "defaultAdapter", {
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                addClass: function () { return undefined; },
+                removeClass: function () { return undefined; },
+                hasClass: function () { return false; },
+                setAttr: function () { return undefined; },
+                activateIndicator: function () { return undefined; },
+                deactivateIndicator: function () { return undefined; },
+                notifyInteracted: function () { return undefined; },
+                getOffsetLeft: function () { return 0; },
+                getOffsetWidth: function () { return 0; },
+                getContentOffsetLeft: function () { return 0; },
+                getContentOffsetWidth: function () { return 0; },
+                focus: function () { return undefined; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTabFoundation.prototype.handleClick = function () {
+        // It's up to the parent component to keep track of the active Tab and
+        // ensure we don't activate a Tab that's already active.
+        this.adapter_.notifyInteracted();
+    };
+    MDCTabFoundation.prototype.isActive = function () {
+        return this.adapter_.hasClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].ACTIVE);
+    };
+    /**
+     * Sets whether the tab should focus itself when activated
+     */
+    MDCTabFoundation.prototype.setFocusOnActivate = function (focusOnActivate) {
+        this.focusOnActivate_ = focusOnActivate;
+    };
+    /**
+     * Activates the Tab
+     */
+    MDCTabFoundation.prototype.activate = function (previousIndicatorClientRect) {
+        this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].ACTIVE);
+        this.adapter_.setAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARIA_SELECTED, 'true');
+        this.adapter_.setAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].TABINDEX, '0');
+        this.adapter_.activateIndicator(previousIndicatorClientRect);
+        if (this.focusOnActivate_) {
+            this.adapter_.focus();
+        }
+    };
+    /**
+     * Deactivates the Tab
+     */
+    MDCTabFoundation.prototype.deactivate = function () {
+        // Early exit
+        if (!this.isActive()) {
+            return;
+        }
+        this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].ACTIVE);
+        this.adapter_.setAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARIA_SELECTED, 'false');
+        this.adapter_.setAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].TABINDEX, '-1');
+        this.adapter_.deactivateIndicator();
+    };
+    /**
+     * Returns the dimensions of the Tab
+     */
+    MDCTabFoundation.prototype.computeDimensions = function () {
+        var rootWidth = this.adapter_.getOffsetWidth();
+        var rootLeft = this.adapter_.getOffsetLeft();
+        var contentWidth = this.adapter_.getContentOffsetWidth();
+        var contentLeft = this.adapter_.getContentOffsetLeft();
+        return {
+            contentLeft: rootLeft + contentLeft,
+            contentRight: rootLeft + contentLeft + contentWidth,
+            rootLeft: rootLeft,
+            rootRight: rootLeft + rootWidth,
+        };
+    };
+    return MDCTabFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTabFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/tab/index.js":
+/*!**********************************************!*\
+  !*** ../node_modules/@material/tab/index.js ***!
+  \**********************************************/
+/*! exports provided: MDCTab, MDCTabFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/tab/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTab", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCTab"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/tab/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTabFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTabFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
 /***/ "../node_modules/@material/textfield/character-counter/component.js":
 /*!**************************************************************************!*\
   !*** ../node_modules/@material/textfield/character-counter/component.js ***!
@@ -7922,7 +10398,7 @@ var ALWAYS_FLOAT_TYPES = [
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.textfield.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/textfield/dist/mdc.textfield.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.textfield.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/textfield/dist/mdc.textfield.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -7936,7 +10412,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -9084,7 +11560,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.theme.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.theme.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -9098,7 +11574,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -9114,7 +11590,7 @@ if(false) {}
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.typography.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.typography.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -9128,7 +11604,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -9907,7 +12383,7 @@ var FoundationComponent = /** @class */ (function (_super) {
 /*!************************************************!*\
   !*** ../node_modules/@rmwc/base/next/index.js ***!
   \************************************************/
-/*! exports provided: classNames, FoundationComponent, componentFactory, createFocusTrap, parseThemeOptions, withTheme, debounce, deprecationWarning, handleDeprecations, eventsMap, closest, matches, randomId, toCamel, toDashCase, wrapChild */
+/*! exports provided: classNames, FoundationComponent, componentFactory, createFocusTrap, parseThemeOptions, withTheme, deprecationWarning, handleDeprecations, toCamel, toDashCase, debounce, eventsMap, closest, matches, randomId, wrapChild */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9924,11 +12400,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withTheme", function() { return _with_theme__WEBPACK_IMPORTED_MODULE_2__["withTheme"]; });
 
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils */ "../node_modules/@rmwc/base/next/utils/index.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "debounce", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["debounce"]; });
-
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "deprecationWarning", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["deprecationWarning"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleDeprecations", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["handleDeprecations"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toCamel", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toCamel"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toDashCase", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toDashCase"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "debounce", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["debounce"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "eventsMap", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["eventsMap"]; });
 
@@ -9937,10 +12417,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "matches", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["matches"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "randomId", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["randomId"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toCamel", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toCamel"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toDashCase", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toDashCase"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "wrapChild", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["wrapChild"]; });
 
@@ -10050,7 +12526,7 @@ var handleDeprecations = function (props, deprecate, displayName) {
     return props;
 };
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/process/browser.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/process/browser.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -10159,7 +12635,7 @@ var eventsMap = {
 /*!******************************************************!*\
   !*** ../node_modules/@rmwc/base/next/utils/index.js ***!
   \******************************************************/
-/*! exports provided: debounce, deprecationWarning, handleDeprecations, eventsMap, closest, matches, randomId, toCamel, toDashCase, wrapChild */
+/*! exports provided: deprecationWarning, handleDeprecations, toCamel, toDashCase, debounce, eventsMap, closest, matches, randomId, wrapChild */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11433,7 +13909,7 @@ IconButton.displayName = 'IconButton';
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./icon.css */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css");
+var content = __webpack_require__(/*! !../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./icon.css */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -11447,7 +13923,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -12136,6 +14612,760 @@ var withRipple = function (_a) {
         return WithRippleComponent;
     };
 };
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/tabs/next/index.js":
+/*!************************************************!*\
+  !*** ../node_modules/@rmwc/tabs/next/index.js ***!
+  \************************************************/
+/*! exports provided: TabBarContext, withTabBarContext, TabBarRoot, TabBar, TabIndicator, TabScrollerRoot, TabScrollerScrollArea, TabScrollerScrollContent, TabScroller, Tab */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _tab_bar_context__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tab-bar-context */ "../node_modules/@rmwc/tabs/next/tab-bar-context.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabBarContext", function() { return _tab_bar_context__WEBPACK_IMPORTED_MODULE_0__["TabBarContext"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withTabBarContext", function() { return _tab_bar_context__WEBPACK_IMPORTED_MODULE_0__["withTabBarContext"]; });
+
+/* harmony import */ var _tab_bar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tab-bar */ "../node_modules/@rmwc/tabs/next/tab-bar.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabBarRoot", function() { return _tab_bar__WEBPACK_IMPORTED_MODULE_1__["TabBarRoot"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabBar", function() { return _tab_bar__WEBPACK_IMPORTED_MODULE_1__["TabBar"]; });
+
+/* harmony import */ var _tab_indicator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tab-indicator */ "../node_modules/@rmwc/tabs/next/tab-indicator.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabIndicator", function() { return _tab_indicator__WEBPACK_IMPORTED_MODULE_2__["TabIndicator"]; });
+
+/* harmony import */ var _tab_scroller__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./tab-scroller */ "../node_modules/@rmwc/tabs/next/tab-scroller.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabScrollerRoot", function() { return _tab_scroller__WEBPACK_IMPORTED_MODULE_3__["TabScrollerRoot"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabScrollerScrollArea", function() { return _tab_scroller__WEBPACK_IMPORTED_MODULE_3__["TabScrollerScrollArea"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabScrollerScrollContent", function() { return _tab_scroller__WEBPACK_IMPORTED_MODULE_3__["TabScrollerScrollContent"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabScroller", function() { return _tab_scroller__WEBPACK_IMPORTED_MODULE_3__["TabScroller"]; });
+
+/* harmony import */ var _tab__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./tab */ "../node_modules/@rmwc/tabs/next/tab.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Tab", function() { return _tab__WEBPACK_IMPORTED_MODULE_4__["Tab"]; });
+
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/tabs/next/tab-bar-context.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/@rmwc/tabs/next/tab-bar-context.js ***!
+  \**********************************************************/
+/*! exports provided: TabBarContext, withTabBarContext */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabBarContext", function() { return TabBarContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withTabBarContext", function() { return withTabBarContext; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+
+var TabBarContext = react__WEBPACK_IMPORTED_MODULE_0__["createContext"]({
+    onTabInteraction: function (evt) { },
+    registerTab: function (tab) { },
+    unregisterTab: function (tab) { }
+});
+var withTabBarContext = function () { return function (Component) { return function (props) { return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TabBarContext.Consumer, null, function (contextApi) { return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](Component, __assign({}, props, { contextApi: contextApi })); })); }; }; };
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/tabs/next/tab-bar.js":
+/*!**************************************************!*\
+  !*** ../node_modules/@rmwc/tabs/next/tab-bar.js ***!
+  \**************************************************/
+/*! exports provided: TabBarRoot, TabBar */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabBarRoot", function() { return TabBarRoot; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabBar", function() { return TabBar; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+/* harmony import */ var _material_tab_bar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material/tab-bar */ "../node_modules/@material/tab-bar/index.js");
+/* harmony import */ var _tab_scroller__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./tab-scroller */ "../node_modules/@rmwc/tabs/next/tab-scroller.js");
+/* harmony import */ var _tab_bar_context__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./tab-bar-context */ "../node_modules/@rmwc/tabs/next/tab-bar-context.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+var __read = (undefined && undefined.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
+
+
+
+
+
+var TabBarRoot = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_1__["componentFactory"])({
+    displayName: 'TabBarRoot',
+    tag: 'nav',
+    classNames: function (props) { return [
+        'mdc-tab-bar',
+        {
+            'mdc-tab-scroller__scroll-frame__tabs': props.isTabScroller
+        }
+    ]; },
+    consumeProps: ['isTabScroller']
+});
+/** The TabBar component */
+var TabBar = /** @class */ (function (_super) {
+    __extends(TabBar, _super);
+    function TabBar(props) {
+        var _this = _super.call(this, props) || this;
+        _this.root = _this.createElement('root');
+        _this.currentActiveTabIndex = _this.props.activeTabIndex || 0;
+        _this.tabScroller = null;
+        _this.tabList = [];
+        _this.contextApi = {
+            onTabInteraction: function (evt) {
+                return _this.handleTabInteraction(evt);
+            },
+            registerTab: function (tab) { return _this.tabList.push(tab); },
+            unregisterTab: function (tab) {
+                return _this.tabList.splice(_this.tabList.indexOf(tab), 1);
+            }
+        };
+        _this.handleKeyDown = _this.handleKeyDown.bind(_this);
+        _this.handleTabInteraction = _this.handleTabInteraction.bind(_this);
+        return _this;
+    }
+    TabBar.prototype.componentDidMount = function () {
+        _super.prototype.componentDidMount.call(this);
+        // This corrects an issue where passing in 0 or no activeTabIndex
+        // causes the first tab of the set to not be active
+        // to make this even more annoying, Tabs focus by default
+        // restore the focus and scroll position after we activate the tab
+        var activeElement = window.document.activeElement;
+        var _a = __read([window.scrollX, window.scrollY], 2), scrollX = _a[0], scrollY = _a[1];
+        //activate the tab
+        this.foundation.adapter_.activateTabAtIndex(this.props.activeTabIndex || 0, this.foundation.adapter_.getTabIndicatorClientRectAtIndex(undefined));
+        this.foundation.scrollIntoView(this.props.activeTabIndex || 0);
+        // restore focus and scroll
+        activeElement && activeElement.focus();
+        window.scrollTo(scrollX, scrollY);
+    };
+    TabBar.prototype.activateTab = function (index) {
+        var _this = this;
+        var foundation = this.foundation;
+        this.currentActiveTabIndex = index;
+        var previousActiveIndex = foundation.adapter_.getPreviousActiveTabIndex();
+        if (!foundation.indexIsInRange_(index) || index === previousActiveIndex) {
+            return;
+        }
+        foundation.adapter_.notifyTabActivated(index);
+        setTimeout(function () {
+            if (_this.props.activeTabIndex === index ||
+                _this.props.activeTabIndex === undefined) {
+                foundation.adapter_.deactivateTabAtIndex(previousActiveIndex);
+                foundation.adapter_.activateTabAtIndex(index, foundation.adapter_.getTabIndicatorClientRectAtIndex(previousActiveIndex));
+                foundation.scrollIntoView(index);
+            }
+            else {
+                // reset the currentActiveTab index because we didnt actually change
+                _this.currentActiveTabIndex = previousActiveIndex;
+            }
+        });
+    };
+    TabBar.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_tab_bar__WEBPACK_IMPORTED_MODULE_2__["MDCTabBarFoundation"](
+        /** @type {!MDCTabBarAdapter} */ ({
+            scrollTo: function (scrollX) {
+                _this.tabScroller && _this.tabScroller.scrollTo(scrollX);
+            },
+            incrementScroll: function (scrollXIncrement) {
+                return _this.tabScroller &&
+                    _this.tabScroller.incrementScroll(scrollXIncrement);
+            },
+            getScrollPosition: function () {
+                return _this.tabScroller ? _this.tabScroller.getScrollPosition() : 0;
+            },
+            getScrollContentWidth: function () {
+                return _this.tabScroller ? _this.tabScroller.getScrollContentWidth() : 0;
+            },
+            getOffsetWidth: function () { return (_this.root.ref ? _this.root.ref.offsetWidth : 0); },
+            isRTL: function () {
+                return !!_this.root.ref &&
+                    window
+                        .getComputedStyle(_this.root.ref)
+                        .getPropertyValue('direction') === 'rtl';
+            },
+            setActiveTab: function (index) { return _this.activateTab(index); },
+            activateTabAtIndex: function (index, clientRect) {
+                _this.tabList[index] && _this.tabList[index].activate(clientRect);
+            },
+            deactivateTabAtIndex: function (index) {
+                return _this.tabList[index] && _this.tabList[index].deactivate();
+            },
+            focusTabAtIndex: function (index) { return _this.tabList[index].focus(); },
+            getTabIndicatorClientRectAtIndex: function (index) {
+                return _this.tabList[index] &&
+                    _this.tabList[index].computeIndicatorClientRect();
+            },
+            getTabDimensionsAtIndex: function (index) {
+                return _this.tabList[index] && _this.tabList[index].computeDimensions();
+            },
+            getPreviousActiveTabIndex: function () {
+                for (var i = 0; i < _this.tabList.length; i++) {
+                    if (_this.tabList[i].active) {
+                        return i;
+                    }
+                }
+                return -1;
+            },
+            getFocusedTabIndex: function () {
+                var tabElements = _this.getTabElements();
+                var activeElement = document.activeElement;
+                return tabElements ? tabElements.indexOf(activeElement) : -1;
+            },
+            getIndexOfTabById: function (id) {
+                for (var i = 0; i < _this.tabList.length; i++) {
+                    if (_this.tabList[i].id === id) {
+                        return i;
+                    }
+                }
+                return -1;
+            },
+            getTabListLength: function () { return _this.tabList.length; },
+            notifyTabActivated: function (index) {
+                return _this.emit('onActivate', { index: index }, true);
+            }
+        }));
+    };
+    TabBar.prototype.sync = function (props, prevProps) {
+        // this will re-activate the appropriate tabs if they get-rendered
+        if (props.activeTabIndex !== prevProps.activeTabIndex &&
+            props.activeTabIndex !== this.currentActiveTabIndex) {
+            typeof props.activeTabIndex === 'number' &&
+                this.activateTab(props.activeTabIndex);
+        }
+    };
+    TabBar.prototype.getTabElements = function () {
+        return [].slice.call(this.root.ref &&
+            this.root.ref.querySelectorAll(_material_tab_bar__WEBPACK_IMPORTED_MODULE_2__["MDCTabBarFoundation"].strings.TAB_SELECTOR));
+    };
+    TabBar.prototype.handleTabInteraction = function (evt) {
+        this.foundation.handleTabInteraction(evt);
+    };
+    TabBar.prototype.handleKeyDown = function (evt) {
+        this.props.onKeyDown && this.props.onKeyDown(evt);
+        this.foundation.handleKeyDown(evt);
+    };
+    TabBar.prototype.render = function () {
+        var _this = this;
+        var _a = this.props, children = _a.children, activeTabIndex = _a.activeTabIndex, onActivate = _a.onActivate, rest = __rest(_a, ["children", "activeTabIndex", "onActivate"]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_tab_bar_context__WEBPACK_IMPORTED_MODULE_4__["TabBarContext"].Provider, { value: this.contextApi },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TabBarRoot, __assign({}, rest, { ref: this.root.setRef, onKeyDown: this.handleKeyDown }),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_tab_scroller__WEBPACK_IMPORTED_MODULE_3__["TabScroller"], { ref: function (api) { return (_this.tabScroller = api); } }, children))));
+    };
+    TabBar.displayName = 'TabBar';
+    return TabBar;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_1__["FoundationComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/tabs/next/tab-indicator.js":
+/*!********************************************************!*\
+  !*** ../node_modules/@rmwc/tabs/next/tab-indicator.js ***!
+  \********************************************************/
+/*! exports provided: TabIndicator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabIndicator", function() { return TabIndicator; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_tab_indicator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/tab-indicator */ "../node_modules/@material/tab-indicator/index.js");
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+
+
+
+var TabIndicator = /** @class */ (function (_super) {
+    __extends(TabIndicator, _super);
+    function TabIndicator() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.root = _this.createElement('root');
+        _this.content = _this.createElement('content');
+        return _this;
+    }
+    TabIndicator.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_tab_indicator__WEBPACK_IMPORTED_MODULE_1__["MDCSlidingTabIndicatorFoundation"]({
+            addClass: function (className) {
+                _this.root.addClass(className);
+            },
+            removeClass: function (className) {
+                _this.root.removeClass(className);
+            },
+            computeContentClientRect: function () {
+                return _this.content.ref
+                    ? _this.content.ref.getBoundingClientRect()
+                    : {};
+            },
+            setContentStyleProperty: function (prop, value) {
+                _this.content.setStyle(prop, value);
+            }
+        });
+    };
+    TabIndicator.prototype.activate = function (previousIndicatorClientRect) {
+        this.foundation.activate(previousIndicatorClientRect);
+    };
+    TabIndicator.prototype.deactivate = function () {
+        this.foundation.deactivate();
+    };
+    TabIndicator.prototype.computeContentClientRect = function () {
+        return this.foundation.computeContentClientRect();
+    };
+    TabIndicator.prototype.render = function () {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", __assign({}, this.root.props({ className: 'mdc-tab-indicator' })),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", __assign({ ref: this.content.setRef }, this.content.props({}), { className: "mdc-tab-indicator__content mdc-tab-indicator__content--underline" }))));
+    };
+    return TabIndicator;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/tabs/next/tab-scroller.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/@rmwc/tabs/next/tab-scroller.js ***!
+  \*******************************************************/
+/*! exports provided: TabScrollerRoot, TabScrollerScrollArea, TabScrollerScrollContent, TabScroller */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabScrollerRoot", function() { return TabScrollerRoot; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabScrollerScrollArea", function() { return TabScrollerScrollArea; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabScrollerScrollContent", function() { return TabScrollerScrollContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabScroller", function() { return TabScroller; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_tab_scroller__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/tab-scroller */ "../node_modules/@material/tab-scroller/index.js");
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+
+
+
+var TabScrollerRoot = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'TabScroller',
+    classNames: ['mdc-tab-scroller']
+});
+var TabScrollerScrollArea = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'TabScrollerScrollArea',
+    classNames: ['mdc-tab-scroller__scroll-area']
+});
+var TabScrollerScrollContent = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'TabScrollerScrollContent',
+    classNames: ['mdc-tab-scroller__scroll-content']
+});
+var TabScroller = /** @class */ (function (_super) {
+    __extends(TabScroller, _super);
+    function TabScroller(props) {
+        var _this = _super.call(this, props) || this;
+        _this.root = _this.createElement('root');
+        _this.area = _this.createElement('area');
+        _this.content = _this.createElement('content');
+        _this.handleInteraction = _this.handleInteraction.bind(_this);
+        _this.handleTransitionEnd = _this.handleTransitionEnd.bind(_this);
+        return _this;
+    }
+    TabScroller.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_tab_scroller__WEBPACK_IMPORTED_MODULE_1__["MDCTabScrollerFoundation"]({
+            eventTargetMatchesSelector: function (evtTarget, selector) {
+                return Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["matches"])(evtTarget, selector);
+            },
+            addClass: function (className) { return _this.root.addClass(className); },
+            removeClass: function (className) { return _this.root.removeClass(className); },
+            addScrollAreaClass: function (className) { return _this.area.addClass(className); },
+            setScrollAreaStyleProperty: function (prop, value) {
+                return _this.area.setStyle(prop, value);
+            },
+            setScrollContentStyleProperty: function (prop, value) {
+                return _this.content.setStyle(prop, value);
+            },
+            getScrollContentStyleValue: function (propName) {
+                var val = _this.content.ref &&
+                    window.getComputedStyle(_this.content.ref).getPropertyValue(propName);
+                return val || 'none';
+            },
+            setScrollAreaScrollLeft: function (scrollX) {
+                return _this.area.ref && (_this.area.ref.scrollLeft = scrollX);
+            },
+            getScrollAreaScrollLeft: function () {
+                return _this.area.ref ? _this.area.ref.scrollLeft : 0;
+            },
+            getScrollContentOffsetWidth: function () {
+                return _this.content.ref ? _this.content.ref.offsetWidth : 0;
+            },
+            getScrollAreaOffsetWidth: function () {
+                return _this.area.ref ? _this.area.ref.offsetWidth : 0;
+            },
+            computeScrollAreaClientRect: function () {
+                return _this.area.ref
+                    ? _this.area.ref.getBoundingClientRect()
+                    : {};
+            },
+            computeScrollContentClientRect: function () {
+                return _this.content.ref
+                    ? _this.content.ref.getBoundingClientRect()
+                    : {};
+            },
+            computeHorizontalScrollbarHeight: function () {
+                return _material_tab_scroller__WEBPACK_IMPORTED_MODULE_1__["util"].computeHorizontalScrollbarHeight(document);
+            }
+        });
+    };
+    TabScroller.prototype.getScrollPosition = function () {
+        return this.foundation.getScrollPosition();
+    };
+    TabScroller.prototype.getScrollContentWidth = function () {
+        return this.content.ref ? this.content.ref.offsetWidth : 0;
+    };
+    TabScroller.prototype.incrementScroll = function (scrollXIncrement) {
+        this.foundation.incrementScroll(scrollXIncrement);
+    };
+    TabScroller.prototype.scrollTo = function (scrollX) {
+        this.foundation.scrollTo(scrollX);
+    };
+    TabScroller.prototype.handleInteraction = function () {
+        this.foundation.handleInteraction();
+    };
+    TabScroller.prototype.handleTransitionEnd = function (evt) {
+        this.foundation.handleTransitionEnd(evt);
+    };
+    TabScroller.prototype.render = function () {
+        var _a = this.props, children = _a.children, rest = __rest(_a, ["children"]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TabScrollerRoot, __assign({}, this.root.props(rest), { ref: this.root.setRef }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TabScrollerScrollArea, __assign({}, this.area.props({}), { ref: this.area.setRef, onWheel: this.handleInteraction, onTouchStart: this.handleInteraction, onPointerDown: this.handleInteraction, onMouseDown: this.handleInteraction, onKeyDown: this.handleInteraction }),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TabScrollerScrollContent, __assign({}, this.content.props({}), { ref: this.content.setRef, onTransitionEnd: this.handleTransitionEnd }), children))));
+    };
+    return TabScroller;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/tabs/next/tab.js":
+/*!**********************************************!*\
+  !*** ../node_modules/@rmwc/tabs/next/tab.js ***!
+  \**********************************************/
+/*! exports provided: Tab */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tab", function() { return Tab; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_tab__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/tab */ "../node_modules/@material/tab/index.js");
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+/* harmony import */ var _rmwc_icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @rmwc/icon */ "../node_modules/@rmwc/icon/next/index.js");
+/* harmony import */ var _rmwc_ripple__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @rmwc/ripple */ "../node_modules/@rmwc/ripple/next/index.js");
+/* harmony import */ var _tab_bar_context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./tab-bar-context */ "../node_modules/@rmwc/tabs/next/tab-bar-context.js");
+/* harmony import */ var _tab_indicator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./tab-indicator */ "../node_modules/@rmwc/tabs/next/tab-indicator.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+var _a;
+
+
+
+
+
+
+
+var TabRoot = Object(_rmwc_ripple__WEBPACK_IMPORTED_MODULE_4__["withRipple"])({ surface: false })(Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'TabRoot',
+    tag: 'button',
+    classNames: function (props) { return [
+        'mdc-tab',
+        {
+            'mdc-tab--stacked': props.stacked
+        }
+    ]; },
+    consumeProps: ['stacked']
+}));
+/** A Tab icon. This is an instance of the Icon component. */
+var TabIcon = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'TabIcon',
+    tag: _rmwc_icon__WEBPACK_IMPORTED_MODULE_3__["Icon"],
+    classNames: ['mdc-tab__icon']
+});
+/** A Tab component */
+var Tab = Object(_tab_bar_context__WEBPACK_IMPORTED_MODULE_5__["withTabBarContext"])()((_a = /** @class */ (function (_super) {
+        __extends(class_1, _super);
+        function class_1(props) {
+            var _this = _super.call(this, props) || this;
+            _this._id = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["randomId"])('tab');
+            _this.root = _this.createElement('root');
+            _this.tabIndicator = null;
+            _this.content = null;
+            _this.props.contextApi && _this.props.contextApi.registerTab(_this);
+            _this.handleClick = _this.handleClick.bind(_this);
+            return _this;
+        }
+        class_1.prototype.componentWillUnmount = function () {
+            this.props.contextApi && this.props.contextApi.unregisterTab(this);
+        };
+        Object.defineProperty(class_1.prototype, "id", {
+            get: function () {
+                return this.props.id
+                    ? this.props.id
+                    : this._reactInternalFiber.key || this._id;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        class_1.prototype.getDefaultFoundation = function () {
+            var _this = this;
+            return new _material_tab__WEBPACK_IMPORTED_MODULE_1__["MDCTabFoundation"](
+            /** @type {!MDCTabAdapter} */ ({
+                setAttr: function (attr, value) {
+                    return _this.root.setProp(attr, value);
+                },
+                addClass: function (className) { return _this.root.addClass(className); },
+                removeClass: function (className) { return _this.root.removeClass(className); },
+                hasClass: function (className) { return _this.root.hasClass(className); },
+                activateIndicator: function (previousIndicatorClientRect) {
+                    return _this.tabIndicator &&
+                        _this.tabIndicator.activate(previousIndicatorClientRect);
+                },
+                deactivateIndicator: function () {
+                    return _this.tabIndicator && _this.tabIndicator.deactivate();
+                },
+                notifyInteracted: function () {
+                    var evt = _this.emit('onInteraction', { tabId: _this.id }, true /* bubble */);
+                    _this.props.contextApi &&
+                        _this.props.contextApi.onTabInteraction(evt);
+                },
+                getOffsetLeft: function () { return (_this.root.ref ? _this.root.ref.offsetLeft : 0); },
+                getOffsetWidth: function () { return (_this.root.ref ? _this.root.ref.offsetWidth : 0); },
+                getContentOffsetLeft: function () {
+                    return _this.content ? _this.content.offsetLeft : 0;
+                },
+                getContentOffsetWidth: function () {
+                    return _this.content ? _this.content.offsetWidth : 0;
+                },
+                focus: function () {
+                    return _this.root.ref && _this.root.ref.focus && _this.root.ref.focus();
+                }
+            }));
+        };
+        class_1.prototype.handleClick = function (evt) {
+            this.props.onClick && this.props.onClick(evt);
+            this.foundation.handleClick();
+        };
+        Object.defineProperty(class_1.prototype, "active", {
+            get: function () {
+                return this.foundation.isActive();
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(class_1.prototype, "focusOnActivate", {
+            set: function (focusOnActivate) {
+                this.foundation.setFocusOnActivate(focusOnActivate);
+            },
+            enumerable: true,
+            configurable: true
+        });
+        class_1.prototype.activate = function (computeIndicatorClientRect) {
+            this.foundation.activate(computeIndicatorClientRect);
+        };
+        class_1.prototype.deactivate = function () {
+            this.foundation.deactivate();
+        };
+        class_1.prototype.computeIndicatorClientRect = function () {
+            return this.tabIndicator && this.tabIndicator.computeContentClientRect();
+        };
+        class_1.prototype.computeDimensions = function () {
+            return this.foundation.computeDimensions();
+        };
+        class_1.prototype.focus = function () {
+            this.root.ref && this.root.ref && this.root.ref.focus();
+        };
+        class_1.prototype.render = function () {
+            var _this = this;
+            var _a = this.props, children = _a.children, label = _a.label, icon = _a.icon, stacked = _a.stacked, restrictIndicator = _a.restrictIndicator, contextApi = _a.contextApi, rest = __rest(_a, ["children", "label", "icon", "stacked", "restrictIndicator", "contextApi"]);
+            return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TabRoot, __assign({}, this.root.props(rest), { onClick: this.handleClick, stacked: stacked, ref: this.root.setRef, ripple: {
+                    surface: false
+                } }),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-tab__content", ref: function (el) { return (_this.content = el); } },
+                    !!icon && react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TabIcon, { icon: icon }),
+                    (children !== undefined || label !== undefined) && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", { className: "mdc-tab__text-label" },
+                        label,
+                        children)),
+                    !!restrictIndicator && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_tab_indicator__WEBPACK_IMPORTED_MODULE_6__["TabIndicator"], { ref: function (api) { return (_this.tabIndicator = api); } }))),
+                !restrictIndicator && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_tab_indicator__WEBPACK_IMPORTED_MODULE_6__["TabIndicator"], { ref: function (api) { return (_this.tabIndicator = api); } })),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_rmwc_ripple__WEBPACK_IMPORTED_MODULE_4__["RippleSurface"], { className: "mdc-tab__ripple" })));
+        };
+        return class_1;
+    }(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"])),
+    _a.displayName = 'TabFoundation',
+    _a));
+Tab.displayName = 'Tab';
 
 
 /***/ }),
@@ -14464,7 +17694,7 @@ exports.mapStateOnServer = mapStateOnServer;
 exports.reducePropsToState = reducePropsToState;
 exports.requestAnimationFrame = requestAnimationFrame;
 exports.warn = warn;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js */ "../../.npm/_npx/879/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js */ "../../.npm/_npx/1216/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -15127,6 +18357,7 @@ var map = {
 	"./Icon.tsx": "./code/Icon.tsx",
 	"./IconButton.tsx": "./code/IconButton.tsx",
 	"./Input.tsx": "./code/Input.tsx",
+	"./Tab.tsx": "./code/Tab.tsx",
 	"./TextField.tsx": "./code/TextField.tsx",
 	"./Toggle.tsx": "./code/Toggle.tsx",
 	"./Tooltip.tsx": "./code/Tooltip.tsx",
@@ -15558,6 +18789,45 @@ exports.__info__ = [{ name: "Input", children: false, type: "component" }];
 
 /***/ }),
 
+/***/ "./code/Tab.tsx":
+/*!**********************!*\
+  !*** ./code/Tab.tsx ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGFiLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vY29kZS9UYWIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsK0JBQThCO0FBQzlCLDhDQUE2QztBQUM3QyxtQ0FBc0Q7QUFPdEQsTUFBYSxHQUFJLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQzdDLE1BQU07O1FBQ0osT0FBTyxvQkFBQyxNQUFNLENBQUMsR0FBRyxvQkFBSyxJQUFJLENBQUMsS0FBSyxFQUFJLENBQUE7S0FDdEM7O0FBRU0sZ0JBQVksR0FBVTtJQUMzQixLQUFLLEVBQUUsR0FBRztJQUNWLE1BQU0sRUFBRSxFQUFFO0lBQ1YsS0FBSyxFQUFFLEtBQUs7Q0FDYixDQUFBO0FBRU0sb0JBQWdCLEdBQTRCO0lBQ2pELElBQUksRUFBRSxFQUFFLElBQUksRUFBRSxvQkFBVyxDQUFDLE1BQU0sRUFBRSxLQUFLLEVBQUUsTUFBTSxFQUFFO0lBQ2pELEtBQUssRUFBRSxFQUFFLElBQUksRUFBRSxvQkFBVyxDQUFDLE1BQU0sRUFBRSxLQUFLLEVBQUUsT0FBTyxFQUFFO0lBQ25ELHdFQUF3RTtJQUN4RSxpQkFBaUIsRUFBRSxFQUFFLElBQUksRUFBRSxvQkFBVyxDQUFDLE9BQU8sRUFBRSxLQUFLLEVBQUUsbUJBQW1CLEVBQUU7SUFDNUUsT0FBTyxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxTQUFTLEVBQUU7Q0FDekQsQ0FBQTtBQWpCSCxrQkFrQkM7QUFDRCJ9
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
+const framer_1 = __webpack_require__(/*! framer */ "framer");
+class Tab extends React.Component {
+    render() {
+        window["__checkBudget__"]();
+        return React.createElement(System.Tab, Object.assign({}, this.props));
+    }
+}
+Tab.defaultProps = {
+    width: 150,
+    height: 48,
+    label: "Tab"
+};
+Tab.propertyControls = {
+    icon: { type: framer_1.ControlType.String, title: "Icon" },
+    label: { type: framer_1.ControlType.String, title: "Label" },
+    // onInteraction: { type: ControlType.Boolean, title: "OnInteraction" },
+    restrictIndicator: { type: framer_1.ControlType.Boolean, title: "RestrictIndicator" },
+    stacked: { type: framer_1.ControlType.Boolean, title: "Stacked" },
+};
+exports.Tab = Tab;
+exports.__info__ = [{ name: "Tab", children: false, type: "component" }];
+
+
+/***/ }),
+
 /***/ "./code/TextField.tsx":
 /*!****************************!*\
   !*** ./code/TextField.tsx ***!
@@ -15852,7 +19122,7 @@ exports.__framer__ = package
 /*! exports provided: main, license, devDependencies, peerDependencies, version, dependencies, framer, author, name, default */
 /***/ (function(module) {
 
-module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16","framer":"^0.10"},"peerDependencies":{"framer":"^0.10","react":"^16.3.0","react-dom":"^16.3.0"},"version":"1.11.0","dependencies":{"styled-components":"^4.2.0"},"framer":{"id":"7c15e4fe-2858-41e1-b306-c66029e297e7","displayName":"Design System V2"},"author":"Lincoln Mitchell","name":"@framer/interfacesncreatives.design-system-v2"};
+module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16","framer":"^0.10"},"peerDependencies":{"framer":"^0.10","react":"^16.3.0","react-dom":"^16.3.0"},"version":"1.12.0","dependencies":{"styled-components":"^4.2.0"},"framer":{"id":"7c15e4fe-2858-41e1-b306-c66029e297e7","displayName":"Design System V2"},"author":"Lincoln Mitchell","name":"@framer/interfacesncreatives.design-system-v2"};
 
 /***/ }),
 
