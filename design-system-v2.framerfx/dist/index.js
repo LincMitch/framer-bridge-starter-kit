@@ -103,14 +103,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css":
 /*!******************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css ***!
   \******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-button {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 2.25rem;\n  font-weight: 500;\n  letter-spacing: 0.0892857143em;\n  text-decoration: none;\n  text-transform: uppercase;\n  padding: 0 8px 0 8px;\n  display: inline-flex;\n  position: relative;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n  min-width: 64px;\n  height: 36px;\n  border: none;\n  outline: none;\n  /* @alternate */\n  line-height: inherit;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  -webkit-appearance: none;\n  overflow: hidden;\n  vertical-align: middle;\n  border-radius: 4px;\n}\n.mdc-button::-moz-focus-inner {\n  padding: 0;\n  border: 0;\n}\n.mdc-button:active {\n  outline: none;\n}\n.mdc-button:hover {\n  cursor: pointer;\n}\n.mdc-button:disabled {\n  background-color: transparent;\n  color: rgba(0, 0, 0, 0.37);\n  cursor: default;\n  pointer-events: none;\n}\n.mdc-button.mdc-button--dense {\n  border-radius: 4px;\n}\n.mdc-button:not(:disabled) {\n  background-color: transparent;\n}\n.mdc-button .mdc-button__icon {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 8px;\n  display: inline-block;\n  width: 18px;\n  height: 18px;\n  font-size: 18px;\n  vertical-align: top;\n}\n[dir=rtl] .mdc-button .mdc-button__icon, .mdc-button .mdc-button__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: 0;\n}\n.mdc-button:not(:disabled) {\n  color: #6200ee;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee);\n}\n\n.mdc-button__label + .mdc-button__icon {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: 0;\n}\n[dir=rtl] .mdc-button__label + .mdc-button__icon, .mdc-button__label + .mdc-button__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 8px;\n}\n\nsvg.mdc-button__icon {\n  fill: currentColor;\n}\n\n.mdc-button--raised .mdc-button__icon,\n.mdc-button--unelevated .mdc-button__icon,\n.mdc-button--outlined .mdc-button__icon {\n  /* @noflip */\n  margin-left: -4px;\n  /* @noflip */\n  margin-right: 8px;\n}\n[dir=rtl] .mdc-button--raised .mdc-button__icon, .mdc-button--raised .mdc-button__icon[dir=rtl],\n[dir=rtl] .mdc-button--unelevated .mdc-button__icon,\n.mdc-button--unelevated .mdc-button__icon[dir=rtl],\n[dir=rtl] .mdc-button--outlined .mdc-button__icon,\n.mdc-button--outlined .mdc-button__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: -4px;\n}\n.mdc-button--raised .mdc-button__label + .mdc-button__icon,\n.mdc-button--unelevated .mdc-button__label + .mdc-button__icon,\n.mdc-button--outlined .mdc-button__label + .mdc-button__icon {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: -4px;\n}\n[dir=rtl] .mdc-button--raised .mdc-button__label + .mdc-button__icon, .mdc-button--raised .mdc-button__label + .mdc-button__icon[dir=rtl],\n[dir=rtl] .mdc-button--unelevated .mdc-button__label + .mdc-button__icon,\n.mdc-button--unelevated .mdc-button__label + .mdc-button__icon[dir=rtl],\n[dir=rtl] .mdc-button--outlined .mdc-button__label + .mdc-button__icon,\n.mdc-button--outlined .mdc-button__label + .mdc-button__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: -4px;\n  /* @noflip */\n  margin-right: 8px;\n}\n\n.mdc-button--raised,\n.mdc-button--unelevated {\n  padding: 0 16px 0 16px;\n}\n.mdc-button--raised:disabled,\n.mdc-button--unelevated:disabled {\n  background-color: rgba(0, 0, 0, 0.12);\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-button--raised:not(:disabled),\n.mdc-button--unelevated:not(:disabled) {\n  background-color: #6200ee;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-button--raised:not(:disabled),\n.mdc-button--unelevated:not(:disabled) {\n    /* @alternate */\n    background-color: var(--mdc-theme-primary, #6200ee);\n  }\n}\n.mdc-button--raised:not(:disabled),\n.mdc-button--unelevated:not(:disabled) {\n  color: #fff;\n  /* @alternate */\n  color: var(--mdc-theme-on-primary, #fff);\n}\n\n.mdc-button--raised {\n  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n.mdc-button--raised:hover, .mdc-button--raised:focus {\n  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);\n}\n.mdc-button--raised:active {\n  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);\n}\n.mdc-button--raised:disabled {\n  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-button--outlined {\n  border-style: solid;\n  padding: 0 14px 0 14px;\n  border-width: 2px;\n}\n.mdc-button--outlined:disabled {\n  border-color: rgba(0, 0, 0, 0.37);\n}\n.mdc-button--outlined:not(:disabled) {\n  border-color: #6200ee;\n  /* @alternate */\n  border-color: var(--mdc-theme-primary, #6200ee);\n}\n\n.mdc-button--dense {\n  height: 32px;\n  font-size: 0.8125rem;\n}\n\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-button {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n}\n.mdc-button::before, .mdc-button::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-button::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-button.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-button.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-button.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-button.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-button.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-button::before, .mdc-button::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-button.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-button::before, .mdc-button::after {\n  background-color: #6200ee;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-button::before, .mdc-button::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-primary, #6200ee);\n  }\n}\n.mdc-button:hover::before {\n  opacity: 0.04;\n}\n.mdc-button:not(.mdc-ripple-upgraded):focus::before, .mdc-button.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-button:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-button:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-button.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.12;\n}\n\n.mdc-button--raised::before, .mdc-button--raised::after,\n.mdc-button--unelevated::before,\n.mdc-button--unelevated::after {\n  background-color: #fff;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-button--raised::before, .mdc-button--raised::after,\n.mdc-button--unelevated::before,\n.mdc-button--unelevated::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-on-primary, #fff);\n  }\n}\n.mdc-button--raised:hover::before,\n.mdc-button--unelevated:hover::before {\n  opacity: 0.08;\n}\n.mdc-button--raised:not(.mdc-ripple-upgraded):focus::before, .mdc-button--raised.mdc-ripple-upgraded--background-focused::before,\n.mdc-button--unelevated:not(.mdc-ripple-upgraded):focus::before,\n.mdc-button--unelevated.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.24;\n}\n.mdc-button--raised:not(.mdc-ripple-upgraded)::after,\n.mdc-button--unelevated:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-button--raised:not(.mdc-ripple-upgraded):active::after,\n.mdc-button--unelevated:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.24;\n}\n.mdc-button--raised.mdc-ripple-upgraded,\n.mdc-button--unelevated.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.24;\n}", ""]);
 
@@ -118,14 +118,29 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/checkbox/dist/mdc.checkbox.css":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/checkbox/dist/mdc.checkbox.css ***!
+  \**********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n@-webkit-keyframes mdc-checkbox-unchecked-checked-checkmark-path {\n  0%, 50% {\n    stroke-dashoffset: 29.7833385;\n  }\n  50% {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n@keyframes mdc-checkbox-unchecked-checked-checkmark-path {\n  0%, 50% {\n    stroke-dashoffset: 29.7833385;\n  }\n  50% {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n@-webkit-keyframes mdc-checkbox-unchecked-indeterminate-mixedmark {\n  0%, 68.2% {\n    -webkit-transform: scaleX(0);\n            transform: scaleX(0);\n  }\n  68.2% {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0, 1);\n  }\n  100% {\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n  }\n}\n@keyframes mdc-checkbox-unchecked-indeterminate-mixedmark {\n  0%, 68.2% {\n    -webkit-transform: scaleX(0);\n            transform: scaleX(0);\n  }\n  68.2% {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0, 1);\n  }\n  100% {\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n  }\n}\n@-webkit-keyframes mdc-checkbox-checked-unchecked-checkmark-path {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 1, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 1, 1);\n    opacity: 1;\n    stroke-dashoffset: 0;\n  }\n  to {\n    opacity: 0;\n    stroke-dashoffset: -29.7833385;\n  }\n}\n@keyframes mdc-checkbox-checked-unchecked-checkmark-path {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 1, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 1, 1);\n    opacity: 1;\n    stroke-dashoffset: 0;\n  }\n  to {\n    opacity: 0;\n    stroke-dashoffset: -29.7833385;\n  }\n}\n@-webkit-keyframes mdc-checkbox-checked-indeterminate-checkmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n  to {\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg);\n    opacity: 0;\n  }\n}\n@keyframes mdc-checkbox-checked-indeterminate-checkmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n  to {\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg);\n    opacity: 0;\n  }\n}\n@-webkit-keyframes mdc-checkbox-indeterminate-checked-checkmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg);\n    opacity: 0;\n  }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n    opacity: 1;\n  }\n}\n@keyframes mdc-checkbox-indeterminate-checked-checkmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg);\n    opacity: 0;\n  }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n    opacity: 1;\n  }\n}\n@-webkit-keyframes mdc-checkbox-checked-indeterminate-mixedmark {\n  from {\n    -webkit-animation-timing-function: mdc-animation-deceleration-curve-timing-function;\n            animation-timing-function: mdc-animation-deceleration-curve-timing-function;\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg);\n    opacity: 0;\n  }\n  to {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n}\n@keyframes mdc-checkbox-checked-indeterminate-mixedmark {\n  from {\n    -webkit-animation-timing-function: mdc-animation-deceleration-curve-timing-function;\n            animation-timing-function: mdc-animation-deceleration-curve-timing-function;\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg);\n    opacity: 0;\n  }\n  to {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n}\n@-webkit-keyframes mdc-checkbox-indeterminate-checked-mixedmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n  to {\n    -webkit-transform: rotate(315deg);\n            transform: rotate(315deg);\n    opacity: 0;\n  }\n}\n@keyframes mdc-checkbox-indeterminate-checked-mixedmark {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n            animation-timing-function: cubic-bezier(0.14, 0, 0, 1);\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n    opacity: 1;\n  }\n  to {\n    -webkit-transform: rotate(315deg);\n            transform: rotate(315deg);\n    opacity: 0;\n  }\n}\n@-webkit-keyframes mdc-checkbox-indeterminate-unchecked-mixedmark {\n  0% {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n    opacity: 1;\n  }\n  32.8%, 100% {\n    -webkit-transform: scaleX(0);\n            transform: scaleX(0);\n    opacity: 0;\n  }\n}\n@keyframes mdc-checkbox-indeterminate-unchecked-mixedmark {\n  0% {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n    opacity: 1;\n  }\n  32.8%, 100% {\n    -webkit-transform: scaleX(0);\n            transform: scaleX(0);\n    opacity: 0;\n  }\n}\n.mdc-checkbox {\n  display: inline-block;\n  position: relative;\n  flex: 0 0 18px;\n  box-sizing: content-box;\n  width: 18px;\n  height: 18px;\n  padding: 11px;\n  line-height: 0;\n  white-space: nowrap;\n  cursor: pointer;\n  vertical-align: bottom;\n}\n\n.mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background {\n  border-color: rgba(0, 0, 0, 0.54);\n  background-color: transparent;\n}\n\n.mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background,\n.mdc-checkbox__native-control:enabled:indeterminate ~ .mdc-checkbox__background {\n  border-color: #018786;\n  /* @alternate */\n  border-color: var(--mdc-theme-secondary, #018786);\n  background-color: #018786;\n  /* @alternate */\n  background-color: var(--mdc-theme-secondary, #018786);\n}\n\n@-webkit-keyframes mdc-checkbox-fade-in-background-0 {\n  0% {\n    border-color: rgba(0, 0, 0, 0.54);\n    background-color: transparent;\n  }\n  50% {\n    border-color: #018786;\n    /* @alternate */\n    border-color: var(--mdc-theme-secondary, #018786);\n    background-color: #018786;\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n\n@keyframes mdc-checkbox-fade-in-background-0 {\n  0% {\n    border-color: rgba(0, 0, 0, 0.54);\n    background-color: transparent;\n  }\n  50% {\n    border-color: #018786;\n    /* @alternate */\n    border-color: var(--mdc-theme-secondary, #018786);\n    background-color: #018786;\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n@-webkit-keyframes mdc-checkbox-fade-out-background-0 {\n  0%, 80% {\n    border-color: #018786;\n    /* @alternate */\n    border-color: var(--mdc-theme-secondary, #018786);\n    background-color: #018786;\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n  100% {\n    border-color: rgba(0, 0, 0, 0.54);\n    background-color: transparent;\n  }\n}\n@keyframes mdc-checkbox-fade-out-background-0 {\n  0%, 80% {\n    border-color: #018786;\n    /* @alternate */\n    border-color: var(--mdc-theme-secondary, #018786);\n    background-color: #018786;\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n  100% {\n    border-color: rgba(0, 0, 0, 0.54);\n    background-color: transparent;\n  }\n}\n.mdc-checkbox--anim-unchecked-checked .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background, .mdc-checkbox--anim-unchecked-indeterminate .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background {\n  -webkit-animation-name: mdc-checkbox-fade-in-background-0;\n          animation-name: mdc-checkbox-fade-in-background-0;\n}\n.mdc-checkbox--anim-checked-unchecked .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background, .mdc-checkbox--anim-indeterminate-unchecked .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background {\n  -webkit-animation-name: mdc-checkbox-fade-out-background-0;\n          animation-name: mdc-checkbox-fade-out-background-0;\n}\n\n.mdc-checkbox__checkmark {\n  color: #fff;\n}\n\n.mdc-checkbox__mixedmark {\n  border-color: #fff;\n}\n\n.mdc-checkbox__background::before {\n  background-color: #018786;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-checkbox__background::before {\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n\n.mdc-checkbox__native-control:disabled:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background {\n  border-color: rgba(0, 0, 0, 0.26);\n}\n\n.mdc-checkbox__native-control:disabled:checked ~ .mdc-checkbox__background,\n.mdc-checkbox__native-control:disabled:indeterminate ~ .mdc-checkbox__background {\n  border-color: transparent;\n  background-color: rgba(0, 0, 0, 0.26);\n}\n\n@media screen and (-ms-high-contrast: active) {\n  .mdc-checkbox__mixedmark {\n    margin: 0 1px;\n  }\n}\n.mdc-checkbox--disabled {\n  cursor: default;\n  pointer-events: none;\n}\n\n.mdc-checkbox__background {\n  /* @noflip */\n  left: 11px;\n  /* @noflip */\n  right: initial;\n  display: inline-flex;\n  position: absolute;\n  top: 11px;\n  bottom: 0;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n  width: 45%;\n  height: 45%;\n  border: 2px solid currentColor;\n  border-radius: 2px;\n  background-color: transparent;\n  pointer-events: none;\n  will-change: background-color, border-color;\n  transition: background-color 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), border-color 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n.mdc-checkbox[dir=rtl] .mdc-checkbox__background, [dir=rtl] .mdc-checkbox .mdc-checkbox__background {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 11px;\n}\n\n.mdc-checkbox__checkmark {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  opacity: 0;\n  transition: opacity 180ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n.mdc-checkbox--upgraded .mdc-checkbox__checkmark {\n  opacity: 1;\n}\n\n.mdc-checkbox__checkmark-path {\n  transition: stroke-dashoffset 180ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  stroke: currentColor;\n  stroke-width: 3.12px;\n  stroke-dashoffset: 29.7833385;\n  stroke-dasharray: 29.7833385;\n}\n\n.mdc-checkbox__mixedmark {\n  width: 100%;\n  height: 0;\n  -webkit-transform: scaleX(0) rotate(0deg);\n          transform: scaleX(0) rotate(0deg);\n  border-width: 1px;\n  border-style: solid;\n  opacity: 0;\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n\n.mdc-checkbox--upgraded .mdc-checkbox__background,\n.mdc-checkbox--upgraded .mdc-checkbox__checkmark,\n.mdc-checkbox--upgraded .mdc-checkbox__checkmark-path,\n.mdc-checkbox--upgraded .mdc-checkbox__mixedmark {\n  transition: none !important;\n}\n\n.mdc-checkbox--anim-unchecked-checked .mdc-checkbox__background, .mdc-checkbox--anim-unchecked-indeterminate .mdc-checkbox__background, .mdc-checkbox--anim-checked-unchecked .mdc-checkbox__background, .mdc-checkbox--anim-indeterminate-unchecked .mdc-checkbox__background {\n  -webkit-animation-duration: 180ms;\n          animation-duration: 180ms;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n}\n.mdc-checkbox--anim-unchecked-checked .mdc-checkbox__checkmark-path {\n  -webkit-animation: mdc-checkbox-unchecked-checked-checkmark-path 180ms linear 0s;\n          animation: mdc-checkbox-unchecked-checked-checkmark-path 180ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-unchecked-indeterminate .mdc-checkbox__mixedmark {\n  -webkit-animation: mdc-checkbox-unchecked-indeterminate-mixedmark 90ms linear 0s;\n          animation: mdc-checkbox-unchecked-indeterminate-mixedmark 90ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-checked-unchecked .mdc-checkbox__checkmark-path {\n  -webkit-animation: mdc-checkbox-checked-unchecked-checkmark-path 90ms linear 0s;\n          animation: mdc-checkbox-checked-unchecked-checkmark-path 90ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-checked-indeterminate .mdc-checkbox__checkmark {\n  -webkit-animation: mdc-checkbox-checked-indeterminate-checkmark 90ms linear 0s;\n          animation: mdc-checkbox-checked-indeterminate-checkmark 90ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-checked-indeterminate .mdc-checkbox__mixedmark {\n  -webkit-animation: mdc-checkbox-checked-indeterminate-mixedmark 90ms linear 0s;\n          animation: mdc-checkbox-checked-indeterminate-mixedmark 90ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-indeterminate-checked .mdc-checkbox__checkmark {\n  -webkit-animation: mdc-checkbox-indeterminate-checked-checkmark 500ms linear 0s;\n          animation: mdc-checkbox-indeterminate-checked-checkmark 500ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-indeterminate-checked .mdc-checkbox__mixedmark {\n  -webkit-animation: mdc-checkbox-indeterminate-checked-mixedmark 500ms linear 0s;\n          animation: mdc-checkbox-indeterminate-checked-mixedmark 500ms linear 0s;\n  transition: none;\n}\n.mdc-checkbox--anim-indeterminate-unchecked .mdc-checkbox__mixedmark {\n  -webkit-animation: mdc-checkbox-indeterminate-unchecked-mixedmark 300ms linear 0s;\n          animation: mdc-checkbox-indeterminate-unchecked-mixedmark 300ms linear 0s;\n  transition: none;\n}\n\n.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background,\n.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background {\n  transition: border-color 90ms 0ms cubic-bezier(0, 0, 0.2, 1), background-color 90ms 0ms cubic-bezier(0, 0, 0.2, 1);\n}\n.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background .mdc-checkbox__checkmark-path,\n.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background .mdc-checkbox__checkmark-path {\n  stroke-dashoffset: 0;\n}\n\n.mdc-checkbox__background::before {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -webkit-transform: scale(0, 0);\n          transform: scale(0, 0);\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n  will-change: opacity, transform;\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n\n.mdc-checkbox__native-control:focus ~ .mdc-checkbox__background::before {\n  -webkit-transform: scale(2.75, 2.75);\n          transform: scale(2.75, 2.75);\n  opacity: 0.12;\n  transition: opacity 80ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 80ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 80ms 0ms cubic-bezier(0, 0, 0.2, 1), transform 80ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 80ms 0ms cubic-bezier(0, 0, 0.2, 1), transform 80ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 80ms 0ms cubic-bezier(0, 0, 0.2, 1);\n}\n\n.mdc-checkbox__native-control {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0;\n  opacity: 0;\n  cursor: inherit;\n}\n.mdc-checkbox__native-control:disabled {\n  cursor: default;\n  pointer-events: none;\n}\n\n.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background .mdc-checkbox__checkmark {\n  transition: opacity 180ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 180ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 180ms 0ms cubic-bezier(0, 0, 0.2, 1), transform 180ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 180ms 0ms cubic-bezier(0, 0, 0.2, 1), transform 180ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 180ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  opacity: 1;\n}\n.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background .mdc-checkbox__mixedmark {\n  -webkit-transform: scaleX(1) rotate(-45deg);\n          transform: scaleX(1) rotate(-45deg);\n}\n\n.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background .mdc-checkbox__checkmark {\n  -webkit-transform: rotate(45deg);\n          transform: rotate(45deg);\n  opacity: 0;\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n  transition: opacity 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 90ms 0ms cubic-bezier(0.4, 0, 0.6, 1);\n}\n.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background .mdc-checkbox__mixedmark {\n  -webkit-transform: scaleX(1) rotate(0deg);\n          transform: scaleX(1) rotate(0deg);\n  opacity: 1;\n}\n\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-checkbox {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n}\n.mdc-checkbox::before, .mdc-checkbox::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-checkbox::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-checkbox.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-checkbox.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-checkbox.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-checkbox.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-checkbox.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-checkbox::before, .mdc-checkbox::after {\n  background-color: #018786;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-checkbox::before, .mdc-checkbox::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n.mdc-checkbox:hover::before {\n  opacity: 0.04;\n}\n.mdc-checkbox:not(.mdc-ripple-upgraded):focus::before, .mdc-checkbox.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-checkbox:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-checkbox:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-checkbox.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.12;\n}\n.mdc-checkbox::before, .mdc-checkbox::after {\n  top: calc(50% - 50%);\n  /* @noflip */\n  left: calc(50% - 50%);\n  width: 100%;\n  height: 100%;\n}\n.mdc-checkbox.mdc-ripple-upgraded::before, .mdc-checkbox.mdc-ripple-upgraded::after {\n  top: var(--mdc-ripple-top, calc(50% - 50%));\n  /* @noflip */\n  left: var(--mdc-ripple-left, calc(50% - 50%));\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-checkbox.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n\n.mdc-ripple-upgraded--background-focused .mdc-checkbox__background::before {\n  content: none;\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css":
 /*!****************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css ***!
   \****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-chip {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n  border-radius: 16px;\n  background-color: #e0e0e0;\n  color: rgba(0, 0, 0, 0.87);\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0178571429em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  height: 32px;\n  display: inline-flex;\n  position: relative;\n  align-items: center;\n  box-sizing: border-box;\n  padding: 7px 12px;\n  outline: none;\n  cursor: pointer;\n  overflow: hidden;\n}\n.mdc-chip::before, .mdc-chip::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-chip::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-chip.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-chip.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-chip.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-chip.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-chip.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-chip::before, .mdc-chip::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-chip.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-chip::before, .mdc-chip::after {\n  background-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-chip:hover::before {\n  opacity: 0.04;\n}\n.mdc-chip:not(.mdc-ripple-upgraded):focus::before, .mdc-chip.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-chip:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-chip:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-chip.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.12;\n}\n.mdc-chip:hover {\n  color: rgba(0, 0, 0, 0.87);\n}\n.mdc-chip.mdc-chip--selected .mdc-chip__checkmark,\n.mdc-chip .mdc-chip__icon--leading:not(.mdc-chip__icon--leading-hidden) {\n  /* @noflip */\n  margin-left: -4px;\n  /* @noflip */\n  margin-right: 4px;\n  margin-top: -4px;\n  margin-bottom: -4px;\n}\n[dir=rtl] .mdc-chip.mdc-chip--selected .mdc-chip__checkmark, .mdc-chip.mdc-chip--selected .mdc-chip__checkmark[dir=rtl],\n[dir=rtl] .mdc-chip .mdc-chip__icon--leading:not(.mdc-chip__icon--leading-hidden),\n.mdc-chip .mdc-chip__icon--leading:not(.mdc-chip__icon--leading-hidden)[dir=rtl] {\n  /* @noflip */\n  margin-left: 4px;\n  /* @noflip */\n  margin-right: -4px;\n}\n.mdc-chip:hover {\n  color: #000;\n  /* @alternate */\n  color: var(--mdc-theme-on-surface, #000);\n}\n\n.mdc-chip__icon--leading {\n  color: rgba(0, 0, 0, 0.54);\n}\n\n.mdc-chip__icon--trailing {\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-chip__icon--trailing:hover {\n  color: rgba(0, 0, 0, 0.62);\n}\n.mdc-chip__icon--trailing:focus {\n  color: rgba(0, 0, 0, 0.87);\n}\n\n.mdc-chip__icon.mdc-chip__icon--leading:not(.mdc-chip__icon--leading-hidden) {\n  width: 20px;\n  height: 20px;\n  font-size: 20px;\n}\n\n.mdc-chip__icon.mdc-chip__icon--trailing {\n  width: 18px;\n  height: 18px;\n  font-size: 18px;\n}\n\n.mdc-chip__icon--trailing {\n  margin: 0 -4px 0 4px;\n}\n\n.mdc-chip--exit {\n  transition: opacity 75ms cubic-bezier(0.4, 0, 0.2, 1), width 150ms cubic-bezier(0, 0, 0.2, 1), padding 100ms linear, margin 100ms linear;\n  opacity: 0;\n}\n\n.mdc-chip__text {\n  white-space: nowrap;\n}\n\n.mdc-chip__icon {\n  border-radius: 50%;\n  outline: none;\n  vertical-align: middle;\n}\n\n.mdc-chip__checkmark {\n  height: 20px;\n}\n\n.mdc-chip__checkmark-path {\n  transition: stroke-dashoffset 150ms 50ms cubic-bezier(0.4, 0, 0.6, 1);\n  stroke-width: 2px;\n  stroke-dashoffset: 29.7833385;\n  stroke-dasharray: 29.7833385;\n}\n\n.mdc-chip--selected .mdc-chip__checkmark-path {\n  stroke-dashoffset: 0;\n}\n\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected::before {\n  opacity: 0.08;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected::before, .mdc-chip-set--choice .mdc-chip.mdc-chip--selected::after {\n  background-color: #6200ee;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-chip-set--choice .mdc-chip.mdc-chip--selected::before, .mdc-chip-set--choice .mdc-chip.mdc-chip--selected::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-primary, #6200ee);\n  }\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:hover::before {\n  opacity: 0.12;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:not(.mdc-ripple-upgraded):focus::before, .mdc-chip-set--choice .mdc-chip.mdc-chip--selected.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.2;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.2;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.2;\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected {\n  color: #6200ee;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected .mdc-chip__icon--leading {\n  color: rgba(98, 0, 238, 0.54);\n}\n.mdc-chip-set--choice .mdc-chip.mdc-chip--selected:hover {\n  color: #6200ee;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-chip-set--choice .mdc-chip .mdc-chip__checkmark-path {\n  stroke: #6200ee;\n  /* @alternate */\n  stroke: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-chip-set--choice .mdc-chip--selected {\n  background-color: #fff;\n  /* @alternate */\n  background-color: var(--mdc-theme-surface, #fff);\n}\n\n.mdc-chip__checkmark-svg {\n  width: 0;\n  height: 20px;\n  transition: width 150ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.mdc-chip--selected .mdc-chip__checkmark-svg {\n  width: 20px;\n}\n\n.mdc-chip-set--filter .mdc-chip__icon--leading {\n  transition: opacity 75ms linear;\n  transition-delay: -50ms;\n  opacity: 1;\n}\n.mdc-chip-set--filter .mdc-chip__icon--leading + .mdc-chip__checkmark {\n  transition: opacity 75ms linear;\n  transition-delay: 80ms;\n  opacity: 0;\n}\n.mdc-chip-set--filter .mdc-chip__icon--leading + .mdc-chip__checkmark .mdc-chip__checkmark-svg {\n  transition: width 0ms;\n}\n.mdc-chip-set--filter .mdc-chip--selected .mdc-chip__icon--leading {\n  opacity: 0;\n}\n.mdc-chip-set--filter .mdc-chip--selected .mdc-chip__icon--leading + .mdc-chip__checkmark {\n  width: 0;\n  opacity: 1;\n}\n.mdc-chip-set--filter .mdc-chip__icon--leading-hidden.mdc-chip__icon--leading {\n  width: 0;\n  opacity: 0;\n}\n.mdc-chip-set--filter .mdc-chip__icon--leading-hidden.mdc-chip__icon--leading + .mdc-chip__checkmark {\n  width: 20px;\n}\n\n@-webkit-keyframes mdc-chip-entry {\n  from {\n    -webkit-transform: scale(0.8);\n            transform: scale(0.8);\n    opacity: 0.4;\n  }\n  to {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n    opacity: 1;\n  }\n}\n\n@keyframes mdc-chip-entry {\n  from {\n    -webkit-transform: scale(0.8);\n            transform: scale(0.8);\n    opacity: 0.4;\n  }\n  to {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n    opacity: 1;\n  }\n}\n.mdc-chip-set {\n  padding: 4px;\n  display: flex;\n  flex-wrap: wrap;\n  box-sizing: border-box;\n}\n.mdc-chip-set .mdc-chip {\n  margin: 4px;\n}\n\n.mdc-chip-set--input .mdc-chip {\n  -webkit-animation: mdc-chip-entry 100ms cubic-bezier(0, 0, 0.2, 1);\n          animation: mdc-chip-entry 100ms cubic-bezier(0, 0, 0.2, 1);\n}", ""]);
 
@@ -133,14 +148,29 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/dialog/dist/mdc.dialog.css":
+/*!******************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/dialog/dist/mdc.dialog.css ***!
+  \******************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-dialog,\n.mdc-dialog__scrim {\n  position: fixed;\n  top: 0;\n  left: 0;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n  width: 100%;\n  height: 100%;\n}\n\n.mdc-dialog {\n  display: none;\n  z-index: 7;\n}\n.mdc-dialog .mdc-dialog__surface {\n  background-color: #fff;\n  /* @alternate */\n  background-color: var(--mdc-theme-surface, #fff);\n}\n.mdc-dialog .mdc-dialog__scrim {\n  background-color: rgba(0, 0, 0, 0.32);\n}\n.mdc-dialog .mdc-dialog__title {\n  color: rgba(0, 0, 0, 0.87);\n}\n.mdc-dialog .mdc-dialog__content {\n  color: rgba(0, 0, 0, 0.6);\n}\n.mdc-dialog.mdc-dialog--scrollable .mdc-dialog__title, .mdc-dialog.mdc-dialog--scrollable .mdc-dialog__actions {\n  border-color: rgba(0, 0, 0, 0.12);\n}\n.mdc-dialog .mdc-dialog__surface {\n  min-width: 280px;\n}\n@media (max-width: 592px) {\n  .mdc-dialog .mdc-dialog__surface {\n    max-width: calc(100vw - 32px);\n  }\n}\n@media (min-width: 592px) {\n  .mdc-dialog .mdc-dialog__surface {\n    max-width: 560px;\n  }\n}\n.mdc-dialog .mdc-dialog__surface {\n  max-height: calc(100vh - 32px);\n}\n.mdc-dialog .mdc-dialog__surface {\n  border-radius: 4px;\n}\n\n.mdc-dialog__scrim {\n  opacity: 0;\n  z-index: -1;\n}\n\n.mdc-dialog__container {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  box-sizing: border-box;\n  -webkit-transform: scale(0.8);\n          transform: scale(0.8);\n  opacity: 0;\n}\n\n.mdc-dialog__surface {\n  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);\n  display: flex;\n  flex-direction: column;\n  flex-grow: 0;\n  flex-shrink: 0;\n  box-sizing: border-box;\n  max-width: 100%;\n  max-height: 100%;\n}\n.mdc-dialog[dir=rtl] .mdc-dialog__surface, [dir=rtl] .mdc-dialog .mdc-dialog__surface {\n  text-align: right;\n}\n\n.mdc-dialog__title {\n  display: block;\n  margin-top: 0;\n  /* @alternate */\n  line-height: normal;\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1.25rem;\n  line-height: 2rem;\n  font-weight: 500;\n  letter-spacing: 0.0125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  display: block;\n  position: relative;\n  flex-shrink: 0;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0 24px 9px;\n  border-bottom: 1px solid transparent;\n}\n.mdc-dialog__title::before {\n  display: inline-block;\n  width: 0;\n  height: 40px;\n  content: \"\";\n  vertical-align: 0;\n}\n.mdc-dialog[dir=rtl] .mdc-dialog__title, [dir=rtl] .mdc-dialog .mdc-dialog__title {\n  text-align: right;\n}\n\n.mdc-dialog--scrollable .mdc-dialog__title {\n  padding-bottom: 15px;\n}\n\n.mdc-dialog__content {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  font-weight: 400;\n  letter-spacing: 0.03125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  flex-grow: 1;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 20px 24px;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.mdc-dialog__content > :first-child {\n  margin-top: 0;\n}\n.mdc-dialog__content > :last-child {\n  margin-bottom: 0;\n}\n\n.mdc-dialog__title + .mdc-dialog__content {\n  padding-top: 0;\n}\n\n.mdc-dialog--scrollable .mdc-dialog__content {\n  padding-top: 8px;\n  padding-bottom: 8px;\n}\n\n.mdc-dialog__content .mdc-list:first-child:last-child {\n  padding: 6px 0 0;\n}\n\n.mdc-dialog--scrollable .mdc-dialog__content .mdc-list:first-child:last-child {\n  padding: 0;\n}\n\n.mdc-dialog__actions {\n  display: flex;\n  position: relative;\n  flex-shrink: 0;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: flex-end;\n  box-sizing: border-box;\n  min-height: 52px;\n  margin: 0;\n  padding: 8px;\n  border-top: 1px solid transparent;\n}\n.mdc-dialog--stacked .mdc-dialog__actions {\n  flex-direction: column;\n  align-items: flex-end;\n}\n\n.mdc-dialog__button {\n  /* @noflip */\n  margin-left: 8px;\n  /* @noflip */\n  margin-right: 0;\n  max-width: 100%;\n  text-align: right;\n}\n[dir=rtl] .mdc-dialog__button, .mdc-dialog__button[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 8px;\n}\n.mdc-dialog__button:first-child {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 0;\n}\n[dir=rtl] .mdc-dialog__button:first-child, .mdc-dialog__button:first-child[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: 0;\n}\n.mdc-dialog[dir=rtl] .mdc-dialog__button, [dir=rtl] .mdc-dialog .mdc-dialog__button {\n  text-align: left;\n}\n\n.mdc-dialog--stacked .mdc-dialog__button:not(:first-child) {\n  margin-top: 12px;\n}\n\n.mdc-dialog--open,\n.mdc-dialog--opening,\n.mdc-dialog--closing {\n  display: flex;\n}\n\n.mdc-dialog--opening .mdc-dialog__scrim {\n  transition: opacity 150ms linear;\n}\n.mdc-dialog--opening .mdc-dialog__container {\n  transition: opacity 75ms linear, -webkit-transform 150ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 75ms linear, transform 150ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: opacity 75ms linear, transform 150ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 150ms 0ms cubic-bezier(0, 0, 0.2, 1);\n}\n\n.mdc-dialog--closing .mdc-dialog__scrim,\n.mdc-dialog--closing .mdc-dialog__container {\n  transition: opacity 75ms linear;\n}\n.mdc-dialog--closing .mdc-dialog__container {\n  -webkit-transform: scale(1);\n          transform: scale(1);\n}\n\n.mdc-dialog--open .mdc-dialog__scrim {\n  opacity: 1;\n}\n.mdc-dialog--open .mdc-dialog__container {\n  -webkit-transform: scale(1);\n          transform: scale(1);\n  opacity: 1;\n}\n\n.mdc-dialog-scroll-lock {\n  overflow: hidden;\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css":
 /*!************************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css ***!
   \************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-elevation--z0 {\n  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z1 {\n  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z2 {\n  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z3 {\n  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z4 {\n  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z5 {\n  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z6 {\n  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z7 {\n  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z8 {\n  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z9 {\n  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.2), 0px 9px 12px 1px rgba(0, 0, 0, 0.14), 0px 3px 16px 2px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z10 {\n  box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z11 {\n  box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.2), 0px 11px 15px 1px rgba(0, 0, 0, 0.14), 0px 4px 20px 3px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z12 {\n  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z13 {\n  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 13px 19px 2px rgba(0, 0, 0, 0.14), 0px 5px 24px 4px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z14 {\n  box-shadow: 0px 7px 9px -4px rgba(0, 0, 0, 0.2), 0px 14px 21px 2px rgba(0, 0, 0, 0.14), 0px 5px 26px 4px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z15 {\n  box-shadow: 0px 8px 9px -5px rgba(0, 0, 0, 0.2), 0px 15px 22px 2px rgba(0, 0, 0, 0.14), 0px 6px 28px 5px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z16 {\n  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z17 {\n  box-shadow: 0px 8px 11px -5px rgba(0, 0, 0, 0.2), 0px 17px 26px 2px rgba(0, 0, 0, 0.14), 0px 6px 32px 5px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z18 {\n  box-shadow: 0px 9px 11px -5px rgba(0, 0, 0, 0.2), 0px 18px 28px 2px rgba(0, 0, 0, 0.14), 0px 7px 34px 6px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z19 {\n  box-shadow: 0px 9px 12px -6px rgba(0, 0, 0, 0.2), 0px 19px 29px 2px rgba(0, 0, 0, 0.14), 0px 7px 36px 6px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z20 {\n  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 20px 31px 3px rgba(0, 0, 0, 0.14), 0px 8px 38px 7px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z21 {\n  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 21px 33px 3px rgba(0, 0, 0, 0.14), 0px 8px 40px 7px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z22 {\n  box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.2), 0px 22px 35px 3px rgba(0, 0, 0, 0.14), 0px 8px 42px 7px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z23 {\n  box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.2), 0px 23px 36px 3px rgba(0, 0, 0, 0.14), 0px 9px 44px 8px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation--z24 {\n  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);\n}\n\n.mdc-elevation-transition {\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);\n  will-change: box-shadow;\n}", ""]);
 
@@ -148,14 +178,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css":
 /*!************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css ***!
   \************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-fab {\n  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);\n  display: inline-flex;\n  position: relative;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n  width: 56px;\n  height: 56px;\n  padding: 0;\n  border: none;\n  fill: currentColor;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  overflow: hidden;\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms, -webkit-transform 270ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms, transform 270ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms, transform 270ms 0ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 270ms 0ms cubic-bezier(0, 0, 0.2, 1);\n  background-color: #018786;\n  color: #fff;\n  /* @alternate */\n  color: var(--mdc-theme-on-secondary, #fff);\n}\n.mdc-fab:not(.mdc-fab--extended) {\n  border-radius: 50%;\n}\n.mdc-fab::-moz-focus-inner {\n  padding: 0;\n  border: 0;\n}\n.mdc-fab:hover, .mdc-fab:focus {\n  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);\n}\n.mdc-fab:active {\n  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12);\n}\n.mdc-fab:active, .mdc-fab:focus {\n  outline: none;\n}\n.mdc-fab:hover {\n  cursor: pointer;\n}\n.mdc-fab > svg {\n  width: 100%;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-fab {\n    /* @alternate */\n    background-color: var(--mdc-theme-secondary, #018786);\n  }\n}\n.mdc-fab .mdc-fab__icon {\n  width: 24px;\n  height: 24px;\n  font-size: 24px;\n}\n\n.mdc-fab--mini {\n  width: 40px;\n  height: 40px;\n}\n\n.mdc-fab--extended {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 2.25rem;\n  font-weight: 500;\n  letter-spacing: 0.0892857143em;\n  text-decoration: none;\n  text-transform: uppercase;\n  border-radius: 24px;\n  padding: 0 20px;\n  width: auto;\n  max-width: 100%;\n  height: 48px;\n}\n.mdc-fab--extended .mdc-fab__icon {\n  /* @noflip */\n  margin-left: -8px;\n  /* @noflip */\n  margin-right: 12px;\n}\n[dir=rtl] .mdc-fab--extended .mdc-fab__icon, .mdc-fab--extended .mdc-fab__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: 12px;\n  /* @noflip */\n  margin-right: -8px;\n}\n.mdc-fab--extended .mdc-fab__label + .mdc-fab__icon {\n  /* @noflip */\n  margin-left: 12px;\n  /* @noflip */\n  margin-right: -8px;\n}\n[dir=rtl] .mdc-fab--extended .mdc-fab__label + .mdc-fab__icon, .mdc-fab--extended .mdc-fab__label + .mdc-fab__icon[dir=rtl] {\n  /* @noflip */\n  margin-left: -8px;\n  /* @noflip */\n  margin-right: 12px;\n}\n\n.mdc-fab__label {\n  justify-content: flex-start;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n}\n\n.mdc-fab__icon {\n  transition: -webkit-transform 180ms 90ms cubic-bezier(0, 0, 0.2, 1);\n  transition: transform 180ms 90ms cubic-bezier(0, 0, 0.2, 1);\n  transition: transform 180ms 90ms cubic-bezier(0, 0, 0.2, 1), -webkit-transform 180ms 90ms cubic-bezier(0, 0, 0.2, 1);\n  fill: currentColor;\n  will-change: transform;\n}\n\n.mdc-fab .mdc-fab__icon {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.mdc-fab--exited {\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  opacity: 0;\n  transition: opacity 15ms linear 150ms, -webkit-transform 180ms 0ms cubic-bezier(0.4, 0, 1, 1);\n  transition: opacity 15ms linear 150ms, transform 180ms 0ms cubic-bezier(0.4, 0, 1, 1);\n  transition: opacity 15ms linear 150ms, transform 180ms 0ms cubic-bezier(0.4, 0, 1, 1), -webkit-transform 180ms 0ms cubic-bezier(0.4, 0, 1, 1);\n}\n.mdc-fab--exited .mdc-fab__icon {\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  transition: -webkit-transform 135ms 0ms cubic-bezier(0.4, 0, 1, 1);\n  transition: transform 135ms 0ms cubic-bezier(0.4, 0, 1, 1);\n  transition: transform 135ms 0ms cubic-bezier(0.4, 0, 1, 1), -webkit-transform 135ms 0ms cubic-bezier(0.4, 0, 1, 1);\n}\n\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-fab {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n}\n.mdc-fab::before, .mdc-fab::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-fab::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-fab.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-fab.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-fab.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-fab.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-fab.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-fab::before, .mdc-fab::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-fab.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-fab::before, .mdc-fab::after {\n  background-color: #fff;\n}\n@supports not (-ms-ime-align: auto) {\n  .mdc-fab::before, .mdc-fab::after {\n    /* @alternate */\n    background-color: var(--mdc-theme-on-secondary, #fff);\n  }\n}\n.mdc-fab:hover::before {\n  opacity: 0.08;\n}\n.mdc-fab:not(.mdc-ripple-upgraded):focus::before, .mdc-fab.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.24;\n}\n.mdc-fab:not(.mdc-ripple-upgraded)::after {\n  transition: opacity 150ms linear;\n}\n.mdc-fab:not(.mdc-ripple-upgraded):active::after {\n  transition-duration: 75ms;\n  opacity: 0.24;\n}\n.mdc-fab.mdc-ripple-upgraded {\n  --mdc-ripple-fg-opacity: 0.24;\n}", ""]);
 
@@ -163,14 +193,89 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/floating-label/dist/mdc.floating-label.css":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/floating-label/dist/mdc.floating-label.css ***!
+  \**********************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-floating-label {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.75rem;\n  font-weight: 400;\n  letter-spacing: 0.009375em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  position: absolute;\n  /* @noflip */\n  left: 0;\n  /* @noflip */\n  -webkit-transform-origin: left top;\n          transform-origin: left top;\n  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  /* @alternate */\n  line-height: 1.15rem;\n  text-align: left;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  cursor: text;\n  overflow: hidden;\n  will-change: transform;\n}\n[dir=rtl] .mdc-floating-label, .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  right: 0;\n  /* @noflip */\n  left: auto;\n  /* @noflip */\n  -webkit-transform-origin: right top;\n          transform-origin: right top;\n  /* @noflip */\n  text-align: right;\n}\n\n.mdc-floating-label--float-above {\n  cursor: auto;\n}\n\n.mdc-floating-label--float-above {\n  -webkit-transform: translateY(-50%) scale(0.75);\n          transform: translateY(-50%) scale(0.75);\n}\n\n.mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-standard 250ms 1;\n          animation: mdc-floating-label-shake-float-above-standard 250ms 1;\n}\n\n@-webkit-keyframes mdc-floating-label-shake-float-above-standard {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n}\n\n@keyframes mdc-floating-label-shake-float-above-standard {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/form-field/dist/mdc.form-field.css":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/form-field/dist/mdc.form-field.css ***!
+  \**************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-form-field {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0178571429em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  color: rgba(0, 0, 0, 0.87);\n  /* @alternate */\n  color: var(--mdc-theme-text-primary-on-background, rgba(0, 0, 0, 0.87));\n  display: inline-flex;\n  align-items: center;\n  vertical-align: middle;\n}\n.mdc-form-field > label {\n  order: 0;\n  /* @noflip */\n  margin-right: auto;\n  /* @noflip */\n  padding-left: 4px;\n}\n[dir=rtl] .mdc-form-field > label, .mdc-form-field[dir=rtl] > label {\n  /* @noflip */\n  margin-left: auto;\n  /* @noflip */\n  padding-right: 4px;\n}\n\n.mdc-form-field--align-end > label {\n  order: -1;\n  /* @noflip */\n  margin-left: auto;\n  /* @noflip */\n  padding-right: 4px;\n}\n[dir=rtl] .mdc-form-field--align-end > label, .mdc-form-field--align-end[dir=rtl] > label {\n  /* @noflip */\n  margin-right: auto;\n  /* @noflip */\n  padding-left: 4px;\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/line-ripple/dist/mdc.line-ripple.css":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/line-ripple/dist/mdc.line-ripple.css ***!
+  \****************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-line-ripple {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  -webkit-transform: scaleX(0);\n          transform: scaleX(0);\n  transition: opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1), opacity 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1), opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  z-index: 2;\n}\n\n.mdc-line-ripple--active {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n  opacity: 1;\n}\n\n.mdc-line-ripple--deactivating {\n  opacity: 0;\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/notched-outline/dist/mdc.notched-outline.css":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/notched-outline/dist/mdc.notched-outline.css ***!
+  \************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-notched-outline {\n  display: flex;\n  position: absolute;\n  right: 0;\n  left: 0;\n  box-sizing: border-box;\n  width: 100%;\n  max-width: 100%;\n  height: 100%;\n  /* @noflip */\n  text-align: left;\n  pointer-events: none;\n}\n[dir=rtl] .mdc-notched-outline, .mdc-notched-outline[dir=rtl] {\n  /* @noflip */\n  text-align: right;\n}\n.mdc-notched-outline__leading, .mdc-notched-outline__notch, .mdc-notched-outline__trailing {\n  box-sizing: border-box;\n  height: 100%;\n  transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  border-top: 1px solid;\n  border-bottom: 1px solid;\n  pointer-events: none;\n}\n.mdc-notched-outline__leading {\n  /* @noflip */\n  border-left: 1px solid;\n  /* @noflip */\n  border-right: none;\n  width: 12px;\n}\n[dir=rtl] .mdc-notched-outline__leading, .mdc-notched-outline__leading[dir=rtl] {\n  /* @noflip */\n  border-left: none;\n  /* @noflip */\n  border-right: 1px solid;\n}\n.mdc-notched-outline__trailing {\n  /* @noflip */\n  border-left: none;\n  /* @noflip */\n  border-right: 1px solid;\n  flex-grow: 1;\n}\n[dir=rtl] .mdc-notched-outline__trailing, .mdc-notched-outline__trailing[dir=rtl] {\n  /* @noflip */\n  border-left: 1px solid;\n  /* @noflip */\n  border-right: none;\n}\n.mdc-notched-outline__notch {\n  flex: 0 0 auto;\n  width: auto;\n  max-width: calc(100% - 12px * 2);\n}\n.mdc-notched-outline .mdc-floating-label {\n  display: inline-block;\n  position: relative;\n  top: 17px;\n  bottom: auto;\n  max-width: 100%;\n}\n.mdc-notched-outline .mdc-floating-label--float-above {\n  text-overflow: clip;\n}\n.mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  max-width: calc(100% / .75);\n}\n\n.mdc-notched-outline--notched .mdc-notched-outline__notch {\n  /* @noflip */\n  padding-left: 0;\n  /* @noflip */\n  padding-right: 8px;\n  border-top: none;\n}\n[dir=rtl] .mdc-notched-outline--notched .mdc-notched-outline__notch, .mdc-notched-outline--notched .mdc-notched-outline__notch[dir=rtl] {\n  /* @noflip */\n  padding-left: 8px;\n  /* @noflip */\n  padding-right: 0;\n}\n\n.mdc-notched-outline--no-label .mdc-notched-outline__notch {\n  padding: 0;\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/textfield/dist/mdc.textfield.css":
+/*!************************************************************************************************************************************************************************!*\
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/textfield/dist/mdc.textfield.css ***!
+  \************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-floating-label {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.75rem;\n  font-weight: 400;\n  letter-spacing: 0.009375em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  position: absolute;\n  /* @noflip */\n  left: 0;\n  /* @noflip */\n  -webkit-transform-origin: left top;\n          transform-origin: left top;\n  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  /* @alternate */\n  line-height: 1.15rem;\n  text-align: left;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  cursor: text;\n  overflow: hidden;\n  will-change: transform;\n}\n[dir=rtl] .mdc-floating-label, .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  right: 0;\n  /* @noflip */\n  left: auto;\n  /* @noflip */\n  -webkit-transform-origin: right top;\n          transform-origin: right top;\n  /* @noflip */\n  text-align: right;\n}\n\n.mdc-floating-label--float-above {\n  cursor: auto;\n}\n\n.mdc-floating-label--float-above {\n  -webkit-transform: translateY(-50%) scale(0.75);\n          transform: translateY(-50%) scale(0.75);\n}\n\n.mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-standard 250ms 1;\n          animation: mdc-floating-label-shake-float-above-standard 250ms 1;\n}\n\n@-webkit-keyframes mdc-floating-label-shake-float-above-standard {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n}\n\n@keyframes mdc-floating-label-shake-float-above-standard {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-50%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-50%) scale(0.75);\n  }\n}\n.mdc-line-ripple {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  -webkit-transform: scaleX(0);\n          transform: scaleX(0);\n  transition: opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1), opacity 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1), opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 180ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  z-index: 2;\n}\n\n.mdc-line-ripple--active {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n  opacity: 1;\n}\n\n.mdc-line-ripple--deactivating {\n  opacity: 0;\n}\n\n.mdc-notched-outline {\n  display: flex;\n  position: absolute;\n  right: 0;\n  left: 0;\n  box-sizing: border-box;\n  width: 100%;\n  max-width: 100%;\n  height: 100%;\n  /* @noflip */\n  text-align: left;\n  pointer-events: none;\n}\n[dir=rtl] .mdc-notched-outline, .mdc-notched-outline[dir=rtl] {\n  /* @noflip */\n  text-align: right;\n}\n.mdc-notched-outline__leading, .mdc-notched-outline__notch, .mdc-notched-outline__trailing {\n  box-sizing: border-box;\n  height: 100%;\n  transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  border-top: 1px solid;\n  border-bottom: 1px solid;\n  pointer-events: none;\n}\n.mdc-notched-outline__leading {\n  /* @noflip */\n  border-left: 1px solid;\n  /* @noflip */\n  border-right: none;\n  width: 12px;\n}\n[dir=rtl] .mdc-notched-outline__leading, .mdc-notched-outline__leading[dir=rtl] {\n  /* @noflip */\n  border-left: none;\n  /* @noflip */\n  border-right: 1px solid;\n}\n.mdc-notched-outline__trailing {\n  /* @noflip */\n  border-left: none;\n  /* @noflip */\n  border-right: 1px solid;\n  flex-grow: 1;\n}\n[dir=rtl] .mdc-notched-outline__trailing, .mdc-notched-outline__trailing[dir=rtl] {\n  /* @noflip */\n  border-left: 1px solid;\n  /* @noflip */\n  border-right: none;\n}\n.mdc-notched-outline__notch {\n  flex: 0 0 auto;\n  width: auto;\n  max-width: calc(100% - 12px * 2);\n}\n.mdc-notched-outline .mdc-floating-label {\n  display: inline-block;\n  position: relative;\n  top: 17px;\n  bottom: auto;\n  max-width: 100%;\n}\n.mdc-notched-outline .mdc-floating-label--float-above {\n  text-overflow: clip;\n}\n.mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  max-width: calc(100% / .75);\n}\n\n.mdc-notched-outline--notched .mdc-notched-outline__notch {\n  /* @noflip */\n  padding-left: 0;\n  /* @noflip */\n  padding-right: 8px;\n  border-top: none;\n}\n[dir=rtl] .mdc-notched-outline--notched .mdc-notched-outline__notch, .mdc-notched-outline--notched .mdc-notched-outline__notch[dir=rtl] {\n  /* @noflip */\n  padding-left: 8px;\n  /* @noflip */\n  padding-right: 0;\n}\n\n.mdc-notched-outline--no-label .mdc-notched-outline__notch {\n  padding: 0;\n}\n\n@-webkit-keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n\n@keyframes mdc-ripple-fg-radius-in {\n  from {\n    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n            transform: translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1);\n  }\n  to {\n    -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n            transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@keyframes mdc-ripple-fg-opacity-in {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: 0;\n  }\n  to {\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n}\n@-webkit-keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes mdc-ripple-fg-opacity-out {\n  from {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n    opacity: var(--mdc-ripple-fg-opacity, 0);\n  }\n  to {\n    opacity: 0;\n  }\n}\n.mdc-ripple-surface--test-edge-var-bug {\n  --mdc-ripple-surface-test-edge-var: 1px solid #000;\n  visibility: hidden;\n}\n.mdc-ripple-surface--test-edge-var-bug::before {\n  border: var(--mdc-ripple-surface-test-edge-var);\n}\n\n.mdc-text-field-helper-text {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0333333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  display: block;\n  margin-top: 0;\n  /* @alternate */\n  line-height: normal;\n  margin: 0;\n  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  will-change: opacity;\n}\n.mdc-text-field-helper-text::before {\n  display: inline-block;\n  width: 0;\n  height: 16px;\n  content: \"\";\n  vertical-align: 0;\n}\n\n.mdc-text-field-helper-text--persistent {\n  transition: none;\n  opacity: 1;\n  will-change: initial;\n}\n\n.mdc-text-field-character-counter {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0333333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  display: block;\n  margin-top: 0;\n  /* @alternate */\n  line-height: normal;\n  /* @noflip */\n  margin-left: auto;\n  /* @noflip */\n  margin-right: 0;\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 0;\n  white-space: nowrap;\n}\n.mdc-text-field-character-counter::before {\n  display: inline-block;\n  width: 0;\n  height: 16px;\n  content: \"\";\n  vertical-align: 0;\n}\n[dir=rtl] .mdc-text-field-character-counter, .mdc-text-field-character-counter[dir=rtl] {\n  /* @noflip */\n  margin-left: 0;\n  /* @noflip */\n  margin-right: auto;\n}\n[dir=rtl] .mdc-text-field-character-counter, .mdc-text-field-character-counter[dir=rtl] {\n  /* @noflip */\n  padding-left: 0;\n  /* @noflip */\n  padding-right: 16px;\n}\n\n.mdc-text-field--with-leading-icon .mdc-text-field__icon,\n.mdc-text-field--with-trailing-icon .mdc-text-field__icon {\n  position: absolute;\n  bottom: 16px;\n  cursor: pointer;\n}\n\n.mdc-text-field__icon:not([tabindex]),\n.mdc-text-field__icon[tabindex=\"-1\"] {\n  cursor: default;\n  pointer-events: none;\n}\n\n.mdc-text-field {\n  --mdc-ripple-fg-size: 0;\n  --mdc-ripple-left: 0;\n  --mdc-ripple-top: 0;\n  --mdc-ripple-fg-scale: 1;\n  --mdc-ripple-fg-translate-end: 0;\n  --mdc-ripple-fg-translate-start: 0;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  will-change: transform, opacity;\n  border-radius: 4px 4px 0 0;\n  display: inline-flex;\n  position: relative;\n  box-sizing: border-box;\n  height: 56px;\n  overflow: hidden;\n  /* @alternate */\n  will-change: opacity, transform, color;\n}\n.mdc-text-field::before, .mdc-text-field::after {\n  position: absolute;\n  border-radius: 50%;\n  opacity: 0;\n  pointer-events: none;\n  content: \"\";\n}\n.mdc-text-field::before {\n  transition: opacity 15ms linear, background-color 15ms linear;\n  z-index: 1;\n}\n.mdc-text-field.mdc-ripple-upgraded::before {\n  -webkit-transform: scale(var(--mdc-ripple-fg-scale, 1));\n          transform: scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-text-field.mdc-ripple-upgraded::after {\n  top: 0;\n  /* @noflip */\n  left: 0;\n  -webkit-transform: scale(0);\n          transform: scale(0);\n  -webkit-transform-origin: center center;\n          transform-origin: center center;\n}\n.mdc-text-field.mdc-ripple-upgraded--unbounded::after {\n  top: var(--mdc-ripple-top, 0);\n  /* @noflip */\n  left: var(--mdc-ripple-left, 0);\n}\n.mdc-text-field.mdc-ripple-upgraded--foreground-activation::after {\n  -webkit-animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n          animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;\n}\n.mdc-text-field.mdc-ripple-upgraded--foreground-deactivation::after {\n  -webkit-animation: mdc-ripple-fg-opacity-out 150ms;\n          animation: mdc-ripple-fg-opacity-out 150ms;\n  -webkit-transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n          transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));\n}\n.mdc-text-field::before, .mdc-text-field::after {\n  background-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field:hover::before {\n  opacity: 0.04;\n}\n.mdc-text-field:not(.mdc-ripple-upgraded):focus::before, .mdc-text-field.mdc-ripple-upgraded--background-focused::before {\n  transition-duration: 75ms;\n  opacity: 0.12;\n}\n.mdc-text-field::before, .mdc-text-field::after {\n  top: calc(50% - 100%);\n  /* @noflip */\n  left: calc(50% - 100%);\n  width: 200%;\n  height: 200%;\n}\n.mdc-text-field.mdc-ripple-upgraded::after {\n  width: var(--mdc-ripple-fg-size, 100%);\n  height: var(--mdc-ripple-fg-size, 100%);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label {\n  color: rgba(0, 0, 0, 0.6);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {\n  color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field .mdc-text-field__input {\n  caret-color: #6200ee;\n  /* @alternate */\n  caret-color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {\n  border-bottom-color: rgba(0, 0, 0, 0.42);\n}\n.mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input:hover {\n  border-bottom-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field .mdc-line-ripple {\n  background-color: #6200ee;\n  /* @alternate */\n  background-color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--textarea) {\n  border-bottom-color: rgba(0, 0, 0, 0.12);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) + .mdc-text-field-helper-line .mdc-text-field-helper-text {\n  color: rgba(0, 0, 0, 0.6);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field-character-counter,\n.mdc-text-field:not(.mdc-text-field--disabled) + .mdc-text-field-helper-line .mdc-text-field-character-counter {\n  color: rgba(0, 0, 0, 0.6);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__icon {\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field:not(.mdc-text-field--disabled) {\n  background-color: whitesmoke;\n}\n.mdc-text-field .mdc-floating-label {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n  top: 18px;\n  pointer-events: none;\n}\n[dir=rtl] .mdc-text-field .mdc-floating-label, .mdc-text-field .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n}\n.mdc-text-field--textarea .mdc-floating-label {\n  /* @noflip */\n  left: 4px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--textarea .mdc-floating-label, .mdc-text-field--textarea .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 4px;\n}\n.mdc-text-field--outlined .mdc-floating-label {\n  /* @noflip */\n  left: 4px;\n  /* @noflip */\n  right: initial;\n  top: 17px;\n}\n[dir=rtl] .mdc-text-field--outlined .mdc-floating-label, .mdc-text-field--outlined .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 4px;\n}\n.mdc-text-field--outlined--with-leading-icon .mdc-floating-label {\n  /* @noflip */\n  left: 36px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--outlined--with-leading-icon .mdc-floating-label, .mdc-text-field--outlined--with-leading-icon .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 36px;\n}\n.mdc-text-field--outlined--with-leading-icon .mdc-floating-label--float-above {\n  /* @noflip */\n  left: 40px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--outlined--with-leading-icon .mdc-floating-label--float-above, .mdc-text-field--outlined--with-leading-icon .mdc-floating-label--float-above[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 40px;\n}\n\n.mdc-text-field__input {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.75rem;\n  font-weight: 400;\n  letter-spacing: 0.009375em;\n  text-decoration: inherit;\n  text-transform: inherit;\n  align-self: flex-end;\n  box-sizing: border-box;\n  width: 100%;\n  height: 100%;\n  padding: 20px 16px 6px;\n  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);\n  border: none;\n  border-bottom: 1px solid;\n  border-radius: 0;\n  background: none;\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n}\n.mdc-text-field__input::-webkit-input-placeholder {\n  transition: opacity 67ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field__input:-ms-input-placeholder {\n  transition: opacity 67ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field__input::-ms-input-placeholder {\n  transition: opacity 67ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field__input::placeholder {\n  transition: opacity 67ms cubic-bezier(0.4, 0, 0.2, 1);\n  opacity: 0;\n  color: rgba(0, 0, 0, 0.54);\n}\n.mdc-text-field__input:-ms-input-placeholder {\n  color: rgba(0, 0, 0, 0.54) !important;\n}\n.mdc-text-field--fullwidth .mdc-text-field__input::-webkit-input-placeholder, .mdc-text-field--no-label .mdc-text-field__input::-webkit-input-placeholder, .mdc-text-field--focused .mdc-text-field__input::-webkit-input-placeholder {\n  transition-delay: 40ms;\n  transition-duration: 110ms;\n  opacity: 1;\n}\n.mdc-text-field--fullwidth .mdc-text-field__input:-ms-input-placeholder, .mdc-text-field--no-label .mdc-text-field__input:-ms-input-placeholder, .mdc-text-field--focused .mdc-text-field__input:-ms-input-placeholder {\n  transition-delay: 40ms;\n  transition-duration: 110ms;\n  opacity: 1;\n}\n.mdc-text-field--fullwidth .mdc-text-field__input::-ms-input-placeholder, .mdc-text-field--no-label .mdc-text-field__input::-ms-input-placeholder, .mdc-text-field--focused .mdc-text-field__input::-ms-input-placeholder {\n  transition-delay: 40ms;\n  transition-duration: 110ms;\n  opacity: 1;\n}\n.mdc-text-field--fullwidth .mdc-text-field__input::placeholder, .mdc-text-field--no-label .mdc-text-field__input::placeholder, .mdc-text-field--focused .mdc-text-field__input::placeholder {\n  transition-delay: 40ms;\n  transition-duration: 110ms;\n  opacity: 1;\n}\n.mdc-text-field__input:focus {\n  outline: none;\n}\n.mdc-text-field__input:invalid {\n  box-shadow: none;\n}\n.mdc-text-field__input:-webkit-autofill {\n  z-index: auto !important;\n}\n.mdc-text-field--no-label:not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {\n  padding: 16px;\n}\n\n.mdc-text-field__input:-webkit-autofill + .mdc-floating-label {\n  -webkit-transform: translateY(-50%) scale(0.75);\n          transform: translateY(-50%) scale(0.75);\n  cursor: auto;\n}\n\n.mdc-text-field--outlined {\n  border: none;\n  overflow: visible;\n}\n.mdc-text-field--outlined:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.24);\n}\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-color: #6200ee;\n  /* @alternate */\n  border-color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-text-field--outlined .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined 250ms 1;\n}\n.mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__leading {\n  /* @noflip */\n  border-radius: 4px 0 0 4px;\n}\n[dir=rtl] .mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__leading, .mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__leading[dir=rtl] {\n  /* @noflip */\n  border-radius: 0 4px 4px 0;\n}\n.mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__trailing {\n  /* @noflip */\n  border-radius: 0 4px 4px 0;\n}\n[dir=rtl] .mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__trailing, .mdc-text-field--outlined .mdc-notched-outline .mdc-notched-outline__trailing[dir=rtl] {\n  /* @noflip */\n  border-radius: 4px 0 0 4px;\n}\n.mdc-text-field--outlined .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-144%) scale(1);\n          transform: translateY(-144%) scale(1);\n}\n.mdc-text-field--outlined .mdc-floating-label--float-above {\n  font-size: 0.75rem;\n}\n.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-130%) scale(0.75);\n          transform: translateY(-130%) scale(0.75);\n}\n.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--outlined::before, .mdc-text-field--outlined::after {\n  content: none;\n}\n.mdc-text-field--outlined:not(.mdc-text-field--disabled) {\n  background-color: transparent;\n}\n.mdc-text-field--outlined .mdc-text-field__input {\n  display: flex;\n  padding: 12px 16px 14px;\n  border: none !important;\n  background-color: transparent;\n  z-index: 1;\n}\n.mdc-text-field--outlined .mdc-text-field__icon {\n  z-index: 2;\n}\n\n.mdc-text-field--outlined.mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-width: 2px;\n}\n\n.mdc-text-field--outlined.mdc-text-field--disabled {\n  background-color: transparent;\n}\n.mdc-text-field--outlined.mdc-text-field--disabled .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--disabled .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--disabled .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.06);\n}\n.mdc-text-field--outlined.mdc-text-field--disabled .mdc-text-field__input {\n  border-bottom: none;\n}\n\n.mdc-text-field--outlined.mdc-text-field--dense {\n  height: 48px;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-134%) scale(1);\n          transform: translateY(-134%) scale(1);\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above {\n  font-size: 0.8rem;\n}\n.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-120%) scale(0.8);\n          transform: translateY(-120%) scale(0.8);\n}\n.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-dense 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-dense 250ms 1;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-text-field__input {\n  padding: 12px 12px 7px;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label {\n  top: 14px;\n}\n.mdc-text-field--outlined.mdc-text-field--dense .mdc-text-field__icon {\n  top: 12px;\n}\n\n.mdc-text-field--with-leading-icon .mdc-text-field__icon {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon .mdc-text-field__icon, .mdc-text-field--with-leading-icon .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n}\n.mdc-text-field--with-leading-icon .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 16px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon .mdc-text-field__input, .mdc-text-field--with-leading-icon .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 48px;\n}\n.mdc-text-field--with-leading-icon .mdc-floating-label {\n  /* @noflip */\n  left: 48px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon .mdc-floating-label, .mdc-text-field--with-leading-icon .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 48px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__icon {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 16px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__input, .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 48px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-144%) translateX(-32px) scale(1);\n          transform: translateY(-144%) translateX(-32px) scale(1);\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--float-above, .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--float-above[dir=rtl] {\n  -webkit-transform: translateY(-144%) translateX(32px) scale(1);\n          transform: translateY(-144%) translateX(32px) scale(1);\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--float-above {\n  font-size: 0.75rem;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-130%) translateX(-32px) scale(0.75);\n          transform: translateY(-130%) translateX(-32px) scale(0.75);\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above[dir=rtl],\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above[dir=rtl] {\n  -webkit-transform: translateY(-130%) translateX(32px) scale(0.75);\n          transform: translateY(-130%) translateX(32px) scale(0.75);\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon 250ms 1;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label--shake, .mdc-text-field--with-leading-icon.mdc-text-field--outlined[dir=rtl] .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-rtl 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-rtl 250ms 1;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label {\n  /* @noflip */\n  left: 36px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label, .mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 36px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-134%) translateX(-21px) scale(1);\n          transform: translateY(-134%) translateX(-21px) scale(1);\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above[dir=rtl] {\n  -webkit-transform: translateY(-134%) translateX(21px) scale(1);\n          transform: translateY(-134%) translateX(21px) scale(1);\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--float-above {\n  font-size: 0.8rem;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-120%) translateX(-21px) scale(0.8);\n          transform: translateY(-120%) translateX(-21px) scale(0.8);\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above[dir=rtl],\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above[dir=rtl] {\n  -webkit-transform: translateY(-120%) translateX(21px) scale(0.8);\n          transform: translateY(-120%) translateX(21px) scale(0.8);\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense 250ms 1;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label--shake, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense[dir=rtl] .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense-rtl 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense-rtl 250ms 1;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label {\n  /* @noflip */\n  left: 32px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label, .mdc-text-field--with-leading-icon.mdc-text-field--outlined.mdc-text-field--dense .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 32px;\n}\n\n.mdc-text-field--with-trailing-icon .mdc-text-field__icon {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 12px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon .mdc-text-field__icon, .mdc-text-field--with-trailing-icon .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: 12px;\n  /* @noflip */\n  right: initial;\n}\n.mdc-text-field--with-trailing-icon .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 48px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon .mdc-text-field__input, .mdc-text-field--with-trailing-icon .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 16px;\n}\n.mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__icon {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__icon, .mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n}\n.mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 48px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__input, .mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 16px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: auto;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: auto;\n  /* @noflip */\n  right: 16px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon ~ .mdc-text-field__icon {\n  /* @noflip */\n  right: 12px;\n  /* @noflip */\n  left: auto;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon ~ .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__icon ~ .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  right: auto;\n  /* @noflip */\n  left: 12px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 48px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__input, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 48px;\n  /* @noflip */\n  padding-right: 48px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon,\n.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon {\n  bottom: 16px;\n  -webkit-transform: scale(0.8);\n          transform: scale(0.8);\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon {\n  /* @noflip */\n  left: 12px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 12px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 44px;\n  /* @noflip */\n  padding-right: 16px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__input, .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 44px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-floating-label {\n  /* @noflip */\n  left: 44px;\n  /* @noflip */\n  right: initial;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-floating-label, .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-floating-label[dir=rtl] {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 44px;\n}\n\n.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 12px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon, .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: 12px;\n  /* @noflip */\n  right: initial;\n}\n.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 16px;\n  /* @noflip */\n  padding-right: 44px;\n}\n[dir=rtl] .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input, .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 44px;\n  /* @noflip */\n  padding-right: 16px;\n}\n\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon {\n  /* @noflip */\n  left: 12px;\n  /* @noflip */\n  right: auto;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  left: auto;\n  /* @noflip */\n  right: 12px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon ~ .mdc-text-field__icon {\n  /* @noflip */\n  right: 12px;\n  /* @noflip */\n  left: auto;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon ~ .mdc-text-field__icon, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon ~ .mdc-text-field__icon[dir=rtl] {\n  /* @noflip */\n  right: auto;\n  /* @noflip */\n  left: 12px;\n}\n.mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input {\n  /* @noflip */\n  padding-left: 44px;\n  /* @noflip */\n  padding-right: 44px;\n}\n[dir=rtl] .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input, .mdc-text-field--with-leading-icon.mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__input[dir=rtl] {\n  /* @noflip */\n  padding-left: 44px;\n  /* @noflip */\n  padding-right: 44px;\n}\n\n.mdc-text-field--dense .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-70%) scale(0.8);\n          transform: translateY(-70%) scale(0.8);\n}\n.mdc-text-field--dense .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-dense 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-dense 250ms 1;\n}\n.mdc-text-field--dense .mdc-text-field__input {\n  padding: 12px 12px 0;\n}\n.mdc-text-field--dense .mdc-floating-label {\n  font-size: 0.813rem;\n}\n.mdc-text-field--dense .mdc-floating-label--float-above {\n  font-size: 0.813rem;\n}\n\n.mdc-text-field__input:required ~ .mdc-floating-label::after,\n.mdc-text-field__input:required ~ .mdc-notched-outline .mdc-floating-label::after {\n  margin-left: 1px;\n  content: \"*\";\n}\n\n.mdc-text-field--textarea {\n  display: inline-flex;\n  width: auto;\n  height: auto;\n  transition: none;\n  overflow: visible;\n}\n.mdc-text-field--textarea:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.24);\n}\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.87);\n}\n.mdc-text-field--textarea:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--textarea:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-color: #6200ee;\n  /* @alternate */\n  border-color: var(--mdc-theme-primary, #6200ee);\n}\n.mdc-text-field--textarea .mdc-floating-label--shake {\n  -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined 250ms 1;\n          animation: mdc-floating-label-shake-float-above-text-field-outlined 250ms 1;\n}\n.mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__leading {\n  /* @noflip */\n  border-radius: 4px 0 0 4px;\n}\n[dir=rtl] .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__leading, .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__leading[dir=rtl] {\n  /* @noflip */\n  border-radius: 0 4px 4px 0;\n}\n.mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__trailing {\n  /* @noflip */\n  border-radius: 0 4px 4px 0;\n}\n[dir=rtl] .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__trailing, .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__trailing[dir=rtl] {\n  /* @noflip */\n  border-radius: 4px 0 0 4px;\n}\n.mdc-text-field--textarea::before, .mdc-text-field--textarea::after {\n  content: none;\n}\n.mdc-text-field--textarea:not(.mdc-text-field--disabled) {\n  background-color: transparent;\n}\n.mdc-text-field--textarea .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-144%) scale(1);\n          transform: translateY(-144%) scale(1);\n}\n.mdc-text-field--textarea .mdc-floating-label--float-above {\n  font-size: 0.75rem;\n}\n.mdc-text-field--textarea.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--textarea .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  -webkit-transform: translateY(-130%) scale(0.75);\n          transform: translateY(-130%) scale(0.75);\n}\n.mdc-text-field--textarea.mdc-notched-outline--upgraded .mdc-floating-label--float-above,\n.mdc-text-field--textarea .mdc-notched-outline--upgraded .mdc-floating-label--float-above {\n  font-size: 1rem;\n}\n.mdc-text-field--textarea .mdc-text-field-character-counter {\n  /* @noflip */\n  left: initial;\n  /* @noflip */\n  right: 16px;\n  position: absolute;\n  bottom: 13px;\n}\n[dir=rtl] .mdc-text-field--textarea .mdc-text-field-character-counter, .mdc-text-field--textarea .mdc-text-field-character-counter[dir=rtl] {\n  /* @noflip */\n  left: 16px;\n  /* @noflip */\n  right: initial;\n}\n.mdc-text-field--textarea .mdc-text-field__input {\n  align-self: auto;\n  box-sizing: border-box;\n  height: auto;\n  margin: 8px 1px 1px 0;\n  padding: 0 16px 16px;\n  border: none;\n}\n.mdc-text-field--textarea .mdc-text-field-character-counter + .mdc-text-field__input {\n  margin-bottom: 28px;\n  padding-bottom: 0;\n}\n.mdc-text-field--textarea .mdc-floating-label {\n  top: 17px;\n  bottom: auto;\n  width: auto;\n  pointer-events: none;\n}\n.mdc-text-field--textarea.mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-width: 2px;\n}\n\n.mdc-text-field--fullwidth {\n  width: 100%;\n}\n.mdc-text-field--fullwidth:not(.mdc-text-field--textarea) {\n  display: block;\n}\n.mdc-text-field--fullwidth:not(.mdc-text-field--textarea)::before, .mdc-text-field--fullwidth:not(.mdc-text-field--textarea)::after {\n  content: none;\n}\n.mdc-text-field--fullwidth:not(.mdc-text-field--textarea):not(.mdc-text-field--disabled) {\n  background-color: transparent;\n}\n.mdc-text-field--fullwidth:not(.mdc-text-field--textarea) .mdc-text-field__input {\n  padding: 0;\n}\n.mdc-text-field--fullwidth.mdc-text-field--textarea .mdc-text-field__input {\n  resize: vertical;\n}\n\n.mdc-text-field--fullwidth.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--textarea) {\n  border-bottom-color: #b00020;\n  /* @alternate */\n  border-bottom-color: var(--mdc-theme-error, #b00020);\n}\n\n.mdc-text-field-helper-line {\n  display: flex;\n  justify-content: space-between;\n  box-sizing: border-box;\n}\n.mdc-text-field--dense + .mdc-text-field-helper-line {\n  margin-bottom: 4px;\n}\n.mdc-text-field + .mdc-text-field-helper-line {\n  padding-right: 16px;\n  padding-left: 16px;\n}\n\n.mdc-form-field > .mdc-text-field + label {\n  align-self: flex-start;\n}\n\n.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {\n  color: rgba(98, 0, 238, 0.87);\n}\n.mdc-text-field--focused .mdc-text-field__input:required ~ .mdc-floating-label::after,\n.mdc-text-field--focused .mdc-text-field__input:required ~ .mdc-notched-outline .mdc-floating-label::after {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--focused + .mdc-text-field-helper-line .mdc-text-field-helper-text:not(.mdc-text-field-helper-text--validation-msg) {\n  opacity: 1;\n}\n\n.mdc-text-field--textarea.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: #6200ee;\n  /* @alternate */\n  border-color: var(--mdc-theme-primary, #6200ee);\n}\n\n.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {\n  border-bottom-color: #b00020;\n  /* @alternate */\n  border-bottom-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input:hover {\n  border-bottom-color: #b00020;\n  /* @alternate */\n  border-bottom-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-line-ripple {\n  background-color: #b00020;\n  /* @alternate */\n  background-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-floating-label {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--invalid + .mdc-text-field-helper-line .mdc-text-field-helper-text--validation-msg {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid .mdc-text-field__input {\n  caret-color: #b00020;\n  /* @alternate */\n  caret-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid.mdc-text-field--with-trailing-icon:not(.mdc-text-field--with-leading-icon):not(.mdc-text-field--disabled) .mdc-text-field__icon {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid.mdc-text-field--with-trailing-icon.mdc-text-field--with-leading-icon:not(.mdc-text-field--disabled) .mdc-text-field__icon ~ .mdc-text-field__icon {\n  color: #b00020;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--invalid + .mdc-text-field-helper-line .mdc-text-field-helper-text--validation-msg {\n  opacity: 1;\n}\n\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__input:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,\n.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {\n  border-color: #b00020;\n  /* @alternate */\n  border-color: var(--mdc-theme-error, #b00020);\n}\n\n.mdc-text-field--disabled {\n  background-color: #fafafa;\n  border-bottom: none;\n  pointer-events: none;\n}\n.mdc-text-field--disabled .mdc-text-field__input {\n  border-bottom-color: rgba(0, 0, 0, 0.06);\n}\n.mdc-text-field--disabled .mdc-text-field__input {\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-text-field--disabled .mdc-floating-label {\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-text-field--disabled + .mdc-text-field-helper-line .mdc-text-field-helper-text {\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-text-field--disabled .mdc-text-field-character-counter,\n.mdc-text-field--disabled + .mdc-text-field-helper-line .mdc-text-field-character-counter {\n  color: rgba(0, 0, 0, 0.37);\n}\n.mdc-text-field--disabled .mdc-text-field__icon {\n  color: rgba(0, 0, 0, 0.3);\n}\n.mdc-text-field--disabled:not(.mdc-text-field--textarea) {\n  border-bottom-color: rgba(0, 0, 0, 0.12);\n}\n.mdc-text-field--disabled .mdc-floating-label {\n  cursor: default;\n}\n\n.mdc-text-field--textarea.mdc-text-field--disabled {\n  background-color: transparent;\n  /* @alternate */\n  background-color: #f9f9f9;\n}\n.mdc-text-field--textarea.mdc-text-field--disabled .mdc-notched-outline__leading,\n.mdc-text-field--textarea.mdc-text-field--disabled .mdc-notched-outline__notch,\n.mdc-text-field--textarea.mdc-text-field--disabled .mdc-notched-outline__trailing {\n  border-color: rgba(0, 0, 0, 0.06);\n}\n.mdc-text-field--textarea.mdc-text-field--disabled .mdc-text-field__input {\n  border-bottom: none;\n}\n\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(4% - 0%)) translateY(-70%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(-4% - 0%)) translateY(-70%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n  }\n}\n\n@keyframes mdc-floating-label-shake-float-above-text-field-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(4% - 0%)) translateY(-70%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(-4% - 0%)) translateY(-70%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-70%) scale(0.8);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - 0%)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - 0%)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - 0%)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - 0%)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 0%)) translateY(-120%) scale(0.8);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - 21px)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - 21px)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense {\n  0% {\n    -webkit-transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - 21px)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - 21px)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - 21px)) translateY(-120%) scale(0.8);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-rtl {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-rtl {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0)) translateY(-130%) scale(0.75);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense-rtl {\n  0% {\n    -webkit-transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - -21px)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - -21px)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-text-field-outlined-leading-icon-dense-rtl {\n  0% {\n    -webkit-transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(4% - -21px)) translateY(-120%) scale(0.8);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(-4% - -21px)) translateY(-120%) scale(0.8);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n            transform: translateX(calc(0 - -21px)) translateY(-120%) scale(0.8);\n  }\n}\n@-webkit-keyframes mdc-floating-label-shake-float-above-textarea {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n}\n@keyframes mdc-floating-label-shake-float-above-textarea {\n  0% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n  33% {\n    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n            animation-timing-function: cubic-bezier(0.5, 0, 0.701732, 0.495819);\n    -webkit-transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  66% {\n    -webkit-animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n            animation-timing-function: cubic-bezier(0.302435, 0.381352, 0.55, 0.956352);\n    -webkit-transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(-4% - 0%)) translateY(-130%) scale(0.75);\n  }\n  100% {\n    -webkit-transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n            transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75);\n  }\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css":
 /*!****************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css ***!
   \****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n:root {\n  --mdc-theme-primary: #6200ee;\n  --mdc-theme-secondary: #018786;\n  --mdc-theme-background: #fff;\n  --mdc-theme-surface: #fff;\n  --mdc-theme-error: #b00020;\n  --mdc-theme-on-primary: #fff;\n  --mdc-theme-on-secondary: #fff;\n  --mdc-theme-on-surface: #000;\n  --mdc-theme-on-error: #fff;\n  --mdc-theme-text-primary-on-background: rgba(0, 0, 0, 0.87);\n  --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);\n  --mdc-theme-text-hint-on-background: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-icon-on-background: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-primary-on-light: rgba(0, 0, 0, 0.87);\n  --mdc-theme-text-secondary-on-light: rgba(0, 0, 0, 0.54);\n  --mdc-theme-text-hint-on-light: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-icon-on-light: rgba(0, 0, 0, 0.38);\n  --mdc-theme-text-primary-on-dark: white;\n  --mdc-theme-text-secondary-on-dark: rgba(255, 255, 255, 0.7);\n  --mdc-theme-text-hint-on-dark: rgba(255, 255, 255, 0.5);\n  --mdc-theme-text-disabled-on-dark: rgba(255, 255, 255, 0.5);\n  --mdc-theme-text-icon-on-dark: rgba(255, 255, 255, 0.5);\n}\n\n.mdc-theme--primary {\n  color: #6200ee !important;\n  /* @alternate */\n  color: var(--mdc-theme-primary, #6200ee) !important;\n}\n\n.mdc-theme--secondary {\n  color: #018786 !important;\n  /* @alternate */\n  color: var(--mdc-theme-secondary, #018786) !important;\n}\n\n.mdc-theme--background {\n  background-color: #fff;\n  /* @alternate */\n  background-color: var(--mdc-theme-background, #fff);\n}\n\n.mdc-theme--surface {\n  background-color: #fff;\n  /* @alternate */\n  background-color: var(--mdc-theme-surface, #fff);\n}\n\n.mdc-theme--error {\n  color: #b00020 !important;\n  /* @alternate */\n  color: var(--mdc-theme-error, #b00020) !important;\n}\n\n.mdc-theme--on-primary {\n  color: #fff !important;\n  /* @alternate */\n  color: var(--mdc-theme-on-primary, #fff) !important;\n}\n\n.mdc-theme--on-secondary {\n  color: #fff !important;\n  /* @alternate */\n  color: var(--mdc-theme-on-secondary, #fff) !important;\n}\n\n.mdc-theme--on-surface {\n  color: #000 !important;\n  /* @alternate */\n  color: var(--mdc-theme-on-surface, #000) !important;\n}\n\n.mdc-theme--on-error {\n  color: #fff !important;\n  /* @alternate */\n  color: var(--mdc-theme-on-error, #fff) !important;\n}\n\n.mdc-theme--text-primary-on-background {\n  color: rgba(0, 0, 0, 0.87) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-primary-on-background, rgba(0, 0, 0, 0.87)) !important;\n}\n\n.mdc-theme--text-secondary-on-background {\n  color: rgba(0, 0, 0, 0.54) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-secondary-on-background, rgba(0, 0, 0, 0.54)) !important;\n}\n\n.mdc-theme--text-hint-on-background {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-hint-on-background, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-disabled-on-background {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-disabled-on-background, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-icon-on-background {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-icon-on-background, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-primary-on-light {\n  color: rgba(0, 0, 0, 0.87) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-primary-on-light, rgba(0, 0, 0, 0.87)) !important;\n}\n\n.mdc-theme--text-secondary-on-light {\n  color: rgba(0, 0, 0, 0.54) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-secondary-on-light, rgba(0, 0, 0, 0.54)) !important;\n}\n\n.mdc-theme--text-hint-on-light {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-hint-on-light, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-disabled-on-light {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-disabled-on-light, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-icon-on-light {\n  color: rgba(0, 0, 0, 0.38) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-icon-on-light, rgba(0, 0, 0, 0.38)) !important;\n}\n\n.mdc-theme--text-primary-on-dark {\n  color: white !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-primary-on-dark, white) !important;\n}\n\n.mdc-theme--text-secondary-on-dark {\n  color: rgba(255, 255, 255, 0.7) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-secondary-on-dark, rgba(255, 255, 255, 0.7)) !important;\n}\n\n.mdc-theme--text-hint-on-dark {\n  color: rgba(255, 255, 255, 0.5) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-hint-on-dark, rgba(255, 255, 255, 0.5)) !important;\n}\n\n.mdc-theme--text-disabled-on-dark {\n  color: rgba(255, 255, 255, 0.5) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-disabled-on-dark, rgba(255, 255, 255, 0.5)) !important;\n}\n\n.mdc-theme--text-icon-on-dark {\n  color: rgba(255, 255, 255, 0.5) !important;\n  /* @alternate */\n  color: var(--mdc-theme-text-icon-on-dark, rgba(255, 255, 255, 0.5)) !important;\n}\n\n.mdc-theme--primary-bg {\n  background-color: #6200ee !important;\n  /* @alternate */\n  background-color: var(--mdc-theme-primary, #6200ee) !important;\n}\n\n.mdc-theme--secondary-bg {\n  background-color: #018786 !important;\n  /* @alternate */\n  background-color: var(--mdc-theme-secondary, #018786) !important;\n}", ""]);
 
@@ -178,14 +283,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css":
 /*!**************************************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css ***!
   \**************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2019 Google Inc.\n License: MIT\n*/\n.mdc-typography {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n}\n\n.mdc-typography--headline1 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 6rem;\n  line-height: 6rem;\n  font-weight: 300;\n  letter-spacing: -0.015625em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline2 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 3.75rem;\n  line-height: 3.75rem;\n  font-weight: 300;\n  letter-spacing: -0.0083333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline3 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 3rem;\n  line-height: 3.125rem;\n  font-weight: 400;\n  letter-spacing: normal;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline4 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 2.125rem;\n  line-height: 2.5rem;\n  font-weight: 400;\n  letter-spacing: 0.0073529412em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline5 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1.5rem;\n  line-height: 2rem;\n  font-weight: 400;\n  letter-spacing: normal;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--headline6 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1.25rem;\n  line-height: 2rem;\n  font-weight: 500;\n  letter-spacing: 0.0125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--subtitle1 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.75rem;\n  font-weight: 400;\n  letter-spacing: 0.009375em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--subtitle2 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.375rem;\n  font-weight: 500;\n  letter-spacing: 0.0071428571em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--body1 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  font-weight: 400;\n  letter-spacing: 0.03125em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--body2 {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0178571429em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--caption {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 1.25rem;\n  font-weight: 400;\n  letter-spacing: 0.0333333333em;\n  text-decoration: inherit;\n  text-transform: inherit;\n}\n\n.mdc-typography--button {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.875rem;\n  line-height: 2.25rem;\n  font-weight: 500;\n  letter-spacing: 0.0892857143em;\n  text-decoration: none;\n  text-transform: uppercase;\n}\n\n.mdc-typography--overline {\n  font-family: Roboto, sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-size: 0.75rem;\n  line-height: 2rem;\n  font-weight: 500;\n  letter-spacing: 0.1666666667em;\n  text-decoration: none;\n  text-transform: uppercase;\n}", ""]);
 
@@ -193,14 +298,14 @@ exports.push([module.i, "/*!\n Material Components for the Web\n Copyright (c) 2
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css":
 /*!*************************************************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css ***!
   \*************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, ".rmwc-icon {\n  \n}\n\n.rmwc-icon--image {\n  min-width: 1em;\n  min-height: 1em;\n  background-repeat: no-repeat;\n  font-size: 1.5rem;\n  background-size: 1em;\n  background-position: center center;\n}\n\n.rmwc-icon--size-xsmall {\n  font-size: 1.125rem;\n  width: 1em;\n  height: 1em;\n}\n\n.rmwc-icon--size-small {\n  font-size: 1.25rem;\n  width: 1em;\n  height: 1em;\n}\n\n.rmwc-icon--size-medium {\n  font-size: 1.5rem;\n  width: 1em;\n  height: 1em;\n}\n\n.rmwc-icon--size-large {\n  font-size: 2.25rem;\n  width: 1em;\n  height: 1em;\n}\n\n.rmwc-icon--size-xlarge {\n  font-size: 3rem;\n  width: 1em;\n  height: 1em;\n}\n", ""]);
 
@@ -208,9 +313,9 @@ exports.push([module.i, ".rmwc-icon {\n  \n}\n\n.rmwc-icon--image {\n  min-width
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js":
 /*!*********************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/runtime/api.js ***!
   \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -304,9 +409,9 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/process/browser.js":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/process/browser.js":
 /*!*********************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/process/browser.js ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/process/browser.js ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -499,9 +604,9 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js":
 /*!********************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js ***!
   \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -569,7 +674,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(/*! ./urls */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js");
+var	fixUrls = __webpack_require__(/*! ./urls */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js");
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -890,9 +995,9 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js":
 /*!***************************************************************************************************************!*\
-  !*** /Users/lincolnmitchell/.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js ***!
+  !*** /Users/lincolnmitchell/.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/urls.js ***!
   \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -990,7 +1095,7 @@ module.exports = function (css) {
 
 /***/ }),
 
-/***/ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js":
+/***/ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/
@@ -1041,7 +1146,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
-const Button_1 = __webpack_require__(/*! @rmwc/Button */ "../node_modules/@rmwc/Button/next/index.js");
+const button_1 = __webpack_require__(/*! @rmwc/button */ "../node_modules/@rmwc/button/next/index.js");
 __webpack_require__(/*! @material/button/dist/mdc.button.css */ "../node_modules/@material/button/dist/mdc.button.css");
 const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
 const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
@@ -1049,10 +1154,47 @@ const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "
 exports.Button = (_a = framerx_integration_1.processIconProps(this.props)) => {
     var { children, dense, disabled, selected, icon, label, outlined, raised, ripple, trailingIcon, unelevated } = _a, rest = __rest(_a, ["children", "dense", "disabled", "selected", "icon", "label", "outlined", "raised", "ripple", "trailingIcon", "unelevated"]);
     return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(Button_1.Button, Object.assign({ children: children, dense: dense, disabled: disabled, selected: selected, icon: icon, label: label, outlined: outlined, raised: raised, ripple: ripple, trailingIcon: trailingIcon, unelevated: unelevated }, rest), "YES")));
+        React.createElement(button_1.Button, Object.assign({ children: children, dense: dense, disabled: disabled, selected: selected, icon: icon, label: label, outlined: outlined, raised: raised, ripple: ripple, trailingIcon: trailingIcon, unelevated: unelevated }, rest))));
 };
 exports.__info__ = [{ name: "Button", children: true, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQnV0dG9uLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL0J1dHRvbi50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIseUNBQStDO0FBQy9DLGdEQUE4QztBQUM5QyxxREFBOEM7QUFDOUMsK0RBRStCO0FBaUIvQixZQUFZO0FBQ0MsUUFBQSxNQUFNLEdBQW9CLENBQUMsS0FjcEMsc0NBQWdCLENBQUMsSUFBSSxDQUFDLEtBQUssQ0FBQyxFQUFFLEVBQUU7UUFkSSxFQUN0QyxRQUFRLEVBQ1IsS0FBSyxFQUNMLFFBQVEsRUFDUixRQUFRLEVBQ1IsSUFBSSxFQUNKLEtBQUssRUFDTCxRQUFRLEVBQ1IsTUFBTSxFQUNOLE1BQU0sRUFDTixZQUFZLEVBQ1osVUFBVSxPQUdvQixFQUY5QiwrSUFBTztJQUU2QixPQUFBLENBRXBDLG9CQUFDLHdCQUFjO1FBQ2Isb0JBQUMsZUFBTyxrQkFDTixRQUFRLEVBQUUsUUFBUSxFQUNsQixLQUFLLEVBQUUsS0FBSyxFQUNaLFFBQVEsRUFBRSxRQUFRLEVBQ2xCLFFBQVEsRUFBRSxRQUFRLEVBQ2xCLElBQUksRUFBRSxJQUFJLEVBQ1YsS0FBSyxFQUFFLEtBQUssRUFDWixRQUFRLEVBQUUsUUFBUSxFQUNsQixNQUFNLEVBQUUsTUFBTSxFQUNkLE1BQU0sRUFBRSxNQUFNLEVBQ2QsWUFBWSxFQUFFLFlBQVksRUFDMUIsVUFBVSxFQUFFLFVBQVUsSUFDbEIsSUFBSSxTQUNFLENBQ0ssQ0FDcEIsQ0FBQTtDQUFBLENBQUE7QUFBQSJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQnV0dG9uLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL0J1dHRvbi50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIseUNBQStDO0FBQy9DLGdEQUE4QztBQUM5QyxxREFBOEM7QUFDOUMsK0RBRStCO0FBaUIvQixZQUFZO0FBQ0MsUUFBQSxNQUFNLEdBQW9CLENBQUMsS0FjcEMsc0NBQWdCLENBQUMsSUFBSSxDQUFDLEtBQUssQ0FBQyxFQUFFLEVBQUU7UUFkSSxFQUN0QyxRQUFRLEVBQ1IsS0FBSyxFQUNMLFFBQVEsRUFDUixRQUFRLEVBQ1IsSUFBSSxFQUNKLEtBQUssRUFDTCxRQUFRLEVBQ1IsTUFBTSxFQUNOLE1BQU0sRUFDTixZQUFZLEVBQ1osVUFBVSxPQUdvQixFQUY5QiwrSUFBTztJQUU2QixPQUFBLENBRXBDLG9CQUFDLHdCQUFjO1FBQ2Isb0JBQUMsZUFBTyxrQkFDTixRQUFRLEVBQUUsUUFBUSxFQUNsQixLQUFLLEVBQUUsS0FBSyxFQUNaLFFBQVEsRUFBRSxRQUFRLEVBQ2xCLFFBQVEsRUFBRSxRQUFRLEVBQ2xCLElBQUksRUFBRSxJQUFJLEVBQ1YsS0FBSyxFQUFFLEtBQUssRUFDWixRQUFRLEVBQUUsUUFBUSxFQUNsQixNQUFNLEVBQUUsTUFBTSxFQUNkLE1BQU0sRUFBRSxNQUFNLEVBQ2QsWUFBWSxFQUFFLFlBQVksRUFDMUIsVUFBVSxFQUFFLFVBQVUsSUFDbEIsSUFBSSxFQUNFLENBQ0ssQ0FDcEIsQ0FBQTtDQUFBLENBQUE7QUFBQSJ9
+
+/***/ }),
+
+/***/ "../design-system/components/Checkbox.tsx":
+/*!************************************************!*\
+  !*** ../design-system/components/Checkbox.tsx ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const checkbox_1 = __webpack_require__(/*! @rmwc/checkbox */ "../node_modules/@rmwc/checkbox/next/index.js");
+__webpack_require__(/*! @material/checkbox/dist/mdc.checkbox.css */ "../node_modules/@material/checkbox/dist/mdc.checkbox.css");
+__webpack_require__(/*! @material/form-field/dist/mdc.form-field.css */ "../node_modules/@material/form-field/dist/mdc.form-field.css");
+const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
+// Component
+exports.Checkbox = (_a) => {
+    var { checked, disabled, id, indeterminate, 
+    // inputRef
+    label, ripple, rootProps, value } = _a, rest = __rest(_a, ["checked", "disabled", "id", "indeterminate", "label", "ripple", "rootProps", "value"]);
+    return (React.createElement(FramerXWrapper_1.default, null,
+        React.createElement(checkbox_1.Checkbox, Object.assign({ checked: checked, disabled: disabled, id: id, indeterminate: indeterminate, label: label, ripple: ripple, rootProps: rootProps, value: value }, rest))));
+};
+exports.__info__ = [{ name: "Checkbox", children: false, type: "component" }];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hlY2tib3guanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvQ2hlY2tib3gudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUEsK0JBQThCO0FBQzlCLDZDQUFxRDtBQUNyRCxvREFBa0Q7QUFDbEQsd0RBQXNEO0FBQ3RELHFEQUE4QztBQWU5QyxZQUFZO0FBQ0MsUUFBQSxRQUFRLEdBQW9CLENBQUMsRUFZekMsRUFBRyxFQUFFO1FBWm9DLEVBQ3hDLE9BQU8sRUFDUCxRQUFRLEVBQ1IsRUFBRSxFQUNGLGFBQWE7SUFDYixXQUFXO0lBQ1gsS0FBSyxFQUNMLE1BQU0sRUFDTixTQUFTLEVBQ1QsS0FBSyxPQUdOLEVBRkMsMEdBQU87SUFFRCxPQUFBLENBRU4sb0JBQUMsd0JBQWM7UUFDYixvQkFBQyxtQkFBUyxrQkFDUixPQUFPLEVBQUUsT0FBTyxFQUNoQixRQUFRLEVBQUUsUUFBUSxFQUNsQixFQUFFLEVBQUUsRUFBRSxFQUNOLGFBQWEsRUFBRSxhQUFhLEVBQzVCLEtBQUssRUFBRSxLQUFLLEVBQ1osTUFBTSxFQUFFLE1BQU0sRUFDZCxTQUFTLEVBQUUsU0FBUyxFQUNwQixLQUFLLEVBQUUsS0FBSyxJQUNSLElBQUksRUFDRSxDQUNHLENBQ2xCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
 
 /***/ }),
 
@@ -1088,6 +1230,42 @@ exports.Chip = (_a = framerx_integration_1.processIconProps(this.props)) => {
 };
 exports.__info__ = [{ name: "Chip", children: true, type: "component" }];
 //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hpcC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9DaGlwLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixxQ0FBeUM7QUFDekMsOENBQTJDO0FBQzNDLHFEQUE4QztBQUM5QywrREFFK0I7QUFhL0IsWUFBWTtBQUNDLFFBQUEsSUFBSSxHQUFvQixDQUFDLEtBUWxDLHNDQUFnQixDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxFQUFFO1FBUkUsRUFDcEMsS0FBSyxFQUNMLFlBQVksRUFDWixPQUFPLEVBQ1AsUUFBUSxFQUNSLFFBQVEsT0FHc0IsRUFGOUIsK0VBQU87SUFFNkIsT0FBQSxDQUVwQyxvQkFBQyx3QkFBYztRQUNiLG9CQUFDLFdBQUssa0JBQ0osS0FBSyxFQUFFLEtBQUssRUFDWixZQUFZLEVBQUUsWUFBWSxFQUMxQixPQUFPLEVBQUUsT0FBTyxFQUNoQixRQUFRLEVBQUUsUUFBUSxJQUNkLElBQUksRUFDQSxDQUNPLENBQ3BCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
+
+/***/ }),
+
+/***/ "../design-system/components/Dialog.tsx":
+/*!**********************************************!*\
+  !*** ../design-system/components/Dialog.tsx ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const dialog_1 = __webpack_require__(/*! @rmwc/dialog */ "../node_modules/@rmwc/dialog/next/index.js");
+__webpack_require__(/*! @material/dialog/dist/mdc.dialog.css */ "../node_modules/@material/dialog/dist/mdc.dialog.css");
+__webpack_require__(/*! @material/button/dist/mdc.button.css */ "../node_modules/@material/button/dist/mdc.button.css");
+const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
+const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
+// Component
+exports.Dialog = (_a = framerx_integration_1.processIconProps(this.props)) => {
+    var { onClose, onOpen, onStateChange, open, preventOutsideDismiss } = _a, rest = __rest(_a, ["onClose", "onOpen", "onStateChange", "open", "preventOutsideDismiss"]);
+    return (React.createElement(FramerXWrapper_1.default, null,
+        React.createElement(dialog_1.SimpleDialog, { title: "This is a simple dialog", body: "You can pass the body prop or children.", open: open })));
+};
+exports.__info__ = [{ name: "Dialog", children: false, type: "component" }];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGlhbG9nLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL0RpYWxvZy50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIseUNBQTJEO0FBQzNELGdEQUE4QztBQUM5QyxnREFBOEM7QUFHOUMscURBQThDO0FBQzlDLCtEQUUrQjtBQVkvQixZQUFZO0FBQ0MsUUFBQSxNQUFNLEdBQW9CLENBQUMsS0FRcEMsc0NBQWdCLENBQUMsSUFBSSxDQUFDLEtBQUssQ0FBQyxFQUFFLEVBQUU7UUFSSSxFQUN0QyxPQUFPLEVBQ1AsTUFBTSxFQUNOLGFBQWEsRUFDYixJQUFJLEVBQ0oscUJBQXFCLE9BR1MsRUFGOUIsMEZBQU87SUFFNkIsT0FBQSxDQUVwQyxvQkFBQyx3QkFBYztRQUNYLG9CQUFDLHFCQUFhLElBQ1osS0FBSyxFQUFDLHlCQUF5QixFQUMvQixJQUFJLEVBQUMseUNBQXlDLEVBQzlDLElBQUksRUFBRSxJQUFJLEdBS1YsQ0FDYSxDQUNwQixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
 
 /***/ }),
 
@@ -1257,7 +1435,7 @@ exports.IconButton = (_a = framerx_integration_1.processIconProps(this.props)) =
             disabled: disabled, icon: icon, label: label, ripple: ripple }, rest))));
 };
 exports.__info__ = [{ name: "IconButton", children: true, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSWNvbkJ1dHRvbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9JY29uQnV0dG9uLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixtREFBNEQ7QUFDNUQsZ0RBQThDO0FBQzlDLHFEQUE4QztBQUM5QywrREFFK0I7QUFZL0IsWUFBWTtBQUNDLFFBQUEsVUFBVSxHQUFvQixDQUFDLEtBUXhDLHNDQUFnQixDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxFQUFFO1FBUlEsRUFDMUMsUUFBUSxFQUNSLFFBQVEsRUFDUixJQUFJLEVBQ0osS0FBSyxFQUNMLE1BQU0sT0FHd0IsRUFGOUIsc0VBQU87SUFFNkIsT0FBQSxDQUVwQyxvQkFBQyx3QkFBYztRQUNiLG9CQUFDLHdCQUFXO1FBQ1Ysc0JBQXNCOztZQUF0QixzQkFBc0I7WUFDdEIsUUFBUSxFQUFFLFFBQVEsRUFDbEIsSUFBSSxFQUFFLElBQUksRUFDVixLQUFLLEVBQUUsS0FBSyxFQUNaLE1BQU0sRUFBRSxNQUFNLElBQ1YsSUFBSSxFQUNNLENBQ0MsQ0FDcEIsQ0FBQTtDQUFBLENBQUE7QUFBQSJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSWNvbkJ1dHRvbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9JY29uQnV0dG9uLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixtREFBNEQ7QUFDNUQsZ0RBQTZDO0FBQzdDLHFEQUE2QztBQUM3QywrREFFOEI7QUFZOUIsWUFBWTtBQUNDLFFBQUEsVUFBVSxHQUFvQixDQUFDLEtBUXhDLHNDQUFnQixDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxFQUFFO1FBUlEsRUFDMUMsUUFBUSxFQUNSLFFBQVEsRUFDUixJQUFJLEVBQ0osS0FBSyxFQUNMLE1BQU0sT0FHd0IsRUFGOUIsc0VBQU87SUFFNkIsT0FBQSxDQUVwQyxvQkFBQyx3QkFBYztRQUNiLG9CQUFDLHdCQUFXO1FBQ1Ysc0JBQXNCOztZQUF0QixzQkFBc0I7WUFDdEIsUUFBUSxFQUFFLFFBQVEsRUFDbEIsSUFBSSxFQUFFLElBQUksRUFDVixLQUFLLEVBQUUsS0FBSyxFQUNaLE1BQU0sRUFBRSxNQUFNLElBQ1YsSUFBSSxFQUNNLENBQ0MsQ0FDcEIsQ0FBQTtDQUFBLENBQUE7QUFBQSJ9
 
 /***/ }),
 
@@ -1326,6 +1504,46 @@ const StyledInput = styled_components_1.default.input `
 `;
 exports.__info__ = [{ name: "Input", children: false, type: "component" }];
 //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSW5wdXQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvSW5wdXQudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsK0JBQThCO0FBQzlCLG9DQUFnQztBQUNoQyx5REFBc0M7QUFvQnRDLFlBQVk7QUFDQyxRQUFBLEtBQUssR0FBb0IsQ0FBQyxFQUNyQyxLQUFLLEVBQ0wsV0FBVyxFQUNYLEtBQUssRUFDTCxRQUFRLEVBQ1IsUUFBUSxFQUNULEVBQUUsRUFBRSxDQUFDLENBQ0osb0JBQUMsV0FBVyxJQUNWLElBQUksRUFBQyxNQUFNLEVBQ1gsS0FBSyxFQUFFLEtBQUssRUFDWixXQUFXLEVBQUUsV0FBVyxFQUN4QixTQUFTLEVBQUUsR0FBRyxLQUFLLENBQUMsQ0FBQyxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsRUFBRSxJQUFJLFFBQVEsQ0FBQyxDQUFDLENBQUMsVUFBVSxDQUFDLENBQUMsQ0FBQyxFQUFFLEVBQUUsRUFDbEUsUUFBUSxFQUFFLFFBQVEsR0FDbEIsQ0FDSCxDQUFBO0FBRUQsU0FBUztBQUNULE1BQU0sV0FBVyxHQUFHLDJCQUFNLENBQUMsS0FBSyxDQUFBO2dCQUNoQixhQUFLLENBQUMsS0FBSyxDQUFDLFVBQVU7Ozs7NEJBSVYsYUFBSyxDQUFDLEtBQUssQ0FBQyxVQUFVO1dBQ3ZDLGFBQUssQ0FBQyxLQUFLLENBQUMsSUFBSTtpQkFDVixhQUFLLENBQUMsSUFBSTs7Ozs7O2FBTWQsYUFBSyxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUM7Ozs7Ozs4QkFNRyxhQUFLLENBQUMsS0FBSyxDQUFDLE9BQU87d0JBQ3pCLGFBQUssQ0FBQyxLQUFLLENBQUMsWUFBWTs7Ozs7Ozs7YUFRbkMsYUFBSyxDQUFDLEtBQUssQ0FBQyxZQUFZOzs7OzthQUt4QixhQUFLLENBQUMsS0FBSyxDQUFDLE1BQU07OzhCQUVELGFBQUssQ0FBQyxLQUFLLENBQUMsTUFBTTs7Ozs4QkFJbEIsYUFBSyxDQUFDLEtBQUssQ0FBQyxNQUFNO3dCQUN4QixhQUFLLENBQUMsS0FBSyxDQUFDLFdBQVc7OzthQUdsQyxhQUFLLENBQUMsS0FBSyxDQUFDLE1BQU07OztDQUc5QixDQUFBO0FBQ0QifQ==
+
+/***/ }),
+
+/***/ "../design-system/components/TextField.tsx":
+/*!*************************************************!*\
+  !*** ../design-system/components/TextField.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const textfield_1 = __webpack_require__(/*! @rmwc/textfield */ "../node_modules/@rmwc/textfield/next/index.js");
+__webpack_require__(/*! @material/textfield/dist/mdc.textfield.css */ "../node_modules/@material/textfield/dist/mdc.textfield.css");
+__webpack_require__(/*! @material/floating-label/dist/mdc.floating-label.css */ "../node_modules/@material/floating-label/dist/mdc.floating-label.css");
+__webpack_require__(/*! @material/notched-outline/dist/mdc.notched-outline.css */ "../node_modules/@material/notched-outline/dist/mdc.notched-outline.css");
+__webpack_require__(/*! @material/line-ripple/dist/mdc.line-ripple.css */ "../node_modules/@material/line-ripple/dist/mdc.line-ripple.css");
+const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
+const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
+// Component
+exports.TextField = (_a = framerx_integration_1.processIconProps(this.props)) => {
+    var { characterCount, disabled, fullwidth, helpText, icon, 
+    // inputRef
+    invalid, label, outlined, required, rootProps, trailingIcon, type, value } = _a, rest = __rest(_a, ["characterCount", "disabled", "fullwidth", "helpText", "icon", "invalid", "label", "outlined", "required", "rootProps", "trailingIcon", "type", "value"]);
+    return (React.createElement(FramerXWrapper_1.default, null,
+        React.createElement(textfield_1.TextField, Object.assign({ characterCount: characterCount, disabled: disabled, fullwidth: fullwidth, helpText: helpText, icon: icon, invalid: invalid, label: label, outlined: outlined, required: required, rootProps: rootProps, trailingIcon: trailingIcon, type: type, value: value }, rest))));
+};
+exports.__info__ = [{ name: "TextField", children: false, type: "component" }];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGV4dEZpZWxkLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL1RleHRGaWVsZC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsK0NBQXdEO0FBQ3hELHNEQUFtRDtBQUNuRCxnRUFBNkQ7QUFDN0Qsa0VBQStEO0FBQy9ELDBEQUF1RDtBQUN2RCxxREFBNkM7QUFDN0MsK0RBRStCO0FBcUIvQixZQUFZO0FBQ0MsUUFBQSxTQUFTLEdBQW9CLENBQUMsS0FpQnZDLHNDQUFnQixDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxFQUFFO1FBakJPLEVBQ3pDLGNBQWMsRUFDZCxRQUFRLEVBQ1IsU0FBUyxFQUNULFFBQVEsRUFDUixJQUFJO0lBQ0osV0FBVztJQUNYLE9BQU8sRUFDUCxLQUFLLEVBQ0wsUUFBUSxFQUNSLFFBQVEsRUFDUixTQUFTLEVBQ1QsWUFBWSxFQUNaLElBQUksRUFDSixLQUFLLE9BR3lCLEVBRjlCLDRLQUFPO0lBRTZCLE9BQUEsQ0FFcEMsb0JBQUMsd0JBQWM7UUFDYixvQkFBQyxxQkFBVSxrQkFDVCxjQUFjLEVBQUUsY0FBYyxFQUM5QixRQUFRLEVBQUUsUUFBUSxFQUNsQixTQUFTLEVBQUUsU0FBUyxFQUNwQixRQUFRLEVBQUUsUUFBUSxFQUNsQixJQUFJLEVBQUUsSUFBSSxFQUNWLE9BQU8sRUFBRSxPQUFPLEVBQ2hCLEtBQUssRUFBRSxLQUFLLEVBQ1osUUFBUSxFQUFFLFFBQVEsRUFDbEIsUUFBUSxFQUFFLFFBQVEsRUFDbEIsU0FBUyxFQUFFLFNBQVMsRUFDcEIsWUFBWSxFQUFFLFlBQVksRUFDMUIsSUFBSSxFQUFFLElBQUksRUFDVixLQUFLLEVBQUUsS0FBSyxJQUNSLElBQUksRUFDRyxDQUNFLENBQ2xCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
 
 /***/ }),
 
@@ -1736,8 +1954,17 @@ exports.IconProps = Icon_1.Props;
 var Typography_1 = __webpack_require__(/*! ./components/Typography */ "../design-system/components/Typography.tsx");
 exports.Typography = Typography_1.Typography;
 exports.TypographyProps = Typography_1.Props;
+var TextField_1 = __webpack_require__(/*! ./components/TextField */ "../design-system/components/TextField.tsx");
+exports.TextField = TextField_1.TextField;
+exports.TextFieldProps = TextField_1.Props;
+var Dialog_1 = __webpack_require__(/*! ./components/Dialog */ "../design-system/components/Dialog.tsx");
+exports.Dialog = Dialog_1.Dialog;
+exports.DialogProps = Dialog_1.Props;
+var Checkbox_1 = __webpack_require__(/*! ./components/Checkbox */ "../design-system/components/Checkbox.tsx");
+exports.Checkbox = Checkbox_1.Checkbox;
+exports.CheckboxProps = Checkbox_1.Props;
 exports.__info__ = [];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsNENBQStEO0FBQXRELHdCQUFBLEtBQUssQ0FBQTtBQUFFLDZCQUFBLEtBQUssQ0FBYztBQUNuQyw4Q0FBa0U7QUFBekQsMEJBQUEsTUFBTSxDQUFBO0FBQUUsK0JBQUEsS0FBSyxDQUFlO0FBQ3JDLGdEQUFxRTtBQUE1RCw0QkFBQSxPQUFPLENBQUE7QUFBRSxpQ0FBQSxLQUFLLENBQWdCO0FBQ3ZDLDBDQUE0RDtBQUFuRCxzQkFBQSxJQUFJLENBQUE7QUFBRSwyQkFBQSxLQUFLLENBQWE7QUFDakMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFDM0Msd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUssQ0FBWTtBQUMvQixzREFBOEU7QUFBckUsa0NBQUEsVUFBVSxDQUFBO0FBQUUsdUNBQUEsS0FBSyxDQUFtQjtBQUM3QywwQ0FBNEQ7QUFBbkQsc0JBQUEsSUFBSSxDQUFBO0FBQUUsMkJBQUEsS0FBSyxDQUFhO0FBQ2pDLHNEQUE4RTtBQUFyRSxrQ0FBQSxVQUFVLENBQUE7QUFBRSx1Q0FBQSxLQUFLLENBQW1CO0FBQzdDIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsNENBQStEO0FBQXRELHdCQUFBLEtBQUssQ0FBQTtBQUFFLDZCQUFBLEtBQUssQ0FBYztBQUNuQyw4Q0FBa0U7QUFBekQsMEJBQUEsTUFBTSxDQUFBO0FBQUUsK0JBQUEsS0FBSyxDQUFlO0FBQ3JDLGdEQUFxRTtBQUE1RCw0QkFBQSxPQUFPLENBQUE7QUFBRSxpQ0FBQSxLQUFLLENBQWdCO0FBQ3ZDLDBDQUE0RDtBQUFuRCxzQkFBQSxJQUFJLENBQUE7QUFBRSwyQkFBQSxLQUFLLENBQWE7QUFDakMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFDM0Msd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUssQ0FBWTtBQUMvQixzREFBOEU7QUFBckUsa0NBQUEsVUFBVSxDQUFBO0FBQUUsdUNBQUEsS0FBSyxDQUFtQjtBQUM3QywwQ0FBNEQ7QUFBbkQsc0JBQUEsSUFBSSxDQUFBO0FBQUUsMkJBQUEsS0FBSyxDQUFhO0FBQ2pDLHNEQUE4RTtBQUFyRSxrQ0FBQSxVQUFVLENBQUE7QUFBRSx1Q0FBQSxLQUFLLENBQW1CO0FBQzdDLG9EQUEyRTtBQUFsRSxnQ0FBQSxTQUFTLENBQUE7QUFBRSxxQ0FBQSxLQUFLLENBQWtCO0FBQzNDLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsa0RBQXdFO0FBQS9ELDhCQUFBLFFBQVEsQ0FBQTtBQUFFLG1DQUFBLEtBQUssQ0FBaUI7QUFBK0IifQ==
 
 /***/ }),
 
@@ -1775,6 +2002,100 @@ exports.theme = {
 };
 exports.__info__ = [];
 //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGhlbWUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL3RoZW1lLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQWdCQSxNQUFNLEtBQUssR0FBVztJQUNwQixNQUFNLEVBQUUsTUFBTTtJQUNkLFVBQVUsRUFBRSxTQUFTO0lBQ3JCLFVBQVUsRUFBRSxvQkFBb0I7SUFDaEMsT0FBTyxFQUFFLE1BQU07SUFDZixXQUFXLEVBQUUsTUFBTTtJQUNuQixZQUFZLEVBQUUsTUFBTTtJQUNwQixNQUFNLEVBQUUsTUFBTTtJQUNkLFVBQVUsRUFBRSxNQUFNO0lBQ2xCLFdBQVcsRUFBRSxNQUFNO0lBQ25CLElBQUksRUFBRSxNQUFNO0lBQ1osU0FBUyxFQUFFLE1BQU07SUFDakIsV0FBVyxFQUFFLE1BQU07SUFDbkIsWUFBWSxFQUFFLE1BQU07Q0FDckIsQ0FBQTtBQUVELE1BQU0sS0FBSyxHQUFhLENBQUMsR0FBRyxFQUFFLEtBQUssRUFBRSxLQUFLLEVBQUUsTUFBTSxFQUFFLE1BQU0sQ0FBQyxDQUFBO0FBRTNELE1BQU0sSUFBSSxHQUFHLGlFQUFpRSxDQUFBO0FBRWpFLFFBQUEsS0FBSyxHQUFHO0lBQ25CLEtBQUs7SUFDTCxJQUFJO0lBQ0osS0FBSztDQUNOLENBQUE7QUFDRCJ9
+
+/***/ }),
+
+/***/ "../node_modules/@material/animation/util.js":
+/*!***************************************************!*\
+  !*** ../node_modules/@material/animation/util.js ***!
+  \***************************************************/
+/*! exports provided: getCorrectPropertyName, getCorrectEventName */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getCorrectPropertyName", function() { return getCorrectPropertyName; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getCorrectEventName", function() { return getCorrectEventName; });
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssPropertyNameMap = {
+    animation: {
+        prefixed: '-webkit-animation',
+        standard: 'animation',
+    },
+    transform: {
+        prefixed: '-webkit-transform',
+        standard: 'transform',
+    },
+    transition: {
+        prefixed: '-webkit-transition',
+        standard: 'transition',
+    },
+};
+var jsEventTypeMap = {
+    animationend: {
+        cssProperty: 'animation',
+        prefixed: 'webkitAnimationEnd',
+        standard: 'animationend',
+    },
+    animationiteration: {
+        cssProperty: 'animation',
+        prefixed: 'webkitAnimationIteration',
+        standard: 'animationiteration',
+    },
+    animationstart: {
+        cssProperty: 'animation',
+        prefixed: 'webkitAnimationStart',
+        standard: 'animationstart',
+    },
+    transitionend: {
+        cssProperty: 'transition',
+        prefixed: 'webkitTransitionEnd',
+        standard: 'transitionend',
+    },
+};
+function isWindow(windowObj) {
+    return Boolean(windowObj.document) && typeof windowObj.document.createElement === 'function';
+}
+function getCorrectPropertyName(windowObj, cssProperty) {
+    if (isWindow(windowObj) && cssProperty in cssPropertyNameMap) {
+        var el = windowObj.document.createElement('div');
+        var _a = cssPropertyNameMap[cssProperty], standard = _a.standard, prefixed = _a.prefixed;
+        var isStandard = standard in el.style;
+        return isStandard ? standard : prefixed;
+    }
+    return cssProperty;
+}
+function getCorrectEventName(windowObj, eventType) {
+    if (isWindow(windowObj) && eventType in jsEventTypeMap) {
+        var el = windowObj.document.createElement('div');
+        var _a = jsEventTypeMap[eventType], standard = _a.standard, prefixed = _a.prefixed, cssProperty = _a.cssProperty;
+        var isStandard = cssProperty in el.style;
+        return isStandard ? standard : prefixed;
+    }
+    return eventType;
+}
+//# sourceMappingURL=util.js.map
 
 /***/ }),
 
@@ -1992,7 +2313,7 @@ var MDCFoundation = /** @class */ (function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.button.css */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.button.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/button/dist/mdc.button.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2006,11 +2327,540 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
 if(false) {}
+
+/***/ }),
+
+/***/ "../node_modules/@material/checkbox/component.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/@material/checkbox/component.js ***!
+  \*******************************************************/
+/*! exports provided: MDCCheckbox */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCCheckbox", function() { return MDCCheckbox; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_animation_util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/animation/util */ "../node_modules/@material/animation/util.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _material_dom_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material/dom/index */ "../node_modules/@material/dom/index.js");
+/* harmony import */ var _material_ripple_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material/ripple/index */ "../node_modules/@material/ripple/index.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/checkbox/foundation.js");
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+
+var CB_PROTO_PROPS = ['checked', 'indeterminate'];
+var MDCCheckbox = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCCheckbox, _super);
+    function MDCCheckbox() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.ripple_ = _this.createRipple_();
+        return _this;
+    }
+    MDCCheckbox.attachTo = function (root) {
+        return new MDCCheckbox(root);
+    };
+    Object.defineProperty(MDCCheckbox.prototype, "ripple", {
+        get: function () {
+            return this.ripple_;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCCheckbox.prototype, "checked", {
+        get: function () {
+            return this.nativeControl_.checked;
+        },
+        set: function (checked) {
+            this.nativeControl_.checked = checked;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCCheckbox.prototype, "indeterminate", {
+        get: function () {
+            return this.nativeControl_.indeterminate;
+        },
+        set: function (indeterminate) {
+            this.nativeControl_.indeterminate = indeterminate;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCCheckbox.prototype, "disabled", {
+        get: function () {
+            return this.nativeControl_.disabled;
+        },
+        set: function (disabled) {
+            this.foundation_.setDisabled(disabled);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCCheckbox.prototype, "value", {
+        get: function () {
+            return this.nativeControl_.value;
+        },
+        set: function (value) {
+            this.nativeControl_.value = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCCheckbox.prototype.initialSyncWithDOM = function () {
+        var _this = this;
+        this.handleChange_ = function () { return _this.foundation_.handleChange(); };
+        this.handleAnimationEnd_ = function () { return _this.foundation_.handleAnimationEnd(); };
+        this.nativeControl_.addEventListener('change', this.handleChange_);
+        this.listen(Object(_material_animation_util__WEBPACK_IMPORTED_MODULE_1__["getCorrectEventName"])(window, 'animationend'), this.handleAnimationEnd_);
+        this.installPropertyChangeHooks_();
+    };
+    MDCCheckbox.prototype.destroy = function () {
+        this.ripple_.destroy();
+        this.nativeControl_.removeEventListener('change', this.handleChange_);
+        this.unlisten(Object(_material_animation_util__WEBPACK_IMPORTED_MODULE_1__["getCorrectEventName"])(window, 'animationend'), this.handleAnimationEnd_);
+        this.uninstallPropertyChangeHooks_();
+        _super.prototype.destroy.call(this);
+    };
+    MDCCheckbox.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        var adapter = {
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            forceLayout: function () { return _this.root_.offsetWidth; },
+            hasNativeControl: function () { return !!_this.nativeControl_; },
+            isAttachedToDOM: function () { return Boolean(_this.root_.parentNode); },
+            isChecked: function () { return _this.checked; },
+            isIndeterminate: function () { return _this.indeterminate; },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            removeNativeControlAttr: function (attr) { return _this.nativeControl_.removeAttribute(attr); },
+            setNativeControlAttr: function (attr, value) { return _this.nativeControl_.setAttribute(attr, value); },
+            setNativeControlDisabled: function (disabled) { return _this.nativeControl_.disabled = disabled; },
+        };
+        return new _foundation__WEBPACK_IMPORTED_MODULE_5__["MDCCheckboxFoundation"](adapter);
+    };
+    MDCCheckbox.prototype.createRipple_ = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        var adapter = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, _material_ripple_index__WEBPACK_IMPORTED_MODULE_4__["MDCRipple"].createAdapter(this), { deregisterInteractionHandler: function (evtType, handler) { return _this.nativeControl_.removeEventListener(evtType, handler); }, isSurfaceActive: function () { return _material_dom_index__WEBPACK_IMPORTED_MODULE_3__["ponyfill"].matches(_this.nativeControl_, ':active'); }, isUnbounded: function () { return true; }, registerInteractionHandler: function (evtType, handler) { return _this.nativeControl_.addEventListener(evtType, handler); } });
+        return new _material_ripple_index__WEBPACK_IMPORTED_MODULE_4__["MDCRipple"](this.root_, new _material_ripple_index__WEBPACK_IMPORTED_MODULE_4__["MDCRippleFoundation"](adapter));
+    };
+    MDCCheckbox.prototype.installPropertyChangeHooks_ = function () {
+        var _this = this;
+        var nativeCb = this.nativeControl_;
+        var cbProto = Object.getPrototypeOf(nativeCb);
+        CB_PROTO_PROPS.forEach(function (controlState) {
+            var desc = Object.getOwnPropertyDescriptor(cbProto, controlState);
+            // We have to check for this descriptor, since some browsers (Safari) don't support its return.
+            // See: https://bugs.webkit.org/show_bug.cgi?id=49739
+            if (!validDescriptor(desc)) {
+                return;
+            }
+            // Type cast is needed for compatibility with Closure Compiler.
+            var nativeGetter = desc.get;
+            var nativeCbDesc = {
+                configurable: desc.configurable,
+                enumerable: desc.enumerable,
+                get: nativeGetter,
+                set: function (state) {
+                    desc.set.call(nativeCb, state);
+                    _this.foundation_.handleChange();
+                },
+            };
+            Object.defineProperty(nativeCb, controlState, nativeCbDesc);
+        });
+    };
+    MDCCheckbox.prototype.uninstallPropertyChangeHooks_ = function () {
+        var nativeCb = this.nativeControl_;
+        var cbProto = Object.getPrototypeOf(nativeCb);
+        CB_PROTO_PROPS.forEach(function (controlState) {
+            var desc = Object.getOwnPropertyDescriptor(cbProto, controlState);
+            if (!validDescriptor(desc)) {
+                return;
+            }
+            Object.defineProperty(nativeCb, controlState, desc);
+        });
+    };
+    Object.defineProperty(MDCCheckbox.prototype, "nativeControl_", {
+        get: function () {
+            var NATIVE_CONTROL_SELECTOR = _foundation__WEBPACK_IMPORTED_MODULE_5__["MDCCheckboxFoundation"].strings.NATIVE_CONTROL_SELECTOR;
+            var el = this.root_.querySelector(NATIVE_CONTROL_SELECTOR);
+            if (!el) {
+                throw new Error("Checkbox component requires a " + NATIVE_CONTROL_SELECTOR + " element");
+            }
+            return el;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return MDCCheckbox;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_2__["MDCComponent"]));
+
+function validDescriptor(inputPropDesc) {
+    return !!inputPropDesc && typeof inputPropDesc.set === 'function';
+}
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/checkbox/constants.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/@material/checkbox/constants.js ***!
+  \*******************************************************/
+/*! exports provided: cssClasses, strings, numbers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "numbers", function() { return numbers; });
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    ANIM_CHECKED_INDETERMINATE: 'mdc-checkbox--anim-checked-indeterminate',
+    ANIM_CHECKED_UNCHECKED: 'mdc-checkbox--anim-checked-unchecked',
+    ANIM_INDETERMINATE_CHECKED: 'mdc-checkbox--anim-indeterminate-checked',
+    ANIM_INDETERMINATE_UNCHECKED: 'mdc-checkbox--anim-indeterminate-unchecked',
+    ANIM_UNCHECKED_CHECKED: 'mdc-checkbox--anim-unchecked-checked',
+    ANIM_UNCHECKED_INDETERMINATE: 'mdc-checkbox--anim-unchecked-indeterminate',
+    CHECKED: 'mdc-checkbox--checked',
+    DISABLED: 'mdc-checkbox--disabled',
+    INDETERMINATE: 'mdc-checkbox--indeterminate',
+    UPGRADED: 'mdc-checkbox--upgraded',
+};
+var strings = {
+    ARIA_CHECKED_ATTR: 'aria-checked',
+    ARIA_CHECKED_INDETERMINATE_VALUE: 'mixed',
+    NATIVE_CONTROL_SELECTOR: '.mdc-checkbox__native-control',
+    TRANSITION_STATE_CHECKED: 'checked',
+    TRANSITION_STATE_INDETERMINATE: 'indeterminate',
+    TRANSITION_STATE_INIT: 'init',
+    TRANSITION_STATE_UNCHECKED: 'unchecked',
+};
+var numbers = {
+    ANIM_END_LATCH_MS: 250,
+};
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/checkbox/dist/mdc.checkbox.css":
+/*!****************************************************************!*\
+  !*** ../node_modules/@material/checkbox/dist/mdc.checkbox.css ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.checkbox.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/checkbox/dist/mdc.checkbox.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "../node_modules/@material/checkbox/foundation.js":
+/*!********************************************************!*\
+  !*** ../node_modules/@material/checkbox/foundation.js ***!
+  \********************************************************/
+/*! exports provided: MDCCheckboxFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCCheckboxFoundation", function() { return MDCCheckboxFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/checkbox/constants.js");
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCCheckboxFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCCheckboxFoundation, _super);
+    function MDCCheckboxFoundation(adapter) {
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCCheckboxFoundation.defaultAdapter, adapter)) || this;
+        _this.currentCheckState_ = _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].TRANSITION_STATE_INIT;
+        _this.currentAnimationClass_ = '';
+        _this.animEndLatchTimer_ = 0;
+        _this.enableAnimationEndHandler_ = false;
+        return _this;
+    }
+    Object.defineProperty(MDCCheckboxFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCCheckboxFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCCheckboxFoundation, "numbers", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCCheckboxFoundation, "defaultAdapter", {
+        get: function () {
+            return {
+                addClass: function () { return undefined; },
+                forceLayout: function () { return undefined; },
+                hasNativeControl: function () { return false; },
+                isAttachedToDOM: function () { return false; },
+                isChecked: function () { return false; },
+                isIndeterminate: function () { return false; },
+                removeClass: function () { return undefined; },
+                removeNativeControlAttr: function () { return undefined; },
+                setNativeControlAttr: function () { return undefined; },
+                setNativeControlDisabled: function () { return undefined; },
+            };
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCCheckboxFoundation.prototype.init = function () {
+        this.currentCheckState_ = this.determineCheckState_();
+        this.updateAriaChecked_();
+        this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].UPGRADED);
+    };
+    MDCCheckboxFoundation.prototype.destroy = function () {
+        clearTimeout(this.animEndLatchTimer_);
+    };
+    MDCCheckboxFoundation.prototype.setDisabled = function (disabled) {
+        this.adapter_.setNativeControlDisabled(disabled);
+        if (disabled) {
+            this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].DISABLED);
+        }
+        else {
+            this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].DISABLED);
+        }
+    };
+    /**
+     * Handles the animationend event for the checkbox
+     */
+    MDCCheckboxFoundation.prototype.handleAnimationEnd = function () {
+        var _this = this;
+        if (!this.enableAnimationEndHandler_) {
+            return;
+        }
+        clearTimeout(this.animEndLatchTimer_);
+        this.animEndLatchTimer_ = setTimeout(function () {
+            _this.adapter_.removeClass(_this.currentAnimationClass_);
+            _this.enableAnimationEndHandler_ = false;
+        }, _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].ANIM_END_LATCH_MS);
+    };
+    /**
+     * Handles the change event for the checkbox
+     */
+    MDCCheckboxFoundation.prototype.handleChange = function () {
+        this.transitionCheckState_();
+    };
+    MDCCheckboxFoundation.prototype.transitionCheckState_ = function () {
+        if (!this.adapter_.hasNativeControl()) {
+            return;
+        }
+        var oldState = this.currentCheckState_;
+        var newState = this.determineCheckState_();
+        if (oldState === newState) {
+            return;
+        }
+        this.updateAriaChecked_();
+        // Check to ensure that there isn't a previously existing animation class, in case for example
+        // the user interacted with the checkbox before the animation was finished.
+        if (this.currentAnimationClass_.length > 0) {
+            clearTimeout(this.animEndLatchTimer_);
+            this.adapter_.forceLayout();
+            this.adapter_.removeClass(this.currentAnimationClass_);
+        }
+        this.currentAnimationClass_ = this.getTransitionAnimationClass_(oldState, newState);
+        this.currentCheckState_ = newState;
+        // Check for parentNode so that animations are only run when the element is attached
+        // to the DOM.
+        if (this.adapter_.isAttachedToDOM() && this.currentAnimationClass_.length > 0) {
+            this.adapter_.addClass(this.currentAnimationClass_);
+            this.enableAnimationEndHandler_ = true;
+        }
+    };
+    MDCCheckboxFoundation.prototype.determineCheckState_ = function () {
+        var TRANSITION_STATE_INDETERMINATE = _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].TRANSITION_STATE_INDETERMINATE, TRANSITION_STATE_CHECKED = _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].TRANSITION_STATE_CHECKED, TRANSITION_STATE_UNCHECKED = _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].TRANSITION_STATE_UNCHECKED;
+        if (this.adapter_.isIndeterminate()) {
+            return TRANSITION_STATE_INDETERMINATE;
+        }
+        return this.adapter_.isChecked() ? TRANSITION_STATE_CHECKED : TRANSITION_STATE_UNCHECKED;
+    };
+    MDCCheckboxFoundation.prototype.getTransitionAnimationClass_ = function (oldState, newState) {
+        var TRANSITION_STATE_INIT = _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].TRANSITION_STATE_INIT, TRANSITION_STATE_CHECKED = _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].TRANSITION_STATE_CHECKED, TRANSITION_STATE_UNCHECKED = _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].TRANSITION_STATE_UNCHECKED;
+        var _a = MDCCheckboxFoundation.cssClasses, ANIM_UNCHECKED_CHECKED = _a.ANIM_UNCHECKED_CHECKED, ANIM_UNCHECKED_INDETERMINATE = _a.ANIM_UNCHECKED_INDETERMINATE, ANIM_CHECKED_UNCHECKED = _a.ANIM_CHECKED_UNCHECKED, ANIM_CHECKED_INDETERMINATE = _a.ANIM_CHECKED_INDETERMINATE, ANIM_INDETERMINATE_CHECKED = _a.ANIM_INDETERMINATE_CHECKED, ANIM_INDETERMINATE_UNCHECKED = _a.ANIM_INDETERMINATE_UNCHECKED;
+        switch (oldState) {
+            case TRANSITION_STATE_INIT:
+                if (newState === TRANSITION_STATE_UNCHECKED) {
+                    return '';
+                }
+                return newState === TRANSITION_STATE_CHECKED ? ANIM_INDETERMINATE_CHECKED : ANIM_INDETERMINATE_UNCHECKED;
+            case TRANSITION_STATE_UNCHECKED:
+                return newState === TRANSITION_STATE_CHECKED ? ANIM_UNCHECKED_CHECKED : ANIM_UNCHECKED_INDETERMINATE;
+            case TRANSITION_STATE_CHECKED:
+                return newState === TRANSITION_STATE_UNCHECKED ? ANIM_CHECKED_UNCHECKED : ANIM_CHECKED_INDETERMINATE;
+            default: // TRANSITION_STATE_INDETERMINATE
+                return newState === TRANSITION_STATE_CHECKED ? ANIM_INDETERMINATE_CHECKED : ANIM_INDETERMINATE_UNCHECKED;
+        }
+    };
+    MDCCheckboxFoundation.prototype.updateAriaChecked_ = function () {
+        // Ensure aria-checked is set to mixed if checkbox is in indeterminate state.
+        if (this.adapter_.isIndeterminate()) {
+            this.adapter_.setNativeControlAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARIA_CHECKED_ATTR, _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARIA_CHECKED_INDETERMINATE_VALUE);
+        }
+        else {
+            // The on/off state does not need to keep track of aria-checked, since
+            // the screenreader uses the checked property on the checkbox element.
+            this.adapter_.removeNativeControlAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARIA_CHECKED_ATTR);
+        }
+    };
+    return MDCCheckboxFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCCheckboxFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/checkbox/index.js":
+/*!***************************************************!*\
+  !*** ../node_modules/@material/checkbox/index.js ***!
+  \***************************************************/
+/*! exports provided: MDCCheckbox, MDCCheckboxFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/checkbox/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCCheckbox", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCCheckbox"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/checkbox/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCCheckboxFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCCheckboxFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
 
 /***/ }),
 
@@ -2913,7 +3763,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.chips.css */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.chips.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/chips/dist/mdc.chips.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2927,7 +3777,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -2979,6 +3829,670 @@ __webpack_require__.r(__webpack_exports__);
 
 
 //# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/dialog/component.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/@material/dialog/component.js ***!
+  \*****************************************************/
+/*! exports provided: MDCDialog */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCDialog", function() { return MDCDialog; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _material_dom_ponyfill__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material/dom/ponyfill */ "../node_modules/@material/dom/ponyfill.js");
+/* harmony import */ var _material_ripple_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material/ripple/component */ "../node_modules/@material/ripple/component.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/dialog/foundation.js");
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util */ "../node_modules/@material/dialog/util.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+
+var strings = _foundation__WEBPACK_IMPORTED_MODULE_4__["MDCDialogFoundation"].strings;
+var MDCDialog = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCDialog, _super);
+    function MDCDialog() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Object.defineProperty(MDCDialog.prototype, "isOpen", {
+        get: function () {
+            return this.foundation_.isOpen();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCDialog.prototype, "escapeKeyAction", {
+        get: function () {
+            return this.foundation_.getEscapeKeyAction();
+        },
+        set: function (action) {
+            this.foundation_.setEscapeKeyAction(action);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCDialog.prototype, "scrimClickAction", {
+        get: function () {
+            return this.foundation_.getScrimClickAction();
+        },
+        set: function (action) {
+            this.foundation_.setScrimClickAction(action);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCDialog.prototype, "autoStackButtons", {
+        get: function () {
+            return this.foundation_.getAutoStackButtons();
+        },
+        set: function (autoStack) {
+            this.foundation_.setAutoStackButtons(autoStack);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCDialog.attachTo = function (root) {
+        return new MDCDialog(root);
+    };
+    MDCDialog.prototype.initialize = function (focusTrapFactory, initialFocusEl) {
+        var e_1, _a;
+        var container = this.root_.querySelector(strings.CONTAINER_SELECTOR);
+        if (!container) {
+            throw new Error("Dialog component requires a " + strings.CONTAINER_SELECTOR + " container element");
+        }
+        this.container_ = container;
+        this.content_ = this.root_.querySelector(strings.CONTENT_SELECTOR);
+        this.buttons_ = [].slice.call(this.root_.querySelectorAll(strings.BUTTON_SELECTOR));
+        this.defaultButton_ = this.root_.querySelector(strings.DEFAULT_BUTTON_SELECTOR);
+        this.focusTrapFactory_ = focusTrapFactory;
+        this.initialFocusEl_ = initialFocusEl;
+        this.buttonRipples_ = [];
+        try {
+            for (var _b = tslib__WEBPACK_IMPORTED_MODULE_0__["__values"](this.buttons_), _c = _b.next(); !_c.done; _c = _b.next()) {
+                var buttonEl = _c.value;
+                this.buttonRipples_.push(new _material_ripple_component__WEBPACK_IMPORTED_MODULE_3__["MDCRipple"](buttonEl));
+            }
+        }
+        catch (e_1_1) { e_1 = { error: e_1_1 }; }
+        finally {
+            try {
+                if (_c && !_c.done && (_a = _b.return)) _a.call(_b);
+            }
+            finally { if (e_1) throw e_1.error; }
+        }
+    };
+    MDCDialog.prototype.initialSyncWithDOM = function () {
+        var _this = this;
+        this.focusTrap_ = _util__WEBPACK_IMPORTED_MODULE_5__["createFocusTrapInstance"](this.container_, this.focusTrapFactory_, this.initialFocusEl_);
+        this.handleInteraction_ = this.foundation_.handleInteraction.bind(this.foundation_);
+        this.handleDocumentKeydown_ = this.foundation_.handleDocumentKeydown.bind(this.foundation_);
+        this.handleLayout_ = this.layout.bind(this);
+        var LAYOUT_EVENTS = ['resize', 'orientationchange'];
+        this.handleOpening_ = function () {
+            LAYOUT_EVENTS.forEach(function (evtType) { return window.addEventListener(evtType, _this.handleLayout_); });
+            document.addEventListener('keydown', _this.handleDocumentKeydown_);
+        };
+        this.handleClosing_ = function () {
+            LAYOUT_EVENTS.forEach(function (evtType) { return window.removeEventListener(evtType, _this.handleLayout_); });
+            document.removeEventListener('keydown', _this.handleDocumentKeydown_);
+        };
+        this.listen('click', this.handleInteraction_);
+        this.listen('keydown', this.handleInteraction_);
+        this.listen(strings.OPENING_EVENT, this.handleOpening_);
+        this.listen(strings.CLOSING_EVENT, this.handleClosing_);
+    };
+    MDCDialog.prototype.destroy = function () {
+        this.unlisten('click', this.handleInteraction_);
+        this.unlisten('keydown', this.handleInteraction_);
+        this.unlisten(strings.OPENING_EVENT, this.handleOpening_);
+        this.unlisten(strings.CLOSING_EVENT, this.handleClosing_);
+        this.handleClosing_();
+        this.buttonRipples_.forEach(function (ripple) { return ripple.destroy(); });
+        _super.prototype.destroy.call(this);
+    };
+    MDCDialog.prototype.layout = function () {
+        this.foundation_.layout();
+    };
+    MDCDialog.prototype.open = function () {
+        this.foundation_.open();
+    };
+    MDCDialog.prototype.close = function (action) {
+        if (action === void 0) { action = ''; }
+        this.foundation_.close(action);
+    };
+    MDCDialog.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        var adapter = {
+            addBodyClass: function (className) { return document.body.classList.add(className); },
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            areButtonsStacked: function () { return _util__WEBPACK_IMPORTED_MODULE_5__["areTopsMisaligned"](_this.buttons_); },
+            clickDefaultButton: function () { return _this.defaultButton_ && _this.defaultButton_.click(); },
+            eventTargetMatches: function (target, selector) { return target ? Object(_material_dom_ponyfill__WEBPACK_IMPORTED_MODULE_2__["matches"])(target, selector) : false; },
+            getActionFromEvent: function (evt) {
+                if (!evt.target) {
+                    return '';
+                }
+                var element = Object(_material_dom_ponyfill__WEBPACK_IMPORTED_MODULE_2__["closest"])(evt.target, "[" + strings.ACTION_ATTRIBUTE + "]");
+                return element && element.getAttribute(strings.ACTION_ATTRIBUTE);
+            },
+            hasClass: function (className) { return _this.root_.classList.contains(className); },
+            isContentScrollable: function () { return _util__WEBPACK_IMPORTED_MODULE_5__["isScrollable"](_this.content_); },
+            notifyClosed: function (action) { return _this.emit(strings.CLOSED_EVENT, action ? { action: action } : {}); },
+            notifyClosing: function (action) { return _this.emit(strings.CLOSING_EVENT, action ? { action: action } : {}); },
+            notifyOpened: function () { return _this.emit(strings.OPENED_EVENT, {}); },
+            notifyOpening: function () { return _this.emit(strings.OPENING_EVENT, {}); },
+            releaseFocus: function () { return _this.focusTrap_.deactivate(); },
+            removeBodyClass: function (className) { return document.body.classList.remove(className); },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            reverseButtons: function () {
+                _this.buttons_.reverse();
+                _this.buttons_.forEach(function (button) {
+                    button.parentElement.appendChild(button);
+                });
+            },
+            trapFocus: function () { return _this.focusTrap_.activate(); },
+        };
+        return new _foundation__WEBPACK_IMPORTED_MODULE_4__["MDCDialogFoundation"](adapter);
+    };
+    return MDCDialog;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/dialog/constants.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/@material/dialog/constants.js ***!
+  \*****************************************************/
+/*! exports provided: cssClasses, strings, numbers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "numbers", function() { return numbers; });
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    CLOSING: 'mdc-dialog--closing',
+    OPEN: 'mdc-dialog--open',
+    OPENING: 'mdc-dialog--opening',
+    SCROLLABLE: 'mdc-dialog--scrollable',
+    SCROLL_LOCK: 'mdc-dialog-scroll-lock',
+    STACKED: 'mdc-dialog--stacked',
+};
+var strings = {
+    ACTION_ATTRIBUTE: 'data-mdc-dialog-action',
+    BUTTON_SELECTOR: '.mdc-dialog__button',
+    CLOSED_EVENT: 'MDCDialog:closed',
+    CLOSE_ACTION: 'close',
+    CLOSING_EVENT: 'MDCDialog:closing',
+    CONTAINER_SELECTOR: '.mdc-dialog__container',
+    CONTENT_SELECTOR: '.mdc-dialog__content',
+    DEFAULT_BUTTON_SELECTOR: '.mdc-dialog__button--default',
+    DESTROY_ACTION: 'destroy',
+    OPENED_EVENT: 'MDCDialog:opened',
+    OPENING_EVENT: 'MDCDialog:opening',
+    SCRIM_SELECTOR: '.mdc-dialog__scrim',
+    SUPPRESS_DEFAULT_PRESS_SELECTOR: [
+        'textarea',
+        '.mdc-menu .mdc-list-item',
+    ].join(', '),
+    SURFACE_SELECTOR: '.mdc-dialog__surface',
+};
+var numbers = {
+    DIALOG_ANIMATION_CLOSE_TIME_MS: 75,
+    DIALOG_ANIMATION_OPEN_TIME_MS: 150,
+};
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/dialog/dist/mdc.dialog.css":
+/*!************************************************************!*\
+  !*** ../node_modules/@material/dialog/dist/mdc.dialog.css ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.dialog.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/dialog/dist/mdc.dialog.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "../node_modules/@material/dialog/foundation.js":
+/*!******************************************************!*\
+  !*** ../node_modules/@material/dialog/foundation.js ***!
+  \******************************************************/
+/*! exports provided: MDCDialogFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCDialogFoundation", function() { return MDCDialogFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/dialog/constants.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCDialogFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCDialogFoundation, _super);
+    function MDCDialogFoundation(adapter) {
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCDialogFoundation.defaultAdapter, adapter)) || this;
+        _this.isOpen_ = false;
+        _this.animationFrame_ = 0;
+        _this.animationTimer_ = 0;
+        _this.layoutFrame_ = 0;
+        _this.escapeKeyAction_ = _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].CLOSE_ACTION;
+        _this.scrimClickAction_ = _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].CLOSE_ACTION;
+        _this.autoStackButtons_ = true;
+        _this.areButtonsStacked_ = false;
+        return _this;
+    }
+    Object.defineProperty(MDCDialogFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCDialogFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCDialogFoundation, "numbers", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCDialogFoundation, "defaultAdapter", {
+        get: function () {
+            return {
+                addBodyClass: function () { return undefined; },
+                addClass: function () { return undefined; },
+                areButtonsStacked: function () { return false; },
+                clickDefaultButton: function () { return undefined; },
+                eventTargetMatches: function () { return false; },
+                getActionFromEvent: function () { return ''; },
+                hasClass: function () { return false; },
+                isContentScrollable: function () { return false; },
+                notifyClosed: function () { return undefined; },
+                notifyClosing: function () { return undefined; },
+                notifyOpened: function () { return undefined; },
+                notifyOpening: function () { return undefined; },
+                releaseFocus: function () { return undefined; },
+                removeBodyClass: function () { return undefined; },
+                removeClass: function () { return undefined; },
+                reverseButtons: function () { return undefined; },
+                trapFocus: function () { return undefined; },
+            };
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCDialogFoundation.prototype.init = function () {
+        if (this.adapter_.hasClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].STACKED)) {
+            this.setAutoStackButtons(false);
+        }
+    };
+    MDCDialogFoundation.prototype.destroy = function () {
+        if (this.isOpen_) {
+            this.close(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].DESTROY_ACTION);
+        }
+        if (this.animationTimer_) {
+            clearTimeout(this.animationTimer_);
+            this.handleAnimationTimerEnd_();
+        }
+        if (this.layoutFrame_) {
+            cancelAnimationFrame(this.layoutFrame_);
+            this.layoutFrame_ = 0;
+        }
+    };
+    MDCDialogFoundation.prototype.open = function () {
+        var _this = this;
+        this.isOpen_ = true;
+        this.adapter_.notifyOpening();
+        this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].OPENING);
+        // Wait a frame once display is no longer "none", to establish basis for animation
+        this.runNextAnimationFrame_(function () {
+            _this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].OPEN);
+            _this.adapter_.addBodyClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].SCROLL_LOCK);
+            _this.layout();
+            _this.animationTimer_ = setTimeout(function () {
+                _this.handleAnimationTimerEnd_();
+                _this.adapter_.trapFocus();
+                _this.adapter_.notifyOpened();
+            }, _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].DIALOG_ANIMATION_OPEN_TIME_MS);
+        });
+    };
+    MDCDialogFoundation.prototype.close = function (action) {
+        var _this = this;
+        if (action === void 0) { action = ''; }
+        if (!this.isOpen_) {
+            // Avoid redundant close calls (and events), e.g. from keydown on elements that inherently emit click
+            return;
+        }
+        this.isOpen_ = false;
+        this.adapter_.notifyClosing(action);
+        this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].CLOSING);
+        this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].OPEN);
+        this.adapter_.removeBodyClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].SCROLL_LOCK);
+        cancelAnimationFrame(this.animationFrame_);
+        this.animationFrame_ = 0;
+        clearTimeout(this.animationTimer_);
+        this.animationTimer_ = setTimeout(function () {
+            _this.adapter_.releaseFocus();
+            _this.handleAnimationTimerEnd_();
+            _this.adapter_.notifyClosed(action);
+        }, _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].DIALOG_ANIMATION_CLOSE_TIME_MS);
+    };
+    MDCDialogFoundation.prototype.isOpen = function () {
+        return this.isOpen_;
+    };
+    MDCDialogFoundation.prototype.getEscapeKeyAction = function () {
+        return this.escapeKeyAction_;
+    };
+    MDCDialogFoundation.prototype.setEscapeKeyAction = function (action) {
+        this.escapeKeyAction_ = action;
+    };
+    MDCDialogFoundation.prototype.getScrimClickAction = function () {
+        return this.scrimClickAction_;
+    };
+    MDCDialogFoundation.prototype.setScrimClickAction = function (action) {
+        this.scrimClickAction_ = action;
+    };
+    MDCDialogFoundation.prototype.getAutoStackButtons = function () {
+        return this.autoStackButtons_;
+    };
+    MDCDialogFoundation.prototype.setAutoStackButtons = function (autoStack) {
+        this.autoStackButtons_ = autoStack;
+    };
+    MDCDialogFoundation.prototype.layout = function () {
+        var _this = this;
+        if (this.layoutFrame_) {
+            cancelAnimationFrame(this.layoutFrame_);
+        }
+        this.layoutFrame_ = requestAnimationFrame(function () {
+            _this.layoutInternal_();
+            _this.layoutFrame_ = 0;
+        });
+    };
+    MDCDialogFoundation.prototype.handleInteraction = function (evt) {
+        var isClick = evt.type === 'click';
+        var isEnter = evt.key === 'Enter' || evt.keyCode === 13;
+        var isSpace = evt.key === 'Space' || evt.keyCode === 32;
+        var isScrim = this.adapter_.eventTargetMatches(evt.target, _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].SCRIM_SELECTOR);
+        var isDefault = !this.adapter_.eventTargetMatches(evt.target, _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].SUPPRESS_DEFAULT_PRESS_SELECTOR);
+        // Check for scrim click first since it doesn't require querying ancestors
+        if (isClick && isScrim && this.scrimClickAction_ !== '') {
+            this.close(this.scrimClickAction_);
+        }
+        else if (isClick || isSpace || isEnter) {
+            var action = this.adapter_.getActionFromEvent(evt);
+            if (action) {
+                this.close(action);
+            }
+            else if (isEnter && isDefault) {
+                this.adapter_.clickDefaultButton();
+            }
+        }
+    };
+    MDCDialogFoundation.prototype.handleDocumentKeydown = function (evt) {
+        var isEscape = evt.key === 'Escape' || evt.keyCode === 27;
+        if (isEscape && this.escapeKeyAction_ !== '') {
+            this.close(this.escapeKeyAction_);
+        }
+    };
+    MDCDialogFoundation.prototype.layoutInternal_ = function () {
+        if (this.autoStackButtons_) {
+            this.detectStackedButtons_();
+        }
+        this.detectScrollableContent_();
+    };
+    MDCDialogFoundation.prototype.handleAnimationTimerEnd_ = function () {
+        this.animationTimer_ = 0;
+        this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].OPENING);
+        this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].CLOSING);
+    };
+    /**
+     * Runs the given logic on the next animation frame, using setTimeout to factor in Firefox reflow behavior.
+     */
+    MDCDialogFoundation.prototype.runNextAnimationFrame_ = function (callback) {
+        var _this = this;
+        cancelAnimationFrame(this.animationFrame_);
+        this.animationFrame_ = requestAnimationFrame(function () {
+            _this.animationFrame_ = 0;
+            clearTimeout(_this.animationTimer_);
+            _this.animationTimer_ = setTimeout(callback, 0);
+        });
+    };
+    MDCDialogFoundation.prototype.detectStackedButtons_ = function () {
+        // Remove the class first to let us measure the buttons' natural positions.
+        this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].STACKED);
+        var areButtonsStacked = this.adapter_.areButtonsStacked();
+        if (areButtonsStacked) {
+            this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].STACKED);
+        }
+        if (areButtonsStacked !== this.areButtonsStacked_) {
+            this.adapter_.reverseButtons();
+            this.areButtonsStacked_ = areButtonsStacked;
+        }
+    };
+    MDCDialogFoundation.prototype.detectScrollableContent_ = function () {
+        // Remove the class first to let us measure the natural height of the content.
+        this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].SCROLLABLE);
+        if (this.adapter_.isContentScrollable()) {
+            this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].SCROLLABLE);
+        }
+    };
+    return MDCDialogFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCDialogFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/dialog/index.js":
+/*!*************************************************!*\
+  !*** ../node_modules/@material/dialog/index.js ***!
+  \*************************************************/
+/*! exports provided: util, MDCDialog, MDCDialogFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util */ "../node_modules/@material/dialog/util.js");
+/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "util", function() { return _util__WEBPACK_IMPORTED_MODULE_0__; });
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component */ "../node_modules/@material/dialog/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCDialog", function() { return _component__WEBPACK_IMPORTED_MODULE_1__["MDCDialog"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/dialog/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCDialogFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_2__["MDCDialogFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/dialog/util.js":
+/*!************************************************!*\
+  !*** ../node_modules/@material/dialog/util.js ***!
+  \************************************************/
+/*! exports provided: createFocusTrapInstance, isScrollable, areTopsMisaligned */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createFocusTrapInstance", function() { return createFocusTrapInstance; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isScrollable", function() { return isScrollable; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "areTopsMisaligned", function() { return areTopsMisaligned; });
+/* harmony import */ var focus_trap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! focus-trap */ "../node_modules/focus-trap/index.js");
+/* harmony import */ var focus_trap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(focus_trap__WEBPACK_IMPORTED_MODULE_0__);
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+function createFocusTrapInstance(surfaceEl, focusTrapFactory, initialFocusEl) {
+    if (focusTrapFactory === void 0) { focusTrapFactory = focus_trap__WEBPACK_IMPORTED_MODULE_0___default.a; }
+    return focusTrapFactory(surfaceEl, {
+        clickOutsideDeactivates: true,
+        escapeDeactivates: false,
+        initialFocus: initialFocusEl,
+    });
+}
+function isScrollable(el) {
+    return el ? el.scrollHeight > el.offsetHeight : false;
+}
+function areTopsMisaligned(els) {
+    var tops = new Set();
+    [].forEach.call(els, function (el) { return tops.add(el.offsetTop); });
+    return tops.size > 1;
+}
+//# sourceMappingURL=util.js.map
 
 /***/ }),
 
@@ -3089,7 +4603,7 @@ function matches(element, selector) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.elevation.css */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.elevation.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/elevation/dist/mdc.elevation.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -3103,7 +4617,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -3119,7 +4633,7 @@ if(false) {}
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.fab.css */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.fab.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/fab/dist/mdc.fab.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -3133,11 +4647,638 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
 if(false) {}
+
+/***/ }),
+
+/***/ "../node_modules/@material/floating-label/component.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/@material/floating-label/component.js ***!
+  \*************************************************************/
+/*! exports provided: MDCFloatingLabel */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCFloatingLabel", function() { return MDCFloatingLabel; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/floating-label/foundation.js");
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCFloatingLabel = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCFloatingLabel, _super);
+    function MDCFloatingLabel() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCFloatingLabel.attachTo = function (root) {
+        return new MDCFloatingLabel(root);
+    };
+    /**
+     * Styles the label to produce the label shake for errors.
+     * @param shouldShake If true, shakes the label by adding a CSS class; otherwise, stops shaking by removing the class.
+     */
+    MDCFloatingLabel.prototype.shake = function (shouldShake) {
+        this.foundation_.shake(shouldShake);
+    };
+    /**
+     * Styles the label to float/dock.
+     * @param shouldFloat If true, floats the label by adding a CSS class; otherwise, docks it by removing the class.
+     */
+    MDCFloatingLabel.prototype.float = function (shouldFloat) {
+        this.foundation_.float(shouldFloat);
+    };
+    MDCFloatingLabel.prototype.getWidth = function () {
+        return this.foundation_.getWidth();
+    };
+    MDCFloatingLabel.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = {
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            getWidth: function () { return _this.root_.scrollWidth; },
+            registerInteractionHandler: function (evtType, handler) { return _this.listen(evtType, handler); },
+            deregisterInteractionHandler: function (evtType, handler) { return _this.unlisten(evtType, handler); },
+        };
+        // tslint:enable:object-literal-sort-keys
+        return new _foundation__WEBPACK_IMPORTED_MODULE_2__["MDCFloatingLabelFoundation"](adapter);
+    };
+    return MDCFloatingLabel;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/floating-label/constants.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/@material/floating-label/constants.js ***!
+  \*************************************************************/
+/*! exports provided: cssClasses */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    LABEL_FLOAT_ABOVE: 'mdc-floating-label--float-above',
+    LABEL_SHAKE: 'mdc-floating-label--shake',
+    ROOT: 'mdc-floating-label',
+};
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/floating-label/dist/mdc.floating-label.css":
+/*!****************************************************************************!*\
+  !*** ../node_modules/@material/floating-label/dist/mdc.floating-label.css ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.floating-label.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/floating-label/dist/mdc.floating-label.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "../node_modules/@material/floating-label/foundation.js":
+/*!**************************************************************!*\
+  !*** ../node_modules/@material/floating-label/foundation.js ***!
+  \**************************************************************/
+/*! exports provided: MDCFloatingLabelFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCFloatingLabelFoundation", function() { return MDCFloatingLabelFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/floating-label/constants.js");
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCFloatingLabelFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCFloatingLabelFoundation, _super);
+    function MDCFloatingLabelFoundation(adapter) {
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCFloatingLabelFoundation.defaultAdapter, adapter)) || this;
+        _this.shakeAnimationEndHandler_ = function () { return _this.handleShakeAnimationEnd_(); };
+        return _this;
+    }
+    Object.defineProperty(MDCFloatingLabelFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCFloatingLabelFoundation, "defaultAdapter", {
+        /**
+         * See {@link MDCFloatingLabelAdapter} for typing information on parameters and return types.
+         */
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                addClass: function () { return undefined; },
+                removeClass: function () { return undefined; },
+                getWidth: function () { return 0; },
+                registerInteractionHandler: function () { return undefined; },
+                deregisterInteractionHandler: function () { return undefined; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCFloatingLabelFoundation.prototype.init = function () {
+        this.adapter_.registerInteractionHandler('animationend', this.shakeAnimationEndHandler_);
+    };
+    MDCFloatingLabelFoundation.prototype.destroy = function () {
+        this.adapter_.deregisterInteractionHandler('animationend', this.shakeAnimationEndHandler_);
+    };
+    /**
+     * Returns the width of the label element.
+     */
+    MDCFloatingLabelFoundation.prototype.getWidth = function () {
+        return this.adapter_.getWidth();
+    };
+    /**
+     * Styles the label to produce a shake animation to indicate an error.
+     * @param shouldShake If true, adds the shake CSS class; otherwise, removes shake class.
+     */
+    MDCFloatingLabelFoundation.prototype.shake = function (shouldShake) {
+        var LABEL_SHAKE = MDCFloatingLabelFoundation.cssClasses.LABEL_SHAKE;
+        if (shouldShake) {
+            this.adapter_.addClass(LABEL_SHAKE);
+        }
+        else {
+            this.adapter_.removeClass(LABEL_SHAKE);
+        }
+    };
+    /**
+     * Styles the label to float or dock.
+     * @param shouldFloat If true, adds the float CSS class; otherwise, removes float and shake classes to dock the label.
+     */
+    MDCFloatingLabelFoundation.prototype.float = function (shouldFloat) {
+        var _a = MDCFloatingLabelFoundation.cssClasses, LABEL_FLOAT_ABOVE = _a.LABEL_FLOAT_ABOVE, LABEL_SHAKE = _a.LABEL_SHAKE;
+        if (shouldFloat) {
+            this.adapter_.addClass(LABEL_FLOAT_ABOVE);
+        }
+        else {
+            this.adapter_.removeClass(LABEL_FLOAT_ABOVE);
+            this.adapter_.removeClass(LABEL_SHAKE);
+        }
+    };
+    MDCFloatingLabelFoundation.prototype.handleShakeAnimationEnd_ = function () {
+        var LABEL_SHAKE = MDCFloatingLabelFoundation.cssClasses.LABEL_SHAKE;
+        this.adapter_.removeClass(LABEL_SHAKE);
+    };
+    return MDCFloatingLabelFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCFloatingLabelFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/floating-label/index.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/@material/floating-label/index.js ***!
+  \*********************************************************/
+/*! exports provided: MDCFloatingLabel, MDCFloatingLabelFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/floating-label/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCFloatingLabel", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCFloatingLabel"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/floating-label/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCFloatingLabelFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFloatingLabelFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/form-field/component.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/@material/form-field/component.js ***!
+  \*********************************************************/
+/*! exports provided: MDCFormField */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCFormField", function() { return MDCFormField; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/form-field/foundation.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCFormField = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCFormField, _super);
+    function MDCFormField() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCFormField.attachTo = function (root) {
+        return new MDCFormField(root);
+    };
+    Object.defineProperty(MDCFormField.prototype, "input", {
+        get: function () {
+            return this.input_;
+        },
+        set: function (input) {
+            this.input_ = input;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCFormField.prototype, "label_", {
+        get: function () {
+            var LABEL_SELECTOR = _foundation__WEBPACK_IMPORTED_MODULE_2__["MDCFormFieldFoundation"].strings.LABEL_SELECTOR;
+            return this.root_.querySelector(LABEL_SELECTOR);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCFormField.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        var adapter = {
+            activateInputRipple: function () {
+                if (_this.input_ && _this.input_.ripple) {
+                    _this.input_.ripple.activate();
+                }
+            },
+            deactivateInputRipple: function () {
+                if (_this.input_ && _this.input_.ripple) {
+                    _this.input_.ripple.deactivate();
+                }
+            },
+            deregisterInteractionHandler: function (evtType, handler) {
+                if (_this.label_) {
+                    _this.label_.removeEventListener(evtType, handler);
+                }
+            },
+            registerInteractionHandler: function (evtType, handler) {
+                if (_this.label_) {
+                    _this.label_.addEventListener(evtType, handler);
+                }
+            },
+        };
+        return new _foundation__WEBPACK_IMPORTED_MODULE_2__["MDCFormFieldFoundation"](adapter);
+    };
+    return MDCFormField;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/form-field/constants.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/@material/form-field/constants.js ***!
+  \*********************************************************/
+/*! exports provided: cssClasses, strings */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    ROOT: 'mdc-form-field',
+};
+var strings = {
+    LABEL_SELECTOR: '.mdc-form-field > label',
+};
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/form-field/dist/mdc.form-field.css":
+/*!********************************************************************!*\
+  !*** ../node_modules/@material/form-field/dist/mdc.form-field.css ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.form-field.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/form-field/dist/mdc.form-field.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "../node_modules/@material/form-field/foundation.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/@material/form-field/foundation.js ***!
+  \**********************************************************/
+/*! exports provided: MDCFormFieldFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCFormFieldFoundation", function() { return MDCFormFieldFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/form-field/constants.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCFormFieldFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCFormFieldFoundation, _super);
+    function MDCFormFieldFoundation(adapter) {
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCFormFieldFoundation.defaultAdapter, adapter)) || this;
+        _this.clickHandler_ = function () { return _this.handleClick_(); };
+        return _this;
+    }
+    Object.defineProperty(MDCFormFieldFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCFormFieldFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCFormFieldFoundation, "defaultAdapter", {
+        get: function () {
+            return {
+                activateInputRipple: function () { return undefined; },
+                deactivateInputRipple: function () { return undefined; },
+                deregisterInteractionHandler: function () { return undefined; },
+                registerInteractionHandler: function () { return undefined; },
+            };
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCFormFieldFoundation.prototype.init = function () {
+        this.adapter_.registerInteractionHandler('click', this.clickHandler_);
+    };
+    MDCFormFieldFoundation.prototype.destroy = function () {
+        this.adapter_.deregisterInteractionHandler('click', this.clickHandler_);
+    };
+    MDCFormFieldFoundation.prototype.handleClick_ = function () {
+        var _this = this;
+        this.adapter_.activateInputRipple();
+        requestAnimationFrame(function () { return _this.adapter_.deactivateInputRipple(); });
+    };
+    return MDCFormFieldFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCFormFieldFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/form-field/index.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/@material/form-field/index.js ***!
+  \*****************************************************/
+/*! exports provided: MDCFormField, MDCFormFieldFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/form-field/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCFormField", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCFormField"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/form-field/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCFormFieldFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFormFieldFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
 
 /***/ }),
 
@@ -3402,6 +5543,646 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/icon-button/foundation.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCIconButtonToggleFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCIconButtonToggleFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/line-ripple/component.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/@material/line-ripple/component.js ***!
+  \**********************************************************/
+/*! exports provided: MDCLineRipple */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCLineRipple", function() { return MDCLineRipple; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/line-ripple/foundation.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCLineRipple = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCLineRipple, _super);
+    function MDCLineRipple() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCLineRipple.attachTo = function (root) {
+        return new MDCLineRipple(root);
+    };
+    /**
+     * Activates the line ripple
+     */
+    MDCLineRipple.prototype.activate = function () {
+        this.foundation_.activate();
+    };
+    /**
+     * Deactivates the line ripple
+     */
+    MDCLineRipple.prototype.deactivate = function () {
+        this.foundation_.deactivate();
+    };
+    /**
+     * Sets the transform origin given a user's click location.
+     * The `rippleCenter` is the x-coordinate of the middle of the ripple.
+     */
+    MDCLineRipple.prototype.setRippleCenter = function (xCoordinate) {
+        this.foundation_.setRippleCenter(xCoordinate);
+    };
+    MDCLineRipple.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = {
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            hasClass: function (className) { return _this.root_.classList.contains(className); },
+            setStyle: function (propertyName, value) { return _this.root_.style.setProperty(propertyName, value); },
+            registerEventHandler: function (evtType, handler) { return _this.listen(evtType, handler); },
+            deregisterEventHandler: function (evtType, handler) { return _this.unlisten(evtType, handler); },
+        };
+        // tslint:enable:object-literal-sort-keys
+        return new _foundation__WEBPACK_IMPORTED_MODULE_2__["MDCLineRippleFoundation"](adapter);
+    };
+    return MDCLineRipple;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/line-ripple/constants.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/@material/line-ripple/constants.js ***!
+  \**********************************************************/
+/*! exports provided: cssClasses */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    LINE_RIPPLE_ACTIVE: 'mdc-line-ripple--active',
+    LINE_RIPPLE_DEACTIVATING: 'mdc-line-ripple--deactivating',
+};
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/line-ripple/dist/mdc.line-ripple.css":
+/*!**********************************************************************!*\
+  !*** ../node_modules/@material/line-ripple/dist/mdc.line-ripple.css ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.line-ripple.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/line-ripple/dist/mdc.line-ripple.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "../node_modules/@material/line-ripple/foundation.js":
+/*!***********************************************************!*\
+  !*** ../node_modules/@material/line-ripple/foundation.js ***!
+  \***********************************************************/
+/*! exports provided: MDCLineRippleFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCLineRippleFoundation", function() { return MDCLineRippleFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/line-ripple/constants.js");
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCLineRippleFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCLineRippleFoundation, _super);
+    function MDCLineRippleFoundation(adapter) {
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCLineRippleFoundation.defaultAdapter, adapter)) || this;
+        _this.transitionEndHandler_ = function (evt) { return _this.handleTransitionEnd(evt); };
+        return _this;
+    }
+    Object.defineProperty(MDCLineRippleFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCLineRippleFoundation, "defaultAdapter", {
+        /**
+         * See {@link MDCLineRippleAdapter} for typing information on parameters and return types.
+         */
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                addClass: function () { return undefined; },
+                removeClass: function () { return undefined; },
+                hasClass: function () { return false; },
+                setStyle: function () { return undefined; },
+                registerEventHandler: function () { return undefined; },
+                deregisterEventHandler: function () { return undefined; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCLineRippleFoundation.prototype.init = function () {
+        this.adapter_.registerEventHandler('transitionend', this.transitionEndHandler_);
+    };
+    MDCLineRippleFoundation.prototype.destroy = function () {
+        this.adapter_.deregisterEventHandler('transitionend', this.transitionEndHandler_);
+    };
+    MDCLineRippleFoundation.prototype.activate = function () {
+        this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].LINE_RIPPLE_DEACTIVATING);
+        this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].LINE_RIPPLE_ACTIVE);
+    };
+    MDCLineRippleFoundation.prototype.setRippleCenter = function (xCoordinate) {
+        this.adapter_.setStyle('transform-origin', xCoordinate + "px center");
+    };
+    MDCLineRippleFoundation.prototype.deactivate = function () {
+        this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].LINE_RIPPLE_DEACTIVATING);
+    };
+    MDCLineRippleFoundation.prototype.handleTransitionEnd = function (evt) {
+        // Wait for the line ripple to be either transparent or opaque
+        // before emitting the animation end event
+        var isDeactivating = this.adapter_.hasClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].LINE_RIPPLE_DEACTIVATING);
+        if (evt.propertyName === 'opacity') {
+            if (isDeactivating) {
+                this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].LINE_RIPPLE_ACTIVE);
+                this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].LINE_RIPPLE_DEACTIVATING);
+            }
+        }
+    };
+    return MDCLineRippleFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCLineRippleFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/line-ripple/index.js":
+/*!******************************************************!*\
+  !*** ../node_modules/@material/line-ripple/index.js ***!
+  \******************************************************/
+/*! exports provided: MDCLineRipple, MDCLineRippleFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/line-ripple/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCLineRipple", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCLineRipple"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/line-ripple/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCLineRippleFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCLineRippleFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/notched-outline/component.js":
+/*!**************************************************************!*\
+  !*** ../node_modules/@material/notched-outline/component.js ***!
+  \**************************************************************/
+/*! exports provided: MDCNotchedOutline */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCNotchedOutline", function() { return MDCNotchedOutline; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _material_floating_label_foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material/floating-label/foundation */ "../node_modules/@material/floating-label/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/notched-outline/constants.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/notched-outline/foundation.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+var MDCNotchedOutline = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCNotchedOutline, _super);
+    function MDCNotchedOutline() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCNotchedOutline.attachTo = function (root) {
+        return new MDCNotchedOutline(root);
+    };
+    MDCNotchedOutline.prototype.initialSyncWithDOM = function () {
+        this.notchElement_ = this.root_.querySelector(_constants__WEBPACK_IMPORTED_MODULE_3__["strings"].NOTCH_ELEMENT_SELECTOR);
+        var label = this.root_.querySelector('.' + _material_floating_label_foundation__WEBPACK_IMPORTED_MODULE_2__["MDCFloatingLabelFoundation"].cssClasses.ROOT);
+        if (label) {
+            label.style.transitionDuration = '0s';
+            this.root_.classList.add(_constants__WEBPACK_IMPORTED_MODULE_3__["cssClasses"].OUTLINE_UPGRADED);
+            requestAnimationFrame(function () {
+                label.style.transitionDuration = '';
+            });
+        }
+        else {
+            this.root_.classList.add(_constants__WEBPACK_IMPORTED_MODULE_3__["cssClasses"].NO_LABEL);
+        }
+    };
+    /**
+     * Updates classes and styles to open the notch to the specified width.
+     * @param notchWidth The notch width in the outline.
+     */
+    MDCNotchedOutline.prototype.notch = function (notchWidth) {
+        this.foundation_.notch(notchWidth);
+    };
+    /**
+     * Updates classes and styles to close the notch.
+     */
+    MDCNotchedOutline.prototype.closeNotch = function () {
+        this.foundation_.closeNotch();
+    };
+    MDCNotchedOutline.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = {
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            setNotchWidthProperty: function (width) { return _this.notchElement_.style.setProperty('width', width + 'px'); },
+            removeNotchWidthProperty: function () { return _this.notchElement_.style.removeProperty('width'); },
+        };
+        // tslint:enable:object-literal-sort-keys
+        return new _foundation__WEBPACK_IMPORTED_MODULE_4__["MDCNotchedOutlineFoundation"](adapter);
+    };
+    return MDCNotchedOutline;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/notched-outline/constants.js":
+/*!**************************************************************!*\
+  !*** ../node_modules/@material/notched-outline/constants.js ***!
+  \**************************************************************/
+/*! exports provided: cssClasses, numbers, strings */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "numbers", function() { return numbers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var strings = {
+    NOTCH_ELEMENT_SELECTOR: '.mdc-notched-outline__notch',
+};
+var numbers = {
+    // This should stay in sync with $mdc-notched-outline-padding * 2.
+    NOTCH_ELEMENT_PADDING: 8,
+};
+var cssClasses = {
+    NO_LABEL: 'mdc-notched-outline--no-label',
+    OUTLINE_NOTCHED: 'mdc-notched-outline--notched',
+    OUTLINE_UPGRADED: 'mdc-notched-outline--upgraded',
+};
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/notched-outline/dist/mdc.notched-outline.css":
+/*!******************************************************************************!*\
+  !*** ../node_modules/@material/notched-outline/dist/mdc.notched-outline.css ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.notched-outline.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/notched-outline/dist/mdc.notched-outline.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "../node_modules/@material/notched-outline/foundation.js":
+/*!***************************************************************!*\
+  !*** ../node_modules/@material/notched-outline/foundation.js ***!
+  \***************************************************************/
+/*! exports provided: MDCNotchedOutlineFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCNotchedOutlineFoundation", function() { return MDCNotchedOutlineFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/notched-outline/constants.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCNotchedOutlineFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCNotchedOutlineFoundation, _super);
+    function MDCNotchedOutlineFoundation(adapter) {
+        return _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCNotchedOutlineFoundation.defaultAdapter, adapter)) || this;
+    }
+    Object.defineProperty(MDCNotchedOutlineFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCNotchedOutlineFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCNotchedOutlineFoundation, "numbers", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCNotchedOutlineFoundation, "defaultAdapter", {
+        /**
+         * See {@link MDCNotchedOutlineAdapter} for typing information on parameters and return types.
+         */
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                addClass: function () { return undefined; },
+                removeClass: function () { return undefined; },
+                setNotchWidthProperty: function () { return undefined; },
+                removeNotchWidthProperty: function () { return undefined; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Adds the outline notched selector and updates the notch width calculated based off of notchWidth.
+     */
+    MDCNotchedOutlineFoundation.prototype.notch = function (notchWidth) {
+        var OUTLINE_NOTCHED = MDCNotchedOutlineFoundation.cssClasses.OUTLINE_NOTCHED;
+        if (notchWidth > 0) {
+            notchWidth += _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].NOTCH_ELEMENT_PADDING; // Add padding from left/right.
+        }
+        this.adapter_.setNotchWidthProperty(notchWidth);
+        this.adapter_.addClass(OUTLINE_NOTCHED);
+    };
+    /**
+     * Removes notched outline selector to close the notch in the outline.
+     */
+    MDCNotchedOutlineFoundation.prototype.closeNotch = function () {
+        var OUTLINE_NOTCHED = MDCNotchedOutlineFoundation.cssClasses.OUTLINE_NOTCHED;
+        this.adapter_.removeClass(OUTLINE_NOTCHED);
+        this.adapter_.removeNotchWidthProperty();
+    };
+    return MDCNotchedOutlineFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCNotchedOutlineFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/notched-outline/index.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/@material/notched-outline/index.js ***!
+  \**********************************************************/
+/*! exports provided: MDCNotchedOutline, MDCNotchedOutlineFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/notched-outline/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCNotchedOutline", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCNotchedOutline"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/notched-outline/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCNotchedOutlineFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCNotchedOutlineFoundation"]; });
 
 /**
  * @license
@@ -4262,15 +7043,802 @@ function getNormalizedEventCoords(evt, pageOffset, clientRect) {
 
 /***/ }),
 
-/***/ "../node_modules/@material/theme/dist/mdc.theme.css":
-/*!**********************************************************!*\
-  !*** ../node_modules/@material/theme/dist/mdc.theme.css ***!
-  \**********************************************************/
+/***/ "../node_modules/@material/textfield/character-counter/component.js":
+/*!**************************************************************************!*\
+  !*** ../node_modules/@material/textfield/character-counter/component.js ***!
+  \**************************************************************************/
+/*! exports provided: MDCTextFieldCharacterCounter */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldCharacterCounter", function() { return MDCTextFieldCharacterCounter; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/textfield/character-counter/foundation.js");
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCTextFieldCharacterCounter = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTextFieldCharacterCounter, _super);
+    function MDCTextFieldCharacterCounter() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTextFieldCharacterCounter.attachTo = function (root) {
+        return new MDCTextFieldCharacterCounter(root);
+    };
+    Object.defineProperty(MDCTextFieldCharacterCounter.prototype, "foundation", {
+        get: function () {
+            return this.foundation_;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTextFieldCharacterCounter.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        var adapter = {
+            setContent: function (content) {
+                _this.root_.textContent = content;
+            },
+        };
+        return new _foundation__WEBPACK_IMPORTED_MODULE_2__["MDCTextFieldCharacterCounterFoundation"](adapter);
+    };
+    return MDCTextFieldCharacterCounter;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/character-counter/constants.js":
+/*!**************************************************************************!*\
+  !*** ../node_modules/@material/textfield/character-counter/constants.js ***!
+  \**************************************************************************/
+/*! exports provided: strings, cssClasses */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    ROOT: 'mdc-text-field-character-counter',
+};
+var strings = {
+    ROOT_SELECTOR: "." + cssClasses.ROOT,
+};
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/character-counter/foundation.js":
+/*!***************************************************************************!*\
+  !*** ../node_modules/@material/textfield/character-counter/foundation.js ***!
+  \***************************************************************************/
+/*! exports provided: MDCTextFieldCharacterCounterFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldCharacterCounterFoundation", function() { return MDCTextFieldCharacterCounterFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/textfield/character-counter/constants.js");
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCTextFieldCharacterCounterFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTextFieldCharacterCounterFoundation, _super);
+    function MDCTextFieldCharacterCounterFoundation(adapter) {
+        return _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCTextFieldCharacterCounterFoundation.defaultAdapter, adapter)) || this;
+    }
+    Object.defineProperty(MDCTextFieldCharacterCounterFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldCharacterCounterFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldCharacterCounterFoundation, "defaultAdapter", {
+        /**
+         * See {@link MDCTextFieldCharacterCounterAdapter} for typing information on parameters and return types.
+         */
+        get: function () {
+            return {
+                setContent: function () { return undefined; },
+            };
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTextFieldCharacterCounterFoundation.prototype.setCounterValue = function (currentLength, maxLength) {
+        currentLength = Math.min(currentLength, maxLength);
+        this.adapter_.setContent(currentLength + " / " + maxLength);
+    };
+    return MDCTextFieldCharacterCounterFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTextFieldCharacterCounterFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/character-counter/index.js":
+/*!**********************************************************************!*\
+  !*** ../node_modules/@material/textfield/character-counter/index.js ***!
+  \**********************************************************************/
+/*! exports provided: MDCTextFieldCharacterCounter, MDCTextFieldCharacterCounterFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/textfield/character-counter/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldCharacterCounter", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCTextFieldCharacterCounter"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/textfield/character-counter/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldCharacterCounterFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTextFieldCharacterCounterFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/component.js":
+/*!********************************************************!*\
+  !*** ../node_modules/@material/textfield/component.js ***!
+  \********************************************************/
+/*! exports provided: MDCTextField */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTextField", function() { return MDCTextField; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _material_dom_ponyfill__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material/dom/ponyfill */ "../node_modules/@material/dom/ponyfill.js");
+/* harmony import */ var _material_floating_label_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material/floating-label/index */ "../node_modules/@material/floating-label/index.js");
+/* harmony import */ var _material_line_ripple_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material/line-ripple/index */ "../node_modules/@material/line-ripple/index.js");
+/* harmony import */ var _material_notched_outline_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material/notched-outline/index */ "../node_modules/@material/notched-outline/index.js");
+/* harmony import */ var _material_ripple_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material/ripple/component */ "../node_modules/@material/ripple/component.js");
+/* harmony import */ var _material_ripple_foundation__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material/ripple/foundation */ "../node_modules/@material/ripple/foundation.js");
+/* harmony import */ var _character_counter_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./character-counter/index */ "../node_modules/@material/textfield/character-counter/index.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/textfield/constants.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/textfield/foundation.js");
+/* harmony import */ var _helper_text_index__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./helper-text/index */ "../node_modules/@material/textfield/helper-text/index.js");
+/* harmony import */ var _icon_index__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./icon/index */ "../node_modules/@material/textfield/icon/index.js");
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+var MDCTextField = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTextField, _super);
+    function MDCTextField() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTextField.attachTo = function (root) {
+        return new MDCTextField(root);
+    };
+    MDCTextField.prototype.initialize = function (rippleFactory, lineRippleFactory, helperTextFactory, characterCounterFactory, iconFactory, labelFactory, outlineFactory) {
+        if (rippleFactory === void 0) { rippleFactory = function (el, foundation) { return new _material_ripple_component__WEBPACK_IMPORTED_MODULE_6__["MDCRipple"](el, foundation); }; }
+        if (lineRippleFactory === void 0) { lineRippleFactory = function (el) { return new _material_line_ripple_index__WEBPACK_IMPORTED_MODULE_4__["MDCLineRipple"](el); }; }
+        if (helperTextFactory === void 0) { helperTextFactory = function (el) { return new _helper_text_index__WEBPACK_IMPORTED_MODULE_11__["MDCTextFieldHelperText"](el); }; }
+        if (characterCounterFactory === void 0) { characterCounterFactory = function (el) { return new _character_counter_index__WEBPACK_IMPORTED_MODULE_8__["MDCTextFieldCharacterCounter"](el); }; }
+        if (iconFactory === void 0) { iconFactory = function (el) { return new _icon_index__WEBPACK_IMPORTED_MODULE_12__["MDCTextFieldIcon"](el); }; }
+        if (labelFactory === void 0) { labelFactory = function (el) { return new _material_floating_label_index__WEBPACK_IMPORTED_MODULE_3__["MDCFloatingLabel"](el); }; }
+        if (outlineFactory === void 0) { outlineFactory = function (el) { return new _material_notched_outline_index__WEBPACK_IMPORTED_MODULE_5__["MDCNotchedOutline"](el); }; }
+        this.input_ = this.root_.querySelector(_constants__WEBPACK_IMPORTED_MODULE_9__["strings"].INPUT_SELECTOR);
+        var labelElement = this.root_.querySelector(_constants__WEBPACK_IMPORTED_MODULE_9__["strings"].LABEL_SELECTOR);
+        this.label_ = labelElement ? labelFactory(labelElement) : null;
+        var lineRippleElement = this.root_.querySelector(_constants__WEBPACK_IMPORTED_MODULE_9__["strings"].LINE_RIPPLE_SELECTOR);
+        this.lineRipple_ = lineRippleElement ? lineRippleFactory(lineRippleElement) : null;
+        var outlineElement = this.root_.querySelector(_constants__WEBPACK_IMPORTED_MODULE_9__["strings"].OUTLINE_SELECTOR);
+        this.outline_ = outlineElement ? outlineFactory(outlineElement) : null;
+        // Helper text
+        var helperTextStrings = _helper_text_index__WEBPACK_IMPORTED_MODULE_11__["MDCTextFieldHelperTextFoundation"].strings;
+        var nextElementSibling = this.root_.nextElementSibling;
+        var hasHelperLine = (nextElementSibling && nextElementSibling.classList.contains(_constants__WEBPACK_IMPORTED_MODULE_9__["cssClasses"].HELPER_LINE));
+        var helperTextEl = hasHelperLine && nextElementSibling && nextElementSibling.querySelector(helperTextStrings.ROOT_SELECTOR);
+        this.helperText_ = helperTextEl ? helperTextFactory(helperTextEl) : null;
+        // Character counter
+        var characterCounterStrings = _character_counter_index__WEBPACK_IMPORTED_MODULE_8__["MDCTextFieldCharacterCounterFoundation"].strings;
+        var characterCounterEl = this.root_.querySelector(characterCounterStrings.ROOT_SELECTOR);
+        // If character counter is not found in root element search in sibling element.
+        if (!characterCounterEl && hasHelperLine && nextElementSibling) {
+            characterCounterEl = nextElementSibling.querySelector(characterCounterStrings.ROOT_SELECTOR);
+        }
+        this.characterCounter_ = characterCounterEl ? characterCounterFactory(characterCounterEl) : null;
+        this.leadingIcon_ = null;
+        this.trailingIcon_ = null;
+        var iconElements = this.root_.querySelectorAll(_constants__WEBPACK_IMPORTED_MODULE_9__["strings"].ICON_SELECTOR);
+        if (iconElements.length > 0) {
+            if (iconElements.length > 1) { // Has both icons.
+                this.leadingIcon_ = iconFactory(iconElements[0]);
+                this.trailingIcon_ = iconFactory(iconElements[1]);
+            }
+            else {
+                if (this.root_.classList.contains(_constants__WEBPACK_IMPORTED_MODULE_9__["cssClasses"].WITH_LEADING_ICON)) {
+                    this.leadingIcon_ = iconFactory(iconElements[0]);
+                }
+                else {
+                    this.trailingIcon_ = iconFactory(iconElements[0]);
+                }
+            }
+        }
+        this.ripple = this.createRipple_(rippleFactory);
+    };
+    MDCTextField.prototype.destroy = function () {
+        if (this.ripple) {
+            this.ripple.destroy();
+        }
+        if (this.lineRipple_) {
+            this.lineRipple_.destroy();
+        }
+        if (this.helperText_) {
+            this.helperText_.destroy();
+        }
+        if (this.characterCounter_) {
+            this.characterCounter_.destroy();
+        }
+        if (this.leadingIcon_) {
+            this.leadingIcon_.destroy();
+        }
+        if (this.trailingIcon_) {
+            this.trailingIcon_.destroy();
+        }
+        if (this.label_) {
+            this.label_.destroy();
+        }
+        if (this.outline_) {
+            this.outline_.destroy();
+        }
+        _super.prototype.destroy.call(this);
+    };
+    /**
+     * Initializes the Text Field's internal state based on the environment's
+     * state.
+     */
+    MDCTextField.prototype.initialSyncWithDOM = function () {
+        this.disabled = this.input_.disabled;
+    };
+    Object.defineProperty(MDCTextField.prototype, "value", {
+        get: function () {
+            return this.foundation_.getValue();
+        },
+        /**
+         * @param value The value to set on the input.
+         */
+        set: function (value) {
+            this.foundation_.setValue(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "disabled", {
+        get: function () {
+            return this.foundation_.isDisabled();
+        },
+        /**
+         * @param disabled Sets the Text Field disabled or enabled.
+         */
+        set: function (disabled) {
+            this.foundation_.setDisabled(disabled);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "valid", {
+        get: function () {
+            return this.foundation_.isValid();
+        },
+        /**
+         * @param valid Sets the Text Field valid or invalid.
+         */
+        set: function (valid) {
+            this.foundation_.setValid(valid);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "required", {
+        get: function () {
+            return this.input_.required;
+        },
+        /**
+         * @param required Sets the Text Field to required.
+         */
+        set: function (required) {
+            this.input_.required = required;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "pattern", {
+        get: function () {
+            return this.input_.pattern;
+        },
+        /**
+         * @param pattern Sets the input element's validation pattern.
+         */
+        set: function (pattern) {
+            this.input_.pattern = pattern;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "minLength", {
+        get: function () {
+            return this.input_.minLength;
+        },
+        /**
+         * @param minLength Sets the input element's minLength.
+         */
+        set: function (minLength) {
+            this.input_.minLength = minLength;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "maxLength", {
+        get: function () {
+            return this.input_.maxLength;
+        },
+        /**
+         * @param maxLength Sets the input element's maxLength.
+         */
+        set: function (maxLength) {
+            // Chrome throws exception if maxLength is set to a value less than zero
+            if (maxLength < 0) {
+                this.input_.removeAttribute('maxLength');
+            }
+            else {
+                this.input_.maxLength = maxLength;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "min", {
+        get: function () {
+            return this.input_.min;
+        },
+        /**
+         * @param min Sets the input element's min.
+         */
+        set: function (min) {
+            this.input_.min = min;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "max", {
+        get: function () {
+            return this.input_.max;
+        },
+        /**
+         * @param max Sets the input element's max.
+         */
+        set: function (max) {
+            this.input_.max = max;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "step", {
+        get: function () {
+            return this.input_.step;
+        },
+        /**
+         * @param step Sets the input element's step.
+         */
+        set: function (step) {
+            this.input_.step = step;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "helperTextContent", {
+        /**
+         * Sets the helper text element content.
+         */
+        set: function (content) {
+            this.foundation_.setHelperTextContent(content);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "leadingIconAriaLabel", {
+        /**
+         * Sets the aria label of the leading icon.
+         */
+        set: function (label) {
+            this.foundation_.setLeadingIconAriaLabel(label);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "leadingIconContent", {
+        /**
+         * Sets the text content of the leading icon.
+         */
+        set: function (content) {
+            this.foundation_.setLeadingIconContent(content);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "trailingIconAriaLabel", {
+        /**
+         * Sets the aria label of the trailing icon.
+         */
+        set: function (label) {
+            this.foundation_.setTrailingIconAriaLabel(label);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "trailingIconContent", {
+        /**
+         * Sets the text content of the trailing icon.
+         */
+        set: function (content) {
+            this.foundation_.setTrailingIconContent(content);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextField.prototype, "useNativeValidation", {
+        /**
+         * Enables or disables the use of native validation. Use this for custom validation.
+         * @param useNativeValidation Set this to false to ignore native input validation.
+         */
+        set: function (useNativeValidation) {
+            this.foundation_.setUseNativeValidation(useNativeValidation);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Focuses the input element.
+     */
+    MDCTextField.prototype.focus = function () {
+        this.input_.focus();
+    };
+    /**
+     * Recomputes the outline SVG path for the outline element.
+     */
+    MDCTextField.prototype.layout = function () {
+        var openNotch = this.foundation_.shouldFloat;
+        this.foundation_.notchOutline(openNotch);
+    };
+    MDCTextField.prototype.getDefaultFoundation = function () {
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, this.getRootAdapterMethods_(), this.getInputAdapterMethods_(), this.getLabelAdapterMethods_(), this.getLineRippleAdapterMethods_(), this.getOutlineAdapterMethods_());
+        // tslint:enable:object-literal-sort-keys
+        return new _foundation__WEBPACK_IMPORTED_MODULE_10__["MDCTextFieldFoundation"](adapter, this.getFoundationMap_());
+    };
+    MDCTextField.prototype.getRootAdapterMethods_ = function () {
+        var _this = this;
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        return {
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            hasClass: function (className) { return _this.root_.classList.contains(className); },
+            registerTextFieldInteractionHandler: function (evtType, handler) { return _this.listen(evtType, handler); },
+            deregisterTextFieldInteractionHandler: function (evtType, handler) { return _this.unlisten(evtType, handler); },
+            registerValidationAttributeChangeHandler: function (handler) {
+                var getAttributesList = function (mutationsList) {
+                    return mutationsList
+                        .map(function (mutation) { return mutation.attributeName; })
+                        .filter(function (attributeName) { return attributeName; });
+                };
+                var observer = new MutationObserver(function (mutationsList) { return handler(getAttributesList(mutationsList)); });
+                var config = { attributes: true };
+                observer.observe(_this.input_, config);
+                return observer;
+            },
+            deregisterValidationAttributeChangeHandler: function (observer) { return observer.disconnect(); },
+        };
+        // tslint:enable:object-literal-sort-keys
+    };
+    MDCTextField.prototype.getInputAdapterMethods_ = function () {
+        var _this = this;
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        return {
+            getNativeInput: function () { return _this.input_; },
+            isFocused: function () { return document.activeElement === _this.input_; },
+            registerInputInteractionHandler: function (evtType, handler) { return _this.input_.addEventListener(evtType, handler); },
+            deregisterInputInteractionHandler: function (evtType, handler) { return _this.input_.removeEventListener(evtType, handler); },
+        };
+        // tslint:enable:object-literal-sort-keys
+    };
+    MDCTextField.prototype.getLabelAdapterMethods_ = function () {
+        var _this = this;
+        return {
+            floatLabel: function (shouldFloat) { return _this.label_ && _this.label_.float(shouldFloat); },
+            getLabelWidth: function () { return _this.label_ ? _this.label_.getWidth() : 0; },
+            hasLabel: function () { return Boolean(_this.label_); },
+            shakeLabel: function (shouldShake) { return _this.label_ && _this.label_.shake(shouldShake); },
+        };
+    };
+    MDCTextField.prototype.getLineRippleAdapterMethods_ = function () {
+        var _this = this;
+        return {
+            activateLineRipple: function () {
+                if (_this.lineRipple_) {
+                    _this.lineRipple_.activate();
+                }
+            },
+            deactivateLineRipple: function () {
+                if (_this.lineRipple_) {
+                    _this.lineRipple_.deactivate();
+                }
+            },
+            setLineRippleTransformOrigin: function (normalizedX) {
+                if (_this.lineRipple_) {
+                    _this.lineRipple_.setRippleCenter(normalizedX);
+                }
+            },
+        };
+    };
+    MDCTextField.prototype.getOutlineAdapterMethods_ = function () {
+        var _this = this;
+        return {
+            closeOutline: function () { return _this.outline_ && _this.outline_.closeNotch(); },
+            hasOutline: function () { return Boolean(_this.outline_); },
+            notchOutline: function (labelWidth) { return _this.outline_ && _this.outline_.notch(labelWidth); },
+        };
+    };
+    /**
+     * @return A map of all subcomponents to subfoundations.
+     */
+    MDCTextField.prototype.getFoundationMap_ = function () {
+        return {
+            characterCounter: this.characterCounter_ ? this.characterCounter_.foundation : undefined,
+            helperText: this.helperText_ ? this.helperText_.foundation : undefined,
+            leadingIcon: this.leadingIcon_ ? this.leadingIcon_.foundation : undefined,
+            trailingIcon: this.trailingIcon_ ? this.trailingIcon_.foundation : undefined,
+        };
+    };
+    MDCTextField.prototype.createRipple_ = function (rippleFactory) {
+        var _this = this;
+        var isTextArea = this.root_.classList.contains(_constants__WEBPACK_IMPORTED_MODULE_9__["cssClasses"].TEXTAREA);
+        var isOutlined = this.root_.classList.contains(_constants__WEBPACK_IMPORTED_MODULE_9__["cssClasses"].OUTLINED);
+        if (isTextArea || isOutlined) {
+            return null;
+        }
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, _material_ripple_component__WEBPACK_IMPORTED_MODULE_6__["MDCRipple"].createAdapter(this), { isSurfaceActive: function () { return _material_dom_ponyfill__WEBPACK_IMPORTED_MODULE_2__["matches"](_this.input_, ':active'); }, registerInteractionHandler: function (evtType, handler) { return _this.input_.addEventListener(evtType, handler); }, deregisterInteractionHandler: function (evtType, handler) { return _this.input_.removeEventListener(evtType, handler); } });
+        // tslint:enable:object-literal-sort-keys
+        return rippleFactory(this.root_, new _material_ripple_foundation__WEBPACK_IMPORTED_MODULE_7__["MDCRippleFoundation"](adapter));
+    };
+    return MDCTextField;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/constants.js":
+/*!********************************************************!*\
+  !*** ../node_modules/@material/textfield/constants.js ***!
+  \********************************************************/
+/*! exports provided: cssClasses, strings, numbers, VALIDATION_ATTR_WHITELIST, ALWAYS_FLOAT_TYPES */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "numbers", function() { return numbers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VALIDATION_ATTR_WHITELIST", function() { return VALIDATION_ATTR_WHITELIST; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ALWAYS_FLOAT_TYPES", function() { return ALWAYS_FLOAT_TYPES; });
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var strings = {
+    ARIA_CONTROLS: 'aria-controls',
+    ICON_SELECTOR: '.mdc-text-field__icon',
+    INPUT_SELECTOR: '.mdc-text-field__input',
+    LABEL_SELECTOR: '.mdc-floating-label',
+    LINE_RIPPLE_SELECTOR: '.mdc-line-ripple',
+    OUTLINE_SELECTOR: '.mdc-notched-outline',
+};
+var cssClasses = {
+    DENSE: 'mdc-text-field--dense',
+    DISABLED: 'mdc-text-field--disabled',
+    FOCUSED: 'mdc-text-field--focused',
+    HELPER_LINE: 'mdc-text-field-helper-line',
+    INVALID: 'mdc-text-field--invalid',
+    OUTLINED: 'mdc-text-field--outlined',
+    ROOT: 'mdc-text-field',
+    TEXTAREA: 'mdc-text-field--textarea',
+    WITH_LEADING_ICON: 'mdc-text-field--with-leading-icon',
+};
+var numbers = {
+    DENSE_LABEL_SCALE: 0.923,
+    LABEL_SCALE: 0.75,
+};
+/**
+ * Whitelist based off of https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation
+ * under the "Validation-related attributes" section.
+ */
+var VALIDATION_ATTR_WHITELIST = [
+    'pattern', 'min', 'max', 'required', 'step', 'minlength', 'maxlength',
+];
+/**
+ * Label should always float for these types as they show some UI even if value is empty.
+ */
+var ALWAYS_FLOAT_TYPES = [
+    'color', 'date', 'datetime-local', 'month', 'range', 'time', 'week',
+];
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/dist/mdc.textfield.css":
+/*!******************************************************************!*\
+  !*** ../node_modules/@material/textfield/dist/mdc.textfield.css ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.theme.css */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.textfield.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/textfield/dist/mdc.textfield.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4284,7 +7852,1169 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/foundation.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/@material/textfield/foundation.js ***!
+  \*********************************************************/
+/*! exports provided: MDCTextFieldFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldFoundation", function() { return MDCTextFieldFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/textfield/constants.js");
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var POINTERDOWN_EVENTS = ['mousedown', 'touchstart'];
+var INTERACTION_EVENTS = ['click', 'keydown'];
+var MDCTextFieldFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTextFieldFoundation, _super);
+    /**
+     * @param adapter
+     * @param foundationMap Map from subcomponent names to their subfoundations.
+     */
+    function MDCTextFieldFoundation(adapter, foundationMap) {
+        if (foundationMap === void 0) { foundationMap = {}; }
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCTextFieldFoundation.defaultAdapter, adapter)) || this;
+        _this.isFocused_ = false;
+        _this.receivedUserInput_ = false;
+        _this.isValid_ = true;
+        _this.useNativeValidation_ = true;
+        _this.helperText_ = foundationMap.helperText;
+        _this.characterCounter_ = foundationMap.characterCounter;
+        _this.leadingIcon_ = foundationMap.leadingIcon;
+        _this.trailingIcon_ = foundationMap.trailingIcon;
+        _this.inputFocusHandler_ = function () { return _this.activateFocus(); };
+        _this.inputBlurHandler_ = function () { return _this.deactivateFocus(); };
+        _this.inputInputHandler_ = function () { return _this.handleInput(); };
+        _this.setPointerXOffset_ = function (evt) { return _this.setTransformOrigin(evt); };
+        _this.textFieldInteractionHandler_ = function () { return _this.handleTextFieldInteraction(); };
+        _this.validationAttributeChangeHandler_ = function (attributesList) { return _this.handleValidationAttributeChange(attributesList); };
+        return _this;
+    }
+    Object.defineProperty(MDCTextFieldFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldFoundation, "numbers", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldFoundation.prototype, "shouldAlwaysFloat_", {
+        get: function () {
+            var type = this.getNativeInput_().type;
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["ALWAYS_FLOAT_TYPES"].indexOf(type) >= 0;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldFoundation.prototype, "shouldFloat", {
+        get: function () {
+            return this.shouldAlwaysFloat_ || this.isFocused_ || Boolean(this.getValue()) || this.isBadInput_();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldFoundation.prototype, "shouldShake", {
+        get: function () {
+            return !this.isFocused_ && !this.isValid() && Boolean(this.getValue());
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldFoundation, "defaultAdapter", {
+        /**
+         * See {@link MDCTextFieldAdapter} for typing information on parameters and return types.
+         */
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                addClass: function () { return undefined; },
+                removeClass: function () { return undefined; },
+                hasClass: function () { return true; },
+                registerTextFieldInteractionHandler: function () { return undefined; },
+                deregisterTextFieldInteractionHandler: function () { return undefined; },
+                registerInputInteractionHandler: function () { return undefined; },
+                deregisterInputInteractionHandler: function () { return undefined; },
+                registerValidationAttributeChangeHandler: function () { return new MutationObserver(function () { return undefined; }); },
+                deregisterValidationAttributeChangeHandler: function () { return undefined; },
+                getNativeInput: function () { return null; },
+                isFocused: function () { return false; },
+                activateLineRipple: function () { return undefined; },
+                deactivateLineRipple: function () { return undefined; },
+                setLineRippleTransformOrigin: function () { return undefined; },
+                shakeLabel: function () { return undefined; },
+                floatLabel: function () { return undefined; },
+                hasLabel: function () { return false; },
+                getLabelWidth: function () { return 0; },
+                hasOutline: function () { return false; },
+                notchOutline: function () { return undefined; },
+                closeOutline: function () { return undefined; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTextFieldFoundation.prototype.init = function () {
+        var _this = this;
+        if (this.adapter_.isFocused()) {
+            this.inputFocusHandler_();
+        }
+        else if (this.adapter_.hasLabel() && this.shouldFloat) {
+            this.notchOutline(true);
+            this.adapter_.floatLabel(true);
+        }
+        this.adapter_.registerInputInteractionHandler('focus', this.inputFocusHandler_);
+        this.adapter_.registerInputInteractionHandler('blur', this.inputBlurHandler_);
+        this.adapter_.registerInputInteractionHandler('input', this.inputInputHandler_);
+        POINTERDOWN_EVENTS.forEach(function (evtType) {
+            _this.adapter_.registerInputInteractionHandler(evtType, _this.setPointerXOffset_);
+        });
+        INTERACTION_EVENTS.forEach(function (evtType) {
+            _this.adapter_.registerTextFieldInteractionHandler(evtType, _this.textFieldInteractionHandler_);
+        });
+        this.validationObserver_ =
+            this.adapter_.registerValidationAttributeChangeHandler(this.validationAttributeChangeHandler_);
+        this.setCharacterCounter_(this.getValue().length);
+    };
+    MDCTextFieldFoundation.prototype.destroy = function () {
+        var _this = this;
+        this.adapter_.deregisterInputInteractionHandler('focus', this.inputFocusHandler_);
+        this.adapter_.deregisterInputInteractionHandler('blur', this.inputBlurHandler_);
+        this.adapter_.deregisterInputInteractionHandler('input', this.inputInputHandler_);
+        POINTERDOWN_EVENTS.forEach(function (evtType) {
+            _this.adapter_.deregisterInputInteractionHandler(evtType, _this.setPointerXOffset_);
+        });
+        INTERACTION_EVENTS.forEach(function (evtType) {
+            _this.adapter_.deregisterTextFieldInteractionHandler(evtType, _this.textFieldInteractionHandler_);
+        });
+        this.adapter_.deregisterValidationAttributeChangeHandler(this.validationObserver_);
+    };
+    /**
+     * Handles user interactions with the Text Field.
+     */
+    MDCTextFieldFoundation.prototype.handleTextFieldInteraction = function () {
+        var nativeInput = this.adapter_.getNativeInput();
+        if (nativeInput && nativeInput.disabled) {
+            return;
+        }
+        this.receivedUserInput_ = true;
+    };
+    /**
+     * Handles validation attribute changes
+     */
+    MDCTextFieldFoundation.prototype.handleValidationAttributeChange = function (attributesList) {
+        var _this = this;
+        attributesList.some(function (attributeName) {
+            if (_constants__WEBPACK_IMPORTED_MODULE_2__["VALIDATION_ATTR_WHITELIST"].indexOf(attributeName) > -1) {
+                _this.styleValidity_(true);
+                return true;
+            }
+            return false;
+        });
+        if (attributesList.indexOf('maxlength') > -1) {
+            this.setCharacterCounter_(this.getValue().length);
+        }
+    };
+    /**
+     * Opens/closes the notched outline.
+     */
+    MDCTextFieldFoundation.prototype.notchOutline = function (openNotch) {
+        if (!this.adapter_.hasOutline()) {
+            return;
+        }
+        if (openNotch) {
+            var isDense = this.adapter_.hasClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].DENSE);
+            var labelScale = isDense ? _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].DENSE_LABEL_SCALE : _constants__WEBPACK_IMPORTED_MODULE_2__["numbers"].LABEL_SCALE;
+            var labelWidth = this.adapter_.getLabelWidth() * labelScale;
+            this.adapter_.notchOutline(labelWidth);
+        }
+        else {
+            this.adapter_.closeOutline();
+        }
+    };
+    /**
+     * Activates the text field focus state.
+     */
+    MDCTextFieldFoundation.prototype.activateFocus = function () {
+        this.isFocused_ = true;
+        this.styleFocused_(this.isFocused_);
+        this.adapter_.activateLineRipple();
+        if (this.adapter_.hasLabel()) {
+            this.notchOutline(this.shouldFloat);
+            this.adapter_.floatLabel(this.shouldFloat);
+            this.adapter_.shakeLabel(this.shouldShake);
+        }
+        if (this.helperText_) {
+            this.helperText_.showToScreenReader();
+        }
+    };
+    /**
+     * Sets the line ripple's transform origin, so that the line ripple activate
+     * animation will animate out from the user's click location.
+     */
+    MDCTextFieldFoundation.prototype.setTransformOrigin = function (evt) {
+        var touches = evt.touches;
+        var targetEvent = touches ? touches[0] : evt;
+        var targetClientRect = targetEvent.target.getBoundingClientRect();
+        var normalizedX = targetEvent.clientX - targetClientRect.left;
+        this.adapter_.setLineRippleTransformOrigin(normalizedX);
+    };
+    /**
+     * Handles input change of text input and text area.
+     */
+    MDCTextFieldFoundation.prototype.handleInput = function () {
+        this.autoCompleteFocus();
+        this.setCharacterCounter_(this.getValue().length);
+    };
+    /**
+     * Activates the Text Field's focus state in cases when the input value
+     * changes without user input (e.g. programmatically).
+     */
+    MDCTextFieldFoundation.prototype.autoCompleteFocus = function () {
+        if (!this.receivedUserInput_) {
+            this.activateFocus();
+        }
+    };
+    /**
+     * Deactivates the Text Field's focus state.
+     */
+    MDCTextFieldFoundation.prototype.deactivateFocus = function () {
+        this.isFocused_ = false;
+        this.adapter_.deactivateLineRipple();
+        var isValid = this.isValid();
+        this.styleValidity_(isValid);
+        this.styleFocused_(this.isFocused_);
+        if (this.adapter_.hasLabel()) {
+            this.notchOutline(this.shouldFloat);
+            this.adapter_.floatLabel(this.shouldFloat);
+            this.adapter_.shakeLabel(this.shouldShake);
+        }
+        if (!this.shouldFloat) {
+            this.receivedUserInput_ = false;
+        }
+    };
+    MDCTextFieldFoundation.prototype.getValue = function () {
+        return this.getNativeInput_().value;
+    };
+    /**
+     * @param value The value to set on the input Element.
+     */
+    MDCTextFieldFoundation.prototype.setValue = function (value) {
+        // Prevent Safari from moving the caret to the end of the input when the value has not changed.
+        if (this.getValue() !== value) {
+            this.getNativeInput_().value = value;
+            this.setCharacterCounter_(value.length);
+        }
+        var isValid = this.isValid();
+        this.styleValidity_(isValid);
+        if (this.adapter_.hasLabel()) {
+            this.notchOutline(this.shouldFloat);
+            this.adapter_.floatLabel(this.shouldFloat);
+            this.adapter_.shakeLabel(this.shouldShake);
+        }
+    };
+    /**
+     * @return The custom validity state, if set; otherwise, the result of a native validity check.
+     */
+    MDCTextFieldFoundation.prototype.isValid = function () {
+        return this.useNativeValidation_
+            ? this.isNativeInputValid_() : this.isValid_;
+    };
+    /**
+     * @param isValid Sets the custom validity state of the Text Field.
+     */
+    MDCTextFieldFoundation.prototype.setValid = function (isValid) {
+        this.isValid_ = isValid;
+        this.styleValidity_(isValid);
+        var shouldShake = !isValid && !this.isFocused_;
+        if (this.adapter_.hasLabel()) {
+            this.adapter_.shakeLabel(shouldShake);
+        }
+    };
+    /**
+     * Enables or disables the use of native validation. Use this for custom validation.
+     * @param useNativeValidation Set this to false to ignore native input validation.
+     */
+    MDCTextFieldFoundation.prototype.setUseNativeValidation = function (useNativeValidation) {
+        this.useNativeValidation_ = useNativeValidation;
+    };
+    MDCTextFieldFoundation.prototype.isDisabled = function () {
+        return this.getNativeInput_().disabled;
+    };
+    /**
+     * @param disabled Sets the text-field disabled or enabled.
+     */
+    MDCTextFieldFoundation.prototype.setDisabled = function (disabled) {
+        this.getNativeInput_().disabled = disabled;
+        this.styleDisabled_(disabled);
+    };
+    /**
+     * @param content Sets the content of the helper text.
+     */
+    MDCTextFieldFoundation.prototype.setHelperTextContent = function (content) {
+        if (this.helperText_) {
+            this.helperText_.setContent(content);
+        }
+    };
+    /**
+     * Sets the aria label of the leading icon.
+     */
+    MDCTextFieldFoundation.prototype.setLeadingIconAriaLabel = function (label) {
+        if (this.leadingIcon_) {
+            this.leadingIcon_.setAriaLabel(label);
+        }
+    };
+    /**
+     * Sets the text content of the leading icon.
+     */
+    MDCTextFieldFoundation.prototype.setLeadingIconContent = function (content) {
+        if (this.leadingIcon_) {
+            this.leadingIcon_.setContent(content);
+        }
+    };
+    /**
+     * Sets the aria label of the trailing icon.
+     */
+    MDCTextFieldFoundation.prototype.setTrailingIconAriaLabel = function (label) {
+        if (this.trailingIcon_) {
+            this.trailingIcon_.setAriaLabel(label);
+        }
+    };
+    /**
+     * Sets the text content of the trailing icon.
+     */
+    MDCTextFieldFoundation.prototype.setTrailingIconContent = function (content) {
+        if (this.trailingIcon_) {
+            this.trailingIcon_.setContent(content);
+        }
+    };
+    /**
+     * Sets character counter values that shows characters used and the total character limit.
+     */
+    MDCTextFieldFoundation.prototype.setCharacterCounter_ = function (currentLength) {
+        if (!this.characterCounter_) {
+            return;
+        }
+        var maxLength = this.getNativeInput_().maxLength;
+        if (maxLength === -1) {
+            throw new Error('MDCTextFieldFoundation: Expected maxlength html property on text input or textarea.');
+        }
+        this.characterCounter_.setCounterValue(currentLength, maxLength);
+    };
+    /**
+     * @return True if the Text Field input fails in converting the user-supplied value.
+     */
+    MDCTextFieldFoundation.prototype.isBadInput_ = function () {
+        // The badInput property is not supported in IE 11 💩.
+        return this.getNativeInput_().validity.badInput || false;
+    };
+    /**
+     * @return The result of native validity checking (ValidityState.valid).
+     */
+    MDCTextFieldFoundation.prototype.isNativeInputValid_ = function () {
+        return this.getNativeInput_().validity.valid;
+    };
+    /**
+     * Styles the component based on the validity state.
+     */
+    MDCTextFieldFoundation.prototype.styleValidity_ = function (isValid) {
+        var INVALID = MDCTextFieldFoundation.cssClasses.INVALID;
+        if (isValid) {
+            this.adapter_.removeClass(INVALID);
+        }
+        else {
+            this.adapter_.addClass(INVALID);
+        }
+        if (this.helperText_) {
+            this.helperText_.setValidity(isValid);
+        }
+    };
+    /**
+     * Styles the component based on the focused state.
+     */
+    MDCTextFieldFoundation.prototype.styleFocused_ = function (isFocused) {
+        var FOCUSED = MDCTextFieldFoundation.cssClasses.FOCUSED;
+        if (isFocused) {
+            this.adapter_.addClass(FOCUSED);
+        }
+        else {
+            this.adapter_.removeClass(FOCUSED);
+        }
+    };
+    /**
+     * Styles the component based on the disabled state.
+     */
+    MDCTextFieldFoundation.prototype.styleDisabled_ = function (isDisabled) {
+        var _a = MDCTextFieldFoundation.cssClasses, DISABLED = _a.DISABLED, INVALID = _a.INVALID;
+        if (isDisabled) {
+            this.adapter_.addClass(DISABLED);
+            this.adapter_.removeClass(INVALID);
+        }
+        else {
+            this.adapter_.removeClass(DISABLED);
+        }
+        if (this.leadingIcon_) {
+            this.leadingIcon_.setDisabled(isDisabled);
+        }
+        if (this.trailingIcon_) {
+            this.trailingIcon_.setDisabled(isDisabled);
+        }
+    };
+    /**
+     * @return The native text input element from the host environment, or an object with the same shape for unit tests.
+     */
+    MDCTextFieldFoundation.prototype.getNativeInput_ = function () {
+        // this.adapter_ may be undefined in foundation unit tests. This happens when testdouble is creating a mock object
+        // and invokes the shouldShake/shouldFloat getters (which in turn call getValue(), which calls this method) before
+        // init() has been called from the MDCTextField constructor. To work around that issue, we return a dummy object.
+        var nativeInput = this.adapter_ ? this.adapter_.getNativeInput() : null;
+        return nativeInput || {
+            disabled: false,
+            maxLength: -1,
+            type: 'input',
+            validity: {
+                badInput: false,
+                valid: true,
+            },
+            value: '',
+        };
+    };
+    return MDCTextFieldFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTextFieldFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/helper-text/component.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@material/textfield/helper-text/component.js ***!
+  \********************************************************************/
+/*! exports provided: MDCTextFieldHelperText */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldHelperText", function() { return MDCTextFieldHelperText; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/textfield/helper-text/foundation.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCTextFieldHelperText = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTextFieldHelperText, _super);
+    function MDCTextFieldHelperText() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTextFieldHelperText.attachTo = function (root) {
+        return new MDCTextFieldHelperText(root);
+    };
+    Object.defineProperty(MDCTextFieldHelperText.prototype, "foundation", {
+        get: function () {
+            return this.foundation_;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTextFieldHelperText.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = {
+            addClass: function (className) { return _this.root_.classList.add(className); },
+            removeClass: function (className) { return _this.root_.classList.remove(className); },
+            hasClass: function (className) { return _this.root_.classList.contains(className); },
+            setAttr: function (attr, value) { return _this.root_.setAttribute(attr, value); },
+            removeAttr: function (attr) { return _this.root_.removeAttribute(attr); },
+            setContent: function (content) {
+                _this.root_.textContent = content;
+            },
+        };
+        // tslint:enable:object-literal-sort-keys
+        return new _foundation__WEBPACK_IMPORTED_MODULE_2__["MDCTextFieldHelperTextFoundation"](adapter);
+    };
+    return MDCTextFieldHelperText;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/helper-text/constants.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@material/textfield/helper-text/constants.js ***!
+  \********************************************************************/
+/*! exports provided: strings, cssClasses */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssClasses", function() { return cssClasses; });
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var cssClasses = {
+    HELPER_TEXT_PERSISTENT: 'mdc-text-field-helper-text--persistent',
+    HELPER_TEXT_VALIDATION_MSG: 'mdc-text-field-helper-text--validation-msg',
+    ROOT: 'mdc-text-field-helper-text',
+};
+var strings = {
+    ARIA_HIDDEN: 'aria-hidden',
+    ROLE: 'role',
+    ROOT_SELECTOR: "." + cssClasses.ROOT,
+};
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/helper-text/foundation.js":
+/*!*********************************************************************!*\
+  !*** ../node_modules/@material/textfield/helper-text/foundation.js ***!
+  \*********************************************************************/
+/*! exports provided: MDCTextFieldHelperTextFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldHelperTextFoundation", function() { return MDCTextFieldHelperTextFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/textfield/helper-text/constants.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCTextFieldHelperTextFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTextFieldHelperTextFoundation, _super);
+    function MDCTextFieldHelperTextFoundation(adapter) {
+        return _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCTextFieldHelperTextFoundation.defaultAdapter, adapter)) || this;
+    }
+    Object.defineProperty(MDCTextFieldHelperTextFoundation, "cssClasses", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldHelperTextFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldHelperTextFoundation, "defaultAdapter", {
+        /**
+         * See {@link MDCTextFieldHelperTextAdapter} for typing information on parameters and return types.
+         */
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                addClass: function () { return undefined; },
+                removeClass: function () { return undefined; },
+                hasClass: function () { return false; },
+                setAttr: function () { return undefined; },
+                removeAttr: function () { return undefined; },
+                setContent: function () { return undefined; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Sets the content of the helper text field.
+     */
+    MDCTextFieldHelperTextFoundation.prototype.setContent = function (content) {
+        this.adapter_.setContent(content);
+    };
+    /**
+     * @param isPersistent Sets the persistency of the helper text.
+     */
+    MDCTextFieldHelperTextFoundation.prototype.setPersistent = function (isPersistent) {
+        if (isPersistent) {
+            this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].HELPER_TEXT_PERSISTENT);
+        }
+        else {
+            this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].HELPER_TEXT_PERSISTENT);
+        }
+    };
+    /**
+     * @param isValidation True to make the helper text act as an error validation message.
+     */
+    MDCTextFieldHelperTextFoundation.prototype.setValidation = function (isValidation) {
+        if (isValidation) {
+            this.adapter_.addClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].HELPER_TEXT_VALIDATION_MSG);
+        }
+        else {
+            this.adapter_.removeClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].HELPER_TEXT_VALIDATION_MSG);
+        }
+    };
+    /**
+     * Makes the helper text visible to the screen reader.
+     */
+    MDCTextFieldHelperTextFoundation.prototype.showToScreenReader = function () {
+        this.adapter_.removeAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARIA_HIDDEN);
+    };
+    /**
+     * Sets the validity of the helper text based on the input validity.
+     */
+    MDCTextFieldHelperTextFoundation.prototype.setValidity = function (inputIsValid) {
+        var helperTextIsPersistent = this.adapter_.hasClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].HELPER_TEXT_PERSISTENT);
+        var helperTextIsValidationMsg = this.adapter_.hasClass(_constants__WEBPACK_IMPORTED_MODULE_2__["cssClasses"].HELPER_TEXT_VALIDATION_MSG);
+        var validationMsgNeedsDisplay = helperTextIsValidationMsg && !inputIsValid;
+        if (validationMsgNeedsDisplay) {
+            this.adapter_.setAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ROLE, 'alert');
+        }
+        else {
+            this.adapter_.removeAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ROLE);
+        }
+        if (!helperTextIsPersistent && !validationMsgNeedsDisplay) {
+            this.hide_();
+        }
+    };
+    /**
+     * Hides the help text from screen readers.
+     */
+    MDCTextFieldHelperTextFoundation.prototype.hide_ = function () {
+        this.adapter_.setAttr(_constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ARIA_HIDDEN, 'true');
+    };
+    return MDCTextFieldHelperTextFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTextFieldHelperTextFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/helper-text/index.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/@material/textfield/helper-text/index.js ***!
+  \****************************************************************/
+/*! exports provided: MDCTextFieldHelperText, MDCTextFieldHelperTextFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/textfield/helper-text/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldHelperText", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCTextFieldHelperText"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/textfield/helper-text/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldHelperTextFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTextFieldHelperTextFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/icon/component.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/@material/textfield/icon/component.js ***!
+  \*************************************************************/
+/*! exports provided: MDCTextFieldIcon */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldIcon", function() { return MDCTextFieldIcon; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/component */ "../node_modules/@material/base/component.js");
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/textfield/icon/foundation.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var MDCTextFieldIcon = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTextFieldIcon, _super);
+    function MDCTextFieldIcon() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MDCTextFieldIcon.attachTo = function (root) {
+        return new MDCTextFieldIcon(root);
+    };
+    Object.defineProperty(MDCTextFieldIcon.prototype, "foundation", {
+        get: function () {
+            return this.foundation_;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTextFieldIcon.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
+        // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
+        // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+        var adapter = {
+            getAttr: function (attr) { return _this.root_.getAttribute(attr); },
+            setAttr: function (attr, value) { return _this.root_.setAttribute(attr, value); },
+            removeAttr: function (attr) { return _this.root_.removeAttribute(attr); },
+            setContent: function (content) {
+                _this.root_.textContent = content;
+            },
+            registerInteractionHandler: function (evtType, handler) { return _this.listen(evtType, handler); },
+            deregisterInteractionHandler: function (evtType, handler) { return _this.unlisten(evtType, handler); },
+            notifyIconAction: function () { return _this.emit(_foundation__WEBPACK_IMPORTED_MODULE_2__["MDCTextFieldIconFoundation"].strings.ICON_EVENT, {} /* evtData */, true /* shouldBubble */); },
+        };
+        // tslint:enable:object-literal-sort-keys
+        return new _foundation__WEBPACK_IMPORTED_MODULE_2__["MDCTextFieldIconFoundation"](adapter);
+    };
+    return MDCTextFieldIcon;
+}(_material_base_component__WEBPACK_IMPORTED_MODULE_1__["MDCComponent"]));
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/icon/constants.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/@material/textfield/icon/constants.js ***!
+  \*************************************************************/
+/*! exports provided: strings */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "strings", function() { return strings; });
+/**
+ * @license
+ * Copyright 2016 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+var strings = {
+    ICON_EVENT: 'MDCTextField:icon',
+    ICON_ROLE: 'button',
+};
+
+//# sourceMappingURL=constants.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/icon/foundation.js":
+/*!**************************************************************!*\
+  !*** ../node_modules/@material/textfield/icon/foundation.js ***!
+  \**************************************************************/
+/*! exports provided: MDCTextFieldIconFoundation, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldIconFoundation", function() { return MDCTextFieldIconFoundation; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _material_base_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/base/foundation */ "../node_modules/@material/base/foundation.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "../node_modules/@material/textfield/icon/constants.js");
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+var INTERACTION_EVENTS = ['click', 'keydown'];
+var MDCTextFieldIconFoundation = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](MDCTextFieldIconFoundation, _super);
+    function MDCTextFieldIconFoundation(adapter) {
+        var _this = _super.call(this, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, MDCTextFieldIconFoundation.defaultAdapter, adapter)) || this;
+        _this.savedTabIndex_ = null;
+        _this.interactionHandler_ = function (evt) { return _this.handleInteraction(evt); };
+        return _this;
+    }
+    Object.defineProperty(MDCTextFieldIconFoundation, "strings", {
+        get: function () {
+            return _constants__WEBPACK_IMPORTED_MODULE_2__["strings"];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MDCTextFieldIconFoundation, "defaultAdapter", {
+        /**
+         * See {@link MDCTextFieldIconAdapter} for typing information on parameters and return types.
+         */
+        get: function () {
+            // tslint:disable:object-literal-sort-keys Methods should be in the same order as the adapter interface.
+            return {
+                getAttr: function () { return null; },
+                setAttr: function () { return undefined; },
+                removeAttr: function () { return undefined; },
+                setContent: function () { return undefined; },
+                registerInteractionHandler: function () { return undefined; },
+                deregisterInteractionHandler: function () { return undefined; },
+                notifyIconAction: function () { return undefined; },
+            };
+            // tslint:enable:object-literal-sort-keys
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MDCTextFieldIconFoundation.prototype.init = function () {
+        var _this = this;
+        this.savedTabIndex_ = this.adapter_.getAttr('tabindex');
+        INTERACTION_EVENTS.forEach(function (evtType) {
+            _this.adapter_.registerInteractionHandler(evtType, _this.interactionHandler_);
+        });
+    };
+    MDCTextFieldIconFoundation.prototype.destroy = function () {
+        var _this = this;
+        INTERACTION_EVENTS.forEach(function (evtType) {
+            _this.adapter_.deregisterInteractionHandler(evtType, _this.interactionHandler_);
+        });
+    };
+    MDCTextFieldIconFoundation.prototype.setDisabled = function (disabled) {
+        if (!this.savedTabIndex_) {
+            return;
+        }
+        if (disabled) {
+            this.adapter_.setAttr('tabindex', '-1');
+            this.adapter_.removeAttr('role');
+        }
+        else {
+            this.adapter_.setAttr('tabindex', this.savedTabIndex_);
+            this.adapter_.setAttr('role', _constants__WEBPACK_IMPORTED_MODULE_2__["strings"].ICON_ROLE);
+        }
+    };
+    MDCTextFieldIconFoundation.prototype.setAriaLabel = function (label) {
+        this.adapter_.setAttr('aria-label', label);
+    };
+    MDCTextFieldIconFoundation.prototype.setContent = function (content) {
+        this.adapter_.setContent(content);
+    };
+    MDCTextFieldIconFoundation.prototype.handleInteraction = function (evt) {
+        var isEnterKey = evt.key === 'Enter' || evt.keyCode === 13;
+        if (evt.type === 'click' || isEnterKey) {
+            this.adapter_.notifyIconAction();
+        }
+    };
+    return MDCTextFieldIconFoundation;
+}(_material_base_foundation__WEBPACK_IMPORTED_MODULE_1__["MDCFoundation"]));
+
+// tslint:disable-next-line:no-default-export Needed for backward compatibility with MDC Web v0.44.0 and earlier.
+/* harmony default export */ __webpack_exports__["default"] = (MDCTextFieldIconFoundation);
+//# sourceMappingURL=foundation.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/icon/index.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/@material/textfield/icon/index.js ***!
+  \*********************************************************/
+/*! exports provided: MDCTextFieldIcon, MDCTextFieldIconFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/textfield/icon/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldIcon", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCTextFieldIcon"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/textfield/icon/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldIconFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTextFieldIconFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/textfield/index.js":
+/*!****************************************************!*\
+  !*** ../node_modules/@material/textfield/index.js ***!
+  \****************************************************/
+/*! exports provided: MDCTextField, MDCTextFieldFoundation, MDCTextFieldCharacterCounter, MDCTextFieldCharacterCounterFoundation, MDCTextFieldHelperText, MDCTextFieldHelperTextFoundation, MDCTextFieldIcon, MDCTextFieldIconFoundation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "../node_modules/@material/textfield/component.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextField", function() { return _component__WEBPACK_IMPORTED_MODULE_0__["MDCTextField"]; });
+
+/* harmony import */ var _foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./foundation */ "../node_modules/@material/textfield/foundation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldFoundation", function() { return _foundation__WEBPACK_IMPORTED_MODULE_1__["MDCTextFieldFoundation"]; });
+
+/* harmony import */ var _character_counter_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./character-counter/index */ "../node_modules/@material/textfield/character-counter/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldCharacterCounter", function() { return _character_counter_index__WEBPACK_IMPORTED_MODULE_2__["MDCTextFieldCharacterCounter"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldCharacterCounterFoundation", function() { return _character_counter_index__WEBPACK_IMPORTED_MODULE_2__["MDCTextFieldCharacterCounterFoundation"]; });
+
+/* harmony import */ var _helper_text_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./helper-text/index */ "../node_modules/@material/textfield/helper-text/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldHelperText", function() { return _helper_text_index__WEBPACK_IMPORTED_MODULE_3__["MDCTextFieldHelperText"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldHelperTextFoundation", function() { return _helper_text_index__WEBPACK_IMPORTED_MODULE_3__["MDCTextFieldHelperTextFoundation"]; });
+
+/* harmony import */ var _icon_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icon/index */ "../node_modules/@material/textfield/icon/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldIcon", function() { return _icon_index__WEBPACK_IMPORTED_MODULE_4__["MDCTextFieldIcon"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MDCTextFieldIconFoundation", function() { return _icon_index__WEBPACK_IMPORTED_MODULE_4__["MDCTextFieldIconFoundation"]; });
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "../node_modules/@material/theme/dist/mdc.theme.css":
+/*!**********************************************************!*\
+  !*** ../node_modules/@material/theme/dist/mdc.theme.css ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.theme.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/theme/dist/mdc.theme.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -4300,7 +9030,7 @@ if(false) {}
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.typography.css */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css");
+var content = __webpack_require__(/*! !../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./mdc.typography.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@material/typography/dist/mdc.typography.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4314,97 +9044,11 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
 if(false) {}
-
-/***/ }),
-
-/***/ "../node_modules/@rmwc/Button/next/index.js":
-/*!**************************************************!*\
-  !*** ../node_modules/@rmwc/Button/next/index.js ***!
-  \**************************************************/
-/*! exports provided: Button, ButtonIcon */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return Button; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonIcon", function() { return ButtonIcon; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
-/* harmony import */ var _rmwc_ripple__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/ripple */ "../node_modules/@rmwc/ripple/next/index.js");
-/* harmony import */ var _rmwc_icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @rmwc/icon */ "../node_modules/@rmwc/icon/next/index.js");
-var __assign = (undefined && undefined.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-var __rest = (undefined && undefined.__rest) || function (s, e) {
-    var t = {};
-    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
-        t[p] = s[p];
-    if (s != null && typeof Object.getOwnPropertySymbols === "function")
-        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
-            t[p[i]] = s[p[i]];
-    return t;
-};
-
-
-
-
-/**
- * The Button component.
- */
-var Button = Object(_rmwc_ripple__WEBPACK_IMPORTED_MODULE_2__["withRipple"])({
-    surface: false
-})(Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_1__["componentFactory"])({
-    displayName: 'Button',
-    tag: 'button',
-    classNames: function (props) { return [
-        'mdc-button',
-        {
-            'mdc-button--dense': props.dense,
-            'mdc-button--raised': props.raised,
-            'mdc-button--unelevated': props.unelevated,
-            'mdc-button--outlined': props.outlined
-        }
-    ]; },
-    consumeProps: [
-        'dense',
-        'raised',
-        'unelevated',
-        'outlined',
-        'primary',
-        'accent',
-        'unbounded'
-    ],
-    render: function (_a, ref, Tag) {
-        var icon = _a.icon, trailingIcon = _a.trailingIcon, label = _a.label, children = _a.children, rest = __rest(_a, ["icon", "trailingIcon", "label", "children"]);
-        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](Tag, __assign({}, rest, { ref: ref }),
-            !!icon && react__WEBPACK_IMPORTED_MODULE_0__["createElement"](ButtonIcon, { icon: icon }),
-            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", { className: "mdc-button__label" },
-                label,
-                children),
-            !!trailingIcon && react__WEBPACK_IMPORTED_MODULE_0__["createElement"](ButtonIcon, { icon: trailingIcon })));
-    }
-}));
-/** An icon that goes inside of buttons. This is an instance of the Icon component. */
-var ButtonIcon = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_1__["componentFactory"])({
-    displayName: 'ButtonIcon',
-    tag: _rmwc_icon__WEBPACK_IMPORTED_MODULE_3__["Icon"],
-    classNames: ['mdc-button__icon']
-});
-
 
 /***/ }),
 
@@ -5179,7 +9823,7 @@ var FoundationComponent = /** @class */ (function (_super) {
 /*!************************************************!*\
   !*** ../node_modules/@rmwc/base/next/index.js ***!
   \************************************************/
-/*! exports provided: classNames, FoundationComponent, componentFactory, createFocusTrap, parseThemeOptions, withTheme, deprecationWarning, handleDeprecations, toCamel, toDashCase, debounce, eventsMap, closest, matches, randomId, wrapChild */
+/*! exports provided: classNames, FoundationComponent, componentFactory, createFocusTrap, parseThemeOptions, withTheme, debounce, deprecationWarning, handleDeprecations, eventsMap, closest, matches, randomId, toCamel, toDashCase, wrapChild */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5196,15 +9840,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withTheme", function() { return _with_theme__WEBPACK_IMPORTED_MODULE_2__["withTheme"]; });
 
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils */ "../node_modules/@rmwc/base/next/utils/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "debounce", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["debounce"]; });
+
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "deprecationWarning", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["deprecationWarning"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleDeprecations", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["handleDeprecations"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toCamel", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toCamel"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toDashCase", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toDashCase"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "debounce", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["debounce"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "eventsMap", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["eventsMap"]; });
 
@@ -5213,6 +9853,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "matches", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["matches"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "randomId", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["randomId"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toCamel", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toCamel"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toDashCase", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toDashCase"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "wrapChild", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["wrapChild"]; });
 
@@ -5322,7 +9966,7 @@ var handleDeprecations = function (props, deprecate, displayName) {
     return props;
 };
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/process/browser.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/process/browser.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -5431,7 +10075,7 @@ var eventsMap = {
 /*!******************************************************!*\
   !*** ../node_modules/@rmwc/base/next/utils/index.js ***!
   \******************************************************/
-/*! exports provided: deprecationWarning, handleDeprecations, toCamel, toDashCase, debounce, eventsMap, closest, matches, randomId, wrapChild */
+/*! exports provided: debounce, deprecationWarning, handleDeprecations, eventsMap, closest, matches, randomId, toCamel, toDashCase, wrapChild */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5674,6 +10318,732 @@ var withTheme = function (Component) {
 
 /***/ }),
 
+/***/ "../node_modules/@rmwc/button/next/index.js":
+/*!**************************************************!*\
+  !*** ../node_modules/@rmwc/button/next/index.js ***!
+  \**************************************************/
+/*! exports provided: Button, ButtonIcon */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return Button; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonIcon", function() { return ButtonIcon; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+/* harmony import */ var _rmwc_ripple__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/ripple */ "../node_modules/@rmwc/ripple/next/index.js");
+/* harmony import */ var _rmwc_icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @rmwc/icon */ "../node_modules/@rmwc/icon/next/index.js");
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+
+
+
+
+/**
+ * The Button component.
+ */
+var Button = Object(_rmwc_ripple__WEBPACK_IMPORTED_MODULE_2__["withRipple"])({
+    surface: false
+})(Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_1__["componentFactory"])({
+    displayName: 'Button',
+    tag: 'button',
+    classNames: function (props) { return [
+        'mdc-button',
+        {
+            'mdc-button--dense': props.dense,
+            'mdc-button--raised': props.raised,
+            'mdc-button--unelevated': props.unelevated,
+            'mdc-button--outlined': props.outlined
+        }
+    ]; },
+    consumeProps: [
+        'dense',
+        'raised',
+        'unelevated',
+        'outlined',
+        'primary',
+        'accent',
+        'unbounded'
+    ],
+    render: function (_a, ref, Tag) {
+        var icon = _a.icon, trailingIcon = _a.trailingIcon, label = _a.label, children = _a.children, rest = __rest(_a, ["icon", "trailingIcon", "label", "children"]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](Tag, __assign({}, rest, { ref: ref }),
+            !!icon && react__WEBPACK_IMPORTED_MODULE_0__["createElement"](ButtonIcon, { icon: icon }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", { className: "mdc-button__label" },
+                label,
+                children),
+            !!trailingIcon && react__WEBPACK_IMPORTED_MODULE_0__["createElement"](ButtonIcon, { icon: trailingIcon })));
+    }
+}));
+/** An icon that goes inside of buttons. This is an instance of the Icon component. */
+var ButtonIcon = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_1__["componentFactory"])({
+    displayName: 'ButtonIcon',
+    tag: _rmwc_icon__WEBPACK_IMPORTED_MODULE_3__["Icon"],
+    classNames: ['mdc-button__icon']
+});
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/checkbox/next/index.js":
+/*!****************************************************!*\
+  !*** ../node_modules/@rmwc/checkbox/next/index.js ***!
+  \****************************************************/
+/*! exports provided: Checkbox */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return Checkbox; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_checkbox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/checkbox */ "../node_modules/@material/checkbox/index.js");
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+/* harmony import */ var _rmwc_ripple__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @rmwc/ripple */ "../node_modules/@rmwc/ripple/next/index.js");
+/* harmony import */ var _rmwc_toggleable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @rmwc/toggleable */ "../node_modules/@rmwc/toggleable/next/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+
+
+
+
+
+/**
+ * This is an awful freaking bugfix
+ * Basically, MDC decided that patching the native getter and setter
+ * on a checkbox would be fun which consequently kills Reacts ability
+ * to do the same.
+ */
+// @ts-ignore
+_material_checkbox__WEBPACK_IMPORTED_MODULE_1__["MDCCheckboxFoundation"].prototype.installPropertyChangeHooks_ = function () { };
+var CheckboxRoot = Object(_rmwc_ripple__WEBPACK_IMPORTED_MODULE_3__["withRipple"])({
+    surface: false,
+    unbounded: true
+})(Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'CheckboxRoot',
+    classNames: function (props) { return [
+        'mdc-checkbox',
+        {
+            'mdc-checkbox--disabled': props.disabled
+        }
+    ]; },
+    consumeProps: ['disabled']
+}));
+var CheckboxNativeControl = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'CheckboxNativeControl',
+    defaultProps: {
+        type: 'checkbox'
+    },
+    tag: 'input',
+    classNames: ['mdc-checkbox__native-control']
+});
+var CheckboxBackground = /** @class */ (function (_super) {
+    __extends(CheckboxBackground, _super);
+    function CheckboxBackground() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    CheckboxBackground.prototype.shouldComponentUpdate = function () {
+        return false;
+    };
+    CheckboxBackground.prototype.render = function () {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-checkbox__background" },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { className: "mdc-checkbox__checkmark", viewBox: "0 0 24 24" },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: "mdc-checkbox__checkmark-path", fill: "none", stroke: "white", d: "M1.73,12.91 8.1,19.28 22.79,4.59" })),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-checkbox__mixedmark" })));
+    };
+    CheckboxBackground.displayName = 'CheckboxBackground';
+    return CheckboxBackground;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/** A Checkbox component. */
+var Checkbox = /** @class */ (function (_super) {
+    __extends(Checkbox, _super);
+    function Checkbox(props) {
+        var _this = _super.call(this, props) || this;
+        _this.nativeCb = _this.createElement('nativeCb');
+        _this.root = _this.createElement('root');
+        _this.handleAnimationEnd = _this.handleAnimationEnd.bind(_this);
+        _this.handleOnChange = _this.handleOnChange.bind(_this);
+        return _this;
+    }
+    Checkbox.prototype.sync = function (nextProps) {
+        this.foundation && this.foundation.handleChange();
+        if (this.nativeCb.ref &&
+            nextProps.indeterminate !== this.nativeCb.ref.indeterminate) {
+            this.nativeCb.ref.indeterminate = !!nextProps.indeterminate;
+        }
+    };
+    Checkbox.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_checkbox__WEBPACK_IMPORTED_MODULE_1__["MDCCheckboxFoundation"]({
+            addClass: function (className) { return _this.root.addClass(className); },
+            removeClass: function (className) { return _this.root.removeClass(className); },
+            setNativeControlAttr: function (attr, value) {
+                return _this.nativeCb.setProp(attr, value);
+            },
+            removeNativeControlAttr: function (attr) {
+                return _this.nativeCb.removeProp(attr);
+            },
+            isIndeterminate: function () { return !!_this.props.indeterminate; },
+            isChecked: function () {
+                return _this.props.checked !== undefined
+                    ? !!_this.props.checked
+                    : !!_this.nativeCb.ref && _this.nativeCb.ref.checked;
+            },
+            hasNativeControl: function () { return !!_this.nativeCb.ref; },
+            setNativeControlDisabled: function (disabled) {
+                return _this.nativeCb.setProp('disabled', disabled);
+            },
+            forceLayout: function () { return _this.root.ref && _this.root.ref.offsetWidth; },
+            isAttachedToDOM: function () { return true; }
+        });
+    };
+    Checkbox.prototype.handleAnimationEnd = function (evt) {
+        this.props.onAnimationEnd && this.props.onAnimationEnd(evt);
+        this.foundation && this.foundation.handleAnimationEnd();
+    };
+    Checkbox.prototype.handleOnChange = function (evt) {
+        this.props.onChange && this.props.onChange(evt);
+        this.sync(this.props);
+    };
+    Checkbox.prototype.render = function () {
+        var _this = this;
+        var _a = this.props, children = _a.children, className = _a.className, label = _a.label, style = _a.style, indeterminate = _a.indeterminate, inputRef = _a.inputRef, rest = __rest(_a, ["children", "className", "label", "style", "indeterminate", "inputRef"]);
+        var checkbox = (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](CheckboxRoot, __assign({}, this.toggleRootProps, { ref: this.root.setRef, onAnimationEnd: this.handleAnimationEnd }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"](CheckboxNativeControl, __assign({}, this.nativeCb.props(rest), { ref: function (el) {
+                    _this.nativeCb.setRef(el);
+                    inputRef && inputRef(el);
+                }, id: this.id, onChange: this.handleOnChange })),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"](CheckboxBackground, null)));
+        return this.renderToggle(checkbox);
+    };
+    Checkbox.displayName = 'Checkbox';
+    return Checkbox;
+}(_rmwc_toggleable__WEBPACK_IMPORTED_MODULE_4__["ToggleableFoundationComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/dialog/next/index.js":
+/*!**************************************************!*\
+  !*** ../node_modules/@rmwc/dialog/next/index.js ***!
+  \**************************************************/
+/*! exports provided: DialogTitle, DialogContent, DialogActions, DialogButton, Dialog, SimpleDialog */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DialogTitle", function() { return DialogTitle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DialogContent", function() { return DialogContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DialogActions", function() { return DialogActions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DialogButton", function() { return DialogButton; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Dialog", function() { return Dialog; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SimpleDialog", function() { return SimpleDialog; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_dialog__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/dialog */ "../node_modules/@material/dialog/index.js");
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+/* harmony import */ var _rmwc_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @rmwc/button */ "../node_modules/@rmwc/button/next/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+
+
+
+
+var isScrollable = function (el) {
+    return el.scrollHeight > el.offsetHeight;
+};
+var areTopsMisaligned = function (els) {
+    var tops = new Set();
+    [].forEach.call(els, function (el) { return tops.add(el.offsetTop); });
+    return tops.size > 1;
+};
+var DialogRoot = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'DialogRoot',
+    defaultProps: {
+        role: 'alertdialog',
+        'aria-modal': true
+    },
+    classNames: ['mdc-dialog']
+});
+var DialogScrim = /** @class */ (function (_super) {
+    __extends(DialogScrim, _super);
+    function DialogScrim() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    DialogScrim.prototype.shouldComponentUpdate = function (nextProps) {
+        return this.props.disableInteraction !== nextProps.disableInteraction;
+    };
+    DialogScrim.prototype.render = function () {
+        var style = this.props.disableInteraction
+            ? { pointerEvents: 'none' }
+            : {};
+        return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-dialog__scrim", style: style });
+    };
+    return DialogScrim;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/** The Dialog title. */
+var DialogTitle = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'DialogTitle',
+    tag: 'h2',
+    classNames: ['mdc-dialog__title']
+});
+/** The Dialog content. */
+var DialogContent = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'DialogContent',
+    classNames: ['mdc-dialog__content']
+});
+/** Actions container for the Dialog. */
+var DialogActions = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'DialogActions',
+    classNames: ['mdc-dialog__actions']
+});
+/** Action buttons for the Dialog. */
+var DialogButton = /** @class */ (function (_super) {
+    __extends(DialogButton, _super);
+    function DialogButton() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    DialogButton.prototype.render = function () {
+        var _a = this.props, _b = _a.action, action = _b === void 0 ? '' : _b, className = _a.className, isDefaultAction = _a.isDefaultAction, rest = __rest(_a, ["action", "className", "isDefaultAction"]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_rmwc_button__WEBPACK_IMPORTED_MODULE_3__["Button"], __assign({}, rest, { "data-mdc-dialog-action": action, className: [
+                className,
+                'mdc-dialog__button',
+                isDefaultAction && 'mdc-dialog__button--default'
+            ]
+                .filter(Boolean)
+                .join(' ') })));
+    };
+    DialogButton.displayName = 'DialogButton';
+    return DialogButton;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+
+/** A Dialog component. */
+var Dialog = /** @class */ (function (_super) {
+    __extends(Dialog, _super);
+    function Dialog(props) {
+        var _this = _super.call(this, props) || this;
+        _this.root = _this.createElement('root');
+        _this.container = null;
+        _this.content = null;
+        _this.buttons = null;
+        _this.defaultButton = null;
+        _this.focusTrap = null;
+        _this.handleDocumentKeydown = function () { };
+        _this.handleInteraction = _this.handleInteraction.bind(_this);
+        return _this;
+    }
+    Dialog.prototype.open = function () {
+        if (!this.foundation.isOpen()) {
+            document.addEventListener('keydown', this.handleDocumentKeydown);
+            this.foundation.open();
+        }
+    };
+    Dialog.prototype.close = function () {
+        if (this.foundation.isOpen()) {
+            document.removeEventListener('keydown', this.handleDocumentKeydown);
+            this.foundation.close();
+        }
+    };
+    Dialog.prototype.componentDidMount = function () {
+        _super.prototype.componentDidMount.call(this);
+        this.container =
+            this.root.ref &&
+                this.root.ref.querySelector(_material_dialog__WEBPACK_IMPORTED_MODULE_1__["MDCDialogFoundation"].strings.CONTAINER_SELECTOR);
+        this.content =
+            this.root.ref &&
+                this.root.ref.querySelector(_material_dialog__WEBPACK_IMPORTED_MODULE_1__["MDCDialogFoundation"].strings.CONTENT_SELECTOR);
+        this.buttons =
+            this.root.ref &&
+                [].slice.call(this.root.ref.querySelectorAll(_material_dialog__WEBPACK_IMPORTED_MODULE_1__["MDCDialogFoundation"].strings.BUTTON_SELECTOR));
+        this.defaultButton =
+            this.root.ref &&
+                this.root.ref.querySelector(_material_dialog__WEBPACK_IMPORTED_MODULE_1__["MDCDialogFoundation"].strings.DEFAULT_BUTTON_SELECTOR);
+        this.container &&
+            (this.focusTrap = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["createFocusTrap"])(this.container, {
+                initialFocus: this.defaultButton || undefined,
+                escapeDeactivates: false,
+                clickOutsideDeactivates: true
+            }));
+        this.handleDocumentKeydown = this.foundation.handleDocumentKeydown.bind(this.foundation);
+        document.addEventListener('keydown', this.handleDocumentKeydown);
+    };
+    Dialog.prototype.componentWillUnmount = function () {
+        _super.prototype.componentWillUnmount.call(this);
+        document.removeEventListener('keydown', this.handleDocumentKeydown);
+    };
+    Dialog.prototype.sync = function (props) {
+        if (this.props.open) {
+            this.open();
+        }
+        else {
+            this.close();
+        }
+    };
+    Dialog.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_dialog__WEBPACK_IMPORTED_MODULE_1__["MDCDialogFoundation"]({
+            addClass: function (className) { return _this.root.addClass(className); },
+            removeClass: function (className) { return _this.root.removeClass(className); },
+            hasClass: function (className) { return _this.root.hasClass(className); },
+            addBodyClass: function (className) {
+                return document.body && document.body.classList.add(className);
+            },
+            removeBodyClass: function (className) {
+                return document.body && document.body.classList.remove(className);
+            },
+            eventTargetMatches: function (target, selector) {
+                return Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["matches"])(target, selector);
+            },
+            trapFocus: function () { return _this.focusTrap && _this.focusTrap.activate(); },
+            releaseFocus: function () { return _this.focusTrap && _this.focusTrap.deactivate(); },
+            isContentScrollable: function () { return !!_this.content && isScrollable(_this.content); },
+            areButtonsStacked: function () { return areTopsMisaligned(_this.buttons); },
+            getActionFromEvent: function (evt) {
+                var element = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["closest"])(evt.target, "[" + _material_dialog__WEBPACK_IMPORTED_MODULE_1__["MDCDialogFoundation"].strings.ACTION_ATTRIBUTE + "]");
+                return (element &&
+                    element.getAttribute(_material_dialog__WEBPACK_IMPORTED_MODULE_1__["MDCDialogFoundation"].strings.ACTION_ATTRIBUTE));
+            },
+            clickDefaultButton: function () {
+                if (_this.defaultButton) {
+                    _this.defaultButton.click();
+                }
+            },
+            reverseButtons: function () {
+                _this.buttons && _this.buttons.reverse();
+                _this.buttons &&
+                    _this.buttons.forEach(function (button) {
+                        return button.parentElement && button.parentElement.appendChild(button);
+                    });
+            },
+            notifyOpening: function () {
+                _this.emit('onOpen', {});
+                _this.props.onStateChange && _this.props.onStateChange('opening');
+            },
+            notifyOpened: function () {
+                _this.emit('onOpened', {});
+                _this.props.onStateChange && _this.props.onStateChange('opened');
+            },
+            notifyClosing: function (action) {
+                _this.emit('onClose', action ? { action: action } : {});
+                _this.props.onStateChange && _this.props.onStateChange('closing');
+            },
+            notifyClosed: function (action) {
+                _this.emit('onClosed', action ? { action: action } : {});
+                _this.props.onStateChange && _this.props.onStateChange('closed');
+            }
+        });
+    };
+    Dialog.prototype.handleInteraction = function (evt) {
+        evt.type === 'click' && this.props.onClick && this.props.onClick(evt);
+        evt.type === 'keydown' && this.props.onKeyDown && this.props.onKeyDown(evt);
+        return this.foundation.handleInteraction(evt);
+    };
+    Dialog.prototype.render = function () {
+        var _a = this.props, children = _a.children, open = _a.open, onOpen = _a.onOpen, onClose = _a.onClose, onStateChange = _a.onStateChange, preventOutsideDismiss = _a.preventOutsideDismiss, rest = __rest(_a, ["children", "open", "onOpen", "onClose", "onStateChange", "preventOutsideDismiss"]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](DialogRoot, __assign({}, this.root.props(rest), { ref: this.root.setRef, onClick: this.handleInteraction, onKeyDown: this.handleInteraction }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-dialog__container" },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-dialog__surface" }, children)),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"](DialogScrim, { disableInteraction: preventOutsideDismiss })));
+    };
+    Dialog.displayName = 'Dialog';
+    return Dialog;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"]));
+
+/** A SimpleDialog component for ease of use. */
+var SimpleDialog = /** @class */ (function (_super) {
+    __extends(SimpleDialog, _super);
+    function SimpleDialog() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    SimpleDialog.prototype.render = function () {
+        var _a = this.props, title = _a.title, header = _a.header, body = _a.body, footer = _a.footer, acceptLabel = _a.acceptLabel, cancelLabel = _a.cancelLabel, children = _a.children, open = _a.open, rest = __rest(_a, ["title", "header", "body", "footer", "acceptLabel", "cancelLabel", "children", "open"]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](Dialog, __assign({ open: open }, rest),
+            (!!title || !!header) && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](DialogTitle, null,
+                !!title && title,
+                !!header && header)),
+            (!!body || children) && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](DialogContent, null,
+                body,
+                children)),
+            (!!cancelLabel || !!acceptLabel || !!footer) && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](DialogActions, null,
+                !!footer && footer,
+                !!cancelLabel && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](DialogButton, { action: "close" }, cancelLabel)),
+                !!acceptLabel && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](DialogButton, { action: "accept", isDefaultAction: true }, acceptLabel))))));
+    };
+    SimpleDialog.defaultProps = {
+        title: undefined,
+        header: undefined,
+        body: undefined,
+        footer: undefined,
+        acceptLabel: 'Accept',
+        cancelLabel: 'Cancel',
+        open: false,
+        children: undefined
+    };
+    return SimpleDialog;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/floating-label/next/index.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/@rmwc/floating-label/next/index.js ***!
+  \**********************************************************/
+/*! exports provided: FloatingLabel */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FloatingLabel", function() { return FloatingLabel; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_floating_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/floating-label */ "../node_modules/@material/floating-label/index.js");
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+
+
+
+var FloatingLabel = /** @class */ (function (_super) {
+    __extends(FloatingLabel, _super);
+    function FloatingLabel() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.root = _this.createElement('root');
+        return _this;
+    }
+    FloatingLabel.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_floating_label__WEBPACK_IMPORTED_MODULE_1__["MDCFloatingLabelFoundation"]({
+            addClass: function (className) { return _this.root.addClass(className); },
+            removeClass: function (className) { return _this.root.removeClass(className); },
+            getWidth: function () { return (_this.root.ref ? _this.root.ref.scrollWidth : 0); },
+            registerInteractionHandler: function (evtType, handler) { return _this.root.addEventListener(evtType, handler); },
+            deregisterInteractionHandler: function (evtType, handler) { return _this.root.removeEventListener(evtType, handler); }
+        });
+    };
+    FloatingLabel.prototype.sync = function (props, prevProps) {
+        var _this = this;
+        // shake
+        this.syncProp(props.shake, prevProps.shake, function () {
+            _this.foundation.shake(!!props.shake);
+        });
+        // float
+        this.syncProp(props.float, prevProps.float, function () {
+            _this.foundation.float(!!props.float);
+        });
+    };
+    FloatingLabel.prototype.getWidth = function () {
+        return this.foundation.getWidth();
+    };
+    FloatingLabel.prototype.render = function () {
+        var _a = this.props, shake = _a.shake, float = _a.float, rest = __rest(_a, ["shake", "float"]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("label", __assign({}, this.root.props(__assign({}, rest, { className: 'mdc-floating-label' })), { ref: this.root.setRef })));
+    };
+    FloatingLabel.displayName = 'FloatingLabel';
+    return FloatingLabel;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/formfield/next/index.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/@rmwc/formfield/next/index.js ***!
+  \*****************************************************/
+/*! exports provided: FormFieldRoot, FormField */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormFieldRoot", function() { return FormFieldRoot; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormField", function() { return FormField; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_form_field__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/form-field */ "../node_modules/@material/form-field/index.js");
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+
+
+
+
+var FormFieldRoot = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'FormFieldRoot',
+    defaultProps: {
+        alignEnd: undefined
+    },
+    classNames: function (props) { return [
+        'mdc-form-field',
+        {
+            'mdc-form-field--align-end': props.alignEnd
+        }
+    ]; },
+    consumeProps: ['alignEnd']
+});
+/** A FormField component. */
+var FormField = /** @class */ (function (_super) {
+    __extends(FormField, _super);
+    function FormField() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    FormField.prototype.getDefaultFoundation = function () {
+        // For RMWC, the entire foundation is a noop. Interactions and ripples are controlled
+        // on the components themselves
+        return new _material_form_field__WEBPACK_IMPORTED_MODULE_1__["MDCFormFieldFoundation"]({
+            registerInteractionHandler: function (evtType, handler) { },
+            deregisterInteractionHandler: function (evtType, handler) { },
+            activateInputRipple: function () { },
+            deactivateInputRipple: function () { }
+        });
+    };
+    FormField.prototype.render = function () {
+        return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](FormFieldRoot, __assign({}, this.props));
+    };
+    FormField.displayName = 'FormField';
+    return FormField;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"]));
+
+
+
+/***/ }),
+
 /***/ "../node_modules/@rmwc/icon-button/next/index.js":
 /*!*******************************************************!*\
   !*** ../node_modules/@rmwc/icon-button/next/index.js ***!
@@ -5857,7 +11227,7 @@ IconButton.displayName = 'IconButton';
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./icon.css */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css");
+var content = __webpack_require__(/*! !../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!./icon.css */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/css-loader/dist/cjs.js!../node_modules/@rmwc/icon/icon.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5871,7 +11241,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -6017,6 +11387,234 @@ var Icon = Object(_rmwc_provider__WEBPACK_IMPORTED_MODULE_1__["withProviderConte
     return rendered;
 });
 Icon.displayName = 'Icon';
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/line-ripple/next/index.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/@rmwc/line-ripple/next/index.js ***!
+  \*******************************************************/
+/*! exports provided: LineRipple */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LineRipple", function() { return LineRipple; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_line_ripple__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/line-ripple */ "../node_modules/@material/line-ripple/index.js");
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+
+
+
+var LineRipple = /** @class */ (function (_super) {
+    __extends(LineRipple, _super);
+    function LineRipple() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.root = _this.createElement('root');
+        return _this;
+    }
+    LineRipple.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_line_ripple__WEBPACK_IMPORTED_MODULE_1__["MDCLineRippleFoundation"]({
+            addClass: function (className) { return _this.root.addClass(className); },
+            removeClass: function (className) { return _this.root.removeClass(className); },
+            hasClass: function (className) { return _this.root.hasClass(className); },
+            setStyle: function (propertyName, value) {
+                return _this.root.setStyle(propertyName, value);
+            },
+            registerEventHandler: function (evtType, handler) { return _this.root.addEventListener(evtType, handler); },
+            deregisterEventHandler: function (evtType, handler) { return _this.root.removeEventListener(evtType, handler); }
+        });
+    };
+    LineRipple.prototype.sync = function (props, prevProps) {
+        var _this = this;
+        // active
+        this.syncProp(props.active, prevProps.active, function () {
+            props.active ? _this.foundation.activate() : _this.foundation.deactivate();
+        });
+        // center
+        this.syncProp(props.center, prevProps.center, function () {
+            typeof props.center === 'number' &&
+                _this.foundation.setRippleCenter(props.center);
+        });
+    };
+    LineRipple.prototype.render = function () {
+        var _a = this.props, active = _a.active, center = _a.center, rest = __rest(_a, ["active", "center"]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", __assign({}, this.root.props(__assign({}, rest, { className: "mdc-line-ripple " + (this.props.className || '') })), { ref: this.root.setRef })));
+    };
+    LineRipple.displayName = 'LineRipple';
+    return LineRipple;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/notched-outline/next/index.js":
+/*!***********************************************************!*\
+  !*** ../node_modules/@rmwc/notched-outline/next/index.js ***!
+  \***********************************************************/
+/*! exports provided: NotchedOutline */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotchedOutline", function() { return NotchedOutline; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+/* harmony import */ var _material_notched_outline__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material/notched-outline */ "../node_modules/@material/notched-outline/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+
+
+
+var NotchedOutlineLeading = /** @class */ (function (_super) {
+    __extends(NotchedOutlineLeading, _super);
+    function NotchedOutlineLeading() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    NotchedOutlineLeading.prototype.shouldComponentUpdate = function () {
+        return false;
+    };
+    NotchedOutlineLeading.prototype.render = function () {
+        return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-notched-outline__leading" });
+    };
+    return NotchedOutlineLeading;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+var NotchedOutlineTrailing = /** @class */ (function (_super) {
+    __extends(NotchedOutlineTrailing, _super);
+    function NotchedOutlineTrailing() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    NotchedOutlineTrailing.prototype.shouldComponentUpdate = function () {
+        return false;
+    };
+    NotchedOutlineTrailing.prototype.render = function () {
+        return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-notched-outline__trailing" });
+    };
+    return NotchedOutlineTrailing;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+var NotchedOutline = /** @class */ (function (_super) {
+    __extends(NotchedOutline, _super);
+    function NotchedOutline() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.root = _this.createElement('root');
+        _this.notchElement = _this.createElement('root');
+        _this.label = null;
+        return _this;
+    }
+    NotchedOutline.prototype.componentDidMount = function () {
+        var _this = this;
+        _super.prototype.componentDidMount.call(this);
+        this.label = this.root.ref && this.root.ref.querySelector('label');
+        if (this.label) {
+            this.label.style.transitionDuration = '0s';
+            this.root.addClass(_material_notched_outline__WEBPACK_IMPORTED_MODULE_2__["MDCNotchedOutlineFoundation"].cssClasses.OUTLINE_UPGRADED);
+            requestAnimationFrame(function () {
+                _this.label && (_this.label.style.transitionDuration = '');
+            });
+        }
+        else {
+            this.root.addClass(_material_notched_outline__WEBPACK_IMPORTED_MODULE_2__["MDCNotchedOutlineFoundation"].cssClasses.NO_LABEL);
+        }
+    };
+    NotchedOutline.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_notched_outline__WEBPACK_IMPORTED_MODULE_2__["MDCNotchedOutlineFoundation"]({
+            addClass: function (className) { return _this.root.addClass(className); },
+            removeClass: function (className) { return _this.root.removeClass(className); },
+            setNotchWidthProperty: function (width) {
+                return _this.notchElement.setStyle('width', width + 'px');
+            },
+            removeNotchWidthProperty: function () { return _this.notchElement.setStyle('width', ''); }
+        });
+    };
+    NotchedOutline.prototype.sync = function (props, prevProps) {
+        var _this = this;
+        this.syncProp(props.notch, prevProps.notch, function () {
+            !!props.notch
+                ? _this.foundation.notch(props.notch)
+                : _this.foundation.closeNotch();
+        });
+    };
+    NotchedOutline.prototype.render = function () {
+        var _a = this.props, children = _a.children, rest = __rest(_a, ["children"]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", __assign({}, this.root.props(__assign({}, rest, { className: 'mdc-notched-outline' })), { ref: this.root.setRef }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"](NotchedOutlineLeading, null),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", __assign({}, this.notchElement.props({}), { className: "mdc-notched-outline__notch", ref: this.notchElement.setRef }), children),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"](NotchedOutlineTrailing, null)));
+    };
+    NotchedOutline.displayName = 'NotchedOutline';
+    return NotchedOutline;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_1__["FoundationComponent"]));
+
 
 
 /***/ }),
@@ -6332,6 +11930,382 @@ var withRipple = function (_a) {
         return WithRippleComponent;
     };
 };
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/textfield/next/index.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/@rmwc/textfield/next/index.js ***!
+  \*****************************************************/
+/*! exports provided: TextField, TextFieldHelperText, TextFieldIcon */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TextField", function() { return TextField; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TextFieldHelperText", function() { return TextFieldHelperText; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TextFieldIcon", function() { return TextFieldIcon; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_textfield__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material/textfield */ "../node_modules/@material/textfield/index.js");
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+/* harmony import */ var _rmwc_icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @rmwc/icon */ "../node_modules/@rmwc/icon/next/index.js");
+/* harmony import */ var _rmwc_line_ripple__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @rmwc/line-ripple */ "../node_modules/@rmwc/line-ripple/next/index.js");
+/* harmony import */ var _rmwc_floating_label__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @rmwc/floating-label */ "../node_modules/@rmwc/floating-label/next/index.js");
+/* harmony import */ var _rmwc_notched_outline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @rmwc/notched-outline */ "../node_modules/@rmwc/notched-outline/next/index.js");
+/* harmony import */ var _rmwc_ripple__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @rmwc/ripple */ "../node_modules/@rmwc/ripple/next/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+
+
+
+
+
+
+
+
+var TextFieldRoot = Object(_rmwc_ripple__WEBPACK_IMPORTED_MODULE_7__["withRipple"])()(Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'TextFieldRoot',
+    deprecate: {
+        box: ''
+    },
+    classNames: function (props) { return [
+        'mdc-text-field',
+        'mdc-text-field--upgraded',
+        {
+            'mdc-text-field--textarea': props.textarea,
+            'mdc-text-field--fullwidth': props.fullwidth,
+            'mdc-text-field--outlined': props.outlined,
+            'mdc-text-field--dense': props.dense,
+            'mdc-text-field--invalid': props.invalid,
+            'mdc-text-field--disabled': props.disabled,
+            'mdc-text-field--with-leading-icon': !!props.icon,
+            'mdc-text-field--with-trailing-icon': !!props.trailingIcon,
+            'mdc-text-field--no-label': !props.label
+        }
+    ]; },
+    consumeProps: [
+        'textarea',
+        'fullwidth',
+        'outlined',
+        'dense',
+        'invalid',
+        'disabled',
+        'icon',
+        'trailingIcon',
+        'label'
+    ]
+}));
+var TextFieldInput = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'TextFieldInput',
+    defaultProps: {
+        type: 'text'
+    },
+    tag: 'input',
+    classNames: ['mdc-text-field__input']
+});
+var TextFieldTextarea = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'TextFieldTextarea',
+    tag: 'textarea',
+    classNames: ['mdc-text-field__input']
+});
+/** A TextField component for accepting text input from a user. */
+var TextField = /** @class */ (function (_super) {
+    __extends(TextField, _super);
+    function TextField(props) {
+        var _this = _super.call(this, props) || this;
+        _this.generatedId = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["randomId"])('textfield');
+        _this.root = _this.createElement('root');
+        _this.input = _this.createElement('input');
+        _this.label = _this.createElement('label');
+        _this.lineRipple = _this.createElement('lineRipple');
+        _this.characterCounter = null;
+        _this.leadingIcon = null;
+        _this.trailingIcon = null;
+        _this.valueNeedsUpdate = false;
+        _this.handleOnChange = _this.handleOnChange.bind(_this);
+        return _this;
+    }
+    TextField.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_textfield__WEBPACK_IMPORTED_MODULE_1__["MDCTextFieldFoundation"](__assign({ addClass: function (className) { return _this.root.addClass(className); }, removeClass: function (className) { return _this.root.removeClass(className); }, hasClass: function (className) { return _this.root.hasClass(className); }, registerTextFieldInteractionHandler: function (evtType, handler) { return _this.root.addEventListener(evtType, handler); }, deregisterTextFieldInteractionHandler: function (evtType, handler) { return _this.root.removeEventListener(evtType, handler); }, registerValidationAttributeChangeHandler: function (handler) {
+                var getAttributesList = function (mutationsList) {
+                    return mutationsList.map(function (mutation) { return mutation.attributeName; });
+                };
+                if (_this.input.ref) {
+                    var observer = new MutationObserver(function (mutationsList) {
+                        return handler(getAttributesList(mutationsList));
+                    });
+                    var targetNode = _this.input.ref;
+                    var config = { attributes: true };
+                    targetNode && observer.observe(targetNode, config);
+                    return observer;
+                }
+                return {};
+            }, deregisterValidationAttributeChangeHandler: function (observer) {
+                observer && observer.disconnect();
+            }, isFocused: function () {
+                return document.activeElement === _this.input.ref;
+            } }, this.getInputAdapterMethods(), this.getLabelAdapterMethods(), this.getLineRippleAdapterMethods(), this.getOutlineAdapterMethods()), this.getFoundationMap());
+    };
+    TextField.prototype.getLabelAdapterMethods = function () {
+        var _this = this;
+        return {
+            shakeLabel: function (shouldShake) {
+                return _this.label.setProp('shake', shouldShake);
+            },
+            floatLabel: function (shouldFloat) {
+                return _this.label.setProp('float', shouldFloat);
+            },
+            hasLabel: function () { return !!_this.props.label; },
+            getLabelWidth: function () { return (_this.label.ref ? _this.label.ref.getWidth() : 0); }
+        };
+    };
+    TextField.prototype.getLineRippleAdapterMethods = function () {
+        var _this = this;
+        return {
+            activateLineRipple: function () {
+                if (_this.lineRipple) {
+                    _this.lineRipple.setProp('active', true);
+                }
+            },
+            deactivateLineRipple: function () {
+                if (_this.lineRipple) {
+                    _this.lineRipple.setProp('active', false);
+                }
+            },
+            setLineRippleTransformOrigin: function (normalizedX) {
+                if (_this.lineRipple) {
+                    _this.lineRipple.setProp('center', normalizedX);
+                }
+            }
+        };
+    };
+    TextField.prototype.getOutlineAdapterMethods = function () {
+        var _this = this;
+        return {
+            notchOutline: function (labelWidth) {
+                !!_this.outline && _this.outline.notch(labelWidth);
+            },
+            closeOutline: function () { return _this.outline && _this.outline.closeNotch(); },
+            hasOutline: function () { return !!_this.outline; }
+        };
+    };
+    TextField.prototype.getInputAdapterMethods = function () {
+        var _this = this;
+        return {
+            registerInputInteractionHandler: function (evtType, handler) { return _this.input.addEventListener(evtType, handler); },
+            deregisterInputInteractionHandler: function (evtType, handler) { return _this.input.removeEventListener(evtType, handler); },
+            getNativeInput: function () { return _this.input.ref; }
+        };
+    };
+    TextField.prototype.getFoundationMap = function () {
+        return {
+            characterCounter: this.characterCounter
+                ? this.characterCounter.foundation
+                : undefined,
+            helperText: undefined,
+            leadingIcon: this.leadingIcon ? this.leadingIcon.foundation : undefined,
+            trailingIcon: this.trailingIcon ? this.trailingIcon.foundation : undefined
+        };
+    };
+    // handle leading and trailing icons
+    TextField.prototype.renderIcon = function (icon, leadOrTrail) {
+        var _this = this;
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TextFieldIcon, { ref: function (ref) {
+                if (leadOrTrail === 'leadingIcon') {
+                    _this.leadingIcon = ref;
+                }
+                else {
+                    _this.trailingIcon = ref;
+                }
+            }, tabIndex: leadOrTrail === 'trailingIcon' ? 0 : undefined, icon: icon }));
+    };
+    TextField.prototype.sync = function (props) {
+        // Bug #362
+        // see comments below in render function
+        if (this.valueNeedsUpdate) {
+            this.foundation.setValue(String(props.value));
+            this.valueNeedsUpdate = false;
+        }
+    };
+    TextField.prototype.handleOnChange = function (evt) {
+        // this.props.onChange && this.props.onChange(evt);
+        // this.setState({});
+    };
+    TextField.prototype.renderHelpText = function (renderedCharacterCounter) {
+        var _a = this.props, helpText = _a.helpText, characterCount = _a.characterCount, textarea = _a.textarea;
+        var shouldRender = !!helpText || (characterCount && !textarea);
+        if (!shouldRender) {
+            return null;
+        }
+        var shouldSpread = typeof helpText === 'object' && !react__WEBPACK_IMPORTED_MODULE_0__["isValidElement"](helpText);
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-text-field-helper-line" },
+            helpText && shouldSpread ? (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TextFieldHelperText, __assign({}, helpText))) : (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TextFieldHelperText, null, helpText)),
+            !textarea && renderedCharacterCounter));
+    };
+    TextField.prototype.render = function () {
+        var _this = this;
+        var _a = this.props, label = _a.label, className = _a.className, style = _a.style, outlined = _a.outlined, fullwidth = _a.fullwidth, dense = _a.dense, invalid = _a.invalid, disabled = _a.disabled, helpText = _a.helpText, children = _a.children, textarea = _a.textarea, inputRef = _a.inputRef, characterCount = _a.characterCount, _icon = _a.icon, _trailingIcon = _a.trailingIcon, _withLeadingIcon = _a.withLeadingIcon, _withTrailingIcon = _a.withTrailingIcon, _b = _a.rootProps, rootProps = _b === void 0 ? {} : _b, rest = __rest(_a, ["label", "className", "style", "outlined", "fullwidth", "dense", "invalid", "disabled", "helpText", "children", "textarea", "inputRef", "characterCount", "icon", "trailingIcon", "withLeadingIcon", "withTrailingIcon", "rootProps"]);
+        var _c = this.props, icon = _c.icon, trailingIcon = _c.trailingIcon, withLeadingIcon = _c.withLeadingIcon, withTrailingIcon = _c.withTrailingIcon;
+        if (dense !== undefined) {
+            Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["deprecationWarning"])("Textfield prop 'dense' is being removed in a future release by material-components-web.");
+        }
+        if (withLeadingIcon !== undefined) {
+            Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["deprecationWarning"])("Textfield prop 'withLeadingIcon' is now 'icon'.");
+            icon = withLeadingIcon;
+        }
+        if (withTrailingIcon !== undefined) {
+            Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["deprecationWarning"])("Textfield prop 'withTrailingIcon' is now 'trailingIcon'.");
+            trailingIcon = withTrailingIcon;
+        }
+        // Fixes bug #362
+        // MDC breaks Reacts unidirectional data flow...
+        // we cant set the value on render, but we need to
+        // to create the side effects for the UI when we dynamically update the field
+        // Flag that it needs to be set so that we can call the foundation
+        // on componentDidUpdate
+        if (this.props.value !== undefined &&
+            this.foundation &&
+            this.props.value !== this.foundation.getValue()) {
+            this.valueNeedsUpdate = true;
+        }
+        var tagProps = __assign({}, this.input.props(rest), { disabled: disabled, ref: function (ref) {
+                _this.input.setRef(ref);
+                inputRef && inputRef(ref);
+            }, id: rest.id || this.generatedId });
+        var renderedTag = textarea ? (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TextFieldTextarea, __assign({}, tagProps))) : (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TextFieldInput, __assign({}, tagProps)));
+        var renderedLabel = label ? (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_rmwc_floating_label__WEBPACK_IMPORTED_MODULE_5__["FloatingLabel"], __assign({}, this.label.props({}), { ref: this.label.setRef, htmlFor: tagProps.id }), label)) : null;
+        var renderedCharacterCounter = characterCount ? (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TextFieldCharacterCount, { ref: function (el) {
+                _this.characterCounter = el;
+            } }, "F")) : null;
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null,
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"](TextFieldRoot, __assign({}, this.root.props(__assign({}, rootProps, { className: className,
+                style: style })), { label: label, invalid: invalid, icon: !!icon, trailingIcon: !!trailingIcon, textarea: textarea, dense: dense, disabled: disabled, outlined: outlined, fullwidth: fullwidth, ref: this.root.setRef }),
+                !!icon && this.renderIcon(icon, 'leadingIcon'),
+                children,
+                !!textarea && renderedCharacterCounter,
+                renderedTag,
+                !!outlined ? (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null,
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_rmwc_notched_outline__WEBPACK_IMPORTED_MODULE_6__["NotchedOutline"], { ref: function (ref) {
+                            return (_this.outline = ref && ref.foundation);
+                        } }, renderedLabel),
+                    !!trailingIcon && this.renderIcon(trailingIcon, 'trailingIcon'))) : (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null,
+                    renderedLabel,
+                    !!trailingIcon && this.renderIcon(trailingIcon, 'trailingIcon'),
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_rmwc_line_ripple__WEBPACK_IMPORTED_MODULE_4__["LineRipple"], __assign({}, this.lineRipple.props({})))))),
+            this.renderHelpText(renderedCharacterCounter)));
+    };
+    TextField.displayName = 'TextField';
+    return TextField;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"]));
+
+var TextFieldCharacterCount = /** @class */ (function (_super) {
+    __extends(TextFieldCharacterCount, _super);
+    function TextFieldCharacterCount() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.state = {
+            content: ''
+        };
+        return _this;
+    }
+    TextFieldCharacterCount.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_textfield__WEBPACK_IMPORTED_MODULE_1__["MDCTextFieldCharacterCounterFoundation"]({
+            setContent: function (content) {
+                _this.setState({ content: content });
+            }
+        });
+    };
+    TextFieldCharacterCount.prototype.render = function () {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "mdc-text-field-character-counter" }, this.state.content));
+    };
+    TextFieldCharacterCount.displayName = 'TextFieldCharacterCount';
+    return TextFieldCharacterCount;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"]));
+/** A help text component */
+var TextFieldHelperText = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["componentFactory"])({
+    displayName: 'TextFieldHelperText',
+    classNames: function (props) { return [
+        'mdc-text-field-helper-text',
+        {
+            'mdc-text-field-helper-text--persistent': props.persistent,
+            'mdc-text-field-helper-text--validation-msg': props.validationMsg
+        }
+    ]; },
+    consumeProps: ['persistent', 'validationMsg']
+});
+/*********************************************************************
+ * Icon
+ *********************************************************************/
+/**
+ * An Icon in a TextField
+ */
+var TextFieldIcon = /** @class */ (function (_super) {
+    __extends(TextFieldIcon, _super);
+    function TextFieldIcon() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.root = _this.createElement('root');
+        return _this;
+    }
+    TextFieldIcon.prototype.getDefaultFoundation = function () {
+        var _this = this;
+        return new _material_textfield__WEBPACK_IMPORTED_MODULE_1__["MDCTextFieldIconFoundation"]({
+            getAttr: function (attr) {
+                return _this.root.getProp(attr);
+            },
+            setAttr: function (attr, value) {
+                return _this.root.setProp(attr, value);
+            },
+            removeAttr: function (attr) { return _this.root.removeProp(attr); },
+            setContent: function (content) {
+                // @ts-ignore
+                _this.root.setProp('icon', content);
+            },
+            registerInteractionHandler: function (evtType, handler) { return _this.root.addEventListener(evtType, handler); },
+            deregisterInteractionHandler: function (evtType, handler) { return _this.root.removeEventListener(evtType, handler); },
+            notifyIconAction: function () { return _this.emit('onClick', {}, true); }
+        });
+    };
+    TextFieldIcon.prototype.render = function () {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_rmwc_icon__WEBPACK_IMPORTED_MODULE_3__["Icon"], __assign({}, this.root.props(__assign({}, this.props, { className: 'mdc-text-field__icon' })))));
+    };
+    TextFieldIcon.displayName = 'TextFieldIcon';
+    return TextFieldIcon;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_2__["FoundationComponent"]));
+
 
 
 /***/ }),
@@ -6692,6 +12666,110 @@ var getAutoColorsForTheme = function (colors) {
     }, {});
     return __assign({}, autoColors, colors);
 };
+
+
+/***/ }),
+
+/***/ "../node_modules/@rmwc/toggleable/next/index.js":
+/*!******************************************************!*\
+  !*** ../node_modules/@rmwc/toggleable/next/index.js ***!
+  \******************************************************/
+/*! exports provided: ToggleableFoundationComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleableFoundationComponent", function() { return ToggleableFoundationComponent; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _rmwc_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rmwc/base */ "../node_modules/@rmwc/base/next/index.js");
+/* harmony import */ var _rmwc_formfield__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rmwc/formfield */ "../node_modules/@rmwc/formfield/next/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+
+
+
+var ToggleableFoundationComponent = /** @class */ (function (_super) {
+    __extends(ToggleableFoundationComponent, _super);
+    function ToggleableFoundationComponent() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        // @ts-ignore
+        _this.generatedId = Object(_rmwc_base__WEBPACK_IMPORTED_MODULE_1__["randomId"])(_this.constructor.displayName);
+        return _this;
+    }
+    Object.defineProperty(ToggleableFoundationComponent.prototype, "hasLabel", {
+        /** @internal */
+        get: function () {
+            return this.props.label || this.props.children;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ToggleableFoundationComponent.prototype, "id", {
+        /** @internal */
+        get: function () {
+            return this.props.id || this.generatedId;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ToggleableFoundationComponent.prototype, "toggleRootProps", {
+        /** @internal */
+        get: function () {
+            var _a = this.props, className = _a.className, style = _a.style, disabled = _a.disabled, _b = _a.rootProps, rootProps = _b === void 0 ? {} : _b;
+            if (this.hasLabel) {
+                // @ts-ignore
+                return this.root.props({ disabled: disabled });
+            }
+            return __assign({}, this.root.props(__assign({ className: className,
+                style: style,
+                disabled: disabled }, rootProps)));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ToggleableFoundationComponent.prototype.renderToggle = function (toggle) {
+        /**
+         * We have to conditionally wrap our checkbox in a formfield
+         * If we have a label
+         */
+        var _a = this.props, className = _a.className, style = _a.style, rootProps = _a.rootProps, label = _a.label, children = _a.children;
+        if (this.hasLabel) {
+            return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_rmwc_formfield__WEBPACK_IMPORTED_MODULE_2__["FormField"], __assign({}, rootProps, { className: className, style: style }),
+                toggle,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("label", { id: this.id + 'label', htmlFor: this.id },
+                    label,
+                    children)));
+        }
+        else {
+            return toggle;
+        }
+    };
+    return ToggleableFoundationComponent;
+}(_rmwc_base__WEBPACK_IMPORTED_MODULE_1__["FoundationComponent"]));
+
 
 
 /***/ }),
@@ -8180,7 +14258,7 @@ exports.mapStateOnServer = mapStateOnServer;
 exports.reducePropsToState = reducePropsToState;
 exports.requestAnimationFrame = requestAnimationFrame;
 exports.warn = warn;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js */ "../../.npm/_npx/2738/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js */ "../../.npm/_npx/3951/lib/node_modules/framer-cli/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -8834,12 +14912,15 @@ function extend() {
 
 var map = {
 	"./Button.tsx": "./code/Button.tsx",
+	"./Checkbox.tsx": "./code/Checkbox.tsx",
 	"./Chip.tsx": "./code/Chip.tsx",
+	"./Dialog.tsx": "./code/Dialog.tsx",
 	"./Elevation.tsx": "./code/Elevation.tsx",
 	"./Fab.tsx": "./code/Fab.tsx",
 	"./Icon.tsx": "./code/Icon.tsx",
 	"./IconButton.tsx": "./code/IconButton.tsx",
 	"./Input.tsx": "./code/Input.tsx",
+	"./TextField.tsx": "./code/TextField.tsx",
 	"./Toggle.tsx": "./code/Toggle.tsx",
 	"./Tooltip.tsx": "./code/Tooltip.tsx",
 	"./Typography.tsx": "./code/Typography.tsx",
@@ -8915,6 +14996,47 @@ exports.__info__ = [{ name: "Button", children: false, type: "component" }];
 
 /***/ }),
 
+/***/ "./code/Checkbox.tsx":
+/*!***************************!*\
+  !*** ./code/Checkbox.tsx ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hlY2tib3guanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9jb2RlL0NoZWNrYm94LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtCQUE4QjtBQUM5Qiw4Q0FBNkM7QUFDN0MsbUNBQXNEO0FBS3RELE1BQWEsUUFBUyxTQUFRLEtBQUssQ0FBQyxTQUFnQjtJQUNsRCxNQUFNOztRQUNKLE9BQU8sb0JBQUMsTUFBTSxDQUFDLFFBQVEsb0JBQUssSUFBSSxDQUFDLEtBQUssRUFBSSxDQUFBO0tBQzNDOztBQUVNLHFCQUFZLEdBQVU7SUFDM0IsS0FBSyxFQUFFLFFBQVE7Q0FDaEIsQ0FBQTtBQUVNLHlCQUFnQixHQUE0QjtJQUNqRCxPQUFPLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLFNBQVMsRUFBRTtJQUN4RCxRQUFRLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLFVBQVUsRUFBRTtJQUMxRCxFQUFFLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxNQUFNLEVBQUUsS0FBSyxFQUFFLElBQUksRUFBRTtJQUM3QyxhQUFhLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLGVBQWUsRUFBRTtJQUNwRSxXQUFXO0lBQ1gsS0FBSyxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsTUFBTSxFQUFFLEtBQUssRUFBRSxPQUFPLEVBQUU7SUFDbkQsTUFBTSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxRQUFRLEVBQUU7SUFDdEQsc0JBQXNCO0lBQ3RCLEtBQUssRUFBRSxFQUFFLElBQUksRUFBRSxvQkFBVyxDQUFDLE1BQU0sRUFBRSxLQUFLLEVBQUUsT0FBTyxFQUFFO0NBQ3BELENBQUE7QUFuQkgsNEJBb0JDO0FBQ0QifQ==
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
+const framer_1 = __webpack_require__(/*! framer */ "framer");
+class Checkbox extends React.Component {
+    render() {
+        window["__checkBudget__"]();
+        return React.createElement(System.Checkbox, Object.assign({}, this.props));
+    }
+}
+Checkbox.defaultProps = {
+    label: "Button"
+};
+Checkbox.propertyControls = {
+    checked: { type: framer_1.ControlType.Boolean, title: "Checked" },
+    disabled: { type: framer_1.ControlType.Boolean, title: "Disabled" },
+    id: { type: framer_1.ControlType.String, title: "ID" },
+    indeterminate: { type: framer_1.ControlType.Boolean, title: "Indeterminate" },
+    // inputRef
+    label: { type: framer_1.ControlType.String, title: "Label" },
+    ripple: { type: framer_1.ControlType.Boolean, title: "Ripple" },
+    // rootProps?: object;
+    value: { type: framer_1.ControlType.String, title: "Value" },
+};
+exports.Checkbox = Checkbox;
+exports.__info__ = [{ name: "Checkbox", children: false, type: "component" }];
+
+
+/***/ }),
+
 /***/ "./code/Chip.tsx":
 /*!***********************!*\
   !*** ./code/Chip.tsx ***!
@@ -8952,6 +15074,18 @@ Chip.propertyControls = {
 exports.Chip = Chip;
 exports.__info__ = [{ name: "Chip", children: false, type: "component" }];
 
+
+/***/ }),
+
+/***/ "./code/Dialog.tsx":
+/*!*************************!*\
+  !*** ./code/Dialog.tsx ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+throw new Error("Compile Error in Dialog.tsx line 16: ',' expected.")
 
 /***/ }),
 
@@ -9152,6 +15286,54 @@ Input.propertyControls = {
 };
 exports.Input = Input;
 exports.__info__ = [{ name: "Input", children: false, type: "component" }];
+
+
+/***/ }),
+
+/***/ "./code/TextField.tsx":
+/*!****************************!*\
+  !*** ./code/TextField.tsx ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGV4dEZpZWxkLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vY29kZS9UZXh0RmllbGQudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsK0JBQThCO0FBQzlCLDhDQUE2QztBQUM3QyxtQ0FBc0Q7QUFPdEQsTUFBYSxTQUFVLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQ25ELE1BQU07O1FBQ0osT0FBTyxvQkFBQyxNQUFNLENBQUMsU0FBUyxvQkFBSyxJQUFJLENBQUMsS0FBSyxFQUFJLENBQUE7S0FDNUM7O0FBRU0sc0JBQVksR0FBVTtJQUMzQixLQUFLLEVBQUUsR0FBRztJQUNWLE1BQU0sRUFBRSxFQUFFO0lBQ1YsUUFBUSxFQUFFLEtBQUs7SUFDZixLQUFLLEVBQUUsV0FBVztDQUNuQixDQUFBO0FBRU0sMEJBQWdCLEdBQTRCO0lBQ2pELGNBQWMsRUFBRSxFQUFFLElBQUksRUFBRSxvQkFBVyxDQUFDLE9BQU8sRUFBRSxLQUFLLEVBQUUsaUJBQWlCLEVBQUM7SUFDdEUsUUFBUSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxVQUFVLEVBQUM7SUFDekQsU0FBUyxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxXQUFXLEVBQUM7SUFDM0QsUUFBUSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxVQUFVLEVBQUM7SUFDekQsSUFBSSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxNQUFNLEVBQUM7SUFDakQsT0FBTyxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxTQUFTLEVBQUM7SUFDdkQsS0FBSyxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxPQUFPLEVBQUM7SUFDbkQsUUFBUSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxVQUFVLEVBQUM7SUFDekQsUUFBUSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxVQUFVLEVBQUM7SUFDekQsU0FBUyxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxXQUFXLEVBQUM7SUFDM0QsWUFBWSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxjQUFjLEVBQUM7SUFDakUsSUFBSSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxNQUFNLEVBQUM7SUFDakQsS0FBSyxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxPQUFPLEVBQUM7Q0FDcEQsQ0FBQTtBQTFCSCw4QkEyQkM7QUFDRCJ9
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
+const framer_1 = __webpack_require__(/*! framer */ "framer");
+class TextField extends React.Component {
+    render() {
+        window["__checkBudget__"]();
+        return React.createElement(System.TextField, Object.assign({}, this.props));
+    }
+}
+TextField.defaultProps = {
+    width: 150,
+    height: 48,
+    disabled: false,
+    label: "TextField"
+};
+TextField.propertyControls = {
+    characterCount: { type: framer_1.ControlType.Boolean, title: "Character Count" },
+    disabled: { type: framer_1.ControlType.Boolean, title: "Disabled" },
+    fullwidth: { type: framer_1.ControlType.Boolean, title: "Fullwidth" },
+    helpText: { type: framer_1.ControlType.Boolean, title: "HelpText" },
+    icon: { type: framer_1.ControlType.Boolean, title: "Icon" },
+    invalid: { type: framer_1.ControlType.Boolean, title: "Invalid" },
+    label: { type: framer_1.ControlType.Boolean, title: "Label" },
+    outlined: { type: framer_1.ControlType.Boolean, title: "Outlined" },
+    required: { type: framer_1.ControlType.Boolean, title: "Required" },
+    rootProps: { type: framer_1.ControlType.Boolean, title: "RootProps" },
+    trailingIcon: { type: framer_1.ControlType.Boolean, title: "TrailingIcon" },
+    type: { type: framer_1.ControlType.Boolean, title: "Type" },
+    value: { type: framer_1.ControlType.Boolean, title: "Value" },
+};
+exports.TextField = TextField;
+exports.__info__ = [{ name: "TextField", children: false, type: "component" }];
 
 
 /***/ }),
@@ -9402,7 +15584,7 @@ exports.__framer__ = package
 /*! exports provided: main, license, devDependencies, peerDependencies, version, dependencies, framer, author, name, default */
 /***/ (function(module) {
 
-module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16","framer":"^0.10"},"peerDependencies":{"framer":"^0.10","react":"^16.3.0","react-dom":"^16.3.0"},"version":"1.6.0","dependencies":{"styled-components":"^4.2.0"},"framer":{"id":"7c15e4fe-2858-41e1-b306-c66029e297e7","displayName":"Design System V2"},"author":"Lincoln Mitchell","name":"@framer/interfacesncreatives.design-system-v2"};
+module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16","framer":"^0.10"},"peerDependencies":{"framer":"^0.10","react":"^16.3.0","react-dom":"^16.3.0"},"version":"1.7.0","dependencies":{"styled-components":"^4.2.0"},"framer":{"id":"7c15e4fe-2858-41e1-b306-c66029e297e7","displayName":"Design System V2"},"author":"Lincoln Mitchell","name":"@framer/interfacesncreatives.design-system-v2"};
 
 /***/ }),
 

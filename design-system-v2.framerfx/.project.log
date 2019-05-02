@@ -333,3 +333,354 @@
 [2019-05-02 10:14:13.9510] - DEBUG - [Save session: 3] Completed container.writeChanges
 [2019-05-02 10:14:13.9510] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
 [2019-05-02 10:14:13.9560] - DEBUG - [Save session: 3] Completed super.save
+[2019-05-02 10:14:56.9770] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.14.56.zip
+[2019-05-02 10:15:26.0790] - DEBUG - [Save session: 4] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 10:15:26.0790] - DEBUG - [Save session: 4] Before container.writeChanges
+[2019-05-02 10:15:26.0790] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2019-05-02 10:15:26.0880] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2019-05-02 10:15:26.0880] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2019-05-02 10:15:26.0920] - DEBUG - [Save session: 4] Completed super.save
+[2019-05-02 10:31:22.1760] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.31.22.zip
+[2019-05-02 10:33:41.8590] - ERROR -    170 modules
+[2019-05-02 10:33:41.8590] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:33:41.8590] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:33:41.8590] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:33:41.8590] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:33:45.1940] - DEBUG - [Save session: 5] Started, operation: autosaveInPlaceOperation
+[2019-05-02 10:33:45.1940] - DEBUG - [Save session: 5] Before container.writeChanges
+[2019-05-02 10:33:45.1940] - DEBUG - [Save session: 5] Before waitUsingRecursiveRunLoop
+[2019-05-02 10:33:45.2000] - DEBUG - [Save session: 5] Completed container.writeChanges
+[2019-05-02 10:33:45.2010] - DEBUG - [Save session: 5] Completed waitUsingRecursiveRunLoop
+[2019-05-02 10:33:45.2030] - DEBUG - [Save session: 5] Completed super.save
+[2019-05-02 10:33:55.3440] - DEBUG - [Save session: 6] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 10:33:55.3440] - DEBUG - [Save session: 6] Before container.writeChanges
+[2019-05-02 10:33:55.3440] - DEBUG - [Save session: 6] Before waitUsingRecursiveRunLoop
+[2019-05-02 10:33:55.3570] - DEBUG - [Save session: 6] Completed container.writeChanges
+[2019-05-02 10:33:55.3570] - DEBUG - [Save session: 6] Completed waitUsingRecursiveRunLoop
+[2019-05-02 10:33:55.3620] - DEBUG - [Save session: 6] Completed super.save
+[2019-05-02 10:34:24.5590] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.34.24.zip
+[2019-05-02 10:34:25.8270] - ERROR -    176 modules
+[2019-05-02 10:34:25.8270] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:34:25.8270] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:34:25.8270] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:34:25.8270] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:34:58.9120] - DEBUG - [Save session: 7] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 10:34:58.9120] - DEBUG - [Save session: 7] Before container.writeChanges
+[2019-05-02 10:34:58.9120] - DEBUG - [Save session: 7] Before waitUsingRecursiveRunLoop
+[2019-05-02 10:34:58.9190] - DEBUG - [Save session: 7] Completed container.writeChanges
+[2019-05-02 10:34:58.9190] - DEBUG - [Save session: 7] Completed waitUsingRecursiveRunLoop
+[2019-05-02 10:34:58.9240] - DEBUG - [Save session: 7] Completed super.save
+[2019-05-02 10:35:25.5510] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.35.25.zip
+[2019-05-02 10:42:56.2810] - INFO - GET 200 /README.md 0 B (6ms)
+[2019-05-02 10:42:56.2950] - INFO - GET 200 /package.json 484 B (18ms)
+[2019-05-02 10:43:20.0070] - ERROR -    193 modules
+[2019-05-02 10:43:20.0070] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:43:20.0070] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:43:20.0070] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:43:20.0070] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:44:19.2450] - ERROR -    193 modules
+[2019-05-02 10:44:19.2450] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:44:19.2450] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:44:19.2450] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:44:19.2450] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:44:28.0020] - DEBUG - [Save session: 8] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 10:44:28.0020] - DEBUG - [Save session: 8] Before container.writeChanges
+[2019-05-02 10:44:28.0020] - DEBUG - [Save session: 8] Before waitUsingRecursiveRunLoop
+[2019-05-02 10:44:28.0130] - DEBUG - [Save session: 8] Completed container.writeChanges
+[2019-05-02 10:44:28.0130] - DEBUG - [Save session: 8] Completed waitUsingRecursiveRunLoop
+[2019-05-02 10:44:28.0180] - DEBUG - [Save session: 8] Completed super.save
+[2019-05-02 10:44:46.1100] - ERROR -    194 modules
+[2019-05-02 10:44:46.1100] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:44:46.1100] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:44:46.1100] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:44:46.1100] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:44:49.7680] - ERROR -    194 modules
+[2019-05-02 10:44:49.7680] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:44:49.7680] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:44:49.7680] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:44:49.7680] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:46.4860] - DEBUG - [Save session: 9] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 10:45:46.4860] - DEBUG - [Save session: 9] Before container.writeChanges
+[2019-05-02 10:45:46.4860] - DEBUG - [Save session: 9] Before waitUsingRecursiveRunLoop
+[2019-05-02 10:45:46.6900] - DEBUG - [Save session: 9] Completed waitUsingRecursiveRunLoop
+[2019-05-02 10:45:46.7020] - DEBUG - [Save session: 9] Completed super.save
+[2019-05-02 10:45:46.7320] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.45.46.zip
+[2019-05-02 10:45:59.5620] - ERROR -    194 modules
+[2019-05-02 10:45:59.5620] - ERROR - WARNING in Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - ./code/Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - [tsl] ERROR in Checkbox.tsx(20,21)
+[2019-05-02 10:45:59.5620] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:59.5620] - ERROR - WARNING in Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - ./code/Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - [tsl] ERROR in Checkbox.tsx(20,5)
+[2019-05-02 10:45:59.5620] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:59.5620] - ERROR - WARNING in Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - ./code/Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - [tsl] ERROR in Checkbox.tsx(21,23)
+[2019-05-02 10:45:59.5620] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:59.5620] - ERROR - WARNING in Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - ./code/Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - [tsl] ERROR in Checkbox.tsx(22,17)
+[2019-05-02 10:45:59.5620] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:59.5620] - ERROR - WARNING in Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - ./code/Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - [tsl] ERROR in Checkbox.tsx(23,27)
+[2019-05-02 10:45:59.5620] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:59.5620] - ERROR - WARNING in Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - ./code/Checkbox.tsx
+[2019-05-02 10:45:59.5620] - ERROR - [tsl] ERROR in Checkbox.tsx(25,19)
+[2019-05-02 10:45:59.5620] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:59.5630] - ERROR - WARNING in Checkbox.tsx
+[2019-05-02 10:45:59.5630] - ERROR - ./code/Checkbox.tsx
+[2019-05-02 10:45:59.5630] - ERROR - [tsl] ERROR in Checkbox.tsx(26,21)
+[2019-05-02 10:45:59.5630] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:59.5630] - ERROR - WARNING in Checkbox.tsx
+[2019-05-02 10:45:59.5630] - ERROR - ./code/Checkbox.tsx
+[2019-05-02 10:45:59.5630] - ERROR - [tsl] ERROR in Checkbox.tsx(27,23)
+[2019-05-02 10:45:59.5630] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:59.5630] - ERROR - WARNING in Checkbox.tsx
+[2019-05-02 10:45:59.5630] - ERROR - ./code/Checkbox.tsx
+[2019-05-02 10:45:59.5630] - ERROR - [tsl] ERROR in Checkbox.tsx(28,19)
+[2019-05-02 10:45:59.5630] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:45:59.5630] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:45:59.5630] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:45:59.5630] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:45:59.5630] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:46:47.5610] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.46.47.zip
+[2019-05-02 10:48:21.6540] - ERROR -    194 modules
+[2019-05-02 10:48:21.6540] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:48:21.6550] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (13:12)
+[2019-05-02 10:48:21.6550] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:48:21.6550] - ERROR - | Checkbox.defaultProps = {};
+[2019-05-02 10:48:21.6550] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:48:21.6550] - ERROR - |     checked = { type: framer_1.ControlType.String, title: "Checked" },
+[2019-05-02 10:48:21.6550] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:48:21.6550] - ERROR - |     id = { type: framer_1.ControlType.Boolean, title: "ID" },
+[2019-05-02 10:48:21.6550] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:48:21.6550] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:48:21.6550] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:48:21.6550] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:48:42.3040] - DEBUG - [Save session: 10] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 10:48:42.3040] - DEBUG - [Save session: 10] Before container.writeChanges
+[2019-05-02 10:48:42.3040] - DEBUG - [Save session: 10] Before waitUsingRecursiveRunLoop
+[2019-05-02 10:48:42.3160] - DEBUG - [Save session: 10] Completed container.writeChanges
+[2019-05-02 10:48:42.3160] - DEBUG - [Save session: 10] Completed waitUsingRecursiveRunLoop
+[2019-05-02 10:48:42.3230] - DEBUG - [Save session: 10] Completed super.save
+[2019-05-02 10:48:48.5700] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.48.48.zip
+[2019-05-02 10:49:10.2310] - ERROR -    194 modules
+[2019-05-02 10:49:10.2310] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:49:10.2310] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (13:12)
+[2019-05-02 10:49:10.2310] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:49:10.2310] - ERROR - | Checkbox.defaultProps = {};
+[2019-05-02 10:49:10.2310] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:49:10.2310] - ERROR - |     checked = { type: framer_1.ControlType.String, title: "Checked" },
+[2019-05-02 10:49:10.2310] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:49:10.2310] - ERROR - |     id = { type: framer_1.ControlType.Boolean, title: "ID" },
+[2019-05-02 10:49:10.2310] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:49:10.2310] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:49:10.2310] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:49:10.2310] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:49:21.1160] - ERROR -    194 modules
+[2019-05-02 10:49:21.1160] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:49:21.1160] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (13:12)
+[2019-05-02 10:49:21.1160] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:49:21.1160] - ERROR - | Checkbox.defaultProps = {};
+[2019-05-02 10:49:21.1160] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:49:21.1160] - ERROR - |     checked = { type: framer_1.ControlType.String, title: "Checked" },
+[2019-05-02 10:49:21.1160] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:49:21.1170] - ERROR - |     id = { type: framer_1.ControlType.Boolean, title: "ID" },
+[2019-05-02 10:49:21.1170] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:49:21.1170] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:49:21.1170] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:49:21.1170] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:49:26.8010] - ERROR -    194 modules
+[2019-05-02 10:49:26.8010] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:49:26.8010] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (13:12)
+[2019-05-02 10:49:26.8010] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:49:26.8010] - ERROR - | Checkbox.defaultProps = {};
+[2019-05-02 10:49:26.8010] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:49:26.8010] - ERROR - |     checked = { type: framer_1.ControlType.String, title: "Checked" },
+[2019-05-02 10:49:26.8010] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:49:26.8010] - ERROR - |     id = { type: framer_1.ControlType.Boolean, title: "ID" },
+[2019-05-02 10:49:26.8010] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:49:26.8010] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:49:26.8010] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:49:26.8010] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:49:42.6440] - ERROR -    194 modules
+[2019-05-02 10:49:42.6440] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:49:42.6440] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (13:12)
+[2019-05-02 10:49:42.6440] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:49:42.6440] - ERROR - | Checkbox.defaultProps = {};
+[2019-05-02 10:49:42.6440] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:49:42.6440] - ERROR - |     checked = { type: framer_1.ControlType.String, title: "Checked" },
+[2019-05-02 10:49:42.6440] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:49:42.6440] - ERROR - |     id = { type: framer_1.ControlType.Boolean, title: "ID" },
+[2019-05-02 10:49:42.6440] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:49:42.6440] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:49:42.6440] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:49:42.6440] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:49:50.1540] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.49.50.zip
+[2019-05-02 10:49:55.1930] - ERROR -    194 modules
+[2019-05-02 10:49:55.1930] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:49:55.1930] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (13:12)
+[2019-05-02 10:49:55.1930] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:49:55.1930] - ERROR - | Checkbox.defaultProps = {};
+[2019-05-02 10:49:55.1930] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:49:55.1930] - ERROR - |     checked = { type: framer_1.ControlType.String, title: "Checked" },
+[2019-05-02 10:49:55.1930] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:49:55.1930] - ERROR - |     id = { type: framer_1.ControlType.Boolean, title: "ID" },
+[2019-05-02 10:49:55.1930] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:49:55.1940] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:49:55.1940] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:49:55.1940] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:50:55.7510] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.50.55.zip
+[2019-05-02 10:51:28.9110] - ERROR -    194 modules
+[2019-05-02 10:51:28.9110] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:51:28.9110] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (13:12)
+[2019-05-02 10:51:28.9110] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:51:28.9110] - ERROR - | Checkbox.defaultProps = {};
+[2019-05-02 10:51:28.9110] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:51:28.9110] - ERROR - |     checked = { type: framer_1.ControlType.Boolean, title: "Checked" },
+[2019-05-02 10:51:28.9110] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:51:28.9110] - ERROR - |     id = { type: framer_1.ControlType.String, title: "ID" },
+[2019-05-02 10:51:28.9110] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:51:28.9110] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:51:28.9110] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:51:28.9110] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:51:56.5660] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.51.56.zip
+[2019-05-02 10:52:02.6390] - ERROR -    194 modules
+[2019-05-02 10:52:02.6390] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:52:02.6390] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (13:12)
+[2019-05-02 10:52:02.6390] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:52:02.6390] - ERROR - | Checkbox.defaultProps = {};
+[2019-05-02 10:52:02.6390] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:52:02.6390] - ERROR - |     checked = { type: framer_1.ControlType.Boolean, title: "Checked" },
+[2019-05-02 10:52:02.6400] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:52:02.6400] - ERROR - |     id = { type: framer_1.ControlType.String, title: "ID" },
+[2019-05-02 10:52:02.6400] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:52:02.6400] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:52:02.6400] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:52:02.6400] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:54:17.6900] - ERROR -    194 modules
+[2019-05-02 10:54:17.6900] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:54:17.6900] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (13:12)
+[2019-05-02 10:54:17.6900] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:54:17.6900] - ERROR - | Checkbox.defaultProps = {};
+[2019-05-02 10:54:17.6900] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:54:17.6900] - ERROR - |     checked = { type: framer_1.ControlType.Boolean, title: "Checked" },
+[2019-05-02 10:54:17.6900] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:54:17.6900] - ERROR - |     id = { type: framer_1.ControlType.String, title: "ID" },
+[2019-05-02 10:54:17.6900] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:54:17.6900] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:54:17.6900] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:54:17.6900] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:54:29.2020] - DEBUG - [Save session: 11] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 10:54:29.2020] - DEBUG - [Save session: 11] Before container.writeChanges
+[2019-05-02 10:54:29.2020] - DEBUG - [Save session: 11] Before waitUsingRecursiveRunLoop
+[2019-05-02 10:54:29.2120] - DEBUG - [Save session: 11] Completed container.writeChanges
+[2019-05-02 10:54:29.2120] - DEBUG - [Save session: 11] Completed waitUsingRecursiveRunLoop
+[2019-05-02 10:54:29.2160] - DEBUG - [Save session: 11] Completed super.save
+[2019-05-02 10:54:58.5310] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 10.54.58.zip
+[2019-05-02 10:59:08.4990] - ERROR -    194 modules
+[2019-05-02 10:59:08.4990] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:59:08.4990] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (15:12)
+[2019-05-02 10:59:08.4990] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:59:08.4990] - ERROR - | };
+[2019-05-02 10:59:08.4990] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:59:08.4990] - ERROR - |     checked = { type: framer_1.ControlType.Boolean, title: "Checked" },
+[2019-05-02 10:59:08.4990] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:59:08.4990] - ERROR - |     id = { type: framer_1.ControlType.String, title: "ID" },
+[2019-05-02 10:59:08.4990] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:59:08.4990] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:59:08.4990] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:59:08.4990] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:59:23.2460] - ERROR -    194 modules
+[2019-05-02 10:59:23.2460] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:59:23.2460] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (15:12)
+[2019-05-02 10:59:23.2460] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:59:23.2460] - ERROR - | };
+[2019-05-02 10:59:23.2460] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:59:23.2460] - ERROR - |     checked = { type: framer_1.ControlType.Boolean, title: "Checked" },
+[2019-05-02 10:59:23.2460] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:59:23.2460] - ERROR - |     id = { type: framer_1.ControlType.String, title: "ID" },
+[2019-05-02 10:59:23.2460] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:59:23.2460] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:59:23.2460] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:59:23.2460] - ERROR -       TS1005: ',' expected.
+[2019-05-02 10:59:53.4030] - ERROR -    194 modules
+[2019-05-02 10:59:53.4030] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 10:59:53.4030] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (15:12)
+[2019-05-02 10:59:53.4030] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 10:59:53.4030] - ERROR - | };
+[2019-05-02 10:59:53.4030] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 10:59:53.4030] - ERROR - |     checked = { type: framer_1.ControlType.Boolean, title: "Checked" },
+[2019-05-02 10:59:53.4030] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 10:59:53.4030] - ERROR - |     id = { type: framer_1.ControlType.String, title: "ID" },
+[2019-05-02 10:59:53.4030] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 10:59:53.4030] - ERROR - ./code/Dialog.tsx
+[2019-05-02 10:59:53.4030] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 10:59:53.4030] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:00:08.9010] - DEBUG - [Save session: 12] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 11:00:08.9020] - DEBUG - [Save session: 12] Before container.writeChanges
+[2019-05-02 11:00:08.9020] - DEBUG - [Save session: 12] Before waitUsingRecursiveRunLoop
+[2019-05-02 11:00:09.1040] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 11.00.09.zip
+[2019-05-02 11:00:09.1650] - DEBUG - [Save session: 12] Completed waitUsingRecursiveRunLoop
+[2019-05-02 11:00:09.1690] - DEBUG - [Save session: 12] Completed super.save
+[2019-05-02 11:00:11.7740] - ERROR -    194 modules
+[2019-05-02 11:00:11.7740] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 11:00:11.7740] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (15:12)
+[2019-05-02 11:00:11.7740] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 11:00:11.7740] - ERROR - | };
+[2019-05-02 11:00:11.7740] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 11:00:11.7740] - ERROR - |     checked = { type: framer_1.ControlType.Boolean, title: "Checked" },
+[2019-05-02 11:00:11.7740] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 11:00:11.7740] - ERROR - |     id = { type: framer_1.ControlType.String, title: "ID" },
+[2019-05-02 11:00:11.7740] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 11:00:11.7740] - ERROR - ./code/Dialog.tsx
+[2019-05-02 11:00:11.7740] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 11:00:11.7740] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:00:51.9320] - ERROR -    194 modules
+[2019-05-02 11:00:51.9320] - ERROR - WARNING in ./code/Checkbox.tsx
+[2019-05-02 11:00:51.9320] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (15:12)
+[2019-05-02 11:00:51.9320] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-02 11:00:51.9320] - ERROR - | };
+[2019-05-02 11:00:51.9320] - ERROR - | Checkbox.propertyControls = {
+[2019-05-02 11:00:51.9320] - ERROR - |     checked = { type: framer_1.ControlType.Boolean, title: "Checked" },
+[2019-05-02 11:00:51.9320] - ERROR - |     disabled = { type: framer_1.ControlType.Boolean, title: "Disabled" },
+[2019-05-02 11:00:51.9320] - ERROR - |     id = { type: framer_1.ControlType.String, title: "ID" },
+[2019-05-02 11:00:51.9320] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 11:00:51.9320] - ERROR - ./code/Dialog.tsx
+[2019-05-02 11:00:51.9320] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 11:00:51.9320] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:01:09.6110] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 11.01.09.zip
+[2019-05-02 11:01:28.9940] - DEBUG - [Save session: 13] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 11:01:28.9940] - DEBUG - [Save session: 13] Before container.writeChanges
+[2019-05-02 11:01:28.9940] - DEBUG - [Save session: 13] Before waitUsingRecursiveRunLoop
+[2019-05-02 11:01:29.0060] - DEBUG - [Save session: 13] Completed container.writeChanges
+[2019-05-02 11:01:29.0060] - DEBUG - [Save session: 13] Completed waitUsingRecursiveRunLoop
+[2019-05-02 11:01:29.0110] - DEBUG - [Save session: 13] Completed super.save
+[2019-05-02 11:01:57.1550] - ERROR -    194 modules
+[2019-05-02 11:01:57.1550] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 11:01:57.1550] - ERROR - ./code/Dialog.tsx
+[2019-05-02 11:01:57.1550] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 11:01:57.1550] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:02:10.5980] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 11.02.10.zip
+[2019-05-02 11:02:34.3030] - ERROR -    194 modules
+[2019-05-02 11:02:34.3040] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 11:02:34.3040] - ERROR - ./code/Dialog.tsx
+[2019-05-02 11:02:34.3040] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 11:02:34.3040] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:03:11.6060] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 11.03.11.zip
+[2019-05-02 11:03:24.8760] - DEBUG - [Save session: 14] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 11:03:24.8760] - DEBUG - [Save session: 14] Before container.writeChanges
+[2019-05-02 11:03:24.8760] - DEBUG - [Save session: 14] Before waitUsingRecursiveRunLoop
+[2019-05-02 11:03:24.8860] - DEBUG - [Save session: 14] Completed container.writeChanges
+[2019-05-02 11:03:24.8860] - DEBUG - [Save session: 14] Completed waitUsingRecursiveRunLoop
+[2019-05-02 11:03:24.8910] - DEBUG - [Save session: 14] Completed super.save
+[2019-05-02 11:03:31.7520] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-02 11:03:31.7520] - INFO - GET 200 /package.json 485 B (1ms)
+[2019-05-02 11:03:31.8900] - ERROR -    194 modules
+[2019-05-02 11:03:31.8900] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 11:03:31.8900] - ERROR - ./code/Dialog.tsx
+[2019-05-02 11:03:31.8900] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 11:03:31.8900] - ERROR -       TS1005: ',' expected.

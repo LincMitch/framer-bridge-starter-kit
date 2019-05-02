@@ -2,7 +2,7 @@ import * as React from "react"
 import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 
-type Props = System.IconProps & {
+type Props = System.TypographyProps & {
 }
 
 export class Typography extends React.Component<Props> {

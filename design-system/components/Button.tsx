@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Button as _Button} from "@rmwc/Button"
+import { Button as _Button} from "@rmwc/button"
 import '@material/button/dist/mdc.button.css';
 import FramerXWrapper from './FramerXWrapper';
 import {
