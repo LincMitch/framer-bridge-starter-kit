@@ -3,8 +3,6 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 
 type Props = System.IconProps & {
-  width: number
-  height: number
 }
 
 export class Typography extends React.Component<Props> {
@@ -13,14 +11,12 @@ export class Typography extends React.Component<Props> {
   }
 
   static defaultProps: Props = {
-    width: 150,
-    height: 48,
-    use: "headline6"
+    use: "headline6",
     text: "Text"
   }
 
   static propertyControls: PropertyControls<Props> = {
-    use: { type: ControlType.String, title: "Use" }
+    use: { type: ControlType.String, title: "Use" },
     text: { type: ControlType.String, title: "Text" }
   }
 }

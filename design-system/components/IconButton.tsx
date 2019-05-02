@@ -1,10 +1,10 @@
 import * as React from "react"
 import { IconButton as _IconButton} from "@rmwc/icon-button"
-import '@material/button/dist/mdc.button.css';
-import FramerXWrapper from './FramerXWrapper';
+import '@material/button/dist/mdc.button.css'
+import FramerXWrapper from './FramerXWrapper'
 import {
   processIconProps
-} from "./framerx-integration";
+} from "./framerx-integration"
 
 
 // Types
