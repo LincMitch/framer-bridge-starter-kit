@@ -684,3 +684,51 @@
 [2019-05-02 11:03:31.8900] - ERROR - ./code/Dialog.tsx
 [2019-05-02 11:03:31.8900] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
 [2019-05-02 11:03:31.8900] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:04:12.5820] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 11.04.12.zip
+[2019-05-02 11:04:52.4240] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-02 11:04:52.4250] - INFO - GET 200 /package.json 484 B (1ms)
+[2019-05-02 11:04:52.5750] - ERROR -    194 modules
+[2019-05-02 11:04:52.5750] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 11:04:52.5760] - ERROR - ./code/Dialog.tsx
+[2019-05-02 11:04:52.5760] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 11:04:52.5760] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:05:10.8710] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-02 11:05:10.8720] - INFO - GET 200 /package.json 485 B (1ms)
+[2019-05-02 11:05:11.0200] - ERROR -    194 modules
+[2019-05-02 11:05:11.0210] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 11:05:11.0210] - ERROR - ./code/Dialog.tsx
+[2019-05-02 11:05:11.0210] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 11:05:11.0210] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:06:31.1840] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-02 11:06:31.1850] - INFO - GET 200 /package.json 484 B (1ms)
+[2019-05-02 11:06:31.3320] - ERROR -    194 modules
+[2019-05-02 11:06:31.3320] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 11:06:31.3320] - ERROR - ./code/Dialog.tsx
+[2019-05-02 11:06:31.3320] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 11:06:31.3320] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:07:02.5490] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-02 11:07:02.5490] - INFO - GET 200 /package.json 486 B (1ms)
+[2019-05-02 11:07:02.6940] - ERROR -    194 modules
+[2019-05-02 11:07:02.6940] - ERROR - ERROR in Dialog.tsx
+[2019-05-02 11:07:02.6940] - ERROR - ./code/Dialog.tsx
+[2019-05-02 11:07:02.6940] - ERROR - [tsl] ERROR in Dialog.tsx(16,16)
+[2019-05-02 11:07:02.6940] - ERROR -       TS1005: ',' expected.
+[2019-05-02 11:10:15.8720] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 11.10.15.zip
+[2019-05-02 11:10:18.5720] - DEBUG - [Save session: 15] Started, operation: autosaveInPlaceOperation
+[2019-05-02 11:10:18.5720] - DEBUG - [Save session: 15] Before container.writeChanges
+[2019-05-02 11:10:18.5720] - DEBUG - [Save session: 15] Before waitUsingRecursiveRunLoop
+[2019-05-02 11:10:18.5800] - DEBUG - [Save session: 15] Completed container.writeChanges
+[2019-05-02 11:10:18.5800] - DEBUG - [Save session: 15] Completed waitUsingRecursiveRunLoop
+[2019-05-02 11:10:18.5840] - DEBUG - [Save session: 15] Completed super.save
+[2019-05-02 11:10:36.3450] - DEBUG - [Save session: 16] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 11:10:36.3450] - DEBUG - [Save session: 16] Before container.writeChanges
+[2019-05-02 11:10:36.3450] - DEBUG - [Save session: 16] Before waitUsingRecursiveRunLoop
+[2019-05-02 11:10:36.3560] - DEBUG - [Save session: 16] Completed container.writeChanges
+[2019-05-02 11:10:36.3560] - DEBUG - [Save session: 16] Completed waitUsingRecursiveRunLoop
+[2019-05-02 11:10:36.3610] - DEBUG - [Save session: 16] Completed super.save
+[2019-05-02 11:11:16.5820] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 11.11.16.zip
+[2019-05-02 11:12:17.6210] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 11.12.17.zip
+[2019-05-02 11:12:30.9680] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-02 11:12:30.9680] - INFO - GET 200 /package.json 485 B (2ms)
+[2019-05-02 11:12:37.1900] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-02 11:12:37.1900] - INFO - GET 200 /package.json 486 B (1ms)

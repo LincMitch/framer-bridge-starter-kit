@@ -550,7 +550,10 @@
         "clip" : true,
         "codeComponentIdentifier" : ".\/Checkbox.tsx_Checkbox",
         "codeComponentProps" : {
-          "label" : "Button"
+          "checked" : false,
+          "disabled" : false,
+          "label" : "Button",
+          "value" : ""
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,

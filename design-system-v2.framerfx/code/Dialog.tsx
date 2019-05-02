@@ -13,7 +13,7 @@ export class Dialog extends React.Component<Props> {
   }
 
   static defaultProps: Props = {
-    open: false;
+    open: false,
   }
 
   static propertyControls: PropertyControls<Props> = {
