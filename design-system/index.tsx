@@ -17,4 +17,5 @@ export { Radio, Props as RadioProps } from "./components/Radio"
 export { Select, Props as SelectProps } from "./components/Select"
 export { CircularProgress, Props as CircularProgressProps } from "./components/CircularProgress"
 export { LinearProgress, Props as LinearProgressProps } from "./components/LinearProgress"
+export { Snackbar, Props as SnackbarProps } from "./components/Snackbar"
 
