@@ -3,8 +3,6 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls, Scroll } from "framer"
 
 type Props = System.TopAppBarSectionProps & {
-  width: number
-  height: number
 }
 
 export class TopAppBarSection extends React.Component<Props> {
@@ -14,10 +12,10 @@ export class TopAppBarSection extends React.Component<Props> {
   }
 
   static defaultProps: Props = {
-    width: 150,
-    height: 48,
   }
 
   static propertyControls: PropertyControls<Props> = {
+    alignEnd: { type: ControlType.Boolean, title: "Align End" },
+    alignStart: { type: ControlType.Boolean, title: "Align Start" }
   }
 }

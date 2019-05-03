@@ -25,3 +25,4 @@ export { ToolbarTitle, Props as ToolbarTitleProps } from "./components/ToolbarTi
 export { TopAppBar, Props as TopAppBarProps } from "./components/TopAppBar"
 export { TopAppBarRow, Props as TopAppBarRowProps } from "./components/TopAppBarRow"
 export { TopAppBarSection, Props as TopAppBarSectionProps } from "./components/TopAppBarSection"
+export { TopAppBarTitle, Props as TopAppBarTitleProps } from "./components/TopAppBarTitle"
