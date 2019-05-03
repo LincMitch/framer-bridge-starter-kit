@@ -19,3 +19,9 @@ export { CircularProgress, Props as CircularProgressProps } from "./components/C
 export { LinearProgress, Props as LinearProgressProps } from "./components/LinearProgress"
 export { Snackbar, Props as SnackbarProps } from "./components/Snackbar"
 export { SnackbarAction, Props as SnackbarActionProps } from "./components/SnackbarAction"
+export { Toolbar, Props as ToolbarProps } from "./components/Toolbar"
+export { ToolbarRow, Props as ToolbarRowProps } from "./components/ToolbarRow"
+export { ToolbarTitle, Props as ToolbarTitleProps } from "./components/ToolbarTitle"
+export { TopAppBar, Props as TopAppBarProps } from "./components/TopAppBar"
+
+
