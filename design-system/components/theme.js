@@ -1,6 +1,6 @@
 export default {
   options: {
-    primary: "lime",
+    primary: "#0099FF",
     secondary: "red",
     error: "#b00020",
     background: "#fff",

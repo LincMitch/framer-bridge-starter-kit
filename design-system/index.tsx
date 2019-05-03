@@ -15,3 +15,6 @@ export { CardMedia, Props as CardMediaProps } from "./components/CardMedia"
 export { Tab, Props as TabProps } from "./components/Tab"
 export { Radio, Props as RadioProps } from "./components/Radio"
 export { Select, Props as SelectProps } from "./components/Select"
+export { CircularProgress, Props as CircularProgressProps } from "./components/CircularProgress"
+export { LinearProgress, Props as LinearProgressProps } from "./components/LinearProgress"
+
