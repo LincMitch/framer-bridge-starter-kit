@@ -6,17 +6,17 @@ import FramerXWrapper from './FramerXWrapper';
 
 // Types
 export type Props = {
-
+  title?: string
 }
 
 // Component
 export const TopAppBarTitle: React.FC<Props> = ({
-
+  title,
 }) =>  (
   
   <FramerXWrapper>
-    <_TopAppBarTitle
-
-    />
+    <_TopAppBarTitle>
+      {title}
+    </_TopAppBarTitle>
     </FramerXWrapper>
 )
