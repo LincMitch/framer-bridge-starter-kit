@@ -3,8 +3,7 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 
 type Props = System.CardMediaProps & {
-  width: number
-  height: number
+
 }
 
 export class CardMedia extends React.Component<Props> {
@@ -13,8 +12,6 @@ export class CardMedia extends React.Component<Props> {
   }
 
   static defaultProps: Props = {
-    width: 150,
-    height: 48,
     sixteenByNine: false,
   }
 
