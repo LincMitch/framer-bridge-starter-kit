@@ -3234,3 +3234,85 @@
 [2019-05-04 13:27:31.1120] - INFO - GET 200 /package.json 465 B (5ms)
 [2019-05-04 13:27:34.2610] - INFO - GET 200 /README.md 0 B (1ms)
 [2019-05-04 13:27:34.2610] - INFO - GET 200 /package.json 465 B (1ms)
+[2019-05-04 14:22:16.7910] - ERROR -    380 modules
+[2019-05-04 14:22:16.7910] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:16.7910] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:16.7910] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:16.7910] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:22:18.0350] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-04 14.22.18.zip
+[2019-05-04 14:22:21.3260] - ERROR -    380 modules
+[2019-05-04 14:22:21.3260] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:21.3260] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:21.3260] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:21.3260] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:22:28.8480] - ERROR -    381 modules
+[2019-05-04 14:22:28.8480] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:28.8480] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:28.8480] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:28.8480] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:22:32.9660] - ERROR -    381 modules
+[2019-05-04 14:22:32.9660] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:32.9660] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:32.9660] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:32.9660] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:22:39.9850] - ERROR -    382 modules
+[2019-05-04 14:22:39.9850] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:39.9850] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:39.9850] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:39.9850] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:22:42.4550] - ERROR -    382 modules
+[2019-05-04 14:22:42.4550] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:42.4550] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:42.4550] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:42.4550] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:22:47.8360] - ERROR -    383 modules
+[2019-05-04 14:22:47.8360] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:47.8360] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:47.8360] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:47.8360] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:22:50.0910] - ERROR -    383 modules
+[2019-05-04 14:22:50.0910] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:50.0920] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:50.0920] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:50.0920] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:22:55.2650] - ERROR -    384 modules
+[2019-05-04 14:22:55.2660] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:55.2660] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:55.2660] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:55.2660] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:22:57.0210] - ERROR -    384 modules
+[2019-05-04 14:22:57.0210] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:22:57.0220] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:22:57.0220] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:22:57.0220] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:23:04.5700] - ERROR -    385 modules
+[2019-05-04 14:23:04.5710] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:23:04.5710] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:23:04.5710] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:23:04.5710] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:23:06.6390] - ERROR -    385 modules
+[2019-05-04 14:23:06.6390] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:23:06.6390] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:23:06.6390] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:23:06.6390] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:23:18.7350] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-04 14.23.18.zip
+[2019-05-04 14:47:47.6850] - ERROR -    394 modules
+[2019-05-04 14:47:47.6850] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:47:47.6850] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:47:47.6850] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:47:47.6850] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:48:14.7800] - ERROR -    393 modules
+[2019-05-04 14:48:14.7800] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:48:14.7800] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:48:14.7800] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:48:14.7810] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 14:49:27.5520] - ERROR -    393 modules
+[2019-05-04 14:49:27.5520] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 14:49:27.5520] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 14:49:27.5520] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 14:49:27.5520] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 15:18:29.7980] - ERROR -    394 modules
+[2019-05-04 15:18:29.7980] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 15:18:29.7980] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 15:18:29.7980] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 15:18:29.7980] - ERROR -       TS1002: Unterminated string literal.
