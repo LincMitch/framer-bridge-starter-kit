@@ -26,9 +26,9 @@ export type Props = {
 // Component
 export const CardActionButton: React.FC<Props> = ({
   children,
+  danger,
   dense,
   disabled,
-  selected,
   icon,
   label,
   outlined,
@@ -43,9 +43,9 @@ export const CardActionButton: React.FC<Props> = ({
   <FramerXWrapper>
     <_CardActionButton 
       children={children}
+      danger={danger}
       dense={dense}
       disabled={disabled}
-      selected={selected}
       icon={icon}
       label={label}
       outlined={outlined}

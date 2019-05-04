@@ -72,8 +72,7 @@
         "clip" : true,
         "codeComponentIdentifier" : ".\/CardActionButton.tsx_CardActionButton",
         "codeComponentProps" : {
-          "disabled" : false,
-          "label" : "CardActionButton"
+          "label" : "Button"
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -131,8 +130,7 @@
         "clip" : true,
         "codeComponentIdentifier" : ".\/CardActionIcon.tsx_CardActionIcon",
         "codeComponentProps" : {
-          "disabled" : false,
-          "label" : "CardActionIcon"
+
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,

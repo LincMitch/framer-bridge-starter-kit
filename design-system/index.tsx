@@ -46,3 +46,4 @@ export { DataTableCell, Props as DataTableCellProps } from "./components/DataTab
 export { DataTableHead, Props as DataTableHeadProps } from "./components/DataTableHead"
 export { DataTableBody, Props as DataTableBodyProps } from "./components/DataTableBody"
 export { DataTableHeadCell, Props as DataTableHeadCellProps } from "./components/DataTableHeadCell"
+export { DataTableHeadCell, Props as DataTableHeadCellProps } from "./components/DataTableHeadCell"

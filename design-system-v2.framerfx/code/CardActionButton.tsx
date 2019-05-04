@@ -3,8 +3,7 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 
 type Props = System.CardActionButtonProps & {
-  width: number
-  height: number
+
 }
 
 export class CardActionButton extends React.Component<Props> {
@@ -13,23 +12,19 @@ export class CardActionButton extends React.Component<Props> {
   }
 
   static defaultProps: Props = {
-    width: 150,
-    height: 48,
-    disabled: false,
-    label: "CardActionButton"
+    label: "Button"
   }
 
   static propertyControls: PropertyControls<Props> = {
-    // children: { type: ControlType.String, title: "Children" },
+    danger: { type: ControlType.Boolean, title: "Danger" },
     dense: { type: ControlType.Boolean, title: "Dense" },
     disabled: { type: ControlType.Boolean, title: "Disabled" },
-    selected: { type: ControlType.Boolean, title: "Selected" },
-    // icon: { type: ControlType.String, title: "Icon" },
+    icon: { type: ControlType.String, title: "Icon" },
     label: { type: ControlType.String, title: "Label" },
     outlined: { type: ControlType.Boolean, title: "Outlined" },
     raised: { type: ControlType.Boolean, title: "Raised" },
     ripple: { type: ControlType.Boolean, title: "Ripple" },
     trailingIcon: { type: ControlType.String, title: "TrailingIcon" },
-    unelevated: { type: ControlType.Boolean, title: "Unelevated" },   
+    unelevated: { type: ControlType.Boolean, title: "Unelevated" },  
   }
 }
