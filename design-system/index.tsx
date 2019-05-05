@@ -26,6 +26,7 @@ export { TopAppBarRow, Props as TopAppBarRowProps } from "./components/TopAppBar
 export { TopAppBarSection, Props as TopAppBarSectionProps } from "./components/TopAppBarSection"
 export { TopAppBarTitle, Props as TopAppBarTitleProps } from "./components/TopAppBarTitle"
 export { TopAppBarNavigationIcon, Props as TopAppBarNavigationIconProps } from "./components/TopAppBarNavigationIcon"
+export { TopAppBarActionItem, Props as TopAppBarActionItemProps } from "./components/TopAppBarActionItem"
 export { TopAppBarFixedAdjust, Props as TopAppBarFixedAdjustProps } from "./components/TopAppBarFixedAdjust"
 export { SimpleTopAppBar, Props as SimpleTopAppBarProps } from "./components/SimpleTopAppBar"
 export { Avatar, Props as AvatarProps } from "./components/Avatar"
@@ -45,5 +46,4 @@ export { DataTableRow, Props as DataTableRowProps } from "./components/DataTable
 export { DataTableCell, Props as DataTableCellProps } from "./components/DataTableCell"
 export { DataTableHead, Props as DataTableHeadProps } from "./components/DataTableHead"
 export { DataTableBody, Props as DataTableBodyProps } from "./components/DataTableBody"
-export { DataTableHeadCell, Props as DataTableHeadCellProps } from "./components/DataTableHeadCell"
 export { DataTableHeadCell, Props as DataTableHeadCellProps } from "./components/DataTableHeadCell"

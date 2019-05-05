@@ -2,56 +2,39 @@ import * as React from "react"
 import { Toolbar as _Toolbar} from "@rmwc/toolbar"
 import '@material/toolbar/dist/mdc.toolbar.css';
 import FramerXWrapper from './FramerXWrapper';
-import {
-  processIconProps
-} from "./framerx-integration";
-
 
 // Types
 export type Props = {
-  children?: string;
-  dense?: boolean;
-  disabled?: boolean;
-  icon?: string;
-  label?: string;
-  outlined?: boolean;
-  raised?: boolean;
-  ripple?: boolean;
-  trailingIcon?: string;
-  unelevated?: boolean;
+  fixed?: string;
+  fixedLastrowOnly?: boolean;
+  flexible?: boolean;
+  flexibleDefaultBehavior?: string;
+  waterfall?: string;
 }
 
 // Component
-export const Toolbar: React.FC<Props> = ({
-  children,
-  dense,
-  disabled,
-  selected,
-  icon,
-  label,
-  outlined,
-  raised,
-  ripple,
-  trailingIcon,
-  unelevated,
+export const Toolbar: React.FC<Props> = (
+  {
+  fixed,
+  fixedLastrowOnly,
+  flexible,
+  waterfall,
   ...rest
-  
-} = processIconProps(this.props)) =>  (
-  
+} 
+
+
+)  => { 
+
+  return (
   <FramerXWrapper>
     <_Toolbar 
-      children={children}
-      dense={dense}
-      disabled={disabled}
-      selected={selected}
-      icon={icon}
-      label={label}
-      outlined={outlined}
-      raised={raised}
-      ripple={ripple}
-      trailingIcon={trailingIcon}
-      unelevated={unelevated}   
+      fixed={fixed}
+      fixedLastrowOnly={fixedLastrowOnly}
+      flexible={flexible}
+      waterfall={waterfall}
       {...rest} >
-      </_Toolbar>
-    </FramerXWrapper>
-)
+      
+    </_Toolbar>
+  </FramerXWrapper>
+);
+};

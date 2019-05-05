@@ -3584,3 +3584,1557 @@
 [2019-05-04 18:16:19.3420] - ERROR - ../design-system/components/CircularProgress.tsx
 [2019-05-04 18:16:19.3420] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
 [2019-05-04 18:16:19.3420] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 18:16:58.0550] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-04 18.16.58.zip
+[2019-05-04 18:20:11.8430] - ERROR -    394 modules
+[2019-05-04 18:20:11.8440] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 18:20:11.8440] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 18:20:11.8440] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 18:20:11.8440] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 18:20:42.5790] - ERROR -    394 modules
+[2019-05-04 18:20:42.5790] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 18:20:42.5790] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 18:20:42.5800] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 18:20:42.5800] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 18:21:13.5990] - ERROR -    394 modules
+[2019-05-04 18:21:13.5990] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 18:21:13.5990] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 18:21:13.5990] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 18:21:13.5990] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 22:17:35.8350] - ERROR -    395 modules
+[2019-05-04 22:17:35.8350] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 22:17:35.8350] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 22:17:35.8350] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 22:17:35.8350] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 22:17:44.1430] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-04 22.17.44.zip
+[2019-05-04 22:22:46.8510] - INFO - GET 200 /README.md 0 B (2ms)
+[2019-05-04 22:22:46.8520] - INFO - GET 200 /package.json 517 B (2ms)
+[2019-05-04 22:22:46.8520] - INFO - GET 200 /package.json 517 B (1ms)
+[2019-05-04 22:22:46.8520] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-04 22:22:47.7210] - ERROR -    426 modules
+[2019-05-04 22:22:47.7220] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-04 22:22:47.7220] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-04 22:22:47.7220] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-04 22:22:47.7220] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-04 22:22:56.9260] - DEBUG - [Save session: 22] Started, operation: autosaveInPlaceOperation
+[2019-05-04 22:22:56.9260] - DEBUG - [Save session: 22] Before container.writeChanges
+[2019-05-04 22:22:56.9260] - DEBUG - [Save session: 22] Before waitUsingRecursiveRunLoop
+[2019-05-04 22:22:56.9440] - DEBUG - [Save session: 22] Completed container.writeChanges
+[2019-05-04 22:22:56.9440] - DEBUG - [Save session: 22] Completed waitUsingRecursiveRunLoop
+[2019-05-04 22:22:56.9490] - DEBUG - [Save session: 22] Completed super.save
+[2019-05-04 22:22:57.0230] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (2ms)
+[2019-05-05 06:50:51.5020] - ERROR -    426 modules
+[2019-05-05 06:50:51.5020] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 06:50:51.5020] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 06:50:51.5020] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 06:50:51.5020] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 06:55:37.1600] - ERROR -    426 modules
+[2019-05-05 06:55:37.1600] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-05 06:55:37.1600] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-05 06:55:37.1600] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 06:55:37.1600] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 06:55:37.1610] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 06:55:37.1610] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 06:55:43.0890] - ERROR -    426 modules
+[2019-05-05 06:55:43.0890] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 06:55:43.0900] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 06:55:43.0900] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 06:55:43.0900] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:09:04.7950] - ERROR -    427 modules
+[2019-05-05 07:09:04.7950] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:09:04.7950] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:09:04.7950] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:09:04.7950] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:09:41.3240] - DEBUG - [Save session: 23] Started, operation: autosaveInPlaceOperation
+[2019-05-05 07:09:41.3240] - DEBUG - [Save session: 23] Before container.writeChanges
+[2019-05-05 07:09:41.3240] - DEBUG - [Save session: 23] Before waitUsingRecursiveRunLoop
+[2019-05-05 07:09:41.3350] - DEBUG - [Save session: 23] Completed container.writeChanges
+[2019-05-05 07:09:41.3350] - DEBUG - [Save session: 23] Completed waitUsingRecursiveRunLoop
+[2019-05-05 07:09:41.3410] - DEBUG - [Save session: 23] Completed super.save
+[2019-05-05 07:09:56.7800] - ERROR -    427 modules
+[2019-05-05 07:09:56.7800] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:09:56.7800] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:09:56.7800] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:09:56.7800] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:10:01.2070] - ERROR -    427 modules
+[2019-05-05 07:10:01.2070] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:10:01.2070] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:10:01.2070] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:10:01.2070] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:10:12.2260] - ERROR -    427 modules
+[2019-05-05 07:10:12.2260] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:10:12.2260] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:10:12.2260] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:10:12.2260] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:10:33.3160] - DEBUG - [Save session: 24] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 07:10:33.3160] - DEBUG - [Save session: 24] Before container.writeChanges
+[2019-05-05 07:10:33.3160] - DEBUG - [Save session: 24] Before waitUsingRecursiveRunLoop
+[2019-05-05 07:10:33.3270] - DEBUG - [Save session: 24] Completed container.writeChanges
+[2019-05-05 07:10:33.3270] - DEBUG - [Save session: 24] Completed waitUsingRecursiveRunLoop
+[2019-05-05 07:10:33.3310] - DEBUG - [Save session: 24] Completed super.save
+[2019-05-05 07:10:43.4470] - ERROR -    428 modules
+[2019-05-05 07:10:43.4480] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:10:43.4480] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:10:43.4480] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:10:43.4480] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:10:48.4900] - ERROR -    428 modules
+[2019-05-05 07:10:48.4900] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:10:48.4900] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:10:48.4900] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:10:48.4900] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:10:52.1800] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.10.52.zip
+[2019-05-05 07:10:54.4740] - ERROR -    428 modules
+[2019-05-05 07:10:54.4740] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:10:54.4740] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:10:54.4740] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:10:54.4740] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:11:52.5830] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.11.52.zip
+[2019-05-05 07:13:24.0310] - ERROR -    428 modules
+[2019-05-05 07:13:24.0310] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:13:24.0310] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:13:24.0310] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:13:24.0310] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:13:57.8570] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.13.57.zip
+[2019-05-05 07:14:34.9790] - ERROR -    428 modules
+[2019-05-05 07:14:34.9790] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:14:34.9790] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:14:34.9790] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:14:34.9790] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:14:58.5730] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.14.58.zip
+[2019-05-05 07:15:36.8400] - ERROR -    428 modules
+[2019-05-05 07:15:36.8410] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:15:36.8410] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:15:36.8410] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:15:36.8410] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:15:58.8470] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.15.58.zip
+[2019-05-05 07:17:57.1970] - ERROR -    429 modules
+[2019-05-05 07:17:57.1970] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:17:57.1970] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:17:57.1970] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:17:57.1970] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:17:59.9600] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.17.59.zip
+[2019-05-05 07:18:09.0950] - ERROR -    429 modules
+[2019-05-05 07:18:09.0950] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:18:09.0950] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:18:09.0950] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:18:09.0950] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:18:22.4120] - ERROR -    428 modules
+[2019-05-05 07:18:22.4120] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:18:22.4120] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:18:22.4120] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:18:22.4120] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:19:00.8540] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.19.00.zip
+[2019-05-05 07:25:16.7170] - INFO - GET 200 /design/document.json 0 B (1ms)
+[2019-05-05 07:25:17.2600] - ERROR -    428 modules
+[2019-05-05 07:25:17.2600] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:25:17.2600] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:25:17.2600] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:25:17.2600] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:26:34.6680] - ERROR -    428 modules
+[2019-05-05 07:26:34.6680] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:26:34.6690] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:26:34.6690] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:26:34.6690] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:26:35.4820] - DEBUG - [Save session: 25] Started, operation: autosaveInPlaceOperation
+[2019-05-05 07:26:35.4820] - DEBUG - [Save session: 25] Before container.writeChanges
+[2019-05-05 07:26:35.4820] - DEBUG - [Save session: 25] Before waitUsingRecursiveRunLoop
+[2019-05-05 07:26:35.4940] - DEBUG - [Save session: 25] Completed container.writeChanges
+[2019-05-05 07:26:35.4940] - DEBUG - [Save session: 25] Completed waitUsingRecursiveRunLoop
+[2019-05-05 07:26:35.4980] - DEBUG - [Save session: 25] Completed super.save
+[2019-05-05 07:26:57.5360] - ERROR -    428 modules
+[2019-05-05 07:26:57.5360] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:26:57.5360] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:26:57.5360] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:26:57.5360] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:30:12.9570] - ERROR -    428 modules
+[2019-05-05 07:30:12.9570] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:30:12.9570] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:30:12.9570] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:30:12.9570] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:30:51.5310] - DEBUG - [Save session: 26] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 07:30:51.5310] - DEBUG - [Save session: 26] Before container.writeChanges
+[2019-05-05 07:30:51.5310] - DEBUG - [Save session: 26] Before waitUsingRecursiveRunLoop
+[2019-05-05 07:30:51.5390] - DEBUG - [Save session: 26] Completed container.writeChanges
+[2019-05-05 07:30:51.5390] - DEBUG - [Save session: 26] Completed waitUsingRecursiveRunLoop
+[2019-05-05 07:30:51.5440] - DEBUG - [Save session: 26] Completed super.save
+[2019-05-05 07:30:57.8540] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.30.57.zip
+[2019-05-05 07:32:19.2260] - ERROR -    428 modules
+[2019-05-05 07:32:19.2260] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:32:19.2260] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:32:19.2260] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:32:19.2260] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:36:30.1770] - ERROR -    428 modules
+[2019-05-05 07:36:30.1770] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:36:30.1770] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:36:30.1770] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:36:30.1770] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:37:14.8190] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.37.14.zip
+[2019-05-05 07:38:41.1590] - ERROR -    428 modules
+[2019-05-05 07:38:41.1590] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:38:41.1590] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:38:41.1590] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:38:41.1590] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:39:25.2460] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.39.25.zip
+[2019-05-05 07:41:07.6490] - DEBUG - [Save session: 27] Started, operation: autosaveInPlaceOperation
+[2019-05-05 07:41:07.6500] - DEBUG - [Save session: 27] Before container.writeChanges
+[2019-05-05 07:41:07.6500] - DEBUG - [Save session: 27] Before waitUsingRecursiveRunLoop
+[2019-05-05 07:41:07.6730] - DEBUG - [Save session: 27] Completed container.writeChanges
+[2019-05-05 07:41:07.6730] - DEBUG - [Save session: 27] Completed waitUsingRecursiveRunLoop
+[2019-05-05 07:41:07.6770] - DEBUG - [Save session: 27] Completed super.save
+[2019-05-05 07:41:36.9780] - ERROR -    428 modules
+[2019-05-05 07:41:36.9780] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:41:36.9780] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:41:36.9780] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:41:36.9780] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:41:54.7710] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (2ms)
+[2019-05-05 07:43:11.7040] - ERROR -    427 modules
+[2019-05-05 07:43:11.7040] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:43:11.7040] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:43:11.7040] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:43:11.7040] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:43:26.7830] - ERROR -    427 modules
+[2019-05-05 07:43:26.7830] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:43:26.7830] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:43:26.7830] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:43:26.7830] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:43:30.8910] - ERROR -    427 modules
+[2019-05-05 07:43:30.8910] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:43:30.8910] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:43:30.8910] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:43:30.8910] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:43:35.5120] - ERROR -    428 modules
+[2019-05-05 07:43:35.5120] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:43:35.5120] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:43:35.5120] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:43:35.5120] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:43:42.3700] - ERROR -    428 modules
+[2019-05-05 07:43:42.3700] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:43:42.3700] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:43:42.3700] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:43:42.3700] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:44:30.8520] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.44.30.zip
+[2019-05-05 07:45:06.5560] - DEBUG - [Save session: 28] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 07:45:06.5560] - DEBUG - [Save session: 28] Before container.writeChanges
+[2019-05-05 07:45:06.5560] - DEBUG - [Save session: 28] Before waitUsingRecursiveRunLoop
+[2019-05-05 07:45:06.5640] - DEBUG - [Save session: 28] Completed container.writeChanges
+[2019-05-05 07:45:06.5640] - DEBUG - [Save session: 28] Completed waitUsingRecursiveRunLoop
+[2019-05-05 07:45:06.5690] - DEBUG - [Save session: 28] Completed super.save
+[2019-05-05 07:45:14.4810] - ERROR -    428 modules
+[2019-05-05 07:45:14.4810] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:45:14.4810] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:45:14.4810] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:45:14.4810] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:45:20.5370] - ERROR -    428 modules
+[2019-05-05 07:45:20.5370] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:45:20.5370] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:45:20.5370] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:45:20.5370] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:45:30.9890] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.45.30.zip
+[2019-05-05 07:45:59.1960] - DEBUG - [Save session: 29] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 07:45:59.1960] - DEBUG - [Save session: 29] Before container.writeChanges
+[2019-05-05 07:45:59.1960] - DEBUG - [Save session: 29] Before waitUsingRecursiveRunLoop
+[2019-05-05 07:45:59.2030] - DEBUG - [Save session: 29] Completed container.writeChanges
+[2019-05-05 07:45:59.2030] - DEBUG - [Save session: 29] Completed waitUsingRecursiveRunLoop
+[2019-05-05 07:45:59.2060] - DEBUG - [Save session: 29] Completed super.save
+[2019-05-05 07:46:10.1060] - ERROR -    428 modules
+[2019-05-05 07:46:10.1060] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:46:10.1060] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:46:10.1060] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:46:10.1060] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:46:19.4690] - ERROR -    428 modules
+[2019-05-05 07:46:19.4690] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:46:19.4700] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:46:19.4700] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:46:19.4700] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:46:31.8440] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.46.31.zip
+[2019-05-05 07:46:32.4610] - ERROR -    428 modules
+[2019-05-05 07:46:32.4610] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:46:32.4610] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:46:32.4610] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:46:32.4610] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:47:21.2840] - ERROR -    428 modules
+[2019-05-05 07:47:21.2840] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:47:21.2840] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:47:21.2840] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:47:21.2840] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:51:37.7980] - ERROR -    428 modules
+[2019-05-05 07:51:37.7980] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:51:37.7980] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:51:37.7980] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:51:37.7980] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:53:16.7660] - ERROR -    428 modules
+[2019-05-05 07:53:16.7660] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:53:16.7660] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:53:16.7660] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:53:16.7660] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:53:34.8200] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.53.34.zip
+[2019-05-05 07:57:11.3250] - ERROR -    428 modules
+[2019-05-05 07:57:11.3250] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 07:57:11.3250] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 07:57:11.3250] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 07:57:11.3250] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 07:57:37.7930] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 07.57.37.zip
+[2019-05-05 08:02:13.1970] - ERROR -    428 modules
+[2019-05-05 08:02:13.1970] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:02:13.1970] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:02:13.1970] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:02:13.1980] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:02:19.7600] - ERROR -    428 modules
+[2019-05-05 08:02:19.7610] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:02:19.7610] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:02:19.7610] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:02:19.7610] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:02:36.0270] - ERROR -    427 modules
+[2019-05-05 08:02:36.0270] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:02:36.0270] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:02:36.0270] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:02:36.0270] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:03:27.1800] - ERROR -    427 modules
+[2019-05-05 08:03:27.1800] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:03:27.1800] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:03:27.1810] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:03:27.1810] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:03:52.0080] - ERROR -    428 modules
+[2019-05-05 08:03:52.0080] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:03:52.0090] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:03:52.0090] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:03:52.0090] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:04:36.7120] - ERROR -    428 modules
+[2019-05-05 08:04:36.7120] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:04:36.7120] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:04:36.7120] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:04:36.7120] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:04:39.1210] - DEBUG - [Save session: 30] Started, operation: autosaveInPlaceOperation
+[2019-05-05 08:04:39.1210] - DEBUG - [Save session: 30] Before container.writeChanges
+[2019-05-05 08:04:39.1210] - DEBUG - [Save session: 30] Before waitUsingRecursiveRunLoop
+[2019-05-05 08:04:39.1310] - DEBUG - [Save session: 30] Completed container.writeChanges
+[2019-05-05 08:04:39.1310] - DEBUG - [Save session: 30] Completed waitUsingRecursiveRunLoop
+[2019-05-05 08:04:39.1350] - DEBUG - [Save session: 30] Completed super.save
+[2019-05-05 08:05:08.9230] - ERROR -    428 modules
+[2019-05-05 08:05:08.9230] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:05:08.9230] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:05:08.9230] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:05:08.9230] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:05:14.9860] - ERROR -    428 modules
+[2019-05-05 08:05:14.9860] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:05:14.9860] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:05:14.9860] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:05:14.9860] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:05:44.8440] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 08.05.44.zip
+[2019-05-05 08:08:04.2350] - ERROR -    428 modules
+[2019-05-05 08:08:04.2350] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:08:04.2350] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:08:04.2350] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:08:04.2350] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:08:10.2980] - ERROR -    428 modules
+[2019-05-05 08:08:10.2990] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:08:10.2990] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:08:10.2990] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:08:10.2990] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:08:34.5400] - ERROR -    428 modules
+[2019-05-05 08:08:34.5400] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:08:34.5400] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:08:34.5400] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:08:34.5400] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:09:07.9210] - ERROR -    428 modules
+[2019-05-05 08:09:07.9210] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:09:07.9210] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:09:07.9210] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:09:07.9210] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:09:16.0390] - DEBUG - [Save session: 31] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 08:09:16.0400] - DEBUG - [Save session: 31] Before container.writeChanges
+[2019-05-05 08:09:16.0400] - DEBUG - [Save session: 31] Before waitUsingRecursiveRunLoop
+[2019-05-05 08:09:16.0450] - DEBUG - [Save session: 31] Completed container.writeChanges
+[2019-05-05 08:09:16.0450] - DEBUG - [Save session: 31] Completed waitUsingRecursiveRunLoop
+[2019-05-05 08:09:16.0520] - DEBUG - [Save session: 31] Completed super.save
+[2019-05-05 08:09:47.2880] - ERROR -    428 modules
+[2019-05-05 08:09:47.2880] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:09:47.2880] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:09:47.2880] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:09:47.2880] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:10:00.6320] - ERROR -    428 modules
+[2019-05-05 08:10:00.6320] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:10:00.6320] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:10:00.6320] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:10:00.6320] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:10:15.9520] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-05-05 08:10:16.1690] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (45ms)
+[2019-05-05 08:15:40.7620] - ERROR -    428 modules
+[2019-05-05 08:15:40.7620] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:15:40.7620] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:15:40.7620] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:15:40.7620] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:15:46.2910] - DEBUG - [Save session: 32] Started, operation: autosaveInPlaceOperation
+[2019-05-05 08:15:46.2910] - DEBUG - [Save session: 32] Before container.writeChanges
+[2019-05-05 08:15:46.2910] - DEBUG - [Save session: 32] Before waitUsingRecursiveRunLoop
+[2019-05-05 08:15:46.2980] - DEBUG - [Save session: 32] Completed container.writeChanges
+[2019-05-05 08:15:46.2980] - DEBUG - [Save session: 32] Completed waitUsingRecursiveRunLoop
+[2019-05-05 08:15:46.3130] - DEBUG - [Save session: 32] Completed super.save
+[2019-05-05 08:15:56.7820] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 08.15.56.zip
+[2019-05-05 08:16:18.3310] - ERROR -    428 modules
+[2019-05-05 08:16:18.3320] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:16:18.3320] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:16:18.3320] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:16:18.3320] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:16:49.2480] - DEBUG - [Save session: 33] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 08:16:49.2480] - DEBUG - [Save session: 33] Before container.writeChanges
+[2019-05-05 08:16:49.2480] - DEBUG - [Save session: 33] Before waitUsingRecursiveRunLoop
+[2019-05-05 08:16:49.2530] - DEBUG - [Save session: 33] Completed container.writeChanges
+[2019-05-05 08:16:49.2530] - DEBUG - [Save session: 33] Completed waitUsingRecursiveRunLoop
+[2019-05-05 08:16:49.2610] - DEBUG - [Save session: 33] Completed super.save
+[2019-05-05 08:16:56.9730] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 08.16.56.zip
+[2019-05-05 08:17:02.8680] - ERROR -    428 modules
+[2019-05-05 08:17:02.8680] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:17:02.8680] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:17:02.8680] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:17:02.8680] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:17:35.0190] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 08:17:52.2680] - DEBUG - [Save session: 34] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 08:17:52.2680] - DEBUG - [Save session: 34] Before container.writeChanges
+[2019-05-05 08:17:52.2680] - DEBUG - [Save session: 34] Before waitUsingRecursiveRunLoop
+[2019-05-05 08:17:52.2740] - DEBUG - [Save session: 34] Completed container.writeChanges
+[2019-05-05 08:17:52.2750] - DEBUG - [Save session: 34] Completed waitUsingRecursiveRunLoop
+[2019-05-05 08:17:52.2790] - DEBUG - [Save session: 34] Completed super.save
+[2019-05-05 08:17:57.7440] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 08.17.57.zip
+[2019-05-05 08:24:04.4300] - ERROR -    427 modules
+[2019-05-05 08:24:04.4310] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:24:04.4310] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:24:04.4310] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:24:04.4310] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:24:23.4920] - ERROR -    428 modules
+[2019-05-05 08:24:23.4920] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:24:23.4920] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:24:23.4920] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:24:23.4920] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:24:35.7520] - DEBUG - [Save session: 35] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 08:24:35.7520] - DEBUG - [Save session: 35] Before container.writeChanges
+[2019-05-05 08:24:35.7520] - DEBUG - [Save session: 35] Before waitUsingRecursiveRunLoop
+[2019-05-05 08:24:35.7580] - DEBUG - [Save session: 35] Completed container.writeChanges
+[2019-05-05 08:24:35.7580] - DEBUG - [Save session: 35] Completed waitUsingRecursiveRunLoop
+[2019-05-05 08:24:35.7620] - DEBUG - [Save session: 35] Completed super.save
+[2019-05-05 08:25:26.7550] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 08.25.26.zip
+[2019-05-05 08:25:31.1410] - ERROR -    428 modules
+[2019-05-05 08:25:31.1410] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:25:31.1410] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:25:31.1410] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:25:31.1410] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:25:55.0020] - ERROR -    427 modules
+[2019-05-05 08:25:55.0030] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:25:55.0030] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:25:55.0030] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:25:55.0030] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:29:42.2700] - ERROR -    428 modules
+[2019-05-05 08:29:42.2700] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 08:29:42.2700] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 08:29:42.2700] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 08:29:42.2700] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 08:29:55.6220] - DEBUG - [Save session: 36] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 08:29:55.6220] - DEBUG - [Save session: 36] Before container.writeChanges
+[2019-05-05 08:29:55.6220] - DEBUG - [Save session: 36] Before waitUsingRecursiveRunLoop
+[2019-05-05 08:29:55.6280] - DEBUG - [Save session: 36] Completed container.writeChanges
+[2019-05-05 08:29:55.6280] - DEBUG - [Save session: 36] Completed waitUsingRecursiveRunLoop
+[2019-05-05 08:29:55.6330] - DEBUG - [Save session: 36] Completed super.save
+[2019-05-05 08:30:33.1920] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 08.30.33.zip
+[2019-05-05 08:31:33.7760] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 08.31.33.zip
+[2019-05-05 08:32:34.3860] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 08.32.34.zip
+[2019-05-05 08:33:02.7630] - DEBUG - [Save session: 37] Started, operation: saveOperation
+[2019-05-05 08:33:02.7630] - DEBUG - [Save session: 37] Before container.writeChanges
+[2019-05-05 08:33:02.7630] - DEBUG - [Save session: 37] Before waitUsingRecursiveRunLoop
+[2019-05-05 08:33:02.7690] - DEBUG - [Save session: 37] Completed container.writeChanges
+[2019-05-05 08:33:02.7690] - DEBUG - [Save session: 37] Completed waitUsingRecursiveRunLoop
+[2019-05-05 08:33:02.7730] - INFO - Marking changed: false
+[2019-05-05 08:33:02.7750] - DEBUG - [Save session: 37] Completed super.save
+[2019-05-05 08:33:34.7890] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 08.33.34.zip
+[2019-05-05 10:27:57.5630] - ERROR -    428 modules
+[2019-05-05 10:27:57.5630] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:27:57.5630] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:27:57.5630] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:27:57.5630] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:29:58.6550] - ERROR -    428 modules
+[2019-05-05 10:29:58.6550] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:29:58.6550] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:29:58.6550] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:29:58.6550] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:30:16.7520] - ERROR -    428 modules
+[2019-05-05 10:30:16.7520] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:30:16.7520] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:30:16.7520] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:30:16.7520] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:30:22.4040] - ERROR -    428 modules
+[2019-05-05 10:30:22.4040] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:30:22.4040] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:30:22.4040] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:30:22.4040] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:37:57.8870] - ERROR -    428 modules
+[2019-05-05 10:37:57.8870] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:37:57.8870] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:37:57.8880] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:37:57.8880] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:38:01.2000] - DEBUG - [Save session: 38] Started, operation: autosaveInPlaceOperation
+[2019-05-05 10:38:01.2000] - DEBUG - [Save session: 38] Before container.writeChanges
+[2019-05-05 10:38:01.2000] - DEBUG - [Save session: 38] Before waitUsingRecursiveRunLoop
+[2019-05-05 10:38:01.2070] - DEBUG - [Save session: 38] Completed container.writeChanges
+[2019-05-05 10:38:01.2070] - DEBUG - [Save session: 38] Completed waitUsingRecursiveRunLoop
+[2019-05-05 10:38:01.2120] - DEBUG - [Save session: 38] Completed super.save
+[2019-05-05 10:38:03.3590] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 10:38:16.4990] - DEBUG - [Save session: 39] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 10:38:16.4990] - DEBUG - [Save session: 39] Before container.writeChanges
+[2019-05-05 10:38:16.4990] - DEBUG - [Save session: 39] Before waitUsingRecursiveRunLoop
+[2019-05-05 10:38:16.5060] - DEBUG - [Save session: 39] Completed container.writeChanges
+[2019-05-05 10:38:16.5060] - DEBUG - [Save session: 39] Completed waitUsingRecursiveRunLoop
+[2019-05-05 10:38:16.5130] - DEBUG - [Save session: 39] Completed super.save
+[2019-05-05 10:38:24.0230] - ERROR -    428 modules
+[2019-05-05 10:38:24.0230] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:38:24.0230] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:38:24.0230] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:38:24.0230] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:38:49.5270] - DEBUG - [Save session: 40] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 10:38:49.5270] - DEBUG - [Save session: 40] Before container.writeChanges
+[2019-05-05 10:38:49.5270] - DEBUG - [Save session: 40] Before waitUsingRecursiveRunLoop
+[2019-05-05 10:38:49.5340] - DEBUG - [Save session: 40] Completed container.writeChanges
+[2019-05-05 10:38:49.5340] - DEBUG - [Save session: 40] Completed waitUsingRecursiveRunLoop
+[2019-05-05 10:38:49.5410] - DEBUG - [Save session: 40] Completed super.save
+[2019-05-05 10:38:57.8540] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.38.57.zip
+[2019-05-05 10:39:24.0290] - ERROR -    428 modules
+[2019-05-05 10:39:24.0290] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:39:24.0290] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:39:24.0290] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:39:24.0290] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:40:59.8320] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.40.59.zip
+[2019-05-05 10:41:27.3680] - DEBUG - [Save session: 41] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 10:41:27.3680] - DEBUG - [Save session: 41] Before container.writeChanges
+[2019-05-05 10:41:27.3680] - DEBUG - [Save session: 41] Before waitUsingRecursiveRunLoop
+[2019-05-05 10:41:27.3760] - DEBUG - [Save session: 41] Completed container.writeChanges
+[2019-05-05 10:41:27.3760] - DEBUG - [Save session: 41] Completed waitUsingRecursiveRunLoop
+[2019-05-05 10:41:27.3790] - DEBUG - [Save session: 41] Completed super.save
+[2019-05-05 10:42:00.2760] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.42.00.zip
+[2019-05-05 10:43:44.6660] - ERROR -    428 modules
+[2019-05-05 10:43:44.6660] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:43:44.6660] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:43:44.6660] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:43:44.6660] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:45:14.8750] - ERROR -    428 modules
+[2019-05-05 10:45:14.8750] - ERROR - WARNING in TopAppBarSection.tsx
+[2019-05-05 10:45:14.8750] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 10:45:14.8750] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(27,5)
+[2019-05-05 10:45:14.8750] - ERROR -       TS1005: ',' expected.
+[2019-05-05 10:45:14.8750] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:45:14.8750] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:45:14.8750] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:45:14.8750] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:45:18.0660] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (0ms)
+[2019-05-05 10:45:42.9350] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 10:46:02.8270] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.46.02.zip
+[2019-05-05 10:46:12.0070] - DEBUG - [Save session: 42] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 10:46:12.0070] - DEBUG - [Save session: 42] Before container.writeChanges
+[2019-05-05 10:46:12.0070] - DEBUG - [Save session: 42] Before waitUsingRecursiveRunLoop
+[2019-05-05 10:46:12.0150] - DEBUG - [Save session: 42] Completed container.writeChanges
+[2019-05-05 10:46:12.0160] - DEBUG - [Save session: 42] Completed waitUsingRecursiveRunLoop
+[2019-05-05 10:46:12.0200] - DEBUG - [Save session: 42] Completed super.save
+[2019-05-05 10:47:04.5320] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.47.04.zip
+[2019-05-05 10:47:59.2100] - ERROR -    428 modules
+[2019-05-05 10:47:59.2100] - ERROR - WARNING in TopAppBarSection.tsx
+[2019-05-05 10:47:59.2100] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 10:47:59.2110] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(27,5)
+[2019-05-05 10:47:59.2110] - ERROR -       TS1005: ',' expected.
+[2019-05-05 10:47:59.2110] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:47:59.2110] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:47:59.2110] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:47:59.2110] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:48:04.8600] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.48.04.zip
+[2019-05-05 10:48:37.6270] - ERROR -    428 modules
+[2019-05-05 10:48:37.6270] - ERROR - WARNING in TopAppBarSection.tsx
+[2019-05-05 10:48:37.6270] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 10:48:37.6270] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 10:48:37.6270] - ERROR -       TS1005: ',' expected.
+[2019-05-05 10:48:37.6270] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:48:37.6280] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:48:37.6280] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:48:37.6280] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:48:58.0990] - DEBUG - [Save session: 43] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 10:48:58.0990] - DEBUG - [Save session: 43] Before container.writeChanges
+[2019-05-05 10:48:58.0990] - DEBUG - [Save session: 43] Before waitUsingRecursiveRunLoop
+[2019-05-05 10:48:58.1060] - DEBUG - [Save session: 43] Completed container.writeChanges
+[2019-05-05 10:48:58.1060] - DEBUG - [Save session: 43] Completed waitUsingRecursiveRunLoop
+[2019-05-05 10:48:58.1130] - DEBUG - [Save session: 43] Completed super.save
+[2019-05-05 10:49:05.8340] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.49.05.zip
+[2019-05-05 10:49:07.1450] - ERROR -    428 modules
+[2019-05-05 10:49:07.1450] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:49:07.1450] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:49:07.1450] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:49:07.1450] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:49:07.1450] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 10:49:07.1450] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 10:49:07.1450] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 10:49:07.1450] - ERROR -       TS1005: ',' expected.
+[2019-05-05 10:49:28.7360] - DEBUG - [Save session: 44] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 10:49:28.7360] - DEBUG - [Save session: 44] Before container.writeChanges
+[2019-05-05 10:49:28.7360] - DEBUG - [Save session: 44] Before waitUsingRecursiveRunLoop
+[2019-05-05 10:49:28.7450] - DEBUG - [Save session: 44] Completed container.writeChanges
+[2019-05-05 10:49:28.7450] - DEBUG - [Save session: 44] Completed waitUsingRecursiveRunLoop
+[2019-05-05 10:49:28.7490] - DEBUG - [Save session: 44] Completed super.save
+[2019-05-05 10:50:09.7320] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.50.09.zip
+[2019-05-05 10:50:44.3950] - DEBUG - [Save session: 45] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 10:50:44.3950] - DEBUG - [Save session: 45] Before container.writeChanges
+[2019-05-05 10:50:44.3950] - DEBUG - [Save session: 45] Before waitUsingRecursiveRunLoop
+[2019-05-05 10:50:44.4040] - DEBUG - [Save session: 45] Completed container.writeChanges
+[2019-05-05 10:50:44.4040] - DEBUG - [Save session: 45] Completed waitUsingRecursiveRunLoop
+[2019-05-05 10:50:44.4090] - DEBUG - [Save session: 45] Completed super.save
+[2019-05-05 10:51:09.8550] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.51.09.zip
+[2019-05-05 10:53:47.8170] - ERROR -    428 modules
+[2019-05-05 10:53:47.8170] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:53:47.8170] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:53:47.8170] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:53:47.8170] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:53:47.8170] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 10:53:47.8170] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 10:53:47.8170] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 10:53:47.8170] - ERROR -       TS1005: ',' expected.
+[2019-05-05 10:54:05.7870] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 10:54:12.1860] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.54.12.zip
+[2019-05-05 10:54:33.8900] - DEBUG - [Save session: 46] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 10:54:33.8900] - DEBUG - [Save session: 46] Before container.writeChanges
+[2019-05-05 10:54:33.8900] - DEBUG - [Save session: 46] Before waitUsingRecursiveRunLoop
+[2019-05-05 10:54:33.8970] - DEBUG - [Save session: 46] Completed container.writeChanges
+[2019-05-05 10:54:33.8980] - DEBUG - [Save session: 46] Completed waitUsingRecursiveRunLoop
+[2019-05-05 10:54:33.9040] - DEBUG - [Save session: 46] Completed super.save
+[2019-05-05 10:55:12.8550] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.55.12.zip
+[2019-05-05 10:58:48.1490] - ERROR -    428 modules
+[2019-05-05 10:58:48.1490] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 10:58:48.1490] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 10:58:48.1490] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 10:58:48.1490] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 10:58:48.1490] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 10:58:48.1490] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 10:58:48.1490] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 10:58:48.1490] - ERROR -       TS1005: ',' expected.
+[2019-05-05 10:58:56.7450] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (0ms)
+[2019-05-05 10:59:21.8690] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 10.59.21.zip
+[2019-05-05 11:27:58.7900] - DEBUG - [Save session: 47] Started, operation: autosaveInPlaceOperation
+[2019-05-05 11:27:58.7900] - DEBUG - [Save session: 47] Before container.writeChanges
+[2019-05-05 11:27:58.7900] - DEBUG - [Save session: 47] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:27:58.7950] - DEBUG - [Save session: 47] Completed container.writeChanges
+[2019-05-05 11:27:58.7950] - DEBUG - [Save session: 47] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:27:58.7990] - DEBUG - [Save session: 47] Completed super.save
+[2019-05-05 11:28:29.6970] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.28.29.zip
+[2019-05-05 11:29:30.6810] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.29.30.zip
+[2019-05-05 11:30:23.0460] - DEBUG - [Save session: 48] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 11:30:23.0470] - DEBUG - [Save session: 48] Before container.writeChanges
+[2019-05-05 11:30:23.0470] - DEBUG - [Save session: 48] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:30:23.0540] - DEBUG - [Save session: 48] Completed container.writeChanges
+[2019-05-05 11:30:23.0540] - DEBUG - [Save session: 48] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:30:23.0620] - DEBUG - [Save session: 48] Completed super.save
+[2019-05-05 11:30:31.6750] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.30.31.zip
+[2019-05-05 11:31:31.8010] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.31.31.zip
+[2019-05-05 11:32:12.8940] - DEBUG - [Save session: 49] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 11:32:12.8940] - DEBUG - [Save session: 49] Before container.writeChanges
+[2019-05-05 11:32:12.8940] - DEBUG - [Save session: 49] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:32:12.9000] - DEBUG - [Save session: 49] Completed container.writeChanges
+[2019-05-05 11:32:12.9010] - DEBUG - [Save session: 49] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:32:12.9030] - DEBUG - [Save session: 49] Completed super.save
+[2019-05-05 11:32:32.6940] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.32.32.zip
+[2019-05-05 11:33:39.7710] - ERROR -    428 modules
+[2019-05-05 11:33:39.7710] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:33:39.7710] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:33:39.7710] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:33:39.7710] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:33:39.7710] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:33:39.7710] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:33:39.7710] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:33:39.7710] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:33:47.4110] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (0ms)
+[2019-05-05 11:34:34.2140] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.34.34.zip
+[2019-05-05 11:35:34.6570] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.35.34.zip
+[2019-05-05 11:36:25.9800] - DEBUG - [Save session: 50] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 11:36:25.9800] - DEBUG - [Save session: 50] Before container.writeChanges
+[2019-05-05 11:36:25.9800] - DEBUG - [Save session: 50] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:36:25.9920] - DEBUG - [Save session: 50] Completed container.writeChanges
+[2019-05-05 11:36:25.9930] - DEBUG - [Save session: 50] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:36:26.0030] - DEBUG - [Save session: 50] Completed super.save
+[2019-05-05 11:36:35.6790] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.36.35.zip
+[2019-05-05 11:36:50.4100] - ERROR -    428 modules
+[2019-05-05 11:36:50.4100] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:36:50.4100] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:36:50.4100] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:36:50.4100] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:36:50.4100] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:36:50.4100] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:36:50.4100] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:36:50.4100] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:37:08.7470] - ERROR -    428 modules
+[2019-05-05 11:37:08.7470] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:37:08.7470] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:37:08.7470] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:37:08.7470] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:37:08.7470] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:37:08.7470] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:37:08.7470] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:37:08.7470] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:38:20.7420] - ERROR -    428 modules
+[2019-05-05 11:38:20.7420] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:38:20.7420] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:38:20.7420] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:38:20.7420] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:38:20.7420] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:38:20.7420] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:38:20.7420] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:38:20.7420] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:38:50.3590] - ERROR -    428 modules
+[2019-05-05 11:38:50.3590] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:38:50.3590] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:38:50.3600] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:38:50.3600] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:38:50.3600] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:38:50.3600] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:38:50.3600] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:38:50.3600] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:39:39.3280] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.39.39.zip
+[2019-05-05 11:42:29.8420] - ERROR -    428 modules
+[2019-05-05 11:42:29.8420] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:42:29.8420] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:42:29.8420] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:42:29.8430] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:42:29.8430] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:42:29.8430] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:42:29.8430] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:42:29.8430] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:42:43.8420] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.42.43.zip
+[2019-05-05 11:44:33.5030] - ERROR -    428 modules
+[2019-05-05 11:44:33.5030] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:44:33.5030] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:44:33.5040] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:44:33.5040] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:44:33.5040] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:44:33.5040] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:44:33.5040] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:44:33.5040] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:44:54.6410] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.44.54.zip
+[2019-05-05 11:45:32.4570] - ERROR -    428 modules
+[2019-05-05 11:45:32.4570] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:45:32.4580] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:45:32.4580] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:45:32.4580] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:45:32.4580] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:45:32.4580] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:45:32.4580] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:45:32.4580] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:45:37.8170] - DEBUG - [Save session: 51] Started, operation: autosaveInPlaceOperation
+[2019-05-05 11:45:37.8180] - DEBUG - [Save session: 51] Before container.writeChanges
+[2019-05-05 11:45:37.8180] - DEBUG - [Save session: 51] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:45:37.8250] - DEBUG - [Save session: 51] Completed container.writeChanges
+[2019-05-05 11:45:37.8260] - DEBUG - [Save session: 51] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:45:37.8290] - DEBUG - [Save session: 51] Completed super.save
+[2019-05-05 11:45:55.6590] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.45.55.zip
+[2019-05-05 11:46:32.6610] - ERROR -    428 modules
+[2019-05-05 11:46:32.6610] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:46:32.6610] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:46:32.6610] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:46:32.6610] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:46:32.6610] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:46:32.6610] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:46:32.6610] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:46:32.6610] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:46:40.5430] - ERROR -    428 modules
+[2019-05-05 11:46:40.5430] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:46:40.5430] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:46:40.5430] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:46:40.5430] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:46:40.5430] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:46:40.5430] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:46:40.5430] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:46:40.5430] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:47:20.7500] - ERROR -    428 modules
+[2019-05-05 11:47:20.7510] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:47:20.7510] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:47:20.7510] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:47:20.7510] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:47:20.7510] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:47:20.7510] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:47:20.7510] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:47:20.7510] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:47:22.0570] - ERROR -    428 modules
+[2019-05-05 11:47:22.0570] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:47:22.0570] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:47:22.0570] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:47:22.0570] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:47:22.0570] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:47:22.0570] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:47:22.0570] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:47:22.0570] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:47:38.3430] - DEBUG - [Save session: 52] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 11:47:38.3430] - DEBUG - [Save session: 52] Before container.writeChanges
+[2019-05-05 11:47:38.3430] - DEBUG - [Save session: 52] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:47:38.3560] - DEBUG - [Save session: 52] Completed container.writeChanges
+[2019-05-05 11:47:38.3560] - DEBUG - [Save session: 52] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:47:38.3640] - DEBUG - [Save session: 52] Completed super.save
+[2019-05-05 11:47:41.5320] - ERROR -    428 modules
+[2019-05-05 11:47:41.5320] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:47:41.5320] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:47:41.5320] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:47:41.5320] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:47:41.5320] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:47:41.5320] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:47:41.5320] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:47:41.5320] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:47:57.0150] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.47.57.zip
+[2019-05-05 11:48:57.6230] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.48.57.zip
+[2019-05-05 11:49:39.3410] - DEBUG - [Save session: 53] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 11:49:39.3410] - DEBUG - [Save session: 53] Before container.writeChanges
+[2019-05-05 11:49:39.3410] - DEBUG - [Save session: 53] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:49:39.3480] - DEBUG - [Save session: 53] Completed container.writeChanges
+[2019-05-05 11:49:39.3480] - DEBUG - [Save session: 53] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:49:39.3600] - DEBUG - [Save session: 53] Completed super.save
+[2019-05-05 11:51:33.7180] - ERROR -    428 modules
+[2019-05-05 11:51:33.7180] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:51:33.7180] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:51:33.7180] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:51:33.7180] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:51:33.7180] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:51:33.7180] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:51:33.7180] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:51:33.7180] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:51:49.6480] - ERROR -    428 modules
+[2019-05-05 11:51:49.6480] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:51:49.6480] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:51:49.6480] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:51:49.6480] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:51:49.6480] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:51:49.6480] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:51:49.6480] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:51:49.6490] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:51:53.3840] - ERROR -    428 modules
+[2019-05-05 11:51:53.3840] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:51:53.3840] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:51:53.3840] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:51:53.3840] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:51:53.3840] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:51:53.3840] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:51:53.3840] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:51:53.3840] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:51:58.3230] - ERROR -    428 modules
+[2019-05-05 11:51:58.3230] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:51:58.3230] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:51:58.3230] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:51:58.3230] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:51:58.3230] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:51:58.3230] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:51:58.3230] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:51:58.3230] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:52:02.9630] - ERROR -    428 modules
+[2019-05-05 11:52:02.9630] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:52:02.9630] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:52:02.9630] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:52:02.9630] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:52:02.9630] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:52:02.9630] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:52:02.9630] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:52:02.9630] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:52:51.1080] - ERROR -    428 modules
+[2019-05-05 11:52:51.1080] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:52:51.1080] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:52:51.1080] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:52:51.1080] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:52:51.1080] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:52:51.1080] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:52:51.1080] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:52:51.1080] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:54:00.6500] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.54.00.zip
+[2019-05-05 11:55:01.6390] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.55.01.zip
+[2019-05-05 11:55:37.4550] - DEBUG - [Save session: 54] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 11:55:37.4550] - DEBUG - [Save session: 54] Before container.writeChanges
+[2019-05-05 11:55:37.4550] - DEBUG - [Save session: 54] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:55:37.4620] - DEBUG - [Save session: 54] Completed container.writeChanges
+[2019-05-05 11:55:37.4620] - DEBUG - [Save session: 54] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:55:37.4660] - DEBUG - [Save session: 54] Completed super.save
+[2019-05-05 11:56:02.6410] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.56.02.zip
+[2019-05-05 11:56:50.7550] - ERROR -    428 modules
+[2019-05-05 11:56:50.7550] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:56:50.7550] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:56:50.7550] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:56:50.7550] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:56:50.7550] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:56:50.7550] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:56:50.7550] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:56:50.7550] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:57:46.2700] - DEBUG - [Save session: 55] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 11:57:46.2700] - DEBUG - [Save session: 55] Before container.writeChanges
+[2019-05-05 11:57:46.2700] - DEBUG - [Save session: 55] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:57:46.2780] - DEBUG - [Save session: 55] Completed container.writeChanges
+[2019-05-05 11:57:46.2780] - DEBUG - [Save session: 55] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:57:46.2860] - DEBUG - [Save session: 55] Completed super.save
+[2019-05-05 11:57:56.7570] - ERROR -    428 modules
+[2019-05-05 11:57:56.7570] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:57:56.7570] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:57:56.7570] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:57:56.7570] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:57:56.7570] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:57:56.7570] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:57:56.7570] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:57:56.7570] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:58:03.9530] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 11.58.03.zip
+[2019-05-05 11:58:04.1280] - ERROR -    428 modules
+[2019-05-05 11:58:04.1280] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:58:04.1280] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:58:04.1280] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:58:04.1280] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:58:04.1280] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:58:04.1280] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:58:04.1280] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:58:04.1280] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:58:09.8810] - ERROR -    428 modules
+[2019-05-05 11:58:09.8810] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:58:09.8810] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:58:09.8810] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:58:09.8810] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:58:09.8810] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:58:09.8810] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:58:09.8810] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:58:09.8810] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:58:17.1860] - ERROR -    428 modules
+[2019-05-05 11:58:17.1860] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 11:58:17.1860] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 11:58:17.1860] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 11:58:17.1860] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 11:58:17.1860] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 11:58:17.1860] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 11:58:17.1860] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 11:58:17.1860] - ERROR -       TS1005: ',' expected.
+[2019-05-05 11:58:31.0670] - DEBUG - [Save session: 56] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 11:58:31.0670] - DEBUG - [Save session: 56] Before container.writeChanges
+[2019-05-05 11:58:31.0670] - DEBUG - [Save session: 56] Before waitUsingRecursiveRunLoop
+[2019-05-05 11:58:31.0760] - DEBUG - [Save session: 56] Completed container.writeChanges
+[2019-05-05 11:58:31.0760] - DEBUG - [Save session: 56] Completed waitUsingRecursiveRunLoop
+[2019-05-05 11:58:31.0830] - DEBUG - [Save session: 56] Completed super.save
+[2019-05-05 11:59:34.4720] - INFO - GET 200 /README.md 0 B (40ms)
+[2019-05-05 11:59:34.4720] - INFO - GET 200 /package.json 517 B (40ms)
+[2019-05-05 11:59:36.9080] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 12:00:04.6170] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 12.00.04.zip
+[2019-05-05 12:00:40.5000] - DEBUG - [Save session: 57] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:00:40.5000] - DEBUG - [Save session: 57] Before container.writeChanges
+[2019-05-05 12:00:40.5000] - DEBUG - [Save session: 57] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:00:40.5080] - DEBUG - [Save session: 57] Completed container.writeChanges
+[2019-05-05 12:00:40.5090] - DEBUG - [Save session: 57] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:00:40.5210] - DEBUG - [Save session: 57] Completed super.save
+[2019-05-05 12:01:04.9530] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 12.01.04.zip
+[2019-05-05 12:01:16.7080] - ERROR -    428 modules
+[2019-05-05 12:01:16.7080] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:01:16.7080] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:01:16.7080] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:01:16.7080] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:01:16.7080] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 12:01:16.7080] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:01:16.7080] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:01:16.7080] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:02:05.1410] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 12.02.05.zip
+[2019-05-05 12:05:40.6970] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 12:05:56.7100] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (2ms)
+[2019-05-05 12:06:11.3380] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 12.06.11.zip
+[2019-05-05 12:06:17.5430] - DEBUG - [Save session: 58] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:06:17.5430] - DEBUG - [Save session: 58] Before container.writeChanges
+[2019-05-05 12:06:17.5430] - DEBUG - [Save session: 58] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:06:17.5490] - DEBUG - [Save session: 58] Completed container.writeChanges
+[2019-05-05 12:06:17.5490] - DEBUG - [Save session: 58] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:06:17.5540] - DEBUG - [Save session: 58] Completed super.save
+[2019-05-05 12:07:07.1230] - DEBUG - [Save session: 59] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:07:07.1230] - DEBUG - [Save session: 59] Before container.writeChanges
+[2019-05-05 12:07:07.1230] - DEBUG - [Save session: 59] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:07:07.1310] - DEBUG - [Save session: 59] Completed container.writeChanges
+[2019-05-05 12:07:07.1310] - DEBUG - [Save session: 59] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:07:07.1380] - DEBUG - [Save session: 59] Completed super.save
+[2019-05-05 12:07:11.6490] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-05 12.07.11.zip
+[2019-05-05 12:08:12.4810] - DEBUG - [Save session: 60] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:08:12.4810] - DEBUG - [Save session: 60] Before container.writeChanges
+[2019-05-05 12:08:12.4810] - DEBUG - [Save session: 60] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:08:12.5740] - DEBUG - [Save session: 60] Completed container.writeChanges
+[2019-05-05 12:08:12.5740] - DEBUG - [Save session: 60] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:08:12.5780] - DEBUG - [Save session: 60] Completed super.save
+[2019-05-05 12:08:56.9800] - DEBUG - [Save session: 61] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:08:56.9800] - DEBUG - [Save session: 61] Before container.writeChanges
+[2019-05-05 12:08:56.9800] - DEBUG - [Save session: 61] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:08:56.9880] - DEBUG - [Save session: 61] Completed container.writeChanges
+[2019-05-05 12:08:56.9880] - DEBUG - [Save session: 61] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:08:56.9960] - DEBUG - [Save session: 61] Completed super.save
+[2019-05-05 12:09:25.4590] - ERROR -    428 modules
+[2019-05-05 12:09:25.4590] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:09:25.4590] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:09:25.4590] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:09:25.4590] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:09:25.4590] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 12:09:25.4590] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:09:25.4590] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:09:25.4590] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:09:35.3280] - DEBUG - [Save session: 62] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:09:35.3280] - DEBUG - [Save session: 62] Before container.writeChanges
+[2019-05-05 12:09:35.3280] - DEBUG - [Save session: 62] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:09:35.3360] - DEBUG - [Save session: 62] Completed container.writeChanges
+[2019-05-05 12:09:35.3360] - DEBUG - [Save session: 62] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:09:35.3450] - DEBUG - [Save session: 62] Completed super.save
+[2019-05-05 12:09:43.9640] - ERROR -    428 modules
+[2019-05-05 12:09:43.9640] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:09:43.9640] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:09:43.9640] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:09:43.9650] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:09:43.9650] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 12:09:43.9650] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:09:43.9650] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:09:43.9650] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:10:44.8750] - DEBUG - [Save session: 63] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:10:44.8750] - DEBUG - [Save session: 63] Before container.writeChanges
+[2019-05-05 12:10:44.8750] - DEBUG - [Save session: 63] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:10:44.8840] - DEBUG - [Save session: 63] Completed container.writeChanges
+[2019-05-05 12:10:44.8840] - DEBUG - [Save session: 63] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:10:44.8890] - DEBUG - [Save session: 63] Completed super.save
+[2019-05-05 12:12:25.3600] - ERROR -    428 modules
+[2019-05-05 12:12:25.3600] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:12:25.3600] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:12:25.3610] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:12:25.3610] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:12:25.3610] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 12:12:25.3610] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:12:25.3610] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:12:25.3610] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:13:36.2890] - DEBUG - [Save session: 64] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:13:36.2900] - DEBUG - [Save session: 64] Before container.writeChanges
+[2019-05-05 12:13:36.2900] - DEBUG - [Save session: 64] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:13:36.2990] - DEBUG - [Save session: 64] Completed container.writeChanges
+[2019-05-05 12:13:36.2990] - DEBUG - [Save session: 64] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:13:36.3040] - DEBUG - [Save session: 64] Completed super.save
+[2019-05-05 12:19:23.4040] - ERROR -    428 modules
+[2019-05-05 12:19:23.4050] - ERROR - WARNING in TopAppBarSection.tsx
+[2019-05-05 12:19:23.4050] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:19:23.4050] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:19:23.4050] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:19:23.4050] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:19:23.4050] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:19:23.4050] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:19:23.4050] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:19:43.7050] - DEBUG - [Save session: 65] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:19:43.7050] - DEBUG - [Save session: 65] Before container.writeChanges
+[2019-05-05 12:19:43.7060] - DEBUG - [Save session: 65] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:19:43.7150] - DEBUG - [Save session: 65] Completed container.writeChanges
+[2019-05-05 12:19:43.7150] - DEBUG - [Save session: 65] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:19:43.7240] - DEBUG - [Save session: 65] Completed super.save
+[2019-05-05 12:21:11.3300] - ERROR -    428 modules
+[2019-05-05 12:21:11.3300] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:21:11.3300] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:21:11.3300] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:21:11.3300] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:21:11.3300] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 12:21:11.3300] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:21:11.3300] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:21:11.3300] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:22:21.6330] - DEBUG - [Save session: 66] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:22:21.6330] - DEBUG - [Save session: 66] Before container.writeChanges
+[2019-05-05 12:22:21.6330] - DEBUG - [Save session: 66] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:22:21.6430] - DEBUG - [Save session: 66] Completed container.writeChanges
+[2019-05-05 12:22:21.6430] - DEBUG - [Save session: 66] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:22:21.6480] - DEBUG - [Save session: 66] Completed super.save
+[2019-05-05 12:22:49.1030] - ERROR -    428 modules
+[2019-05-05 12:22:49.1030] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:22:49.1030] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:22:49.1030] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:22:49.1030] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:22:49.1030] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 12:22:49.1030] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:22:49.1030] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:22:49.1030] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:23:09.1970] - ERROR -    428 modules
+[2019-05-05 12:23:09.1970] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:23:09.1970] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:23:09.1970] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:23:09.1970] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:23:09.1970] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 12:23:09.1970] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:23:09.1970] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:23:09.1970] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:23:50.0410] - DEBUG - [Save session: 67] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:23:50.0410] - DEBUG - [Save session: 67] Before container.writeChanges
+[2019-05-05 12:23:50.0410] - DEBUG - [Save session: 67] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:23:50.0490] - DEBUG - [Save session: 67] Completed container.writeChanges
+[2019-05-05 12:23:50.0490] - DEBUG - [Save session: 67] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:23:50.0520] - DEBUG - [Save session: 67] Completed super.save
+[2019-05-05 12:24:03.2720] - ERROR -    428 modules
+[2019-05-05 12:24:03.2730] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:24:03.2730] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:24:03.2730] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:24:03.2730] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:24:03.2730] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 12:24:03.2730] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:24:03.2730] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:24:03.2730] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:24:23.0400] - ERROR -    428 modules
+[2019-05-05 12:24:23.0400] - ERROR - WARNING in TopAppBarSection.tsx
+[2019-05-05 12:24:23.0410] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:24:23.0410] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:24:23.0410] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:24:23.0410] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:24:23.0410] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:24:23.0410] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:24:23.0410] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:25:04.2250] - DEBUG - [Save session: 68] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:25:04.2250] - DEBUG - [Save session: 68] Before container.writeChanges
+[2019-05-05 12:25:04.2250] - DEBUG - [Save session: 68] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:25:04.2330] - DEBUG - [Save session: 68] Completed container.writeChanges
+[2019-05-05 12:25:04.2330] - DEBUG - [Save session: 68] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:25:04.2380] - DEBUG - [Save session: 68] Completed super.save
+[2019-05-05 12:26:35.8210] - ERROR -    428 modules
+[2019-05-05 12:26:35.8210] - ERROR - WARNING in TopAppBarSection.tsx
+[2019-05-05 12:26:35.8220] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:26:35.8220] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:26:35.8220] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:26:35.8220] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:26:35.8220] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:26:35.8220] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:26:35.8220] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:27:08.0990] - DEBUG - [Save session: 69] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:27:08.0990] - DEBUG - [Save session: 69] Before container.writeChanges
+[2019-05-05 12:27:08.0990] - DEBUG - [Save session: 69] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:27:08.1080] - DEBUG - [Save session: 69] Completed container.writeChanges
+[2019-05-05 12:27:08.1080] - DEBUG - [Save session: 69] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:27:08.1120] - DEBUG - [Save session: 69] Completed super.save
+[2019-05-05 12:27:21.3330] - ERROR -    428 modules
+[2019-05-05 12:27:21.3330] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:27:21.3330] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:27:21.3330] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:27:21.3340] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:27:21.3340] - ERROR - ERROR in TopAppBarSection.tsx
+[2019-05-05 12:27:21.3340] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:27:21.3340] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(28,5)
+[2019-05-05 12:27:21.3340] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:27:34.2990] - DEBUG - [Save session: 70] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:27:34.2990] - DEBUG - [Save session: 70] Before container.writeChanges
+[2019-05-05 12:27:34.2990] - DEBUG - [Save session: 70] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:27:34.3080] - DEBUG - [Save session: 70] Completed container.writeChanges
+[2019-05-05 12:27:34.3080] - DEBUG - [Save session: 70] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:27:34.3140] - DEBUG - [Save session: 70] Completed super.save
+[2019-05-05 12:28:12.3190] - ERROR -    428 modules
+[2019-05-05 12:28:12.3190] - ERROR - WARNING in TopAppBarSection.tsx
+[2019-05-05 12:28:12.3190] - ERROR - ./code/TopAppBarSection.tsx
+[2019-05-05 12:28:12.3190] - ERROR - [tsl] ERROR in TopAppBarSection.tsx(29,5)
+[2019-05-05 12:28:12.3200] - ERROR -       TS1005: ',' expected.
+[2019-05-05 12:28:12.3200] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:28:12.3200] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:28:12.3200] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:28:12.3200] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:28:54.5610] - ERROR -    428 modules
+[2019-05-05 12:28:54.5610] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:28:54.5610] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:28:54.5610] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:28:54.5610] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:29:37.4710] - ERROR -    428 modules
+[2019-05-05 12:29:37.4710] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:29:37.4720] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:29:37.4720] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:29:37.4720] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:35:51.9690] - DEBUG - [Save session: 71] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:35:51.9700] - DEBUG - [Save session: 71] Before container.writeChanges
+[2019-05-05 12:35:51.9700] - DEBUG - [Save session: 71] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:35:51.9790] - DEBUG - [Save session: 71] Completed container.writeChanges
+[2019-05-05 12:35:51.9790] - DEBUG - [Save session: 71] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:35:51.9840] - DEBUG - [Save session: 71] Completed super.save
+[2019-05-05 12:37:09.9720] - ERROR -    428 modules
+[2019-05-05 12:37:09.9720] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:37:09.9720] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:37:09.9720] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:37:09.9720] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:38:20.9560] - DEBUG - [Save session: 72] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:38:20.9560] - DEBUG - [Save session: 72] Before container.writeChanges
+[2019-05-05 12:38:20.9560] - DEBUG - [Save session: 72] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:38:20.9650] - DEBUG - [Save session: 72] Completed container.writeChanges
+[2019-05-05 12:38:20.9650] - DEBUG - [Save session: 72] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:38:20.9690] - DEBUG - [Save session: 72] Completed super.save
+[2019-05-05 12:39:04.6140] - ERROR -    428 modules
+[2019-05-05 12:39:04.6140] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:39:04.6140] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:39:04.6140] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:39:04.6140] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:39:15.7580] - DEBUG - [Save session: 73] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:39:15.7580] - DEBUG - [Save session: 73] Before container.writeChanges
+[2019-05-05 12:39:15.7580] - DEBUG - [Save session: 73] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:39:15.7670] - DEBUG - [Save session: 73] Completed container.writeChanges
+[2019-05-05 12:39:15.7670] - DEBUG - [Save session: 73] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:39:15.7710] - DEBUG - [Save session: 73] Completed super.save
+[2019-05-05 12:39:29.8870] - ERROR -    428 modules
+[2019-05-05 12:39:29.8870] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:39:29.8870] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:39:29.8870] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:39:29.8870] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:39:47.7430] - DEBUG - [Save session: 74] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:39:47.7430] - DEBUG - [Save session: 74] Before container.writeChanges
+[2019-05-05 12:39:47.7430] - DEBUG - [Save session: 74] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:39:47.7510] - DEBUG - [Save session: 74] Completed container.writeChanges
+[2019-05-05 12:39:47.7510] - DEBUG - [Save session: 74] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:39:47.7550] - DEBUG - [Save session: 74] Completed super.save
+[2019-05-05 12:44:22.3330] - ERROR -    428 modules
+[2019-05-05 12:44:22.3330] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:44:22.3330] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:44:22.3330] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:44:22.3330] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:44:31.0560] - ERROR -    428 modules
+[2019-05-05 12:44:31.0560] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:44:31.0560] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:44:31.0560] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:44:31.0560] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:44:43.8090] - ERROR -    428 modules
+[2019-05-05 12:44:43.8090] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:44:43.8090] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:44:43.8090] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:44:43.8090] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:44:51.5910] - DEBUG - [Save session: 75] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:44:51.5910] - DEBUG - [Save session: 75] Before container.writeChanges
+[2019-05-05 12:44:51.5910] - DEBUG - [Save session: 75] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:44:51.6000] - DEBUG - [Save session: 75] Completed container.writeChanges
+[2019-05-05 12:44:51.6000] - DEBUG - [Save session: 75] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:44:51.6050] - DEBUG - [Save session: 75] Completed super.save
+[2019-05-05 12:44:56.0600] - ERROR -    428 modules
+[2019-05-05 12:44:56.0600] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:44:56.0600] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:44:56.0600] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:44:56.0600] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:47:10.3540] - DEBUG - [Save session: 76] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:47:10.3540] - DEBUG - [Save session: 76] Before container.writeChanges
+[2019-05-05 12:47:10.3540] - DEBUG - [Save session: 76] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:47:10.3710] - DEBUG - [Save session: 76] Completed container.writeChanges
+[2019-05-05 12:47:10.3710] - DEBUG - [Save session: 76] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:47:10.3760] - DEBUG - [Save session: 76] Completed super.save
+[2019-05-05 12:49:01.4710] - ERROR -    428 modules
+[2019-05-05 12:49:01.4710] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:49:01.4710] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:49:01.4710] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:49:01.4710] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:49:39.4360] - ERROR -    428 modules
+[2019-05-05 12:49:39.4360] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:49:39.4360] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:49:39.4360] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:49:39.4360] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:49:52.6640] - ERROR -    428 modules
+[2019-05-05 12:49:52.6640] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:49:52.6640] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:49:52.6640] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:49:52.6640] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:50:02.4470] - DEBUG - [Save session: 77] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:50:02.4470] - DEBUG - [Save session: 77] Before container.writeChanges
+[2019-05-05 12:50:02.4470] - DEBUG - [Save session: 77] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:50:02.4550] - DEBUG - [Save session: 77] Completed container.writeChanges
+[2019-05-05 12:50:02.4550] - DEBUG - [Save session: 77] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:50:02.4590] - DEBUG - [Save session: 77] Completed super.save
+[2019-05-05 12:50:10.0880] - ERROR -    428 modules
+[2019-05-05 12:50:10.0880] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:50:10.0880] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:50:10.0880] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:50:10.0880] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:50:18.2410] - DEBUG - [Save session: 78] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:50:18.2410] - DEBUG - [Save session: 78] Before container.writeChanges
+[2019-05-05 12:50:18.2410] - DEBUG - [Save session: 78] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:50:18.2510] - DEBUG - [Save session: 78] Completed container.writeChanges
+[2019-05-05 12:50:18.2510] - DEBUG - [Save session: 78] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:50:18.2560] - DEBUG - [Save session: 78] Completed super.save
+[2019-05-05 12:50:40.7040] - DEBUG - [Save session: 79] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:50:40.7040] - DEBUG - [Save session: 79] Before container.writeChanges
+[2019-05-05 12:50:40.7040] - DEBUG - [Save session: 79] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:50:40.7140] - DEBUG - [Save session: 79] Completed container.writeChanges
+[2019-05-05 12:50:40.7140] - DEBUG - [Save session: 79] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:50:40.7220] - DEBUG - [Save session: 79] Completed super.save
+[2019-05-05 12:50:48.7620] - ERROR -    428 modules
+[2019-05-05 12:50:48.7620] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:50:48.7620] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:50:48.7620] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:50:48.7620] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:51:21.2940] - DEBUG - [Save session: 80] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:51:21.2940] - DEBUG - [Save session: 80] Before container.writeChanges
+[2019-05-05 12:51:21.2940] - DEBUG - [Save session: 80] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:51:21.3090] - DEBUG - [Save session: 80] Completed container.writeChanges
+[2019-05-05 12:51:21.3090] - DEBUG - [Save session: 80] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:51:21.3150] - DEBUG - [Save session: 80] Completed super.save
+[2019-05-05 12:51:24.4810] - ERROR -    428 modules
+[2019-05-05 12:51:24.4810] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:51:24.4810] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:51:24.4810] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:51:24.4810] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:51:36.6810] - DEBUG - [Save session: 81] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:51:36.6810] - DEBUG - [Save session: 81] Before container.writeChanges
+[2019-05-05 12:51:36.6810] - DEBUG - [Save session: 81] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:51:36.6900] - DEBUG - [Save session: 81] Completed container.writeChanges
+[2019-05-05 12:51:36.6900] - DEBUG - [Save session: 81] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:51:36.6940] - DEBUG - [Save session: 81] Completed super.save
+[2019-05-05 12:52:00.9540] - ERROR -    428 modules
+[2019-05-05 12:52:00.9550] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:52:00.9550] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:52:00.9550] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:52:00.9550] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:52:15.5590] - ERROR -    428 modules
+[2019-05-05 12:52:15.5590] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:52:15.5590] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:52:15.5590] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:52:15.5590] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:52:49.6650] - ERROR -    428 modules
+[2019-05-05 12:52:49.6650] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:52:49.6650] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:52:49.6650] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:52:49.6650] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:53:01.8850] - DEBUG - [Save session: 82] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:53:01.8850] - DEBUG - [Save session: 82] Before container.writeChanges
+[2019-05-05 12:53:01.8850] - DEBUG - [Save session: 82] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:53:01.8920] - DEBUG - [Save session: 82] Completed container.writeChanges
+[2019-05-05 12:53:01.8920] - DEBUG - [Save session: 82] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:53:01.8970] - DEBUG - [Save session: 82] Completed super.save
+[2019-05-05 12:53:10.4910] - ERROR -    428 modules
+[2019-05-05 12:53:10.4910] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:53:10.4910] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:53:10.4910] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:53:10.4910] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:53:15.6830] - ERROR -    428 modules
+[2019-05-05 12:53:15.6830] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:53:15.6830] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:53:15.6830] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:53:15.6830] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:53:59.3230] - ERROR -    428 modules
+[2019-05-05 12:53:59.3240] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:53:59.3240] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:53:59.3240] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:53:59.3240] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:54:11.3860] - DEBUG - [Save session: 83] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:54:11.3860] - DEBUG - [Save session: 83] Before container.writeChanges
+[2019-05-05 12:54:11.3860] - DEBUG - [Save session: 83] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:54:11.3920] - DEBUG - [Save session: 83] Completed container.writeChanges
+[2019-05-05 12:54:11.3920] - DEBUG - [Save session: 83] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:54:11.3960] - DEBUG - [Save session: 83] Completed super.save
+[2019-05-05 12:54:24.3330] - ERROR -    428 modules
+[2019-05-05 12:54:24.3340] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:54:24.3340] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:54:24.3340] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:54:24.3340] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:54:38.7510] - ERROR -    428 modules
+[2019-05-05 12:54:38.7510] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:54:38.7510] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:54:38.7510] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:54:38.7510] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:56:04.1470] - DEBUG - [Save session: 84] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:56:04.1470] - DEBUG - [Save session: 84] Before container.writeChanges
+[2019-05-05 12:56:04.1470] - DEBUG - [Save session: 84] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:56:04.1550] - DEBUG - [Save session: 84] Completed container.writeChanges
+[2019-05-05 12:56:04.1550] - DEBUG - [Save session: 84] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:56:04.1590] - DEBUG - [Save session: 84] Completed super.save
+[2019-05-05 12:56:48.6580] - DEBUG - [Save session: 85] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:56:48.6580] - DEBUG - [Save session: 85] Before container.writeChanges
+[2019-05-05 12:56:48.6580] - DEBUG - [Save session: 85] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:56:48.6660] - DEBUG - [Save session: 85] Completed container.writeChanges
+[2019-05-05 12:56:48.6660] - DEBUG - [Save session: 85] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:56:48.6720] - DEBUG - [Save session: 85] Completed super.save
+[2019-05-05 12:58:50.1530] - ERROR -    428 modules
+[2019-05-05 12:58:50.1530] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 12:58:50.1530] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 12:58:50.1530] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 12:58:50.1530] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 12:58:54.3420] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 12:59:33.9720] - DEBUG - [Save session: 86] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 12:59:33.9720] - DEBUG - [Save session: 86] Before container.writeChanges
+[2019-05-05 12:59:33.9720] - DEBUG - [Save session: 86] Before waitUsingRecursiveRunLoop
+[2019-05-05 12:59:33.9840] - DEBUG - [Save session: 86] Completed container.writeChanges
+[2019-05-05 12:59:33.9850] - DEBUG - [Save session: 86] Completed waitUsingRecursiveRunLoop
+[2019-05-05 12:59:33.9890] - DEBUG - [Save session: 86] Completed super.save
+[2019-05-05 13:00:09.9990] - DEBUG - [Save session: 87] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:00:09.9990] - DEBUG - [Save session: 87] Before container.writeChanges
+[2019-05-05 13:00:09.9990] - DEBUG - [Save session: 87] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:00:10.0070] - DEBUG - [Save session: 87] Completed container.writeChanges
+[2019-05-05 13:00:10.0070] - DEBUG - [Save session: 87] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:00:10.0150] - DEBUG - [Save session: 87] Completed super.save
+[2019-05-05 13:00:26.5910] - DEBUG - [Save session: 88] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:00:26.5910] - DEBUG - [Save session: 88] Before container.writeChanges
+[2019-05-05 13:00:26.5910] - DEBUG - [Save session: 88] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:00:26.6070] - DEBUG - [Save session: 88] Completed container.writeChanges
+[2019-05-05 13:00:26.6070] - DEBUG - [Save session: 88] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:00:26.6120] - DEBUG - [Save session: 88] Completed super.save
+[2019-05-05 13:00:29.4850] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 13:01:25.5780] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (0ms)
+[2019-05-05 13:01:46.7760] - DEBUG - [Save session: 89] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:01:46.7760] - DEBUG - [Save session: 89] Before container.writeChanges
+[2019-05-05 13:01:46.7760] - DEBUG - [Save session: 89] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:01:46.7890] - DEBUG - [Save session: 89] Completed container.writeChanges
+[2019-05-05 13:01:46.7900] - DEBUG - [Save session: 89] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:01:46.7930] - DEBUG - [Save session: 89] Completed super.save
+[2019-05-05 13:02:07.1730] - ERROR -    429 modules
+[2019-05-05 13:02:07.1730] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:02:07.1730] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:02:07.1730] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:02:07.1730] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:02:10.3910] - ERROR -    429 modules
+[2019-05-05 13:02:10.3910] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:02:10.3910] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:02:10.3910] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:02:10.3920] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:02:51.5340] - ERROR -    429 modules
+[2019-05-05 13:02:51.5340] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:02:51.5340] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:02:51.5340] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:02:51.5340] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:03:08.2770] - DEBUG - [Save session: 90] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:03:08.2770] - DEBUG - [Save session: 90] Before container.writeChanges
+[2019-05-05 13:03:08.2770] - DEBUG - [Save session: 90] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:03:08.2840] - DEBUG - [Save session: 90] Completed container.writeChanges
+[2019-05-05 13:03:08.2840] - DEBUG - [Save session: 90] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:03:08.2880] - DEBUG - [Save session: 90] Completed super.save
+[2019-05-05 13:03:30.2960] - ERROR -    430 modules
+[2019-05-05 13:03:30.2960] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:03:30.2960] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:03:30.2960] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:03:30.2960] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:05:33.9530] - DEBUG - [Save session: 91] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:05:33.9540] - DEBUG - [Save session: 91] Before container.writeChanges
+[2019-05-05 13:05:33.9540] - DEBUG - [Save session: 91] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:05:33.9640] - DEBUG - [Save session: 91] Completed container.writeChanges
+[2019-05-05 13:05:33.9640] - DEBUG - [Save session: 91] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:05:33.9720] - DEBUG - [Save session: 91] Completed super.save
+[2019-05-05 13:06:54.3580] - DEBUG - [Save session: 92] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:06:54.3580] - DEBUG - [Save session: 92] Before container.writeChanges
+[2019-05-05 13:06:54.3580] - DEBUG - [Save session: 92] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:06:54.3700] - DEBUG - [Save session: 92] Completed container.writeChanges
+[2019-05-05 13:06:54.3710] - DEBUG - [Save session: 92] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:06:54.3750] - DEBUG - [Save session: 92] Completed super.save
+[2019-05-05 13:09:21.2640] - DEBUG - [Save session: 93] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:09:21.2640] - DEBUG - [Save session: 93] Before container.writeChanges
+[2019-05-05 13:09:21.2640] - DEBUG - [Save session: 93] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:09:21.2770] - DEBUG - [Save session: 93] Completed container.writeChanges
+[2019-05-05 13:09:21.2770] - DEBUG - [Save session: 93] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:09:21.2860] - DEBUG - [Save session: 93] Completed super.save
+[2019-05-05 13:10:06.8640] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 13:11:28.1110] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (0ms)
+[2019-05-05 13:13:59.9170] - DEBUG - [Save session: 94] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:13:59.9170] - DEBUG - [Save session: 94] Before container.writeChanges
+[2019-05-05 13:13:59.9170] - DEBUG - [Save session: 94] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:13:59.9300] - DEBUG - [Save session: 94] Completed container.writeChanges
+[2019-05-05 13:13:59.9300] - DEBUG - [Save session: 94] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:13:59.9350] - DEBUG - [Save session: 94] Completed super.save
+[2019-05-05 13:16:41.7550] - DEBUG - [Save session: 95] Started, operation: saveOperation
+[2019-05-05 13:16:41.7550] - DEBUG - [Save session: 95] Before container.writeChanges
+[2019-05-05 13:16:41.7550] - DEBUG - [Save session: 95] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:16:41.7670] - DEBUG - [Save session: 95] Completed container.writeChanges
+[2019-05-05 13:16:41.7670] - DEBUG - [Save session: 95] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:16:41.7690] - INFO - Marking changed: false
+[2019-05-05 13:16:41.7710] - DEBUG - [Save session: 95] Completed super.save
+[2019-05-05 13:17:27.7800] - ERROR -    430 modules
+[2019-05-05 13:17:27.7800] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:17:27.7800] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:17:27.7800] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:17:27.7800] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:17:55.2030] - ERROR -    430 modules
+[2019-05-05 13:17:55.2030] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:17:55.2030] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:17:55.2030] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:17:55.2030] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:18:00.9330] - ERROR -    430 modules
+[2019-05-05 13:18:00.9340] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:18:00.9340] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:18:00.9340] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:18:00.9340] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:18:41.9310] - DEBUG - [Save session: 96] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:18:41.9310] - DEBUG - [Save session: 96] Before container.writeChanges
+[2019-05-05 13:18:41.9310] - DEBUG - [Save session: 96] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:18:41.9430] - DEBUG - [Save session: 96] Completed container.writeChanges
+[2019-05-05 13:18:41.9430] - DEBUG - [Save session: 96] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:18:41.9480] - DEBUG - [Save session: 96] Completed super.save
+[2019-05-05 13:19:09.5850] - DEBUG - [Save session: 97] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:19:09.5850] - DEBUG - [Save session: 97] Before container.writeChanges
+[2019-05-05 13:19:09.5850] - DEBUG - [Save session: 97] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:19:09.5990] - DEBUG - [Save session: 97] Completed container.writeChanges
+[2019-05-05 13:19:09.5990] - DEBUG - [Save session: 97] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:19:09.6050] - DEBUG - [Save session: 97] Completed super.save
+[2019-05-05 13:19:20.1700] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 13:19:28.8000] - ERROR -    431 modules
+[2019-05-05 13:19:28.8000] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:19:28.8000] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:19:28.8000] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:19:28.8000] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:20:04.0650] - ERROR -    431 modules
+[2019-05-05 13:20:04.0650] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:20:04.0650] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:20:04.0650] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:20:04.0650] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:20:18.6280] - DEBUG - [Save session: 98] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:20:18.6280] - DEBUG - [Save session: 98] Before container.writeChanges
+[2019-05-05 13:20:18.6280] - DEBUG - [Save session: 98] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:20:18.6430] - DEBUG - [Save session: 98] Completed container.writeChanges
+[2019-05-05 13:20:18.6430] - DEBUG - [Save session: 98] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:20:18.6480] - DEBUG - [Save session: 98] Completed super.save
+[2019-05-05 13:20:34.8190] - ERROR -    431 modules
+[2019-05-05 13:20:34.8190] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-05 13:20:34.8190] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-05 13:20:34.8190] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-05 13:20:34.8190] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-05 13:20:59.6170] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-05 13:21:42.1760] - DEBUG - [Save session: 99] Started, operation: saveOperation
+[2019-05-05 13:21:42.1760] - DEBUG - [Save session: 99] Before container.writeChanges
+[2019-05-05 13:21:42.1760] - DEBUG - [Save session: 99] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:21:42.1890] - DEBUG - [Save session: 99] Completed container.writeChanges
+[2019-05-05 13:21:42.1900] - DEBUG - [Save session: 99] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:21:42.1910] - INFO - Marking changed: false
+[2019-05-05 13:21:42.1930] - DEBUG - [Save session: 99] Completed super.save
+[2019-05-05 13:56:52.0640] - INFO - GET 302 / 62 B (4ms)
+[2019-05-05 13:56:52.6470] - INFO - GET 200 /preview/ 0 B (1ms)
+[2019-05-05 13:56:53.4960] - INFO - GET 200 /preview/styles/Draft.css 0 B (1ms)
+[2019-05-05 13:56:53.5190] - INFO - GET 200 /preview/styles/style.css 0 B (0ms)
+[2019-05-05 13:56:53.8320] - INFO - GET 200 /preview/scripts/react/react.development.js 0 B (1ms)
+[2019-05-05 13:56:53.8630] - INFO - GET 200 /preview/preview.js 0 B (1ms)
+[2019-05-05 13:56:53.8680] - INFO - GET 200 /preview/scripts/react-dom/react-dom.development.js 0 B (1ms)
+[2019-05-05 13:56:53.8970] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (0ms)
+[2019-05-05 13:57:01.4280] - INFO - GET 404 /favicon.ico 150 B (1ms)
+[2019-05-05 13:57:29.5250] - INFO - GET 302 / 62 B (1ms)
+[2019-05-05 13:57:30.0650] - INFO - GET 200 /preview/ 0 B (1ms)
+[2019-05-05 13:57:30.3000] - INFO - GET 200 /preview/images/cursors/touch.png 2.91 kB (0ms)
+[2019-05-05 13:57:30.9620] - INFO - GET 200 /preview/scripts/react/react.development.js 0 B (1ms)
+[2019-05-05 13:57:31.3070] - INFO - GET 200 /preview/scripts/react-dom/react-dom.development.js 0 B (0ms)
+[2019-05-05 13:57:31.7780] - INFO - GET 200 /preview/styles/style.css 0 B (1ms)
+[2019-05-05 13:57:31.8150] - INFO - GET 200 /preview/styles/Draft.css 0 B (0ms)
+[2019-05-05 13:57:32.3250] - INFO - GET 200 /preview/preview.js 0 B (4ms)
+[2019-05-05 13:57:32.3340] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2019-05-05 13:57:39.5600] - INFO - GET 200 /preview/images/cursors/touch-active.png 2.96 kB (0ms)
+[2019-05-05 13:57:57.7800] - DEBUG - [Save session: 100] Started, operation: autosaveInPlaceOperation
+[2019-05-05 13:57:57.7800] - DEBUG - [Save session: 100] Before container.writeChanges
+[2019-05-05 13:57:57.7800] - DEBUG - [Save session: 100] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:57:57.7940] - DEBUG - [Save session: 100] Completed container.writeChanges
+[2019-05-05 13:57:57.7940] - DEBUG - [Save session: 100] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:57:57.7990] - DEBUG - [Save session: 100] Completed super.save
+[2019-05-05 13:58:27.2710] - DEBUG - [Save session: 101] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 13:58:27.2710] - DEBUG - [Save session: 101] Before container.writeChanges
+[2019-05-05 13:58:27.2720] - DEBUG - [Save session: 101] Before waitUsingRecursiveRunLoop
+[2019-05-05 13:58:27.2850] - DEBUG - [Save session: 101] Completed container.writeChanges
+[2019-05-05 13:58:27.2860] - DEBUG - [Save session: 101] Completed waitUsingRecursiveRunLoop
+[2019-05-05 13:58:27.2900] - DEBUG - [Save session: 101] Completed super.save
+[2019-05-05 13:58:38.6030] - INFO - GET 302 / 62 B (0ms)
+[2019-05-05 13:58:39.1500] - INFO - GET 200 /preview/ 0 B (3ms)
+[2019-05-05 13:58:40.0780] - INFO - GET 200 /preview/styles/style.css 0 B (1ms)
+[2019-05-05 13:58:40.3760] - INFO - GET 200 /preview/scripts/react/react.development.js 0 B (0ms)
+[2019-05-05 13:58:40.8280] - INFO - GET 200 /preview/styles/Draft.css 0 B (0ms)
+[2019-05-05 13:58:40.9050] - INFO - GET 200 /preview/scripts/react-dom/react-dom.development.js 0 B (2ms)
+[2019-05-05 13:58:41.3060] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2019-05-05 13:58:41.3200] - INFO - GET 200 /preview/preview.js 0 B (0ms)
+[2019-05-05 13:58:47.1310] - INFO - GET 404 /favicon.ico 150 B (0ms)
+[2019-05-05 13:59:05.8870] - INFO - GET 200 /preview/ 0 B (1ms)
+[2019-05-05 13:59:06.5000] - INFO - GET 200 /preview/scripts/react/react.development.js 0 B (1ms)
+[2019-05-05 13:59:06.8050] - INFO - GET 200 /preview/styles/Draft.css 0 B (1ms)
+[2019-05-05 13:59:07.0750] - INFO - GET 200 /preview/styles/style.css 0 B (3ms)
+[2019-05-05 13:59:07.0990] - INFO - GET 200 /preview/scripts/react-dom/react-dom.development.js 0 B (0ms)
+[2019-05-05 13:59:07.1470] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (0ms)
+[2019-05-05 13:59:08.2010] - INFO - GET 200 /preview/preview.js 0 B (3ms)
+[2019-05-05 13:59:25.6620] - INFO - GET 200 /preview/ 0 B (1ms)
+[2019-05-05 13:59:26.7290] - INFO - GET 200 /preview/styles/Draft.css 0 B (1ms)
+[2019-05-05 13:59:27.6180] - INFO - GET 200 /preview/styles/style.css 0 B (1ms)
+[2019-05-05 13:59:28.4410] - INFO - GET 200 /preview/scripts/react/react.development.js 0 B (1ms)
+[2019-05-05 13:59:28.8720] - INFO - GET 200 /preview/scripts/react-dom/react-dom.development.js 0 B (1ms)
+[2019-05-05 13:59:28.9830] - INFO - GET 200 /preview/preview.js 0 B (1ms)
+[2019-05-05 13:59:29.0050] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (0ms)
+[2019-05-05 13:59:53.1440] - INFO - GET 200 /preview/ 0 B (1ms)
+[2019-05-05 13:59:54.0120] - INFO - GET 200 /preview/styles/Draft.css 0 B (1ms)
+[2019-05-05 13:59:54.3160] - INFO - GET 200 /preview/scripts/react/react.development.js 0 B (1ms)
+[2019-05-05 13:59:54.3190] - INFO - GET 200 /preview/styles/style.css 0 B (1ms)
+[2019-05-05 13:59:54.3280] - INFO - GET 200 /preview/preview.js 0 B (0ms)
+[2019-05-05 13:59:54.3520] - INFO - GET 200 /preview/scripts/react-dom/react-dom.development.js 0 B (0ms)
+[2019-05-05 13:59:54.3550] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2019-05-05 14:00:23.5240] - INFO - GET 200 /preview/images/cursors/touch.png 2.91 kB (5ms)
+[2019-05-05 14:00:30.2670] - INFO - GET 200 /preview/images/cursors/touch-active.png 2.96 kB (4ms)
+[2019-05-05 14:05:19.3480] - DEBUG - [Save session: 102] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-05 14:05:19.3480] - DEBUG - [Save session: 102] Before container.writeChanges
+[2019-05-05 14:05:19.3480] - DEBUG - [Save session: 102] Before waitUsingRecursiveRunLoop
+[2019-05-05 14:05:19.3630] - DEBUG - [Save session: 102] Completed container.writeChanges
+[2019-05-05 14:05:19.3640] - DEBUG - [Save session: 102] Completed waitUsingRecursiveRunLoop
+[2019-05-05 14:05:19.3680] - DEBUG - [Save session: 102] Completed super.save
+[2019-05-05 14:05:28.7950] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)

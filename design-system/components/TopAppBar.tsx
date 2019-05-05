@@ -5,15 +5,17 @@ import FramerXWrapper from './FramerXWrapper';
 
 // Types
 export type Props = {
+  children: React.ReactNode;
 }
 
 // Component
 export const TopAppBar: React.FC<Props> = ({
-  
+  children,
 }) =>  (
   
   <FramerXWrapper>
     <_TopAppBar>
-      </_TopAppBar>
+      {children}
+    </_TopAppBar>
     </FramerXWrapper>
 )

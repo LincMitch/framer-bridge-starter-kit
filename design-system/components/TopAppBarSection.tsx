@@ -2,24 +2,25 @@
 import * as React from "react"
 import { TopAppBarSection as _TopAppBarSection} from "@rmwc/top-app-bar"
 import '@material/top-app-bar/dist/mdc.top-app-bar.css';
-import FramerXWrapper from './FramerXWrapper';
 
 // Types
 export type Props = {
   alignEnd: boolean,
-  alignStart: boolean
+  alignStart: boolean,
+
+  children: React.ReactNode;
 }
 
 // Component
 export const TopAppBarSection: React.FC<Props> = ({
   alignEnd,
   alignStart,
+
+  children,
 }) =>  (
-  
-  <FramerXWrapper>
-    <_TopAppBarSection
+      <_TopAppBarSection
       alignEnd={alignEnd}
-      alignStart={alignStart} 
-    />
-    </FramerXWrapper>
+      alignStart={alignStart} >
+      {children}
+      </_TopAppBarSection>
 )
