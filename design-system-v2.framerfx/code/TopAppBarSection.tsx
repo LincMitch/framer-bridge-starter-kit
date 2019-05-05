@@ -34,3 +34,4 @@ export class TopAppBarSection extends React.Component<Props> {
 
   }
 }
+
