@@ -3293,6 +3293,7 @@
           "icon" : "star",
           "label" : "",
           "mini" : false,
+          "theme" : "textSecondaryOnDark",
           "trailingIcon" : ""
         },
         "codeOverrideEnabled" : false,
@@ -3337,6 +3338,65 @@
         "top" : 2965,
         "visible" : true,
         "width" : 57,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Icon.tsx_Icon",
+        "codeComponentProps" : {
+          "icon" : "star",
+          "theme" : "textPrimaryOnDark"
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 200,
+        "heightType" : 0,
+        "id" : "yuVYWMQ5i",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -1362,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 3456,
+        "visible" : true,
+        "width" : 200,
         "widthType" : 0
       }
     ],

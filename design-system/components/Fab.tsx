@@ -6,6 +6,7 @@ import {
   processIconProps
 } from "./framerx-integration";
 
+import { Theme } from "@rmwc/theme"
 
 // Types
 export type Props = {
@@ -16,6 +17,8 @@ export type Props = {
   mini?: boolean;
   ripple?: boolean;
   trailingIcon?: string;
+
+  theme?: string;
 }
 
 // Component
@@ -27,20 +30,26 @@ export const Fab: React.FC<Props> = ({
   mini,
   ripple,
   trailingIcon,
+  theme,
   ...rest
   
 } = processIconProps(this.props)) =>  (
   
   <FramerXWrapper>
-    <_Fab 
-      children={children}
-      exited={exited}
-      icon={icon}
-      label={label}
-      mini={mini}
-      ripple={ripple}
-      trailingIcon={trailingIcon}
-      {...rest} >
-    </_Fab>
+    <Theme use={theme}>
+    
+      <_Fab 
+        children={children}
+        exited={exited}
+        icon={icon}
+        label={label}
+        mini={mini}
+        ripple={ripple}
+        trailingIcon={trailingIcon}
+        {...rest} 
+        style={{ color: '#fff' }}
+        >
+      </_Fab>
+    </Theme>
   </FramerXWrapper>
 )

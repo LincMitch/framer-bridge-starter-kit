@@ -11,7 +11,8 @@ export class Fab extends React.Component<Props> {
   }
 
   static defaultProps: Props = {
-    icon: "star"
+    icon: "star",
+    theme: "onSecondary"
   }
 
   static propertyControls: PropertyControls<Props> = {
@@ -21,5 +22,7 @@ export class Fab extends React.Component<Props> {
     mini: { type: ControlType.Boolean, title: "Mini" },
     ripple: { type: ControlType.Boolean, title: "Ripple" },
     trailingIcon: { type: ControlType.String, title: "Trailing Icon" },
+
+    theme: { type: ControlType.String, title: "Theme" }
   }
 }

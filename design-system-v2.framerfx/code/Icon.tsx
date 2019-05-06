@@ -17,6 +17,7 @@ export class Icon extends React.Component<Props> {
 
   static propertyControls: PropertyControls<Props> = {
     icon: { type: ControlType.String, title: "Icon" },
+ 
     theme: { type: ControlType.String, title: "Theme" }
   }
 }
