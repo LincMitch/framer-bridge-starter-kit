@@ -1,0 +1,498 @@
+[2019-05-01 16:43:52.2200] - INFO - Reading from /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-01 16:43:52.2220] - INFO - Done reading
+[2019-05-01 16:43:52.2230] - INFO - Marking changed: false
+[2019-05-01 16:43:52.5840] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-01 16:43:53.2880] - INFO - GET 200 /design/document.json 0 B (5ms)
+[2019-05-01 16:43:56.2200] - ERROR - No installed Framer version
+[2019-05-01 16:43:59.2270] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-05-01 16:44:00.7550] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (6ms)
+[2019-05-01 16:44:15.3480] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 16:44:15.3480] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-05-01 16:44:15.3490] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-05-01 16:44:15.3760] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-05-01 16:44:15.3760] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-05-01 16:44:15.3890] - DEBUG - [Save session: 0] Completed super.save
+[2019-05-01 16:44:52.6790] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 16.44.52.zip
+[2019-05-01 16:51:13.7380] - ERROR -    35 modules
+[2019-05-01 16:51:13.7380] - ERROR - ERROR in ./code/Chip.tsx
+[2019-05-01 16:51:13.7380] - ERROR - Module not found: Error: Can't resolve '../../design-system-chips' in '/Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-01 16:51:13.9810] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 16.51.13.zip
+[2019-05-01 16:58:58.7610] - ERROR -    39 modules
+[2019-05-01 16:58:58.7610] - ERROR - ERROR in ./code/Chip.tsx
+[2019-05-01 16:58:58.7610] - ERROR - Module not found: Error: Can't resolve '../../design-system-chips' in '/Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-01 16:58:58.7610] - ERROR - ERROR in ../design-system/components/framerx-integration.ts
+[2019-05-01 16:58:58.7610] - ERROR - Module not found: Error: Can't resolve '../../design-system.framerfx/code/icons' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 16:58:58.7610] - ERROR - ERROR in ../design-system/components/Chip.tsx
+[2019-05-01 16:58:58.7610] - ERROR - Module not found: Error: Can't resolve '@material/chips/dist/mdc.chips.css' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 16:58:58.7610] - ERROR - ERROR in ../design-system/components/FramerXWrapper.tsx
+[2019-05-01 16:58:58.7610] - ERROR - Module not found: Error: Can't resolve '@material/theme/dist/mdc.theme.css' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 16:58:58.7610] - ERROR - ERROR in ../design-system/components/Chip.tsx
+[2019-05-01 16:58:58.7610] - ERROR - Module not found: Error: Can't resolve '@rmwc/Chip' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 16:58:58.7610] - ERROR - ERROR in ../design-system/components/FramerXWrapper.tsx
+[2019-05-01 16:58:58.7610] - ERROR - Module not found: Error: Can't resolve '@rmwc/theme' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 16:58:58.7610] - ERROR - ERROR in ../design-system/components/FramerXWrapper.tsx
+[2019-05-01 16:58:58.7620] - ERROR - Module not found: Error: Can't resolve 'react-helmet' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 16:59:02.9680] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation
+[2019-05-01 16:59:02.9690] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-05-01 16:59:02.9690] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-05-01 16:59:02.9810] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-05-01 16:59:02.9810] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-05-01 16:59:02.9860] - DEBUG - [Save session: 1] Completed super.save
+[2019-05-01 16:59:25.2060] - DEBUG - [Save session: 2] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 16:59:25.2060] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-05-01 16:59:25.2060] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-05-01 16:59:25.2280] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-05-01 16:59:25.2280] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-05-01 16:59:25.2440] - DEBUG - [Save session: 2] Completed super.save
+[2019-05-01 16:59:27.0840] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 16.59.27.zip
+[2019-05-01 17:01:34.8960] - ERROR -    87 modules
+[2019-05-01 17:01:34.8960] - ERROR - ERROR in ./code/Chip.tsx
+[2019-05-01 17:01:34.8960] - ERROR - Module not found: Error: Can't resolve '../../design-system-chips' in '/Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-01 17:01:34.8960] - ERROR - ERROR in ../design-system/components/framerx-integration.ts
+[2019-05-01 17:01:34.8960] - ERROR - Module not found: Error: Can't resolve '../../design-system.framerfx/code/icons' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 17:01:34.8960] - ERROR - ERROR in ../design-system/components/FramerXWrapper.tsx
+[2019-05-01 17:01:34.8960] - ERROR - Module not found: Error: Can't resolve 'react-helmet' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 17:01:54.8050] - DEBUG - [Save session: 3] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 17:01:54.8050] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-05-01 17:01:54.8050] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-05-01 17:01:54.8400] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-05-01 17:01:54.8400] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-05-01 17:01:54.8450] - DEBUG - [Save session: 3] Completed super.save
+[2019-05-01 17:02:30.6800] - ERROR -    95 modules
+[2019-05-01 17:02:30.6800] - ERROR - ERROR in ./code/Chip.tsx
+[2019-05-01 17:02:30.6800] - ERROR - Module not found: Error: Can't resolve '../../design-system-chips' in '/Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-01 17:02:30.6800] - ERROR - ERROR in ../design-system/components/framerx-integration.ts
+[2019-05-01 17:02:30.6800] - ERROR - Module not found: Error: Can't resolve '../../design-system.framerfx/code/icons' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 17:03:39.0740] - ERROR -    95 modules
+[2019-05-01 17:03:39.0750] - ERROR - ERROR in ../design-system/components/framerx-integration.ts
+[2019-05-01 17:03:39.0750] - ERROR - Module not found: Error: Can't resolve '../../design-system.framerfx/code/icons' in '/Users/virgil/framer-bridge-starter-kit/design-system/components'
+[2019-05-01 17:03:41.7090] - DEBUG - [Save session: 4] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 17:03:41.7090] - DEBUG - [Save session: 4] Before container.writeChanges
+[2019-05-01 17:03:41.7090] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2019-05-01 17:03:41.7400] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2019-05-01 17:03:41.7400] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2019-05-01 17:03:41.7510] - DEBUG - [Save session: 4] Completed super.save
+[2019-05-01 17:04:39.6050] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 17.04.39.zip
+[2019-05-01 17:06:11.5190] - DEBUG - [Save session: 5] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 17:06:11.5190] - DEBUG - [Save session: 5] Before container.writeChanges
+[2019-05-01 17:06:11.5190] - DEBUG - [Save session: 5] Before waitUsingRecursiveRunLoop
+[2019-05-01 17:06:11.5560] - DEBUG - [Save session: 5] Completed container.writeChanges
+[2019-05-01 17:06:11.5570] - DEBUG - [Save session: 5] Completed waitUsingRecursiveRunLoop
+[2019-05-01 17:06:11.5620] - DEBUG - [Save session: 5] Completed super.save
+[2019-05-01 17:06:47.1630] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 17.06.47.zip
+[2019-05-01 17:07:21.9060] - DEBUG - [Save session: 6] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 17:07:21.9060] - DEBUG - [Save session: 6] Before container.writeChanges
+[2019-05-01 17:07:21.9060] - DEBUG - [Save session: 6] Before waitUsingRecursiveRunLoop
+[2019-05-01 17:07:21.9250] - DEBUG - [Save session: 6] Completed container.writeChanges
+[2019-05-01 17:07:21.9250] - DEBUG - [Save session: 6] Completed waitUsingRecursiveRunLoop
+[2019-05-01 17:07:21.9420] - DEBUG - [Save session: 6] Completed super.save
+[2019-05-01 17:07:48.1370] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 17.07.48.zip
+[2019-05-01 17:08:21.0810] - ERROR - Received invalid response from npm.
+[2019-05-01 17:08:33.3090] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/styled-components: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-01 17:36:44.8060] - DEBUG - [Save session: 7] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 17:36:44.8060] - DEBUG - [Save session: 7] Before container.writeChanges
+[2019-05-01 17:36:44.8060] - DEBUG - [Save session: 7] Before waitUsingRecursiveRunLoop
+[2019-05-01 17:36:44.8330] - DEBUG - [Save session: 7] Completed container.writeChanges
+[2019-05-01 17:36:44.8340] - DEBUG - [Save session: 7] Completed waitUsingRecursiveRunLoop
+[2019-05-01 17:36:44.8450] - DEBUG - [Save session: 7] Completed super.save
+[2019-05-01 17:37:08.3180] - INFO - GET 200 /README.md 0 B (2ms)
+[2019-05-01 17:37:08.3210] - INFO - GET 200 /package.json 485 B (2ms)
+[2019-05-01 17:37:11.6050] - INFO - GET 200 /README.md 0 B (4ms)
+[2019-05-01 17:37:11.6060] - INFO - GET 200 /package.json 485 B (4ms)
+[2019-05-01 17:44:13.5060] - ERROR -    95 modules
+[2019-05-01 17:44:13.5060] - ERROR - ERROR in ../design-system/components/Button.tsx
+[2019-05-01 17:44:13.5060] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/virgil/framer-bridge-starter-kit/design-system/components/Button.tsx'
+[2019-05-01 17:53:01.4900] - DEBUG - [Save session: 8] Started, operation: autosaveInPlaceOperation
+[2019-05-01 17:53:01.4900] - DEBUG - [Save session: 8] Before container.writeChanges
+[2019-05-01 17:53:01.4900] - DEBUG - [Save session: 8] Before waitUsingRecursiveRunLoop
+[2019-05-01 17:53:01.5020] - DEBUG - [Save session: 8] Completed container.writeChanges
+[2019-05-01 17:53:01.5020] - DEBUG - [Save session: 8] Completed waitUsingRecursiveRunLoop
+[2019-05-01 17:53:01.5090] - DEBUG - [Save session: 8] Completed super.save
+[2019-05-01 17:53:28.3800] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 17.53.28.zip
+[2019-05-01 17:54:29.4240] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 17.54.29.zip
+[2019-05-01 17:54:33.0230] - DEBUG - [Save session: 9] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 17:54:33.0230] - DEBUG - [Save session: 9] Before container.writeChanges
+[2019-05-01 17:54:33.0230] - DEBUG - [Save session: 9] Before waitUsingRecursiveRunLoop
+[2019-05-01 17:54:33.0470] - DEBUG - [Save session: 9] Completed container.writeChanges
+[2019-05-01 17:54:33.0480] - DEBUG - [Save session: 9] Completed waitUsingRecursiveRunLoop
+[2019-05-01 17:54:33.0960] - DEBUG - [Save session: 9] Completed super.save
+[2019-05-01 17:55:15.3410] - INFO - GET 200 /package.json 484 B (4ms)
+[2019-05-01 17:55:15.3410] - INFO - GET 200 /README.md 0 B (3ms)
+[2019-05-01 17:55:15.3410] - INFO - GET 200 /package.json 484 B (3ms)
+[2019-05-01 17:55:15.3410] - INFO - GET 200 /README.md 0 B (5ms)
+[2019-05-01 17:55:22.0550] - INFO - GET 200 /README.md 0 B (2ms)
+[2019-05-01 17:55:22.0560] - INFO - GET 200 /package.json 485 B (2ms)
+[2019-05-01 17:55:22.0570] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-01 17:55:22.0580] - INFO - GET 200 /package.json 485 B (1ms)
+[2019-05-01 17:55:30.4310] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 17.55.30.zip
+[2019-05-01 17:57:34.4820] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 17.57.34.zip
+[2019-05-01 18:10:49.5600] - ERROR -    95 modules
+[2019-05-01 18:10:49.5600] - ERROR - ERROR in ../design-system/components/Button.tsx
+[2019-05-01 18:10:49.5600] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/virgil/framer-bridge-starter-kit/design-system/components/Button.tsx'
+[2019-05-01 18:12:39.5020] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 18.12.39.zip
+[2019-05-01 18:13:39.5500] - DEBUG - [Save session: 10] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 18:13:39.5510] - DEBUG - [Save session: 10] Before container.writeChanges
+[2019-05-01 18:13:39.5510] - DEBUG - [Save session: 10] Before waitUsingRecursiveRunLoop
+[2019-05-01 18:13:39.7030] - DEBUG - [Save session: 10] Completed waitUsingRecursiveRunLoop
+[2019-05-01 18:13:39.7130] - DEBUG - [Save session: 10] Completed super.save
+[2019-05-01 18:17:01.4810] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 18.17.01.zip
+[2019-05-01 18:17:51.3900] - DEBUG - [Save session: 11] Started, operation: saveOperation
+[2019-05-01 18:17:51.3900] - DEBUG - [Save session: 11] Before container.writeChanges
+[2019-05-01 18:17:51.3910] - DEBUG - [Save session: 11] Before waitUsingRecursiveRunLoop
+[2019-05-01 18:17:51.4050] - DEBUG - [Save session: 11] Completed container.writeChanges
+[2019-05-01 18:17:51.4060] - DEBUG - [Save session: 11] Completed waitUsingRecursiveRunLoop
+[2019-05-01 18:17:51.4080] - INFO - Marking changed: false
+[2019-05-01 18:17:51.4120] - DEBUG - [Save session: 11] Completed super.save
+[2019-05-01 18:18:02.4130] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 18.18.02.zip
+[2019-05-01 18:30:55.8930] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-01 18:31:08.1800] - ERROR - Received invalid response from npm.
+[2019-05-01 18:33:00.4660] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/styled-components: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-01 18:33:06.6830] - ERROR - Received invalid response from npm.
+[2019-05-01 18:33:27.4100] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 18.33.27.zip
+[2019-05-01 18:34:54.5230] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/styled-components: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-01 18:35:06.7220] - ERROR - Received invalid response from npm.
+[2019-05-01 18:35:34.3150] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 18.35.34.zip
+[2019-05-01 18:36:12.1250] - DEBUG - [Save session: 12] Started, operation: autosaveInPlaceOperation
+[2019-05-01 18:36:12.1250] - DEBUG - [Save session: 12] Before container.writeChanges
+[2019-05-01 18:36:12.1250] - DEBUG - [Save session: 12] Before waitUsingRecursiveRunLoop
+[2019-05-01 18:36:12.1410] - DEBUG - [Save session: 12] Completed container.writeChanges
+[2019-05-01 18:36:12.1410] - DEBUG - [Save session: 12] Completed waitUsingRecursiveRunLoop
+[2019-05-01 18:36:12.1530] - DEBUG - [Save session: 12] Completed super.save
+[2019-05-01 18:36:52.9990] - ERROR -    100 modules
+[2019-05-01 18:36:52.9990] - ERROR - ERROR in ../design-system/components/Elevation.tsx
+[2019-05-01 18:36:52.9990] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (21:99)
+[2019-05-01 18:36:52.9990] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-01 18:36:52.9990] - ERROR - |     var { transition, wrap, z, selected } = _a, rest = __rest(_a, ["transition", "wrap", "z", "selected"]);
+[2019-05-01 18:36:52.9990] - ERROR - |     return (React.createElement(FramerXWrapper_1.default, null,
+[2019-05-01 18:36:52.9990] - ERROR - |         React.createElement(Elevation_1.Elevation, Object.assign({ style: { width: "100px", height = "100px", backgroud: "red" }, transition: transition, wrap: wrap, z: z }, rest))));
+[2019-05-01 18:36:52.9990] - ERROR - | };
+[2019-05-01 18:36:52.9990] - ERROR - | exports.__info__ = [{ name: "Elevation", children: false, type: "component" }];
+[2019-05-01 18:36:54.5350] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-01 18:37:06.7220] - ERROR - Received invalid response from npm.
+[2019-05-01 18:37:47.6870] - ERROR -    103 modules
+[2019-05-01 18:37:47.6870] - ERROR - ERROR in Elevation.tsx
+[2019-05-01 18:37:47.6870] - ERROR - ../design-system/components/Elevation.tsx
+[2019-05-01 18:37:47.6870] - ERROR - [tsl] ERROR in Elevation.tsx(29,26)
+[2019-05-01 18:37:47.6870] - ERROR -       TS1005: ',' expected.
+[2019-05-01 18:38:05.6230] - ERROR -    100 modules
+[2019-05-01 18:38:05.6230] - ERROR - ERROR in ../design-system/components/Elevation.tsx
+[2019-05-01 18:38:05.6230] - ERROR - Module parse failed: Unexpected token (21:13)
+[2019-05-01 18:38:05.6230] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-01 18:38:05.6230] - ERROR - |     var { transition, wrap, z, selected } = _a, rest = __rest(_a, ["transition", "wrap", "z", "selected"]);
+[2019-05-01 18:38:05.6230] - ERROR - |     return (React.createElement(FramerXWrapper_1.default, { style: { width: "100px", height = "100px", backgroud: "red" } },
+[2019-05-01 18:38:05.6230] - ERROR - |         React.createElement(Elevation_1.Elevation, Object.assign({ transition: transition, wrap: wrap, z: z }, rest))));
+[2019-05-01 18:38:05.6230] - ERROR - | };
+[2019-05-01 18:38:05.6230] - ERROR - | exports.__info__ = [{ name: "Elevation", children: false, type: "component" }];
+[2019-05-01 18:38:42.8260] - ERROR -    100 modules
+[2019-05-01 18:38:42.8260] - ERROR - ERROR in ../design-system/components/Elevation.tsx
+[2019-05-01 18:38:42.8260] - ERROR - Module parse failed: Unexpected token (21:13)
+[2019-05-01 18:38:42.8260] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-01 18:38:42.8260] - ERROR - |     var { transition, wrap, z, selected } = _a, rest = __rest(_a, ["transition", "wrap", "z", "selected"]);
+[2019-05-01 18:38:42.8260] - ERROR - |     return (React.createElement(FramerXWrapper_1.default, { style: { width: "100px", height = "100px", backgroud: "red" } },
+[2019-05-01 18:38:42.8260] - ERROR - |         React.createElement(Elevation_1.Elevation, Object.assign({ transition: transition, wrap: wrap, z: z }, rest), " kdfslkd fks df")));
+[2019-05-01 18:38:42.8260] - ERROR - | };
+[2019-05-01 18:38:42.8260] - ERROR - | exports.__info__ = [{ name: "Elevation", children: false, type: "component" }];
+[2019-05-01 18:38:54.4990] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/styled-components: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-01 18:39:06.6690] - ERROR - Received invalid response from npm.
+[2019-05-01 18:39:18.6320] - ERROR -    100 modules
+[2019-05-01 18:39:18.6320] - ERROR - ERROR in ../design-system/components/Elevation.tsx
+[2019-05-01 18:39:18.6320] - ERROR - Module parse failed: Shorthand property assignments are valid only in destructuring patterns (22:73)
+[2019-05-01 18:39:18.6320] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-01 18:39:18.6320] - ERROR - |     return (React.createElement(FramerXWrapper_1.default, null,
+[2019-05-01 18:39:18.6330] - ERROR - |         React.createElement(Elevation_1.Elevation, Object.assign({ transition: transition, wrap: wrap, z: z }, rest),
+[2019-05-01 18:39:18.6330] - ERROR - |             React.createElement("div", { style: { width: "100px", height = "100px", backgroud: "red" } }, "asdasdas dasd asd a"))));
+[2019-05-01 18:39:18.6330] - ERROR - | };
+[2019-05-01 18:39:18.6330] - ERROR - | exports.__info__ = [{ name: "Elevation", children: false, type: "component" }];
+[2019-05-01 18:40:54.5880] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-01 18:41:06.7100] - ERROR - Received invalid response from npm.
+[2019-05-01 18:41:38.4080] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 18.41.38.zip
+[2019-05-01 18:42:33.4640] - DEBUG - [Save session: 13] Started, operation: autosaveInPlaceOperation
+[2019-05-01 18:42:33.4640] - DEBUG - [Save session: 13] Before container.writeChanges
+[2019-05-01 18:42:33.4640] - DEBUG - [Save session: 13] Before waitUsingRecursiveRunLoop
+[2019-05-01 18:42:33.4790] - DEBUG - [Save session: 13] Completed container.writeChanges
+[2019-05-01 18:42:33.4800] - DEBUG - [Save session: 13] Completed waitUsingRecursiveRunLoop
+[2019-05-01 18:42:33.4880] - DEBUG - [Save session: 13] Completed super.save
+[2019-05-01 18:42:39.3200] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 18.42.39.zip
+[2019-05-01 18:42:54.5350] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-01 18:42:56.3520] - DEBUG - [Save session: 14] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 18:42:56.3520] - DEBUG - [Save session: 14] Before container.writeChanges
+[2019-05-01 18:42:56.3520] - DEBUG - [Save session: 14] Before waitUsingRecursiveRunLoop
+[2019-05-01 18:42:56.3700] - DEBUG - [Save session: 14] Completed container.writeChanges
+[2019-05-01 18:42:56.3710] - DEBUG - [Save session: 14] Completed waitUsingRecursiveRunLoop
+[2019-05-01 18:42:56.3910] - DEBUG - [Save session: 14] Completed super.save
+[2019-05-01 18:43:06.7110] - ERROR - Received invalid response from npm.
+[2019-05-01 18:43:17.2650] - DEBUG - [Save session: 15] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 18:43:17.2650] - DEBUG - [Save session: 15] Before container.writeChanges
+[2019-05-01 18:43:17.2650] - DEBUG - [Save session: 15] Before waitUsingRecursiveRunLoop
+[2019-05-01 18:43:17.2840] - DEBUG - [Save session: 15] Completed container.writeChanges
+[2019-05-01 18:43:17.2840] - DEBUG - [Save session: 15] Completed waitUsingRecursiveRunLoop
+[2019-05-01 18:43:17.3030] - DEBUG - [Save session: 15] Completed super.save
+[2019-05-01 18:43:39.3850] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 18.43.39.zip
+[2019-05-01 20:14:44.9160] - DEBUG - [Save session: 16] Started, operation: autosaveInPlaceOperation
+[2019-05-01 20:14:44.9160] - DEBUG - [Save session: 16] Before container.writeChanges
+[2019-05-01 20:14:44.9160] - DEBUG - [Save session: 16] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:14:44.9280] - DEBUG - [Save session: 16] Completed container.writeChanges
+[2019-05-01 20:14:44.9280] - DEBUG - [Save session: 16] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:14:44.9350] - DEBUG - [Save session: 16] Completed super.save
+[2019-05-01 20:19:50.2760] - DEBUG - [Save session: 17] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:19:50.2770] - DEBUG - [Save session: 17] Before container.writeChanges
+[2019-05-01 20:19:50.2770] - DEBUG - [Save session: 17] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:19:50.3040] - DEBUG - [Save session: 17] Completed container.writeChanges
+[2019-05-01 20:19:50.3050] - DEBUG - [Save session: 17] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:19:50.3420] - DEBUG - [Save session: 17] Completed super.save
+[2019-05-01 20:20:07.7730] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.20.07.zip
+[2019-05-01 20:24:11.3800] - DEBUG - [Save session: 18] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:24:11.3800] - DEBUG - [Save session: 18] Before container.writeChanges
+[2019-05-01 20:24:11.3800] - DEBUG - [Save session: 18] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:24:11.5320] - DEBUG - [Save session: 18] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:24:11.5420] - DEBUG - [Save session: 18] Completed super.save
+[2019-05-01 20:25:39.2190] - DEBUG - [Save session: 19] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:25:39.2190] - DEBUG - [Save session: 19] Before container.writeChanges
+[2019-05-01 20:25:39.2190] - DEBUG - [Save session: 19] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:25:39.2500] - DEBUG - [Save session: 19] Completed container.writeChanges
+[2019-05-01 20:25:39.2500] - DEBUG - [Save session: 19] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:25:39.3180] - DEBUG - [Save session: 19] Completed super.save
+[2019-05-01 20:26:15.2860] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.26.15.zip
+[2019-05-01 20:26:22.5460] - DEBUG - [Save session: 20] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:26:22.5460] - DEBUG - [Save session: 20] Before container.writeChanges
+[2019-05-01 20:26:22.5460] - DEBUG - [Save session: 20] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:26:22.5780] - DEBUG - [Save session: 20] Completed container.writeChanges
+[2019-05-01 20:26:22.5780] - DEBUG - [Save session: 20] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:26:22.6500] - DEBUG - [Save session: 20] Completed super.save
+[2019-05-01 20:26:58.1050] - DEBUG - [Save session: 21] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:26:58.1050] - DEBUG - [Save session: 21] Before container.writeChanges
+[2019-05-01 20:26:58.1050] - DEBUG - [Save session: 21] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:26:58.1360] - DEBUG - [Save session: 21] Completed container.writeChanges
+[2019-05-01 20:26:58.1360] - DEBUG - [Save session: 21] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:26:58.1800] - DEBUG - [Save session: 21] Completed super.save
+[2019-05-01 20:27:15.4790] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.27.15.zip
+[2019-05-01 20:29:51.5140] - DEBUG - [Save session: 22] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:29:51.5140] - DEBUG - [Save session: 22] Before container.writeChanges
+[2019-05-01 20:29:51.5140] - DEBUG - [Save session: 22] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:29:51.5440] - DEBUG - [Save session: 22] Completed container.writeChanges
+[2019-05-01 20:29:51.5440] - DEBUG - [Save session: 22] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:29:51.6050] - DEBUG - [Save session: 22] Completed super.save
+[2019-05-01 20:30:17.5270] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.30.17.zip
+[2019-05-01 20:30:55.5100] - DEBUG - [Save session: 23] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:30:55.5100] - DEBUG - [Save session: 23] Before container.writeChanges
+[2019-05-01 20:30:55.5100] - DEBUG - [Save session: 23] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:30:55.5410] - DEBUG - [Save session: 23] Completed container.writeChanges
+[2019-05-01 20:30:55.5420] - DEBUG - [Save session: 23] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:30:55.5970] - DEBUG - [Save session: 23] Completed super.save
+[2019-05-01 20:31:18.4380] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.31.18.zip
+[2019-05-01 20:31:49.0850] - DEBUG - [Save session: 24] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:31:49.0850] - DEBUG - [Save session: 24] Before container.writeChanges
+[2019-05-01 20:31:49.0850] - DEBUG - [Save session: 24] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:31:49.1180] - DEBUG - [Save session: 24] Completed container.writeChanges
+[2019-05-01 20:31:49.1180] - DEBUG - [Save session: 24] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:31:49.1730] - DEBUG - [Save session: 24] Completed super.save
+[2019-05-01 20:32:18.5220] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.32.18.zip
+[2019-05-01 20:35:38.9330] - DEBUG - [Save session: 25] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:35:38.9330] - DEBUG - [Save session: 25] Before container.writeChanges
+[2019-05-01 20:35:38.9330] - DEBUG - [Save session: 25] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:35:39.0850] - DEBUG - [Save session: 25] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:35:39.0880] - DEBUG - [Save session: 25] Completed super.save
+[2019-05-01 20:35:41.6660] - DEBUG - [Save session: 25] Completed container.writeChanges
+[2019-05-01 20:36:09.8050] - DEBUG - [Save session: 26] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:36:09.8050] - DEBUG - [Save session: 26] Before container.writeChanges
+[2019-05-01 20:36:09.8050] - DEBUG - [Save session: 26] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:36:09.8330] - DEBUG - [Save session: 26] Completed container.writeChanges
+[2019-05-01 20:36:09.8330] - DEBUG - [Save session: 26] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:36:09.8840] - DEBUG - [Save session: 26] Completed super.save
+[2019-05-01 20:36:24.5090] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.36.24.zip
+[2019-05-01 20:37:57.3010] - DEBUG - [Save session: 27] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:37:57.3010] - DEBUG - [Save session: 27] Before container.writeChanges
+[2019-05-01 20:37:57.3010] - DEBUG - [Save session: 27] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:37:57.3320] - DEBUG - [Save session: 27] Completed container.writeChanges
+[2019-05-01 20:37:57.3320] - DEBUG - [Save session: 27] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:37:57.3910] - DEBUG - [Save session: 27] Completed super.save
+[2019-05-01 20:39:49.4900] - DEBUG - [Save session: 28] Started, operation: autosaveInPlaceOperation
+[2019-05-01 20:39:49.4900] - DEBUG - [Save session: 28] Before container.writeChanges
+[2019-05-01 20:39:49.4900] - DEBUG - [Save session: 28] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:39:59.4930] - DEBUG - [Save session: 28] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:39:59.5790] - DEBUG - [Save session: 29] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:39:59.5790] - DEBUG - [Save session: 29] Before container.writeChanges
+[2019-05-01 20:39:59.5790] - DEBUG - [Save session: 29] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:39:59.7330] - DEBUG - [Save session: 29] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:39:59.7420] - DEBUG - [Save session: 29] Completed super.save
+[2019-05-01 20:40:14.3500] - INFO - Invalidated
+[2019-05-01 20:40:22.6450] - INFO - Reading from /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-01 20:40:22.7810] - INFO - Done reading
+[2019-05-01 20:40:22.7820] - INFO - Marking changed: false
+[2019-05-01 20:40:22.8750] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-01 20:40:24.1850] - INFO - GET 200 /design/document.json 0 B (5ms)
+[2019-05-01 20:40:31.0480] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (4ms)
+[2019-05-01 20:40:33.8550] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (6ms)
+[2019-05-01 20:41:22.8690] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.41.22.zip
+[2019-05-01 20:47:03.0440] - INFO - Reading from /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-01 20:47:03.2110] - INFO - Done reading
+[2019-05-01 20:47:03.2120] - INFO - Marking changed: false
+[2019-05-01 20:47:03.5400] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-01 20:47:07.0410] - INFO - GET 200 /design/document.json 0 B (10ms)
+[2019-05-01 20:47:12.6050] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (7ms)
+[2019-05-01 20:48:47.7340] - INFO - Reading from /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-01 20:48:47.7890] - INFO - Done reading
+[2019-05-01 20:48:47.7900] - INFO - Marking changed: false
+[2019-05-01 20:48:48.2050] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-01 20:48:50.2070] - INFO - GET 200 /design/document.json 0 B (5ms)
+[2019-05-01 20:48:57.0630] - ERROR - Project might be incompatible with this Framer X version (1.0.0-beta.13 is not listed as compatible version in "^0.10")
+[2019-05-01 20:48:57.0630] - ERROR - Try selecting the Built-In Framer Library version from the File menu.
+[2019-05-01 20:48:58.7740] - INFO - Marking changed: false
+[2019-05-01 20:48:59.6530] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (10ms)
+[2019-05-01 20:48:59.9770] - ERROR - Project might be incompatible with this Framer X version (1.0.0-beta.13 is not listed as compatible version in "^0.10")
+[2019-05-01 20:48:59.9770] - ERROR - Try selecting the Built-In Framer Library version from the File menu.
+[2019-05-01 20:50:30.2980] - INFO - Reading from /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-01 20:50:30.3410] - INFO - Done reading
+[2019-05-01 20:50:30.3420] - INFO - Marking changed: false
+[2019-05-01 20:50:30.6780] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-01 20:50:31.7420] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-05-01 20:50:37.3050] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (5ms)
+[2019-05-01 20:50:39.9060] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (13ms)
+[2019-05-01 20:51:09.7950] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:51:09.7950] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-05-01 20:51:09.7950] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:51:09.8370] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-05-01 20:51:09.8370] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:51:09.8480] - DEBUG - [Save session: 0] Completed super.save
+[2019-05-01 20:51:30.7640] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.51.30.zip
+[2019-05-01 20:55:41.7590] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.55.41.zip
+[2019-05-01 20:55:49.5650] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:55:49.5650] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-05-01 20:55:49.5650] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:55:49.6490] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-05-01 20:55:49.6490] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:55:49.6570] - DEBUG - [Save session: 1] Completed super.save
+[2019-05-01 20:56:42.7520] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.56.42.zip
+[2019-05-01 20:57:43.4430] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.57.43.zip
+[2019-05-01 20:58:38.4820] - DEBUG - [Save session: 2] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-01 20:58:38.4820] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-05-01 20:58:38.4820] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-05-01 20:58:38.4970] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-05-01 20:58:38.4970] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-05-01 20:58:38.5010] - DEBUG - [Save session: 2] Completed super.save
+[2019-05-01 20:58:43.7240] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-01 20.58.43.zip
+[2019-05-02 06:11:59.4410] - ERROR - Received invalid response from npm.
+[2019-05-02 06:12:11.6450] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 06:13:59.4040] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 06:14:11.5390] - ERROR - Received invalid response from npm.
+[2019-05-02 06:15:59.4190] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/styled-components: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 06:16:11.5730] - ERROR - Received invalid response from npm.
+[2019-05-02 06:17:08.3230] - DEBUG - [Save session: 3] Started, operation: autosaveInPlaceOperation
+[2019-05-02 06:17:08.3230] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-05-02 06:17:08.3230] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-05-02 06:17:08.3400] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-05-02 06:17:08.3400] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-05-02 06:17:08.3600] - DEBUG - [Save session: 3] Completed super.save
+[2019-05-02 06:17:59.3940] - ERROR - Received invalid response from npm.
+[2019-05-02 06:18:11.5510] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/styled-components: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 06:18:27.8170] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 06.18.27.zip
+[2019-05-02 06:19:59.4340] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 06:20:11.5800] - ERROR - Received invalid response from npm.
+[2019-05-02 06:20:28.8210] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 06.20.28.zip
+[2019-05-02 06:21:29.8300] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 06.21.29.zip
+[2019-05-02 06:38:15.2000] - ERROR - Received invalid response from npm.
+[2019-05-02 06:38:27.4530] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 07:04:43.6270] - DEBUG - [Save session: 4] Started, operation: autosaveInPlaceOperation
+[2019-05-02 07:04:43.6270] - DEBUG - [Save session: 4] Before container.writeChanges
+[2019-05-02 07:04:43.6270] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:04:43.6480] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2019-05-02 07:04:43.6480] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:04:43.6540] - DEBUG - [Save session: 4] Completed super.save
+[2019-05-02 07:05:10.6500] - DEBUG - [Save session: 5] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 07:05:10.6500] - DEBUG - [Save session: 5] Before container.writeChanges
+[2019-05-02 07:05:10.6500] - DEBUG - [Save session: 5] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:05:10.6820] - DEBUG - [Save session: 5] Completed container.writeChanges
+[2019-05-02 07:05:10.6820] - DEBUG - [Save session: 5] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:05:10.6900] - DEBUG - [Save session: 5] Completed super.save
+[2019-05-02 07:05:11.8040] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 07.05.11.zip
+[2019-05-02 07:08:22.3420] - DEBUG - [Save session: 6] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 07:08:22.3430] - DEBUG - [Save session: 6] Before container.writeChanges
+[2019-05-02 07:08:22.3430] - DEBUG - [Save session: 6] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:08:22.3760] - DEBUG - [Save session: 6] Completed container.writeChanges
+[2019-05-02 07:08:22.3760] - DEBUG - [Save session: 6] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:08:22.3840] - DEBUG - [Save session: 6] Completed super.save
+[2019-05-02 07:08:22.7010] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 07.08.22.zip
+[2019-05-02 07:20:19.7970] - ERROR - Received invalid response from npm.
+[2019-05-02 07:21:49.7390] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 07:22:01.8780] - ERROR - Received invalid response from npm.
+[2019-05-02 07:23:23.0550] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 07.23.23.zip
+[2019-05-02 07:23:49.7380] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 07:24:01.9400] - ERROR - Received invalid response from npm.
+[2019-05-02 07:24:07.7590] - DEBUG - [Save session: 7] Started, operation: saveOperation
+[2019-05-02 07:24:07.7590] - DEBUG - [Save session: 7] Before container.writeChanges
+[2019-05-02 07:24:07.7590] - DEBUG - [Save session: 7] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:24:07.7720] - DEBUG - [Save session: 7] Completed container.writeChanges
+[2019-05-02 07:24:07.7720] - DEBUG - [Save session: 7] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:24:07.7740] - INFO - Marking changed: false
+[2019-05-02 07:24:07.7780] - DEBUG - [Save session: 7] Completed super.save
+[2019-05-02 07:24:24.0420] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 07.24.24.zip
+[2019-05-02 07:45:29.5050] - ERROR - Received invalid response from npm.
+[2019-05-02 07:46:54.5560] - DEBUG - [Save session: 8] Started, operation: autosaveInPlaceOperation
+[2019-05-02 07:46:54.5560] - DEBUG - [Save session: 8] Before container.writeChanges
+[2019-05-02 07:46:54.5560] - DEBUG - [Save session: 8] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:46:54.5700] - DEBUG - [Save session: 8] Completed container.writeChanges
+[2019-05-02 07:46:54.5710] - DEBUG - [Save session: 8] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:46:54.5760] - DEBUG - [Save session: 8] Completed super.save
+[2019-05-02 07:47:54.7000] - DEBUG - [Save session: 9] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 07:47:54.7000] - DEBUG - [Save session: 9] Before container.writeChanges
+[2019-05-02 07:47:54.7000] - DEBUG - [Save session: 9] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:47:54.7160] - DEBUG - [Save session: 9] Completed container.writeChanges
+[2019-05-02 07:47:54.7160] - DEBUG - [Save session: 9] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:47:54.7230] - DEBUG - [Save session: 9] Completed super.save
+[2019-05-02 07:48:15.0690] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 07.48.15.zip
+[2019-05-02 07:48:45.0910] - DEBUG - [Save session: 10] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 07:48:45.0910] - DEBUG - [Save session: 10] Before container.writeChanges
+[2019-05-02 07:48:45.0910] - DEBUG - [Save session: 10] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:48:45.1230] - DEBUG - [Save session: 10] Completed container.writeChanges
+[2019-05-02 07:48:45.1230] - DEBUG - [Save session: 10] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:48:45.1390] - DEBUG - [Save session: 10] Completed super.save
+[2019-05-02 07:49:15.8140] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 07.49.15.zip
+[2019-05-02 07:50:11.3200] - DEBUG - [Save session: 11] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 07:50:11.3200] - DEBUG - [Save session: 11] Before container.writeChanges
+[2019-05-02 07:50:11.3200] - DEBUG - [Save session: 11] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:50:11.3510] - DEBUG - [Save session: 11] Completed container.writeChanges
+[2019-05-02 07:50:11.3510] - DEBUG - [Save session: 11] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:50:11.3660] - DEBUG - [Save session: 11] Completed super.save
+[2019-05-02 07:50:16.6570] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 07.50.16.zip
+[2019-05-02 07:50:31.0990] - DEBUG - [Save session: 12] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 07:50:31.0990] - DEBUG - [Save session: 12] Before container.writeChanges
+[2019-05-02 07:50:31.0990] - DEBUG - [Save session: 12] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:50:31.1120] - DEBUG - [Save session: 12] Completed container.writeChanges
+[2019-05-02 07:50:31.1120] - DEBUG - [Save session: 12] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:50:31.1300] - DEBUG - [Save session: 12] Completed super.save
+[2019-05-02 07:50:57.1070] - DEBUG - [Save session: 13] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 07:50:57.1070] - DEBUG - [Save session: 13] Before container.writeChanges
+[2019-05-02 07:50:57.1070] - DEBUG - [Save session: 13] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:50:57.1290] - DEBUG - [Save session: 13] Completed container.writeChanges
+[2019-05-02 07:50:57.1290] - DEBUG - [Save session: 13] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:50:57.1640] - DEBUG - [Save session: 13] Completed super.save
+[2019-05-02 07:51:16.7900] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 07.51.16.zip
+[2019-05-02 07:53:16.1730] - DEBUG - [Save session: 14] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-02 07:53:16.1730] - DEBUG - [Save session: 14] Before container.writeChanges
+[2019-05-02 07:53:16.1730] - DEBUG - [Save session: 14] Before waitUsingRecursiveRunLoop
+[2019-05-02 07:53:16.2090] - DEBUG - [Save session: 14] Completed container.writeChanges
+[2019-05-02 07:53:16.2090] - DEBUG - [Save session: 14] Completed waitUsingRecursiveRunLoop
+[2019-05-02 07:53:16.2240] - DEBUG - [Save session: 14] Completed super.save
+[2019-05-02 07:53:17.7950] - INFO - Backing up to /Users/virgil/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-02 07.53.17.zip
+[2019-05-02 08:01:38.8110] - ERROR - /Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js:78224
+[2019-05-02 08:01:38.8110] - ERROR -     compromised = compromised || function (err) { throw err; };
+[2019-05-02 08:01:38.8110] - ERROR -                                                   ^
+[2019-05-02 08:01:38.8110] - ERROR - Error: Unable to update lock within the stale threshold
+[2019-05-02 08:01:38.8110] - ERROR -     at options.fs.utimes (/Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js:78146:66)
+[2019-05-02 08:01:38.8120] - ERROR -     at FSReqWrap.oncomplete (fs.js:141:20)
+[2019-05-02 08:01:38.8170] - ERROR - /Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js:78224
+[2019-05-02 08:01:38.8170] - ERROR -     compromised = compromised || function (err) { throw err; };
+[2019-05-02 08:01:38.8170] - ERROR -                                                   ^
+[2019-05-02 08:01:38.8170] - ERROR - Error: Unable to update lock within the stale threshold
+[2019-05-02 08:01:38.8170] - ERROR -     at options.fs.utimes (/Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js:78146:66)
+[2019-05-02 08:01:38.8170] - ERROR -     at FSReqWrap.oncomplete (fs.js:141:20)
+[2019-05-02 08:03:28.1690] - ERROR - /Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js:78224
+[2019-05-02 08:03:28.1690] - ERROR -     compromised = compromised || function (err) { throw err; };
+[2019-05-02 08:03:28.1690] - ERROR -                                                   ^
+[2019-05-02 08:03:28.1700] - ERROR - Error: ENOENT: no such file or directory, utime '/Users/virgil/Library/Caches/Framer/yarn/mutex.lock'
+[2019-05-02 08:04:39.6600] - ERROR - Received invalid response from npm.
+[2019-05-02 08:04:39.6600] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/styled-components: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 08:04:39.6600] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/styled-components: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 08:04:39.6600] - ERROR - Received invalid response from npm.
+[2019-05-02 08:04:41.4050] - ERROR - An unexpected error occurred: "https://registry.yarnpkg.com/@types%2freact: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443".
+[2019-05-02 08:04:53.5320] - ERROR - Received invalid response from npm.

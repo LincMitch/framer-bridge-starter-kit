@@ -9,7 +9,7 @@ import {
 
 // Types
 export type Props = {
-  children?: object;
+  children?: React.ReactNode;
   exited?: boolean;
   icon?: string;
   label?: string;

@@ -1,7 +1,7 @@
 export default {
   options: {
     primary: "#0099FF",
-    secondary: "red",
+    secondary: "#08183C",
     error: "#b00020",
     background: "#fff",
     surface: "#fff",

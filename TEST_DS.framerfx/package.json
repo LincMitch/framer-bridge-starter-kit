@@ -1,0 +1,19 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"framer": "^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "efee517a-0c26-48b8-83d2-bef4788d22a5",
+		"displayName": "TES_DS"
+	},
+	"author": "Lincoln Mitchell",
+	"name": "@framer/interfacesncreatives.tes_ds",
+	"version": "1.0.0"
+}
