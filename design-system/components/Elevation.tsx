@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Elevation as _Elevation} from "@rmwc/Elevation"
+import { Elevation as _Elevation} from "@rmwc/elevation"
 import '@material/elevation/dist/mdc.elevation.css';
 
 

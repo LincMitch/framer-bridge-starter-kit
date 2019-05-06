@@ -3,8 +3,6 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 
 type Props = System.IconProps & {
-  width: number
-  height: number
 }
 
 export class Icon extends React.Component<Props> {
@@ -13,8 +11,6 @@ export class Icon extends React.Component<Props> {
   }
 
   static defaultProps: Props = {
-    width: 150,
-    height: 48,
     icon: "star",
     theme: ""
   }
