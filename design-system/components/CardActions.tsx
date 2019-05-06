@@ -17,8 +17,8 @@ export const CardActions: React.FC<Props> = ({
 }) =>  (
   
   <FramerXWrapper>
-    <_CardActions
-      children={children}
-    />
-    </FramerXWrapper>
+    <_CardActions>
+      {children}
+    </_CardActions>
+  </FramerXWrapper>
 )

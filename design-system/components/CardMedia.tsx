@@ -6,12 +6,14 @@ import '@material/card/dist/mdc.card.css';
 export type Props = {
   sixteenByNine?: boolean;
   square?: boolean;
+  children: React.ReactNode;
 }
 
 // Component
 export const CardMedia: React.FC<Props> = ({
   sixteenByNine,
   square,
+  children,
   ...rest
   
 } ) =>  (
@@ -21,13 +23,14 @@ export const CardMedia: React.FC<Props> = ({
       sixteenByNine={sixteenByNine}
       square={square}
       style={{
-        width: "100%",
-        height: "100%",
+        width: "auto",
+        height: "150px",
         backgroundImage:
           'url(https://material-components-web.appspot.com/images/16-9.jpg)'
       }}
       {...rest} 
       >
+      {children}
       </_CardMedia>
 
 )

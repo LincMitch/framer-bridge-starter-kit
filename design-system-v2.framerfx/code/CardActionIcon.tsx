@@ -1,8 +1,10 @@
 import * as React from "react"
 import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
+import { cloneFrameless } from "../../design-system-v2.framerfx/node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils";
 
 type Props = System.CardActionIconProps & {
+
 }
 
 export class CardActionIcon extends React.Component<Props> {
@@ -11,6 +13,7 @@ export class CardActionIcon extends React.Component<Props> {
   }
 
   static defaultProps: Props = {
+
   }
 
   static propertyControls: PropertyControls<Props> = {

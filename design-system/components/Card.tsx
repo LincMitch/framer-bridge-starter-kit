@@ -16,9 +16,9 @@ export const Card: React.FC<Props> = ({
   children,
 }) =>  (
   
-  <FramerXWrapper>
-    <_Card
-      children={children}
-    />
-    </FramerXWrapper>
+<FramerXWrapper>
+  <_Card>
+    {children}
+  </_Card>
+</FramerXWrapper>
 )
