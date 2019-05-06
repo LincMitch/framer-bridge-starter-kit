@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Fab as _Fab} from "@rmwc/Fab"
+import { Fab as _Fab} from "@rmwc/fab"
 import '@material/fab/dist/mdc.fab.css'
 import FramerXWrapper from './FramerXWrapper';
 import {
@@ -41,6 +41,6 @@ export const Fab: React.FC<Props> = ({
       ripple={ripple}
       trailingIcon={trailingIcon}
       {...rest} >
-      </_Fab>
-    </FramerXWrapper>
+    </_Fab>
+  </FramerXWrapper>
 )
