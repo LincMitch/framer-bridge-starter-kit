@@ -3,6 +3,7 @@ import { Toolbar as _Toolbar} from "@rmwc/toolbar"
 import '@material/toolbar/dist/mdc.toolbar.css';
 import FramerXWrapper from './FramerXWrapper';
 
+import { Theme } from "@rmwc/theme"
 // Types
 export type Props = {
   fixed?: string;
@@ -10,6 +11,8 @@ export type Props = {
   flexible?: boolean;
   flexibleDefaultBehavior?: string;
   waterfall?: string;
+
+  theme?: string;
 }
 
 // Component
@@ -19,6 +22,7 @@ export const Toolbar: React.FC<Props> = (
   fixedLastrowOnly,
   flexible,
   waterfall,
+  theme,
   ...rest
 } 
 
@@ -27,14 +31,16 @@ export const Toolbar: React.FC<Props> = (
 
   return (
   <FramerXWrapper>
-    <_Toolbar 
-      fixed={fixed}
-      fixedLastrowOnly={fixedLastrowOnly}
-      flexible={flexible}
-      waterfall={waterfall}
-      {...rest} >
-      
-    </_Toolbar>
+    <Theme use={theme}>
+      <_Toolbar 
+        fixed={fixed}
+        fixedLastrowOnly={fixedLastrowOnly}
+        flexible={flexible}
+        waterfall={waterfall}
+        {...rest} >
+        
+      </_Toolbar>
+    </Theme>
   </FramerXWrapper>
 );
 };

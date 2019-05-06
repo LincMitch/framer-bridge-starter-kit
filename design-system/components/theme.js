@@ -23,7 +23,8 @@ export default {
     textSecondaryOnDark: "rgba(255, 255, 255, 0.7)",
     textHintOnDark: "rgba(255, 255, 255, 0.5)",
     textDisabledOnDark: "rgba(255, 255, 255, 0.5)",
-    textIconOnDark: "rgba(255, 255, 255, 0.5)"
+    textIconOnDark: "rgba(255, 255, 255, 0.5)",
+    white_10percent: "rgba(255,255,255,0.1)",
 
     //// Dark theme
     // primary: "#24aee9",
