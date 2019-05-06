@@ -6,11 +6,16 @@ import FramerXWrapper from './FramerXWrapper';
 // Types
 export type Props = {
   children: React.ReactNode;
+
+  theme?: string;
+  background?: string;
 }
 
 // Component
 export const TopAppBar: React.FC<Props> = ({
   children,
+  theme,
+  background,
 }) =>  (
   
   <FramerXWrapper>

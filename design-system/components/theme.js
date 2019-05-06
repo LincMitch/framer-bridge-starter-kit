@@ -77,7 +77,12 @@ export default {
     "textIconOnDark"
   ],
   buttonThemes: {
-    primary: ["primaryBg", "onPrimary"],
+    primaryx: ["primaryBg", "onPrimary"],
     secondary: ["secondaryBg", "onSecondary"]
+  },
+  topAppBarThemes: {
+    secondary: ["primaryBg", "onPrimary"],
+    primary: ["secondaryBg", "onSecondary"],
+    overlay: ["white_10percent", "white_10percent"]
   }
 };

@@ -3,6 +3,11 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 import { cloneFrameless } from "../../design-system-v2.framerfx/node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils";
 
+import {
+  themePropertyControls,
+} from "../../design-system/components/framerx-integration";
+
+
 type Props = System.TopAppBarProps & {
   topAppBarRows: string[];
   externalTopAppBarRows: React.ReactNode;
@@ -37,6 +42,8 @@ export class TopAppBar extends React.Component<Props> {
       type: ControlType.Number,
       title: "Index",
       min: 0
-    }
+    },
+    ...themePropertyControls("topAppBar")
+    
   }
 }

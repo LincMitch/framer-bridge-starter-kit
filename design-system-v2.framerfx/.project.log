@@ -6133,3 +6133,568 @@
 [2019-05-06 14:46:49.2950] - ERROR - ../design-system/components/CircularProgress.tsx
 [2019-05-06 14:46:49.2950] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
 [2019-05-06 14:46:49.2950] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 14:51:04.7880] - ERROR -    463 modules
+[2019-05-06 14:51:04.7880] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 14:51:04.7880] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 14:51:04.7880] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 14:51:04.7880] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 14:51:04.7880] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 14:51:04.7880] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 14:51:04.7880] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 14:51:04.7880] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 14:51:04.7880] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 14:51:04.7880] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 14:53:32.7840] - ERROR -    463 modules
+[2019-05-06 14:53:32.7840] - ERROR - WARNING in TopAppBar.tsx
+[2019-05-06 14:53:32.7840] - ERROR - ./code/TopAppBar.tsx
+[2019-05-06 14:53:32.7840] - ERROR - [tsl] ERROR in TopAppBar.tsx(43,5)
+[2019-05-06 14:53:32.7840] - ERROR -       TS1005: ',' expected.
+[2019-05-06 14:53:32.7840] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 14:53:32.7840] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 14:53:32.7840] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 14:53:32.7840] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 14:53:32.7840] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 14:53:32.7840] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 14:53:32.7840] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 14:53:32.7840] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 14:53:32.7840] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 14:53:32.7840] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 14:53:59.3190] - ERROR -    463 modules
+[2019-05-06 14:53:59.3200] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 14:53:59.3200] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 14:53:59.3200] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 14:53:59.3200] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 14:53:59.3200] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 14:53:59.3200] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 14:53:59.3200] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 14:53:59.3200] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 14:53:59.3200] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 14:53:59.3200] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 14:53:59.3200] - ERROR - ERROR in TopAppBar.tsx
+[2019-05-06 14:53:59.3200] - ERROR - ./code/TopAppBar.tsx
+[2019-05-06 14:53:59.3200] - ERROR - [tsl] ERROR in TopAppBar.tsx(43,5)
+[2019-05-06 14:53:59.3200] - ERROR -       TS1005: ',' expected.
+[2019-05-06 14:54:30.0050] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 14.54.30.zip
+[2019-05-06 14:56:26.4560] - ERROR -    463 modules
+[2019-05-06 14:56:26.4560] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 14:56:26.4560] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 14:56:26.4560] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 14:56:26.4560] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 14:56:26.4570] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 14:56:26.4570] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 14:56:26.4570] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 14:56:26.4570] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 14:56:26.4570] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 14:56:26.4570] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 14:56:34.4550] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 14.56.34.zip
+[2019-05-06 14:57:16.8750] - DEBUG - [Save session: 18] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-06 14:57:16.8750] - DEBUG - [Save session: 18] Before container.writeChanges
+[2019-05-06 14:57:16.8750] - DEBUG - [Save session: 18] Before waitUsingRecursiveRunLoop
+[2019-05-06 14:57:16.8960] - DEBUG - [Save session: 18] Completed container.writeChanges
+[2019-05-06 14:57:16.8970] - DEBUG - [Save session: 18] Completed waitUsingRecursiveRunLoop
+[2019-05-06 14:57:16.9000] - DEBUG - [Save session: 18] Completed super.save
+[2019-05-06 14:57:34.9970] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 14.57.34.zip
+[2019-05-06 14:58:06.8660] - DEBUG - [Save session: 19] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-06 14:58:06.8660] - DEBUG - [Save session: 19] Before container.writeChanges
+[2019-05-06 14:58:06.8660] - DEBUG - [Save session: 19] Before waitUsingRecursiveRunLoop
+[2019-05-06 14:58:06.8900] - DEBUG - [Save session: 19] Completed container.writeChanges
+[2019-05-06 14:58:06.8900] - DEBUG - [Save session: 19] Completed waitUsingRecursiveRunLoop
+[2019-05-06 14:58:06.8970] - DEBUG - [Save session: 19] Completed super.save
+[2019-05-06 14:58:14.2380] - ERROR -    463 modules
+[2019-05-06 14:58:14.2380] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 14:58:14.2380] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 14:58:14.2380] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 14:58:14.2380] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 14:58:14.2380] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 14:58:14.2380] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 14:58:14.2380] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 14:58:14.2380] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 14:58:14.2380] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 14:58:14.2380] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 14:58:35.9760] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 14.58.35.zip
+[2019-05-06 15:00:26.9580] - DEBUG - [Save session: 20] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-06 15:00:26.9590] - DEBUG - [Save session: 20] Before container.writeChanges
+[2019-05-06 15:00:26.9590] - DEBUG - [Save session: 20] Before waitUsingRecursiveRunLoop
+[2019-05-06 15:00:26.9800] - DEBUG - [Save session: 20] Completed container.writeChanges
+[2019-05-06 15:00:26.9800] - DEBUG - [Save session: 20] Completed waitUsingRecursiveRunLoop
+[2019-05-06 15:00:26.9830] - DEBUG - [Save session: 20] Completed super.save
+[2019-05-06 15:00:37.9650] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.00.37.zip
+[2019-05-06 15:01:04.0060] - INFO - GET 404 /node_modules/@framer/lintonye.learnreactdesign-ds/metadata/icon.png 206 B (1ms)
+[2019-05-06 15:01:38.9730] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.01.38.zip
+[2019-05-06 15:01:53.2320] - ERROR -    463 modules
+[2019-05-06 15:01:53.2320] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:01:53.2320] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:01:53.2320] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:01:53.2320] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:01:53.2320] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:01:53.2320] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:01:53.2320] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:01:53.2320] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:01:53.2320] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:01:53.2320] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:02:00.0290] - ERROR -    463 modules
+[2019-05-06 15:02:00.0300] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:02:00.0300] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:02:00.0300] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:02:00.0300] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:02:00.0300] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:02:00.0300] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:02:00.0300] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:02:00.0300] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:02:00.0300] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:02:00.0300] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:02:24.6790] - ERROR -    463 modules
+[2019-05-06 15:02:24.6790] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:02:24.6790] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:02:24.6790] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:02:24.6790] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:02:24.6790] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:02:24.6790] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:02:24.6790] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:02:24.6790] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:02:24.6790] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:02:24.6790] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:02:39.9620] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.02.39.zip
+[2019-05-06 15:03:40.9540] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.03.40.zip
+[2019-05-06 15:04:25.3880] - ERROR -    463 modules
+[2019-05-06 15:04:25.3880] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:04:25.3880] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:04:25.3880] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:04:25.3880] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:04:25.3880] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:04:25.3880] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:04:25.3880] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:04:25.3880] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:04:25.3880] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:04:25.3880] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:05:11.6010] - ERROR -    463 modules
+[2019-05-06 15:05:11.6010] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:05:11.6010] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:05:11.6010] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:05:11.6010] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:05:11.6010] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:05:11.6010] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:05:11.6010] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:05:11.6010] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:05:11.6010] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:05:11.6010] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:06:27.2250] - ERROR -    463 modules
+[2019-05-06 15:06:27.2250] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:06:27.2250] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:06:27.2250] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:06:27.2250] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:06:27.2250] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:06:27.2250] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:06:27.2250] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:06:27.2250] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:06:27.2250] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:06:27.2250] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:06:41.9970] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.06.41.zip
+[2019-05-06 15:08:44.5100] - ERROR -    463 modules
+[2019-05-06 15:08:44.5100] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:08:44.5100] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:08:44.5100] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:08:44.5100] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:08:44.5100] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:08:44.5100] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:08:44.5100] - ERROR - ERROR in ../design-system/components/TopAppBar.tsx
+[2019-05-06 15:08:44.5100] - ERROR - Module parse failed: Unexpected token (15:0)
+[2019-05-06 15:08:44.5100] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-06 15:08:44.5100] - ERROR - |         children)));
+[2019-05-06 15:08:44.5100] - ERROR - | FramerXWrapper_1.default >
+[2019-05-06 15:08:44.5100] - ERROR - | ;
+[2019-05-06 15:08:44.5100] - ERROR - | exports.__info__ = [{ name: "TopAppBar", children: true, type: "component" }];
+[2019-05-06 15:08:44.5100] - ERROR - | 
+[2019-05-06 15:08:44.5100] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:08:44.5100] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:08:44.5100] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:08:44.5100] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:08:44.5100] - ERROR - ERROR in TopAppBar.tsx
+[2019-05-06 15:08:44.5100] - ERROR - ../design-system/components/TopAppBar.tsx
+[2019-05-06 15:08:44.5100] - ERROR - [tsl] ERROR in TopAppBar.tsx(25,42)
+[2019-05-06 15:08:44.5100] - ERROR -       TS1003: Identifier expected.
+[2019-05-06 15:08:44.5100] - ERROR - ERROR in TopAppBar.tsx
+[2019-05-06 15:08:44.5100] - ERROR - ../design-system/components/TopAppBar.tsx
+[2019-05-06 15:08:44.5100] - ERROR - [tsl] ERROR in TopAppBar.tsx(27,5)
+[2019-05-06 15:08:44.5100] - ERROR -       TS17002: Expected corresponding JSX closing tag for 'Theme'.
+[2019-05-06 15:08:44.5100] - ERROR - ERROR in TopAppBar.tsx
+[2019-05-06 15:08:44.5100] - ERROR - ../design-system/components/TopAppBar.tsx
+[2019-05-06 15:08:44.5110] - ERROR - [tsl] ERROR in TopAppBar.tsx(28,5)
+[2019-05-06 15:08:44.5110] - ERROR -       TS17002: Expected corresponding JSX closing tag for 'FramerXWrapper'.
+[2019-05-06 15:08:44.5110] - ERROR - ERROR in TopAppBar.tsx
+[2019-05-06 15:08:44.5110] - ERROR - ../design-system/components/TopAppBar.tsx
+[2019-05-06 15:08:44.5110] - ERROR - [tsl] ERROR in TopAppBar.tsx(29,5)
+[2019-05-06 15:08:44.5110] - ERROR -       TS1005: ')' expected.
+[2019-05-06 15:08:44.5110] - ERROR - ERROR in TopAppBar.tsx
+[2019-05-06 15:08:44.5110] - ERROR - ../design-system/components/TopAppBar.tsx
+[2019-05-06 15:08:44.5110] - ERROR - [tsl] ERROR in TopAppBar.tsx(30,1)
+[2019-05-06 15:08:44.5110] - ERROR -       TS1109: Expression expected.
+[2019-05-06 15:08:56.0110] - ERROR -    463 modules
+[2019-05-06 15:08:56.0110] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:08:56.0110] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:08:56.0110] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:08:56.0110] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:08:56.0110] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:08:56.0110] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:08:56.0110] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:08:56.0110] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:08:56.0110] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:08:56.0110] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:12:11.1180] - ERROR -    463 modules
+[2019-05-06 15:12:11.1180] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:12:11.1180] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:12:11.1190] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:12:11.1190] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:12:11.1190] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:12:11.1190] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:12:11.1190] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:12:11.1190] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:12:11.1190] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:12:11.1190] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:25:17.3300] - ERROR -    463 modules
+[2019-05-06 15:25:17.3300] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:25:17.3300] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:25:17.3300] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:25:17.3310] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:25:17.3310] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:25:17.3310] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:25:17.3310] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:25:17.3310] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:25:17.3310] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:25:17.3310] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:31:48.0510] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.31.48.zip
+[2019-05-06 15:31:52.6130] - ERROR -    464 modules
+[2019-05-06 15:31:52.6130] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:31:52.6130] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:31:52.6140] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:31:52.6140] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:31:52.6140] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:31:52.6140] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:31:52.6140] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:31:52.6140] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:31:52.6140] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:31:52.6140] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:31:52.6140] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:31:52.6140] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:32:20.9020] - ERROR -    464 modules
+[2019-05-06 15:32:20.9020] - ERROR - WARNING in TopAppBar.tsx
+[2019-05-06 15:32:20.9020] - ERROR - ./code/TopAppBar.tsx
+[2019-05-06 15:32:20.9020] - ERROR - [tsl] ERROR in TopAppBar.tsx(45,5)
+[2019-05-06 15:32:20.9020] - ERROR -       TS1005: ',' expected.
+[2019-05-06 15:32:20.9020] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:32:20.9020] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:32:20.9020] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:32:20.9020] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:32:20.9020] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:32:20.9020] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:32:20.9020] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:32:20.9030] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:32:20.9030] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:32:20.9030] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:32:20.9030] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:32:20.9030] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:32:24.7830] - DEBUG - [Save session: 21] Started, operation: autosaveInPlaceOperation
+[2019-05-06 15:32:24.7830] - DEBUG - [Save session: 21] Before container.writeChanges
+[2019-05-06 15:32:24.7830] - DEBUG - [Save session: 21] Before waitUsingRecursiveRunLoop
+[2019-05-06 15:32:24.8060] - DEBUG - [Save session: 21] Completed container.writeChanges
+[2019-05-06 15:32:24.8070] - DEBUG - [Save session: 21] Completed waitUsingRecursiveRunLoop
+[2019-05-06 15:32:24.8110] - DEBUG - [Save session: 21] Completed super.save
+[2019-05-06 15:32:36.5410] - ERROR -    464 modules
+[2019-05-06 15:32:36.5410] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:32:36.5410] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:32:36.5410] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:32:36.5410] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:32:36.5410] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:32:36.5410] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:32:36.5410] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:32:36.5410] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:32:36.5410] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:32:36.5410] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:32:36.5410] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:32:36.5410] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:32:48.6300] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.32.48.zip
+[2019-05-06 15:32:53.2500] - ERROR -    464 modules
+[2019-05-06 15:32:53.2500] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:32:53.2500] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:32:53.2500] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:32:53.2500] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:32:53.2500] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:32:53.2500] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:32:53.2500] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:32:53.2500] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:32:53.2500] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:32:53.2500] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:32:53.2510] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:32:53.2510] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:33:14.3470] - ERROR -    464 modules
+[2019-05-06 15:33:14.3470] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:33:14.3470] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:33:14.3470] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:33:14.3470] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:33:14.3470] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:33:14.3470] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:33:14.3470] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:33:14.3470] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:33:14.3470] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:33:14.3470] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:33:14.3470] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:33:14.3470] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:33:34.1310] - ERROR -    464 modules
+[2019-05-06 15:33:34.1310] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:33:34.1310] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:33:34.1310] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:33:34.1310] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:33:34.1310] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:33:34.1310] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:33:34.1320] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:33:34.1320] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:33:34.1320] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:33:34.1320] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:33:34.1320] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:33:34.1320] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:33:55.9650] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.33.55.zip
+[2019-05-06 15:36:23.3950] - ERROR -    464 modules
+[2019-05-06 15:36:23.3950] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:36:23.3950] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:36:23.3950] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:36:23.3950] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:36:23.3950] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:36:23.3950] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:36:23.3960] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:36:23.3960] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:36:23.3960] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:36:23.3960] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:36:23.3960] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:36:23.3960] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:37:06.3130] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.37.06.zip
+[2019-05-06 15:42:14.2070] - ERROR -    464 modules
+[2019-05-06 15:42:14.2070] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:42:14.2070] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:42:14.2070] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:42:14.2070] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:42:14.2070] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:42:14.2070] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:42:14.2070] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:42:14.2070] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:42:14.2070] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:42:14.2070] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:42:14.2070] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:42:14.2070] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:42:43.9520] - ERROR -    464 modules
+[2019-05-06 15:42:43.9520] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:42:43.9520] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:42:43.9520] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:42:43.9520] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:42:43.9520] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:42:43.9520] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:42:43.9520] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:42:43.9520] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:42:43.9520] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:42:43.9520] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:42:43.9520] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:42:43.9530] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:42:51.5230] - ERROR -    464 modules
+[2019-05-06 15:42:51.5230] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:42:51.5230] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:42:51.5230] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:42:51.5230] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:42:51.5230] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:42:51.5230] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:42:51.5230] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:42:51.5230] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:42:51.5230] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:42:51.5230] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:42:51.5230] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:42:51.5230] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:42:57.4700] - ERROR -    464 modules
+[2019-05-06 15:42:57.4700] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:42:57.4700] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:42:57.4700] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:42:57.4700] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:42:57.4700] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:42:57.4700] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:42:57.4700] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:42:57.4700] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:42:57.4700] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:42:57.4700] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:42:57.4700] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:42:57.4700] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:44:37.1380] - ERROR -    464 modules
+[2019-05-06 15:44:37.1380] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:44:37.1380] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:44:37.1380] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:44:37.1390] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:44:37.1390] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:44:37.1390] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:44:37.1390] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:44:37.1390] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:44:37.1390] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:44:37.1390] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:44:37.1390] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:44:37.1390] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:45:31.9820] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.45.31.zip
+[2019-05-06 15:47:57.3450] - ERROR -    464 modules
+[2019-05-06 15:47:57.3450] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:47:57.3450] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:47:57.3450] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:47:57.3450] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:47:57.3450] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:47:57.3450] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:47:57.3450] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:47:57.3450] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:47:57.3450] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:47:57.3450] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:47:57.3450] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:47:57.3450] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:48:33.9730] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.48.33.zip
+[2019-05-06 15:48:43.0770] - ERROR -    464 modules
+[2019-05-06 15:48:43.0770] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:48:43.0770] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:48:43.0770] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:48:43.0770] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:48:43.0770] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:48:43.0770] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:48:43.0770] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:48:43.0770] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:48:43.0770] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:48:43.0770] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:48:43.0770] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:48:43.0770] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:49:29.3720] - ERROR -    464 modules
+[2019-05-06 15:49:29.3720] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:49:29.3720] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:49:29.3720] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:49:29.3720] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:49:29.3720] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:49:29.3720] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:49:29.3720] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:49:29.3720] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:49:29.3720] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:49:29.3720] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:49:29.3720] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:49:29.3720] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:49:43.2590] - DEBUG - [Save session: 22] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-06 15:49:43.2590] - DEBUG - [Save session: 22] Before container.writeChanges
+[2019-05-06 15:49:43.2590] - DEBUG - [Save session: 22] Before waitUsingRecursiveRunLoop
+[2019-05-06 15:49:43.2870] - DEBUG - [Save session: 22] Completed container.writeChanges
+[2019-05-06 15:49:43.2870] - DEBUG - [Save session: 22] Completed waitUsingRecursiveRunLoop
+[2019-05-06 15:49:43.2910] - DEBUG - [Save session: 22] Completed super.save
+[2019-05-06 15:50:14.5860] - ERROR -    464 modules
+[2019-05-06 15:50:14.5860] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:50:14.5860] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:50:14.5860] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:50:14.5860] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:50:14.5860] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:50:14.5860] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:50:14.5860] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:50:14.5860] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:50:14.5860] - ERROR - ERROR in ../design-system/components/theme.js
+[2019-05-06 15:50:14.5860] - ERROR - Module parse failed: Unexpected token (86:4)
+[2019-05-06 15:50:14.5860] - ERROR - You may need an appropriate loader to handle this file type.
+[2019-05-06 15:50:14.5860] - ERROR - |     secondary: ["primaryBg", "onPrimary"],
+[2019-05-06 15:50:14.5860] - ERROR - |     primary: ["secondaryBg", "onSecondary"]
+[2019-05-06 15:50:14.5860] - ERROR - |     overlay: ["secondaryBg", "onSecondary"]
+[2019-05-06 15:50:14.5860] - ERROR - |   }
+[2019-05-06 15:50:14.5870] - ERROR - | };
+[2019-05-06 15:50:14.5870] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:50:14.5870] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:50:14.5870] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:50:14.5870] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:50:16.8980] - ERROR -    464 modules
+[2019-05-06 15:50:16.8980] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:50:16.8980] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:50:16.8980] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:50:16.8980] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:50:16.8980] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:50:16.8980] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:50:16.8980] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:50:16.8980] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:50:16.8980] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:50:16.8980] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:50:16.8980] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:50:16.8980] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:50:29.3710] - DEBUG - [Save session: 23] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-06 15:50:29.3710] - DEBUG - [Save session: 23] Before container.writeChanges
+[2019-05-06 15:50:29.3710] - DEBUG - [Save session: 23] Before waitUsingRecursiveRunLoop
+[2019-05-06 15:50:29.3980] - DEBUG - [Save session: 23] Completed container.writeChanges
+[2019-05-06 15:50:29.3990] - DEBUG - [Save session: 23] Completed waitUsingRecursiveRunLoop
+[2019-05-06 15:50:29.4030] - DEBUG - [Save session: 23] Completed super.save
+[2019-05-06 15:50:34.2480] - ERROR -    464 modules
+[2019-05-06 15:50:34.2480] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:50:34.2480] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:50:34.2480] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:50:34.2480] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:50:34.2480] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:50:34.2480] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:50:34.2480] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:50:34.2480] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:50:34.2480] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:50:34.2480] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:50:34.2480] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:50:34.2490] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:50:35.0640] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.50.35.zip
+[2019-05-06 15:50:46.5820] - DEBUG - [Save session: 24] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-06 15:50:46.5820] - DEBUG - [Save session: 24] Before container.writeChanges
+[2019-05-06 15:50:46.5820] - DEBUG - [Save session: 24] Before waitUsingRecursiveRunLoop
+[2019-05-06 15:50:46.6090] - DEBUG - [Save session: 24] Completed container.writeChanges
+[2019-05-06 15:50:46.6090] - DEBUG - [Save session: 24] Completed waitUsingRecursiveRunLoop
+[2019-05-06 15:50:46.6120] - DEBUG - [Save session: 24] Completed super.save
+[2019-05-06 15:50:54.9210] - ERROR -    464 modules
+[2019-05-06 15:50:54.9210] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:50:54.9210] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:50:54.9210] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:50:54.9210] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:50:54.9210] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:50:54.9210] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:50:54.9210] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:50:54.9210] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:50:54.9210] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:50:54.9210] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:50:54.9210] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:50:54.9210] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:51:02.2430] - DEBUG - [Save session: 25] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-06 15:51:02.2430] - DEBUG - [Save session: 25] Before container.writeChanges
+[2019-05-06 15:51:02.2430] - DEBUG - [Save session: 25] Before waitUsingRecursiveRunLoop
+[2019-05-06 15:51:02.2680] - DEBUG - [Save session: 25] Completed container.writeChanges
+[2019-05-06 15:51:02.2680] - DEBUG - [Save session: 25] Completed waitUsingRecursiveRunLoop
+[2019-05-06 15:51:02.2720] - DEBUG - [Save session: 25] Completed super.save
+[2019-05-06 15:51:35.4490] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.51.35.zip
+[2019-05-06 15:52:08.8430] - ERROR -    464 modules
+[2019-05-06 15:52:08.8430] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:52:08.8430] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:52:08.8430] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:52:08.8430] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:52:08.8430] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:52:08.8430] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:52:08.8430] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:52:08.8430] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:52:08.8430] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:52:08.8430] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:52:08.8430] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:52:08.8430] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:52:20.3380] - DEBUG - [Save session: 26] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-06 15:52:20.3390] - DEBUG - [Save session: 26] Before container.writeChanges
+[2019-05-06 15:52:20.3390] - DEBUG - [Save session: 26] Before waitUsingRecursiveRunLoop
+[2019-05-06 15:52:20.3660] - DEBUG - [Save session: 26] Completed container.writeChanges
+[2019-05-06 15:52:20.3660] - DEBUG - [Save session: 26] Completed waitUsingRecursiveRunLoop
+[2019-05-06 15:52:20.3720] - DEBUG - [Save session: 26] Completed super.save
+[2019-05-06 15:52:35.9350] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-06 15.52.35.zip
+[2019-05-06 15:53:10.6440] - ERROR -    464 modules
+[2019-05-06 15:53:10.6440] - ERROR - ERROR in ../design-system/components/Toolbar.tsx
+[2019-05-06 15:53:10.6440] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/Toolbar.tsx'
+[2019-05-06 15:53:10.6440] - ERROR - ERROR in ../design-system/components/ToolbarRow.tsx
+[2019-05-06 15:53:10.6440] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarRow.tsx'
+[2019-05-06 15:53:10.6440] - ERROR - ERROR in ../design-system/components/ToolbarTitle.tsx
+[2019-05-06 15:53:10.6440] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/ToolbarTitle.tsx'
+[2019-05-06 15:53:10.6440] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-06 15:53:10.6440] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-06 15:53:10.6440] - ERROR - ERROR in CircularProgress.tsx
+[2019-05-06 15:53:10.6440] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-06 15:53:10.6440] - ERROR - [tsl] ERROR in CircularProgress.tsx(2,78)
+[2019-05-06 15:53:10.6440] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-06 15:53:25.1150] - DEBUG - [Save session: 27] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-06 15:53:25.1150] - DEBUG - [Save session: 27] Before container.writeChanges
+[2019-05-06 15:53:25.1150] - DEBUG - [Save session: 27] Before waitUsingRecursiveRunLoop
+[2019-05-06 15:53:25.1420] - DEBUG - [Save session: 27] Completed container.writeChanges
+[2019-05-06 15:53:25.1420] - DEBUG - [Save session: 27] Completed waitUsingRecursiveRunLoop
+[2019-05-06 15:53:25.1500] - DEBUG - [Save session: 27] Completed super.save
