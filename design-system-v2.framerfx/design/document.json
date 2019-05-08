@@ -3577,7 +3577,7 @@
         "id" : "j8wxRw7NI",
         "intrinsicHeight" : 48,
         "intrinsicWidth" : 150,
-        "left" : -1437,
+        "left" : -1485,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -3593,7 +3593,7 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 2768,
+        "top" : 2816,
         "visible" : true,
         "width" : 56,
         "widthType" : 0
