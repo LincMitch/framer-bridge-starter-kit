@@ -42897,7 +42897,7 @@ var map = {
 	"./CardMediaContent.tsx": "./code/CardMediaContent.tsx",
 	"./CardPrimaryAction.tsx": "./code/CardPrimaryAction.tsx",
 	"./Checkbox.tsx": "./code/Checkbox.tsx",
-	"./Chip.tsx": "./code/Chip.tsx",
+	"./Chip2.tsx": "./code/Chip2.tsx",
 	"./CircularProgress.tsx": "./code/CircularProgress.tsx",
 	"./DataTable.tsx": "./code/DataTable.tsx",
 	"./DataTableBody.tsx": "./code/DataTableBody.tsx",
@@ -43617,31 +43617,31 @@ exports.__info__ = [{ name: "Checkbox", children: false, type: "component" }];
 
 /***/ }),
 
-/***/ "./code/Chip.tsx":
-/*!***********************!*\
-  !*** ./code/Chip.tsx ***!
-  \***********************/
+/***/ "./code/Chip2.tsx":
+/*!************************!*\
+  !*** ./code/Chip2.tsx ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hpcC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvQ2hpcC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwrQkFBOEI7QUFDOUIsOENBQTZDO0FBSzdDLE1BQWEsSUFBSyxTQUFRLEtBQUssQ0FBQyxTQUFnQjtJQUM5QyxNQUFNOztRQUNKLE9BQU8sb0JBQUMsTUFBTSxDQUFDLEtBQUssb0JBQUssSUFBSSxDQUFDLEtBQUssRUFBSSxDQUFBO0tBQ3hDOztBQUVNLGlCQUFZLEdBQVU7SUFDM0IsS0FBSyxFQUFFLE9BQU87Q0FDZixDQUFBO0FBUEgsb0JBU0M7QUFDRCJ9
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hpcDIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9jb2RlL0NoaXAyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtCQUE4QjtBQUM5Qiw4Q0FBNkM7QUFLN0MsTUFBYSxLQUFNLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQy9DLE1BQU07O1FBQ0osT0FBTyxvQkFBQyxNQUFNLENBQUMsS0FBSyxvQkFBSyxJQUFJLENBQUMsS0FBSyxFQUFJLENBQUE7S0FDeEM7O0FBRU0sa0JBQVksR0FBVTtJQUMzQixLQUFLLEVBQUUsT0FBTztDQUNmLENBQUE7QUFQSCxzQkFTQztBQUNEIn0=
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
-class Chip extends React.Component {
+class Chip2 extends React.Component {
     render() {
         window["__checkBudget__"]();
         return React.createElement(System.Chip2, Object.assign({}, this.props));
     }
 }
-Chip.defaultProps = {
+Chip2.defaultProps = {
     label: "label",
 };
-exports.Chip = Chip;
-exports.__info__ = [{ name: "Chip", children: false, type: "component" }];
+exports.Chip2 = Chip2;
+exports.__info__ = [{ name: "Chip2", children: false, type: "component" }];
 
 
 /***/ }),

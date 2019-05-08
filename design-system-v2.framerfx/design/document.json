@@ -3548,7 +3548,7 @@
 
         ],
         "clip" : true,
-        "codeComponentIdentifier" : ".\/Chip.tsx_Chip",
+        "codeComponentIdentifier" : ".\/Chip2.tsx_Chip2",
         "codeComponentProps" : {
 
         },
@@ -3572,12 +3572,12 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 34,
+        "height" : 52,
         "heightType" : 0,
-        "id" : "j8wxRw7NI",
-        "intrinsicHeight" : 48,
-        "intrinsicWidth" : 150,
-        "left" : -1496,
+        "id" : "Zok8AHpBG",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -1642,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -3593,9 +3593,9 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 2775,
+        "top" : 2500,
         "visible" : true,
-        "width" : 253,
+        "width" : 252,
         "widthType" : 0
       }
     ],

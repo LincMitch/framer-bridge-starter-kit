@@ -4,7 +4,7 @@ import * as System from "../../design-system"
 type Props = System.ChipProps & {
 }
 
-export class Chip extends React.Component<Props> {
+export class Chip2 extends React.Component<Props> {
   render() {
     return <System.Chip2 {...this.props} />
   }
