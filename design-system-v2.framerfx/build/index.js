@@ -2397,9 +2397,12 @@ __webpack_require__(/*! @material/chips/dist/mdc.chips.css */ "../node_modules/@
 const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
 // Component
 exports.Chip2 = ({}) => (React.createElement(FramerXWrapper_1.default, null,
-    React.createElement(chip_1.Chip, { label: "label" })));
+    React.createElement(chip_1.ChipSet, null,
+        React.createElement(chip_1.Chip, { label: "Cookies" }),
+        React.createElement(chip_1.Chip, { label: "Pizza" }),
+        React.createElement(chip_1.Chip, { label: "Icecream" }))));
 exports.__info__ = [{ name: "Chip2", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hpcDIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvQ2hpcDIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsK0JBQThCO0FBQzlCLHFDQUFnQztBQUNoQyw4Q0FBNEM7QUFDNUMscURBQThDO0FBRzlDLFlBQVk7QUFDQyxRQUFBLEtBQUssR0FBYSxDQUFDLEVBRS9CLEVBQUUsRUFBRSxDQUFFLENBRUwsb0JBQUMsd0JBQWM7SUFDYixvQkFBQyxXQUFJLElBQ0gsS0FBSyxFQUFDLE9BQU8sR0FDYixDQUNhLENBQ2xCLENBQUE7QUFBQSJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hpcDIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvQ2hpcDIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsK0JBQThCO0FBQzlCLHFDQUF3QztBQUN4Qyw4Q0FBNEM7QUFDNUMscURBQThDO0FBRzlDLFlBQVk7QUFDQyxRQUFBLEtBQUssR0FBYSxDQUFDLEVBRS9CLEVBQUUsRUFBRSxDQUFFLENBRUwsb0JBQUMsd0JBQWM7SUFDYixvQkFBQyxjQUFPO1FBQ04sb0JBQUMsV0FBSSxJQUFDLEtBQUssRUFBQyxTQUFTLEdBQUc7UUFDeEIsb0JBQUMsV0FBSSxJQUFDLEtBQUssRUFBQyxPQUFPLEdBQUc7UUFDdEIsb0JBQUMsV0FBSSxJQUFDLEtBQUssRUFBQyxVQUFVLEdBQUcsQ0FDakIsQ0FDSyxDQUNsQixDQUFBO0FBQUEifQ==
 
 /***/ }),
 
