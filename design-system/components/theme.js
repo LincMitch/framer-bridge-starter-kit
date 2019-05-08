@@ -24,7 +24,7 @@ export default {
     textHintOnDark: "rgba(255, 255, 255, 0.5)",
     textDisabledOnDark: "rgba(255, 255, 255, 0.5)",
     textIconOnDark: "rgba(255, 255, 255, 0.5)",
-    white_10percent: "rgba(255,255,255,0.1)",
+    whitePercent: "lime",
 
     //// Dark theme
     // primary: "#24aee9",
@@ -77,12 +77,12 @@ export default {
     "textIconOnDark"
   ],
   buttonThemes: {
-    primaryx: ["primaryBg", "onPrimary"],
+    primary: ["primaryBg", "onPrimary"],
     secondary: ["secondaryBg", "onSecondary"]
   },
   topAppBarThemes: {
-    secondary: ["primaryBg", "onPrimary"],
-    primary: ["secondaryBg", "onSecondary"],
-    overlay: ["white_10percent", "white_10percent"]
+    primary: ["primaryBg", "onPrimary"],
+    secondary: ["secondaryBg", "onSecondary"],
+
   }
 };

@@ -2,6 +2,11 @@ import * as React from "react"
 import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 
+import {
+  themePropertyControls,
+} from "../../design-system/components/framerx-integration";
+
+
 type Props = System.TypographyProps & {
 }
 
@@ -14,12 +19,13 @@ export class Typography extends React.Component<Props> {
     use: "headline6",
     text: "Text",
     color: "#000",
-    theme: "primary"
+    theme: "overlay"
   }
 
   static propertyControls: PropertyControls<Props> = {
     use: { type: ControlType.String, title: "Use" },
     text: { type: ControlType.String, title: "Text" },
-    theme: { type: ControlType.String, title: "Theme" }
+    theme: { type: ControlType.String, title: "Theme" },
+    ...themePropertyControls("topAppBar")
   }
 }

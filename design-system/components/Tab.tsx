@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Tab as _Tab} from "@rmwc/tabs"
-import '@material/Tab/dist/mdc.Tab.css';
+import '@material/tab/dist/mdc.tab.css';
 import FramerXWrapper from './FramerXWrapper';
 import {
   processIconProps
@@ -9,10 +9,10 @@ import {
 
 // Types
 export type Props = {
-  children?: string;
+  children?: React.ReactNode;
   icon?: string;
   label?: string;
-  onInteraction?: boolean;
+  // onInteraction?: boolean;
   restrictIndicator?: boolean;
   stacked?: boolean;
 }
@@ -22,7 +22,7 @@ export const Tab: React.FC<Props> = ({
   children,
   icon,
   label,
-  onInteraction,
+  // onInteraction,
   restrictIndicator,
   stacked,
   ...rest
@@ -34,7 +34,7 @@ export const Tab: React.FC<Props> = ({
       children={children}
       icon={icon}
       label={label}
-      onInteraction={onInteraction}
+      // onInteraction={onInteraction}
       restrictIndicator={restrictIndicator}
       stacked={stacked}
       {...rest} >

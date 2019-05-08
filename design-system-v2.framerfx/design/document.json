@@ -43,6 +43,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -71,6 +72,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "b4u6EcMGI",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -108,6 +110,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -136,6 +139,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "b4u6EcMGI",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -240,6 +244,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -268,6 +273,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "VSjTHiPnp",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -298,6 +304,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -326,6 +333,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "VSjTHiPnp",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -436,6 +444,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -464,6 +473,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "YuMaki3Zz",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -502,6 +512,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -530,6 +541,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "YuMaki3Zz",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -634,6 +646,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -662,6 +675,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "hXufiUFTh",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -692,6 +706,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -720,6 +735,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "hXufiUFTh",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -750,6 +766,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -778,6 +795,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "hXufiUFTh",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -888,6 +906,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -916,6 +935,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "BWSI0_W2g",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -1020,6 +1040,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -1048,6 +1069,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "gypt5t7ov",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -1134,6 +1156,7 @@
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
+        "deviceType" : null,
         "exportOptions" : [
 
         ],
@@ -1162,6 +1185,7 @@
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -1192,6 +1216,7 @@
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
+        "deviceType" : null,
         "exportOptions" : [
 
         ],
@@ -1220,6 +1245,7 @@
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -1262,6 +1288,7 @@
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
+        "deviceType" : null,
         "exportOptions" : [
 
         ],
@@ -1290,6 +1317,7 @@
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -1327,6 +1355,7 @@
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
+        "deviceType" : null,
         "exportOptions" : [
 
         ],
@@ -1355,6 +1384,7 @@
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -1401,6 +1431,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -1429,6 +1460,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "N0X7f8sLT",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -1466,6 +1498,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -1494,6 +1527,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "N0X7f8sLT",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -1597,6 +1631,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -1625,6 +1660,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "jEH2dlOdu",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -1727,6 +1763,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -1755,6 +1792,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "KcGFwklkb",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -1852,6 +1890,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -1880,6 +1919,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "OEKULaVKr",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -1912,6 +1952,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -1940,6 +1981,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "OEKULaVKr",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2035,6 +2077,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2063,6 +2106,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "SJRcreGiT",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2093,6 +2137,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2121,6 +2166,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "SJRcreGiT",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2151,6 +2197,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2179,6 +2226,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "SJRcreGiT",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2281,6 +2329,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2309,6 +2358,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "TKLaRitwy",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2346,6 +2396,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2374,6 +2425,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "TKLaRitwy",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2470,6 +2522,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2498,6 +2551,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "LT6cRomlA",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2529,6 +2583,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2557,6 +2612,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "LT6cRomlA",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2660,6 +2716,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2688,6 +2745,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "tko2kofQD",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2788,6 +2846,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2816,6 +2875,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "mwJRvaAyZ",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2853,6 +2913,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2881,6 +2942,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "mwJRvaAyZ",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2918,6 +2980,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2946,6 +3009,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "mwJRvaAyZ",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2983,6 +3047,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -3011,6 +3076,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "mwJRvaAyZ",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -3042,6 +3108,7 @@
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
+        "deviceType" : null,
         "exportOptions" : [
 
         ],
@@ -3070,6 +3137,7 @@
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -3122,6 +3190,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -3150,6 +3219,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "wKaZyBgHz",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -3180,6 +3250,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -3208,6 +3279,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "wKaZyBgHz",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -3299,6 +3371,7 @@
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
+        "deviceType" : null,
         "exportOptions" : [
 
         ],
@@ -3327,6 +3400,7 @@
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -3358,6 +3432,7 @@
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
+        "deviceType" : null,
         "exportOptions" : [
 
         ],
@@ -3386,6 +3461,7 @@
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -3396,6 +3472,314 @@
         "right" : null,
         "rotation" : 0,
         "top" : 3456,
+        "visible" : true,
+        "width" : 200,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
+        "codeComponentProps" : {
+          "text" : "Text",
+          "theme" : "whitePercent whitePercent",
+          "use" : "headline6"
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 200,
+        "heightType" : 0,
+        "id" : "jcHR0_cNi",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -760,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 2985,
+        "visible" : true,
+        "width" : 200,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/ScrollMe.tsx_ScrollMe",
+        "codeComponentProps" : {
+
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 200,
+        "heightType" : 0,
+        "id" : "GYe1lvcdp",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -397,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 7552,
+        "visible" : true,
+        "width" : 200,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "#ff00ff",
+        "fillEnabled" : true,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 344,
+        "heightType" : 0,
+        "id" : "WA5oAsRYh",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : -1433,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 2025,
+        "visible" : true,
+        "width" : 322,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Test.tsx_Test",
+        "codeComponentProps" : {
+
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 200,
+        "heightType" : 0,
+        "id" : "RiVYweBjg",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -1211,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 6564,
+        "visible" : true,
+        "width" : 200,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Test.tsx_Test",
+        "codeComponentProps" : {
+
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 200,
+        "heightType" : 0,
+        "id" : "tE0qezfNg",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -887,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 6594,
         "visible" : true,
         "width" : 200,
         "widthType" : 0
