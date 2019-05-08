@@ -2381,10 +2381,10 @@ exports.__info__ = [{ name: "Checkbox", children: false, type: "component" }];
 
 /***/ }),
 
-/***/ "../design-system/components/Chip2.tsx":
-/*!*********************************************!*\
-  !*** ../design-system/components/Chip2.tsx ***!
-  \*********************************************/
+/***/ "../design-system/components/Chip.tsx":
+/*!********************************************!*\
+  !*** ../design-system/components/Chip.tsx ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2394,15 +2394,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const chip_1 = __webpack_require__(/*! @rmwc/chip */ "../node_modules/@rmwc/chip/next/index.js");
 __webpack_require__(/*! @material/chips/dist/mdc.chips.css */ "../node_modules/@material/chips/dist/mdc.chips.css");
-const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
 // Component
-exports.Chip2 = ({}) => (React.createElement(FramerXWrapper_1.default, null,
-    React.createElement(chip_1.ChipSet, null,
-        React.createElement(chip_1.Chip, { label: "Cookies" }),
-        React.createElement(chip_1.Chip, { label: "Pizza" }),
-        React.createElement(chip_1.Chip, { label: "Icecream" }))));
-exports.__info__ = [{ name: "Chip2", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hpcDIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvQ2hpcDIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsK0JBQStCO0FBQy9CLHFDQUF5QztBQUN6Qyw4Q0FBNEM7QUFDNUMscURBQThDO0FBRzlDLFlBQVk7QUFDQyxRQUFBLEtBQUssR0FBYSxDQUFDLEVBRS9CLEVBQUUsRUFBRSxDQUFFLENBRUwsb0JBQUMsd0JBQWM7SUFDYixvQkFBQyxjQUFPO1FBQ04sb0JBQUMsV0FBSSxJQUFDLEtBQUssRUFBQyxTQUFTLEdBQUc7UUFDeEIsb0JBQUMsV0FBSSxJQUFDLEtBQUssRUFBQyxPQUFPLEdBQUc7UUFDdEIsb0JBQUMsV0FBSSxJQUFDLEtBQUssRUFBQyxVQUFVLEdBQUcsQ0FDakIsQ0FDSyxDQUNsQixDQUFBO0FBQUEifQ==
+exports.Chip = ({}) => (React.createElement(chip_1.Chip, { label: "Pizza" }));
+exports.__info__ = [{ name: "Chip", children: false, type: "component" }];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hpcC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9DaGlwLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtCQUErQjtBQUMvQixxQ0FBeUM7QUFDekMsOENBQTRDO0FBRTVDLFlBQVk7QUFDQyxRQUFBLElBQUksR0FBYSxDQUFDLEVBRTlCLEVBQUUsRUFBRSxDQUFFLENBQ0Qsb0JBQUMsV0FBSyxJQUFDLEtBQUssRUFBQyxPQUFPLEdBQUcsQ0FDNUIsQ0FBQTtBQUFBIn0=
 
 /***/ }),
 
@@ -3789,9 +3784,9 @@ exports.ToggleProps = Toggle_1.Props;
 var Tooltip_1 = __webpack_require__(/*! ./components/Tooltip */ "../design-system/components/Tooltip.tsx");
 exports.Tooltip = Tooltip_1.Tooltip;
 exports.TooltipProps = Tooltip_1.Props;
-var Chip2_1 = __webpack_require__(/*! ./components/Chip2 */ "../design-system/components/Chip2.tsx");
-exports.Chip2 = Chip2_1.Chip2;
-exports.ChipProps = Chip2_1.Props;
+var Chip_1 = __webpack_require__(/*! ./components/Chip */ "../design-system/components/Chip.tsx");
+exports.Chip = Chip_1.Chip;
+exports.ChipProps = Chip_1.Props;
 var Elevation_1 = __webpack_require__(/*! ./components/Elevation */ "../design-system/components/Elevation.tsx");
 exports.Elevation = Elevation_1.Elevation;
 exports.ElevationProps = Elevation_1.Props;
@@ -3916,7 +3911,7 @@ var DataTableHeadCell_1 = __webpack_require__(/*! ./components/DataTableHeadCell
 exports.DataTableHeadCell = DataTableHeadCell_1.DataTableHeadCell;
 exports.DataTableHeadCellProps = DataTableHeadCell_1.Props;
 exports.__info__ = [];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsNENBQStEO0FBQXRELHdCQUFBLEtBQUssQ0FBQTtBQUFFLDZCQUFBLEtBQUssQ0FBYztBQUNuQyw4Q0FBa0U7QUFBekQsMEJBQUEsTUFBTSxDQUFBO0FBQUUsK0JBQUEsS0FBSyxDQUFlO0FBQ3JDLGdEQUFxRTtBQUE1RCw0QkFBQSxPQUFPLENBQUE7QUFBRSxpQ0FBQSxLQUFLLENBQWdCO0FBQ3ZDLDRDQUE4RDtBQUFyRCx3QkFBQSxLQUFLLENBQUE7QUFBRSw0QkFBQSxLQUFLLENBQWE7QUFDbEMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFDM0Msd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUssQ0FBWTtBQUMvQixzREFBOEU7QUFBckUsa0NBQUEsVUFBVSxDQUFBO0FBQUUsdUNBQUEsS0FBSyxDQUFtQjtBQUM3QywwQ0FBNEQ7QUFBbkQsc0JBQUEsSUFBSSxDQUFBO0FBQUUsMkJBQUEsS0FBSyxDQUFhO0FBQ2pDLHNEQUE4RTtBQUFyRSxrQ0FBQSxVQUFVLENBQUE7QUFBRSx1Q0FBQSxLQUFLLENBQW1CO0FBQzdDLG9EQUEyRTtBQUFsRSxnQ0FBQSxTQUFTLENBQUE7QUFBRSxxQ0FBQSxLQUFLLENBQWtCO0FBQzNDLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsa0RBQXdFO0FBQS9ELDhCQUFBLFFBQVEsQ0FBQTtBQUFFLG1DQUFBLEtBQUssQ0FBaUI7QUFDekMsd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUss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
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsNENBQStEO0FBQXRELHdCQUFBLEtBQUssQ0FBQTtBQUFFLDZCQUFBLEtBQUssQ0FBYztBQUNuQyw4Q0FBa0U7QUFBekQsMEJBQUEsTUFBTSxDQUFBO0FBQUUsK0JBQUEsS0FBSyxDQUFlO0FBQ3JDLGdEQUFxRTtBQUE1RCw0QkFBQSxPQUFPLENBQUE7QUFBRSxpQ0FBQSxLQUFLLENBQWdCO0FBQ3ZDLDBDQUE0RDtBQUFuRCxzQkFBQSxJQUFJLENBQUE7QUFBRSwyQkFBQSxLQUFLLENBQWE7QUFDakMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFDM0Msd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUssQ0FBWTtBQUMvQixzREFBOEU7QUFBckUsa0NBQUEsVUFBVSxDQUFBO0FBQUUsdUNBQUEsS0FBSyxDQUFtQjtBQUM3QywwQ0FBNEQ7QUFBbkQsc0JBQUEsSUFBSSxDQUFBO0FBQUUsMkJBQUEsS0FBSyxDQUFhO0FBQ2pDLHNEQUE4RTtBQUFyRSxrQ0FBQSxVQUFVLENBQUE7QUFBRSx1Q0FBQSxLQUFLLENBQW1CO0FBQzdDLG9EQUEyRTtBQUFsRSxnQ0FBQSxTQUFTLENBQUE7QUFBRSxxQ0FBQSxLQUFLLENBQWtCO0FBQzNDLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsa0RBQXdFO0FBQS9ELDhCQUFBLFFBQVEsQ0FBQTtBQUFFLG1DQUFBLEtBQUssQ0FBaUI7QUFDekMsd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUss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
 
 /***/ }),
 
@@ -8470,7 +8465,7 @@ var FoundationComponent = /** @class */ (function (_super) {
 /*!************************************************!*\
   !*** ../node_modules/@rmwc/base/next/index.js ***!
   \************************************************/
-/*! exports provided: classNames, parseThemeOptions, withTheme, FoundationComponent, componentFactory, createFocusTrap, debounce, deprecationWarning, handleDeprecations, eventsMap, closest, matches, randomId, toCamel, toDashCase, wrapChild, EventEmitter, ArrayEmitter */
+/*! exports provided: classNames, FoundationComponent, componentFactory, createFocusTrap, parseThemeOptions, withTheme, deprecationWarning, handleDeprecations, toCamel, toDashCase, debounce, eventsMap, closest, matches, randomId, wrapChild, EventEmitter, ArrayEmitter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8487,11 +8482,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withTheme", function() { return _with_theme__WEBPACK_IMPORTED_MODULE_2__["withTheme"]; });
 
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils */ "../node_modules/@rmwc/base/next/utils/index.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "debounce", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["debounce"]; });
-
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "deprecationWarning", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["deprecationWarning"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleDeprecations", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["handleDeprecations"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toCamel", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toCamel"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toDashCase", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toDashCase"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "debounce", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["debounce"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "eventsMap", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["eventsMap"]; });
 
@@ -8500,10 +8499,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "matches", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["matches"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "randomId", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["randomId"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toCamel", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toCamel"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toDashCase", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toDashCase"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "wrapChild", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["wrapChild"]; });
 
@@ -8824,7 +8819,7 @@ var eventsMap = {
 /*!******************************************************!*\
   !*** ../node_modules/@rmwc/base/next/utils/index.js ***!
   \******************************************************/
-/*! exports provided: debounce, deprecationWarning, handleDeprecations, eventsMap, closest, matches, randomId, toCamel, toDashCase, wrapChild, EventEmitter, ArrayEmitter */
+/*! exports provided: deprecationWarning, handleDeprecations, toCamel, toDashCase, debounce, eventsMap, closest, matches, randomId, wrapChild, EventEmitter, ArrayEmitter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42897,7 +42892,7 @@ var map = {
 	"./CardMediaContent.tsx": "./code/CardMediaContent.tsx",
 	"./CardPrimaryAction.tsx": "./code/CardPrimaryAction.tsx",
 	"./Checkbox.tsx": "./code/Checkbox.tsx",
-	"./Chip2.tsx": "./code/Chip2.tsx",
+	"./Chip.tsx": "./code/Chip.tsx",
 	"./CircularProgress.tsx": "./code/CircularProgress.tsx",
 	"./DataTable.tsx": "./code/DataTable.tsx",
 	"./DataTableBody.tsx": "./code/DataTableBody.tsx",
@@ -43617,31 +43612,31 @@ exports.__info__ = [{ name: "Checkbox", children: false, type: "component" }];
 
 /***/ }),
 
-/***/ "./code/Chip2.tsx":
-/*!************************!*\
-  !*** ./code/Chip2.tsx ***!
-  \************************/
+/***/ "./code/Chip.tsx":
+/*!***********************!*\
+  !*** ./code/Chip.tsx ***!
+  \***********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hpcDIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9jb2RlL0NoaXAyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtCQUE4QjtBQUM5Qiw4Q0FBNkM7QUFLN0MsTUFBYSxLQUFNLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQy9DLE1BQU07O1FBQ0osT0FBTyxvQkFBQyxNQUFNLENBQUMsS0FBSyxvQkFBSyxJQUFJLENBQUMsS0FBSyxFQUFJLENBQUE7S0FDeEM7O0FBRU0sa0JBQVksR0FBVTtJQUMzQixLQUFLLEVBQUUsT0FBTztDQUNmLENBQUE7QUFQSCxzQkFTQztBQUNEIn0=
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hpcC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvQ2hpcC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwrQkFBOEI7QUFDOUIsOENBQTZDO0FBSzdDLE1BQWEsSUFBSyxTQUFRLEtBQUssQ0FBQyxTQUFnQjtJQUM5QyxNQUFNOztRQUNKLE9BQU8sb0JBQUMsTUFBTSxDQUFDLElBQUksb0JBQUssSUFBSSxDQUFDLEtBQUssRUFBSSxDQUFBO0tBQ3ZDOztBQUVNLGlCQUFZLEdBQVU7SUFDM0IsS0FBSyxFQUFFLE9BQU87Q0FDZixDQUFBO0FBUEgsb0JBU0M7QUFDRCJ9
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
-class Chip2 extends React.Component {
+class Chip extends React.Component {
     render() {
         window["__checkBudget__"]();
-        return React.createElement(System.Chip2, Object.assign({}, this.props));
+        return React.createElement(System.Chip, Object.assign({}, this.props));
     }
 }
-Chip2.defaultProps = {
+Chip.defaultProps = {
     label: "label",
 };
-exports.Chip2 = Chip2;
-exports.__info__ = [{ name: "Chip2", children: false, type: "component" }];
+exports.Chip = Chip;
+exports.__info__ = [{ name: "Chip", children: false, type: "component" }];
 
 
 /***/ }),
