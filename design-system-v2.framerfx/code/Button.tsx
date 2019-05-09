@@ -1,6 +1,7 @@
 import * as React from "react"
 import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
+import FramerXWrapper from "./FramerXWrapper"
 
 type Props = System.ButtonProps & {
   width: number
@@ -9,7 +10,11 @@ type Props = System.ButtonProps & {
 
 export class Button extends React.Component<Props> {
   render() {
-    return <System.Button {...this.props} />
+    return (
+      <FramerXWrapper>
+        <System.Button {...this.props} />
+      </FramerXWrapper>
+    )
   }
 
   static defaultProps: Props = {
@@ -30,6 +35,6 @@ export class Button extends React.Component<Props> {
     raised: { type: ControlType.Boolean, title: "Raised" },
     ripple: { type: ControlType.Boolean, title: "Ripple" },
     trailingIcon: { type: ControlType.String, title: "TrailingIcon" },
-    unelevated: { type: ControlType.Boolean, title: "Unelevated" },   
+    unelevated: { type: ControlType.Boolean, title: "Unelevated" }
   }
 }
