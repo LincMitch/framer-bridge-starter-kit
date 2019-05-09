@@ -3,19 +3,19 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 import { cloneFrameless } from "../../design-system-v2.framerfx/node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils";
 
-type Props = System.DataTableBodyProps & {
+type Props = System.DataTableContentProps & {
   object: string[];
   externalObject: React.ReactNode;
   activeObjectIndex: number;
 }
 
-export class DataTableBody extends React.Component<Props> {
+export class DataTableContent extends React.Component<Props> {
   render() {
     const { object, externalObject, ...rest } = this.props;
 
     let objectElements;
     objectElements = cloneFrameless(externalObject); 
-    return <System.DataTableBody {...this.props} >{objectElements}</System.DataTableBody>
+    return <System.DataTableContent {...this.props} >{objectElements}</System.DataTableContent>
   }
 
   static defaultProps: Props = {

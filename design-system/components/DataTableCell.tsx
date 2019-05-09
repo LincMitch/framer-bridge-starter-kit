@@ -12,6 +12,8 @@ export type Props = {
   alignEnd?: string;
   alignMiddle?: boolean;
   alignStart?: boolean;
+
+  text?: string;
 }
 
 // Component
@@ -19,6 +21,8 @@ export const DataTableCell: React.FC<Props> = ({
   alignEnd,
   alignMiddle,
   alignStart,
+
+  text,
   ...rest
   
 } = processIconProps(this.props)) =>  (
@@ -29,6 +33,8 @@ export const DataTableCell: React.FC<Props> = ({
       alignMiddle={alignMiddle}
       alignStart={alignStart}
       {...rest} >
+
+      {text}
       </_DataTableCell>
     </FramerXWrapper>
 )

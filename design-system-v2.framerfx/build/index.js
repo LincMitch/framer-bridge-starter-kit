@@ -2531,12 +2531,47 @@ const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-
 const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
 // Component
 exports.DataTableCell = (_a = framerx_integration_1.processIconProps(this.props)) => {
-    var { alignEnd, alignMiddle, alignStart } = _a, rest = __rest(_a, ["alignEnd", "alignMiddle", "alignStart"]);
+    var { alignEnd, alignMiddle, alignStart, text } = _a, rest = __rest(_a, ["alignEnd", "alignMiddle", "alignStart", "text"]);
     return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(data_table_1.DataTableCell, Object.assign({ alignEnd: alignEnd, alignMiddle: alignMiddle, alignStart: alignStart }, rest))));
+        React.createElement(data_table_1.DataTableCell, Object.assign({ alignEnd: alignEnd, alignMiddle: alignMiddle, alignStart: alignStart }, rest), text)));
 };
 exports.__info__ = [{ name: "DataTableCell", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ2VsbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVDZWxsLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBaUU7QUFDakUsMkNBQXlDO0FBQ3pDLHFEQUE4QztBQUM5QywrREFFK0I7QUFVL0IsWUFBWTtBQUNDLFFBQUEsYUFBYSxHQUFvQixDQUFDLEtBTTNDLHNDQUFnQixDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxFQUFFO1FBTlcsRUFDN0MsUUFBUSxFQUNSLFdBQVcsRUFDWCxVQUFVLE9BR29CLEVBRjlCLDREQUFPO0lBRTZCLE9BQUEsQ0FFcEMsb0JBQUMsd0JBQWM7UUFDYixvQkFBQywwQkFBYyxrQkFDYixRQUFRLEVBQUUsUUFBUSxFQUNsQixXQUFXLEVBQUUsV0FBVyxFQUN4QixVQUFVLEVBQUUsVUFBVSxJQUNsQixJQUFJLEVBQ1MsQ0FDRixDQUNwQixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ2VsbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVDZWxsLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBaUU7QUFDakUsMkNBQXlDO0FBQ3pDLHFEQUE4QztBQUM5QywrREFFK0I7QUFZL0IsWUFBWTtBQUNDLFFBQUEsYUFBYSxHQUFvQixDQUFDLEtBUTNDLHNDQUFnQixDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxFQUFFO1FBUlcsRUFDN0MsUUFBUSxFQUNSLFdBQVcsRUFDWCxVQUFVLEVBRVYsSUFBSSxPQUcwQixFQUY5QixvRUFBTztJQUU2QixPQUFBLENBRXBDLG9CQUFDLHdCQUFjO1FBQ2Isb0JBQUMsMEJBQWMsa0JBQ2IsUUFBUSxFQUFFLFFBQVEsRUFDbEIsV0FBVyxFQUFFLFdBQVcsRUFDeEIsVUFBVSxFQUFFLFVBQVUsSUFDbEIsSUFBSSxHQUVQLElBQUksQ0FDWSxDQUNGLENBQ3BCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
+
+/***/ }),
+
+/***/ "../design-system/components/DataTableContent.tsx":
+/*!********************************************************!*\
+  !*** ../design-system/components/DataTableContent.tsx ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const data_table_1 = __webpack_require__(/*! @rmwc/data-table */ "../node_modules/@rmwc/data-table/next/index.js");
+__webpack_require__(/*! @rmwc/data-table/data-table.css */ "../node_modules/@rmwc/data-table/data-table.css");
+const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
+const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
+// Component
+exports.DataTableContent = (_a = framerx_integration_1.processIconProps(this.props)) => {
+    var rest = __rest(_a, []);
+    return (React.createElement(FramerXWrapper_1.default, null,
+        React.createElement(data_table_1.DataTableContent, Object.assign({}, rest))));
+};
+exports.__info__ = [{ name: "DataTableContent", children: false, type: "component" }];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ29udGVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVDb250ZW50LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBdUU7QUFDdkUsMkNBQXlDO0FBQ3pDLHFEQUE4QztBQUM5QywrREFFK0I7QUFRL0IsWUFBWTtBQUNDLFFBQUEsZ0JBQWdCLEdBQW9CLENBQUMsS0FHOUMsc0NBQWdCLENBQUMsSUFBSSxDQUFDLEtBQUssQ0FBQyxFQUFFLEVBQUU7UUFGbEMscUJBQU87SUFFNkIsT0FBQSxDQUVwQyxvQkFBQyx3QkFBYztRQUNiLG9CQUFDLDZCQUFpQixvQkFDWixJQUFJLEVBQ1ksQ0FDTCxDQUNwQixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
 
 /***/ }),
 
@@ -2601,12 +2636,12 @@ const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-
 const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
 // Component
 exports.DataTableHeadCell = (_a = framerx_integration_1.processIconProps(this.props)) => {
-    var { alignEnd, alignMiddle, alignStart, children, onSortChange, sort } = _a, rest = __rest(_a, ["alignEnd", "alignMiddle", "alignStart", "children", "onSortChange", "sort"]);
+    var { alignEnd, alignMiddle, alignStart, children, onSortChange, sort, text } = _a, rest = __rest(_a, ["alignEnd", "alignMiddle", "alignStart", "children", "onSortChange", "sort", "text"]);
     return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(data_table_1.DataTableHeadCell, Object.assign({ alignEnd: alignEnd, alignMiddle: alignMiddle, alignStart: alignStart, children: children, onSortChange: onSortChange, sort: sort }, rest))));
+        React.createElement(data_table_1.DataTableHeadCell, Object.assign({ alignEnd: alignEnd, alignMiddle: alignMiddle, alignStart: alignStart, children: children, onSortChange: onSortChange, sort: sort }, rest), text)));
 };
 exports.__info__ = [{ name: "DataTableHeadCell", children: true, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZENlbGwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvRGF0YVRhYmxlSGVhZENlbGwudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUEsK0JBQThCO0FBQzlCLGlEQUF5RTtBQUN6RSwyQ0FBeUM7QUFDekMscURBQThDO0FBQzlDLCtEQUUrQjtBQWEvQixZQUFZO0FBQ0MsUUFBQSxpQkFBaUIsR0FBb0IsQ0FBQyxLQVMvQyxzQ0FBZ0IsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLEVBQUUsRUFBRTtRQVRlLEVBQ2pELFFBQVEsRUFDUixXQUFXLEVBQ1gsVUFBVSxFQUNWLFFBQVEsRUFDUixZQUFZLEVBQ1osSUFBSSxPQUcwQixFQUY5QixnR0FBTztJQUU2QixPQUFBLENBRXBDLG9CQUFDLHdCQUFjO1FBQ2Isb0JBQUMsOEJBQWtCLGtCQUNqQixRQUFRLEVBQUUsUUFBUSxFQUNsQixXQUFXLEVBQUUsV0FBVyxFQUN4QixVQUFVLEVBQUUsVUFBVSxFQUN0QixRQUFRLEVBQUUsUUFBUSxFQUNsQixZQUFZLEVBQUUsWUFBWSxFQUMxQixJQUFJLEVBQUUsSUFBSSxJQUNOLElBQUksRUFDYSxDQUNOLENBQ3BCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZENlbGwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvRGF0YVRhYmxlSGVhZENlbGwudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUEsK0JBQThCO0FBQzlCLGlEQUF5RTtBQUN6RSwyQ0FBeUM7QUFDekMscURBQThDO0FBQzlDLCtEQUUrQjtBQWUvQixZQUFZO0FBQ0MsUUFBQSxpQkFBaUIsR0FBb0IsQ0FBQyxLQVcvQyxzQ0FBZ0IsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLEVBQUUsRUFBRTtRQVhlLEVBQ2pELFFBQVEsRUFDUixXQUFXLEVBQ1gsVUFBVSxFQUNWLFFBQVEsRUFDUixZQUFZLEVBQ1osSUFBSSxFQUVKLElBQUksT0FHMEIsRUFGOUIsd0dBQU87SUFFNkIsT0FBQSxDQUVwQyxvQkFBQyx3QkFBYztRQUNiLG9CQUFDLDhCQUFrQixrQkFDakIsUUFBUSxFQUFFLFFBQVEsRUFDbEIsV0FBVyxFQUFFLFdBQVcsRUFDeEIsVUFBVSxFQUFFLFVBQVUsRUFDdEIsUUFBUSxFQUFFLFFBQVEsRUFDbEIsWUFBWSxFQUFFLFlBQVksRUFDMUIsSUFBSSxFQUFFLElBQUksSUFDTixJQUFJLEdBRVAsSUFBSSxDQUNnQixDQUNOLENBQ3BCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
 
 /***/ }),
 
@@ -3895,6 +3930,9 @@ exports.CardMediaContentProps = CardMediaContent_1.Props;
 var DataTable_1 = __webpack_require__(/*! ./components/DataTable */ "../design-system/components/DataTable.tsx");
 exports.DataTable = DataTable_1.DataTable;
 exports.DataTableProps = DataTable_1.Props;
+var DataTableContent_1 = __webpack_require__(/*! ./components/DataTableContent */ "../design-system/components/DataTableContent.tsx");
+exports.DataTableContent = DataTableContent_1.DataTableContent;
+exports.DataTableContentProps = DataTableContent_1.Props;
 var DataTableRow_1 = __webpack_require__(/*! ./components/DataTableRow */ "../design-system/components/DataTableRow.tsx");
 exports.DataTableRow = DataTableRow_1.DataTableRow;
 exports.DataTableRowProps = DataTableRow_1.Props;
@@ -3911,7 +3949,7 @@ var DataTableHeadCell_1 = __webpack_require__(/*! ./components/DataTableHeadCell
 exports.DataTableHeadCell = DataTableHeadCell_1.DataTableHeadCell;
 exports.DataTableHeadCellProps = DataTableHeadCell_1.Props;
 exports.__info__ = [];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsNENBQStEO0FBQXRELHdCQUFBLEtBQUssQ0FBQTtBQUFFLDZCQUFBLEtBQUssQ0FBYztBQUNuQyw4Q0FBa0U7QUFBekQsMEJBQUEsTUFBTSxDQUFBO0FBQUUsK0JBQUEsS0FBSyxDQUFlO0FBQ3JDLGdEQUFxRTtBQUE1RCw0QkFBQSxPQUFPLENBQUE7QUFBRSxpQ0FBQSxLQUFLLENBQWdCO0FBQ3ZDLDBDQUE0RDtBQUFuRCxzQkFBQSxJQUFJLENBQUE7QUFBRSwyQkFBQSxLQUFLLENBQWE7QUFDakMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFDM0Msd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUssQ0FBWTtBQUMvQixzREFBOEU7QUFBckUsa0NBQUEsVUFBVSxDQUFBO0FBQUUsdUNBQUEsS0FBSyxDQUFtQjtBQUM3QywwQ0FBNEQ7QUFBbkQsc0JBQUEsSUFBSSxDQUFBO0FBQUUsMkJBQUEsS0FBSyxDQUFhO0FBQ2pDLHNEQUE4RTtBQUFyRSxrQ0FBQSxVQUFVLENBQUE7QUFBRSx1Q0FBQSxLQUFLLENBQW1CO0FBQzdDLG9EQUEyRTtBQUFsRSxnQ0FBQSxTQUFTLENBQUE7QUFBRSxxQ0FBQSxLQUFLLENBQWtCO0FBQzNDLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsa0RBQXdFO0FBQS9ELDhCQUFBLFFBQVEsQ0FBQTtBQUFFLG1DQUFBLEtBQUssQ0FBaUI7QUFDekMsd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUss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
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsNENBQStEO0FBQXRELHdCQUFBLEtBQUssQ0FBQTtBQUFFLDZCQUFBLEtBQUssQ0FBYztBQUNuQyw4Q0FBa0U7QUFBekQsMEJBQUEsTUFBTSxDQUFBO0FBQUUsK0JBQUEsS0FBSyxDQUFlO0FBQ3JDLGdEQUFxRTtBQUE1RCw0QkFBQSxPQUFPLENBQUE7QUFBRSxpQ0FBQSxLQUFLLENBQWdCO0FBQ3ZDLDBDQUE0RDtBQUFuRCxzQkFBQSxJQUFJLENBQUE7QUFBRSwyQkFBQSxLQUFLLENBQWE7QUFDakMsb0RBQTJFO0FBQWxFLGdDQUFBLFNBQVMsQ0FBQTtBQUFFLHFDQUFBLEtBQUssQ0FBa0I7QUFDM0Msd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUssQ0FBWTtBQUMvQixzREFBOEU7QUFBckUsa0NBQUEsVUFBVSxDQUFBO0FBQUUsdUNBQUEsS0FBSyxDQUFtQjtBQUM3QywwQ0FBNEQ7QUFBbkQsc0JBQUEsSUFBSSxDQUFBO0FBQUUsMkJBQUEsS0FBSyxDQUFhO0FBQ2pDLHNEQUE4RTtBQUFyRSxrQ0FBQSxVQUFVLENBQUE7QUFBRSx1Q0FBQSxLQUFLLENBQW1CO0FBQzdDLG9EQUEyRTtBQUFsRSxnQ0FBQSxTQUFTLENBQUE7QUFBRSxxQ0FBQSxLQUFLLENBQWtCO0FBQzNDLDhDQUFrRTtBQUF6RCwwQkFBQSxNQUFNLENBQUE7QUFBRSwrQkFBQSxLQUFLLENBQWU7QUFDckMsa0RBQXdFO0FBQS9ELDhCQUFBLFFBQVEsQ0FBQTtBQUFFLG1DQUFBLEtBQUssQ0FBaUI7QUFDekMsd0NBQXlEO0FBQWhELG9CQUFBLEdBQUcsQ0FBQTtBQUFFLHlCQUFBLEtBQUss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
 
 /***/ }),
 
@@ -8465,7 +8503,7 @@ var FoundationComponent = /** @class */ (function (_super) {
 /*!************************************************!*\
   !*** ../node_modules/@rmwc/base/next/index.js ***!
   \************************************************/
-/*! exports provided: classNames, FoundationComponent, componentFactory, createFocusTrap, parseThemeOptions, withTheme, deprecationWarning, handleDeprecations, toCamel, toDashCase, debounce, eventsMap, closest, matches, randomId, wrapChild, EventEmitter, ArrayEmitter */
+/*! exports provided: classNames, parseThemeOptions, withTheme, FoundationComponent, componentFactory, createFocusTrap, debounce, deprecationWarning, handleDeprecations, eventsMap, closest, matches, randomId, toCamel, toDashCase, wrapChild, EventEmitter, ArrayEmitter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8482,15 +8520,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withTheme", function() { return _with_theme__WEBPACK_IMPORTED_MODULE_2__["withTheme"]; });
 
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils */ "../node_modules/@rmwc/base/next/utils/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "debounce", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["debounce"]; });
+
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "deprecationWarning", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["deprecationWarning"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleDeprecations", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["handleDeprecations"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toCamel", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toCamel"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toDashCase", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toDashCase"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "debounce", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["debounce"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "eventsMap", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["eventsMap"]; });
 
@@ -8499,6 +8533,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "matches", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["matches"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "randomId", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["randomId"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toCamel", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toCamel"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "toDashCase", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["toDashCase"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "wrapChild", function() { return _utils__WEBPACK_IMPORTED_MODULE_3__["wrapChild"]; });
 
@@ -8819,7 +8857,7 @@ var eventsMap = {
 /*!******************************************************!*\
   !*** ../node_modules/@rmwc/base/next/utils/index.js ***!
   \******************************************************/
-/*! exports provided: deprecationWarning, handleDeprecations, toCamel, toDashCase, debounce, eventsMap, closest, matches, randomId, wrapChild, EventEmitter, ArrayEmitter */
+/*! exports provided: debounce, deprecationWarning, handleDeprecations, eventsMap, closest, matches, randomId, toCamel, toDashCase, wrapChild, EventEmitter, ArrayEmitter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42897,11 +42935,13 @@ var map = {
 	"./DataTable.tsx": "./code/DataTable.tsx",
 	"./DataTableBody.tsx": "./code/DataTableBody.tsx",
 	"./DataTableCell.tsx": "./code/DataTableCell.tsx",
+	"./DataTableContent.tsx": "./code/DataTableContent.tsx",
 	"./DataTableHead.tsx": "./code/DataTableHead.tsx",
 	"./DataTableHeadCell.tsx": "./code/DataTableHeadCell.tsx",
 	"./DataTableRow.tsx": "./code/DataTableRow.tsx",
 	"./Dialog.tsx": "./code/Dialog.tsx",
 	"./Elevation.tsx": "./code/Elevation.tsx",
+	"./Examples.tsx": "./code/Examples.tsx",
 	"./Fab.tsx": "./code/Fab.tsx",
 	"./Icon.tsx": "./code/Icon.tsx",
 	"./IconButton.tsx": "./code/IconButton.tsx",
@@ -43687,23 +43727,47 @@ exports.__info__ = [{ name: "CircularProgress", children: false, type: "componen
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vY29kZS9EYXRhVGFibGUudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsK0JBQThCO0FBQzlCLDhDQUE2QztBQUM3QyxtQ0FBc0Q7QUFLdEQsTUFBYSxTQUFVLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQ25ELE1BQU07O1FBQ0osT0FBTyxvQkFBQyxNQUFNLENBQUMsU0FBUyxvQkFBSyxJQUFJLENBQUMsS0FBSyxFQUFJLENBQUE7S0FDNUM7O0FBRU0sc0JBQVksR0FBVSxFQUM1QixDQUFBO0FBRU0sMEJBQWdCLEdBQTRCO0lBQ2pELDZEQUE2RDtJQUM3RCxhQUFhLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxNQUFNLEVBQUUsS0FBSyxFQUFFLGdCQUFnQixFQUFFO0lBQ3BFLFVBQVUsRUFBRSxFQUFFLElBQUksRUFBRSxvQkFBVyxDQUFDLE1BQU0sRUFBRSxLQUFLLEVBQUUsYUFBYSxFQUFFO0NBQy9ELENBQUE7QUFaSCw4QkFhQztBQUNEIn0=
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vY29kZS9EYXRhVGFibGUudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUEsK0JBQThCO0FBQzlCLDhDQUE2QztBQUM3QyxtQ0FBc0Q7QUFDdEQsOElBQTRJO0FBUTVJLE1BQWEsU0FBVSxTQUFRLEtBQUssQ0FBQyxTQUFnQjtJQUNuRCxNQUFNOztRQUNKLE1BQU0sZUFBZ0QsRUFBaEQsRUFBRSxNQUFNLEVBQUUsY0FBYyxPQUF3QixFQUF0QiwrQ0FBc0IsQ0FBQztRQUV2RCxJQUFJLGNBQWMsQ0FBQztRQUNuQixjQUFjLEdBQUcsOEJBQWMsQ0FBQyxjQUFjLENBQUMsQ0FBQztRQUVoRCxPQUFPLG9CQUFDLE1BQU0sQ0FBQyxTQUFTLG9CQUFLLElBQUksQ0FBQyxLQUFLLEdBQUksY0FBYyxDQUFvQixDQUFBO0tBQzlFOztBQUdNLHNCQUFZLEdBQVU7SUFDM0IsaUJBQWlCLEVBQUUsQ0FBQztDQUNyQixDQUFBO0FBRU0sMEJBQWdCLEdBQTRCO0lBQ2pELDZEQUE2RDtJQUM3RCxhQUFhLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxNQUFNLEVBQUUsS0FBSyxFQUFFLGdCQUFnQixFQUFFO0lBQ3BFLFVBQVUsRUFBRSxFQUFFLElBQUksRUFBRSxvQkFBVyxDQUFDLE1BQU0sRUFBRSxLQUFLLEVBQUUsYUFBYSxFQUFFO0lBRTlELGNBQWMsRUFBRTtRQUNkLElBQUksRUFBRSxvQkFBVyxDQUFDLGlCQUFpQjtRQUNuQyxLQUFLLEVBQUUsUUFBUTtLQUNoQjtJQUNELGlCQUFpQixFQUFFO1FBQ2pCLElBQUksRUFBRSxvQkFBVyxDQUFDLE1BQU07UUFDeEIsS0FBSyxFQUFFLE9BQU87UUFDZCxHQUFHLEVBQUUsQ0FBQztLQUNQO0NBQ0YsQ0FBQTtBQTdCSCw4QkE4QkM7QUFDRCJ9
 
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
 const framer_1 = __webpack_require__(/*! framer */ "framer");
+const framerx_utils_1 = __webpack_require__(/*! ../../design-system-v2.framerfx/node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils */ "./node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils.ts");
 class DataTable extends React.Component {
     render() {
         window["__checkBudget__"]();
-        return React.createElement(System.DataTable, Object.assign({}, this.props));
+        const _a = this.props, { object, externalObject } = _a, rest = __rest(_a, ["object", "externalObject"]);
+        let objectElements;
+        objectElements = framerx_utils_1.cloneFrameless(externalObject);
+        return React.createElement(System.DataTable, Object.assign({}, this.props), objectElements);
     }
 }
-DataTable.defaultProps = {};
+DataTable.defaultProps = {
+    activeObjectIndex: 0
+};
 DataTable.propertyControls = {
     // children: { type: ControlType.String, title: "Children" },
     stickyColumns: { type: framer_1.ControlType.String, title: "Sticky Columns" },
     stickyRows: { type: framer_1.ControlType.String, title: "Sticky Rows" },
+    externalObject: {
+        type: framer_1.ControlType.ComponentInstance,
+        title: "object"
+    },
+    activeObjectIndex: {
+        type: framer_1.ControlType.Number,
+        title: "Index",
+        min: 0
+    }
 };
 exports.DataTable = DataTable;
 exports.__info__ = [{ name: "DataTable", children: false, type: "component" }];
@@ -43720,19 +43784,45 @@ exports.__info__ = [{ name: "DataTable", children: false, type: "component" }];
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQm9keS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvRGF0YVRhYmxlQm9keS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwrQkFBOEI7QUFDOUIsOENBQTZDO0FBTzdDLE1BQWEsYUFBYyxTQUFRLEtBQUssQ0FBQyxTQUFnQjtJQUN2RCxNQUFNOztRQUNKLE9BQU8sb0JBQUMsTUFBTSxDQUFDLGFBQWEsb0JBQUssSUFBSSxDQUFDLEtBQUssRUFBSSxDQUFBO0tBQ2hEOztBQUVNLDBCQUFZLEdBQVUsRUFFNUIsQ0FBQTtBQUVNLDhCQUFnQixHQUE0QixFQUVsRCxDQUFBO0FBWEgsc0NBWUM7QUFDRCJ9
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQm9keS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvRGF0YVRhYmxlQm9keS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsOENBQTZDO0FBQzdDLG1DQUFzRDtBQUN0RCw4SUFBNEk7QUFRNUksTUFBYSxhQUFjLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQ3ZELE1BQU07O1FBQ0osTUFBTSxlQUFnRCxFQUFoRCxFQUFFLE1BQU0sRUFBRSxjQUFjLE9BQXdCLEVBQXRCLCtDQUFzQixDQUFDO1FBRXZELElBQUksY0FBYyxDQUFDO1FBQ25CLGNBQWMsR0FBRyw4QkFBYyxDQUFDLGNBQWMsQ0FBQyxDQUFDO1FBQ2hELE9BQU8sb0JBQUMsTUFBTSxDQUFDLGFBQWEsb0JBQUssSUFBSSxDQUFDLEtBQUssR0FBSSxjQUFjLENBQXdCLENBQUE7S0FDdEY7O0FBRU0sMEJBQVksR0FBVTtJQUMzQixpQkFBaUIsRUFBRSxDQUFDO0NBQ3JCLENBQUE7QUFFTSw4QkFBZ0IsR0FBNEI7SUFDakQsY0FBYyxFQUFFO1FBQ2QsSUFBSSxFQUFFLG9CQUFXLENBQUMsaUJBQWlCO1FBQ25DLEtBQUssRUFBRSxRQUFRO0tBQ2hCO0lBQ0QsaUJBQWlCLEVBQUU7UUFDakIsSUFBSSxFQUFFLG9CQUFXLENBQUMsTUFBTTtRQUN4QixLQUFLLEVBQUUsT0FBTztRQUNkLEdBQUcsRUFBRSxDQUFDO0tBQ1A7Q0FDRixDQUFBO0FBdkJILHNDQXdCQztBQUNEIn0=
 
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
+const framer_1 = __webpack_require__(/*! framer */ "framer");
+const framerx_utils_1 = __webpack_require__(/*! ../../design-system-v2.framerfx/node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils */ "./node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils.ts");
 class DataTableBody extends React.Component {
     render() {
         window["__checkBudget__"]();
-        return React.createElement(System.DataTableBody, Object.assign({}, this.props));
+        const _a = this.props, { object, externalObject } = _a, rest = __rest(_a, ["object", "externalObject"]);
+        let objectElements;
+        objectElements = framerx_utils_1.cloneFrameless(externalObject);
+        return React.createElement(System.DataTableBody, Object.assign({}, this.props), objectElements);
     }
 }
-DataTableBody.defaultProps = {};
-DataTableBody.propertyControls = {};
+DataTableBody.defaultProps = {
+    activeObjectIndex: 0
+};
+DataTableBody.propertyControls = {
+    externalObject: {
+        type: framer_1.ControlType.ComponentInstance,
+        title: "object"
+    },
+    activeObjectIndex: {
+        type: framer_1.ControlType.Number,
+        title: "Index",
+        min: 0
+    }
+};
 exports.DataTableBody = DataTableBody;
 exports.__info__ = [{ name: "DataTableBody", children: false, type: "component" }];
 
@@ -43748,26 +43838,106 @@ exports.__info__ = [{ name: "DataTableBody", children: false, type: "component" 
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ2VsbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvRGF0YVRhYmxlQ2VsbC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwrQkFBOEI7QUFDOUIsOENBQTZDO0FBQzdDLG1DQUFzRDtBQUt0RCxNQUFhLGFBQWMsU0FBUSxLQUFLLENBQUMsU0FBZ0I7SUFDdkQsTUFBTTs7UUFDSixPQUFPLG9CQUFDLE1BQU0sQ0FBQyxhQUFhLG9CQUFLLElBQUksQ0FBQyxLQUFLLEVBQUksQ0FBQTtLQUNoRDs7QUFFTSwwQkFBWSxHQUFVLEVBQzVCLENBQUE7QUFFTSw4QkFBZ0IsR0FBNEI7SUFDakQsUUFBUSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxXQUFXLEVBQUU7SUFDM0QsV0FBVyxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxjQUFjLEVBQUU7SUFDakUsVUFBVSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxhQUFhLEVBQUU7Q0FDaEUsQ0FBQTtBQVpILHNDQWFDO0FBQ0QifQ==
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ2VsbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvRGF0YVRhYmxlQ2VsbC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsOENBQTZDO0FBQzdDLG1DQUFzRDtBQUN0RCw4SUFBNEk7QUFVNUksTUFBYSxhQUFjLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQ3ZELE1BQU07O1FBQ0osTUFBTSxlQUFnRCxFQUFoRCxFQUFFLE1BQU0sRUFBRSxjQUFjLE9BQXdCLEVBQXRCLCtDQUFzQixDQUFDO1FBRXZELElBQUksY0FBYyxDQUFDO1FBQ25CLGNBQWMsR0FBRyw4QkFBYyxDQUFDLGNBQWMsQ0FBQyxDQUFDO1FBRWhELE9BQU8sb0JBQUMsTUFBTSxDQUFDLGFBQWEsb0JBQUssSUFBSSxDQUFDLEtBQUssR0FBSSxjQUFjLENBQXdCLENBQUE7S0FDdEY7O0FBRU0sMEJBQVksR0FBVTtJQUMzQixpQkFBaUIsRUFBRSxDQUFDO0lBQ3BCLElBQUksRUFBRSxNQUFNO0NBQ2IsQ0FBQTtBQUVNLDhCQUFnQixHQUE0QjtJQUNqRCxRQUFRLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLFdBQVcsRUFBRTtJQUMzRCxXQUFXLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLGNBQWMsRUFBRTtJQUNqRSxVQUFVLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLGFBQWEsRUFBRTtJQUUvRCxjQUFjLEVBQUU7UUFDZCxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxpQkFBaUI7UUFDbkMsS0FBSyxFQUFFLFFBQVE7S0FDaEI7SUFDRCxpQkFBaUIsRUFBRTtRQUNqQixJQUFJLEVBQUUsb0JBQVcsQ0FBQyxNQUFNO1FBQ3hCLEtBQUssRUFBRSxPQUFPO1FBQ2QsR0FBRyxFQUFFLENBQUM7S0FDUDtJQUVELElBQUksRUFBRSxFQUFFLElBQUksRUFBRSxvQkFBVyxDQUFDLE1BQU0sRUFBRSxLQUFLLEVBQUUsTUFBTSxFQUFFO0NBRWxELENBQUE7QUFoQ0gsc0NBaUNDO0FBQ0QifQ==
 
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
 const framer_1 = __webpack_require__(/*! framer */ "framer");
+const framerx_utils_1 = __webpack_require__(/*! ../../design-system-v2.framerfx/node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils */ "./node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils.ts");
 class DataTableCell extends React.Component {
     render() {
         window["__checkBudget__"]();
-        return React.createElement(System.DataTableCell, Object.assign({}, this.props));
+        const _a = this.props, { object, externalObject } = _a, rest = __rest(_a, ["object", "externalObject"]);
+        let objectElements;
+        objectElements = framerx_utils_1.cloneFrameless(externalObject);
+        return React.createElement(System.DataTableCell, Object.assign({}, this.props), objectElements);
     }
 }
-DataTableCell.defaultProps = {};
+DataTableCell.defaultProps = {
+    activeObjectIndex: 0,
+    text: "Text"
+};
 DataTableCell.propertyControls = {
     alignEnd: { type: framer_1.ControlType.Boolean, title: "Align End" },
     alignMiddle: { type: framer_1.ControlType.Boolean, title: "Align Middle" },
     alignStart: { type: framer_1.ControlType.Boolean, title: "Align Start" },
+    externalObject: {
+        type: framer_1.ControlType.ComponentInstance,
+        title: "object"
+    },
+    activeObjectIndex: {
+        type: framer_1.ControlType.Number,
+        title: "Index",
+        min: 0
+    },
+    text: { type: framer_1.ControlType.String, title: "Text" },
 };
 exports.DataTableCell = DataTableCell;
 exports.__info__ = [{ name: "DataTableCell", children: false, type: "component" }];
+
+
+/***/ }),
+
+/***/ "./code/DataTableContent.tsx":
+/*!***********************************!*\
+  !*** ./code/DataTableContent.tsx ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ29udGVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvRGF0YVRhYmxlQ29udGVudC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsOENBQTZDO0FBQzdDLG1DQUFzRDtBQUN0RCw4SUFBNEk7QUFRNUksTUFBYSxnQkFBaUIsU0FBUSxLQUFLLENBQUMsU0FBZ0I7SUFDMUQsTUFBTTs7UUFDSixNQUFNLGVBQWdELEVBQWhELEVBQUUsTUFBTSxFQUFFLGNBQWMsT0FBd0IsRUFBdEIsK0NBQXNCLENBQUM7UUFFdkQsSUFBSSxjQUFjLENBQUM7UUFDbkIsY0FBYyxHQUFHLDhCQUFjLENBQUMsY0FBYyxDQUFDLENBQUM7UUFDaEQsT0FBTyxvQkFBQyxNQUFNLENBQUMsZ0JBQWdCLG9CQUFLLElBQUksQ0FBQyxLQUFLLEdBQUksY0FBYyxDQUEyQixDQUFBO0tBQzVGOztBQUVNLDZCQUFZLEdBQVU7SUFDM0IsaUJBQWlCLEVBQUUsQ0FBQztDQUNyQixDQUFBO0FBRU0saUNBQWdCLEdBQTRCO0lBQ2pELGNBQWMsRUFBRTtRQUNkLElBQUksRUFBRSxvQkFBVyxDQUFDLGlCQUFpQjtRQUNuQyxLQUFLLEVBQUUsUUFBUTtLQUNoQjtJQUNELGlCQUFpQixFQUFFO1FBQ2pCLElBQUksRUFBRSxvQkFBVyxDQUFDLE1BQU07UUFDeEIsS0FBSyxFQUFFLE9BQU87UUFDZCxHQUFHLEVBQUUsQ0FBQztLQUNQO0NBQ0YsQ0FBQTtBQXZCSCw0Q0F3QkM7QUFDRCJ9
+
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
+const framer_1 = __webpack_require__(/*! framer */ "framer");
+const framerx_utils_1 = __webpack_require__(/*! ../../design-system-v2.framerfx/node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils */ "./node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils.ts");
+class DataTableContent extends React.Component {
+    render() {
+        window["__checkBudget__"]();
+        const _a = this.props, { object, externalObject } = _a, rest = __rest(_a, ["object", "externalObject"]);
+        let objectElements;
+        objectElements = framerx_utils_1.cloneFrameless(externalObject);
+        return React.createElement(System.DataTableContent, Object.assign({}, this.props), objectElements);
+    }
+}
+DataTableContent.defaultProps = {
+    activeObjectIndex: 0
+};
+DataTableContent.propertyControls = {
+    externalObject: {
+        type: framer_1.ControlType.ComponentInstance,
+        title: "object"
+    },
+    activeObjectIndex: {
+        type: framer_1.ControlType.Number,
+        title: "Index",
+        min: 0
+    }
+};
+exports.DataTableContent = DataTableContent;
+exports.__info__ = [{ name: "DataTableContent", children: false, type: "component" }];
 
 
 /***/ }),
@@ -43781,19 +43951,45 @@ exports.__info__ = [{ name: "DataTableCell", children: false, type: "component" 
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvRGF0YVRhYmxlSGVhZC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwrQkFBOEI7QUFDOUIsOENBQTZDO0FBTzdDLE1BQWEsYUFBYyxTQUFRLEtBQUssQ0FBQyxTQUFnQjtJQUN2RCxNQUFNOztRQUNKLE9BQU8sb0JBQUMsTUFBTSxDQUFDLGFBQWEsb0JBQUssSUFBSSxDQUFDLEtBQUssRUFBSSxDQUFBO0tBQ2hEOztBQUVNLDBCQUFZLEdBQVUsRUFFNUIsQ0FBQTtBQUVNLDhCQUFnQixHQUE0QixFQUVsRCxDQUFBO0FBWEgsc0NBWUM7QUFDRCJ9
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvRGF0YVRhYmxlSGVhZC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsOENBQTZDO0FBQzdDLG1DQUFzRDtBQUN0RCw4SUFBNEk7QUFRNUksTUFBYSxhQUFjLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQ3ZELE1BQU07O1FBQ0osTUFBTSxlQUFnRCxFQUFoRCxFQUFFLE1BQU0sRUFBRSxjQUFjLE9BQXdCLEVBQXRCLCtDQUFzQixDQUFDO1FBRXZELElBQUksY0FBYyxDQUFDO1FBQ25CLGNBQWMsR0FBRyw4QkFBYyxDQUFDLGNBQWMsQ0FBQyxDQUFDO1FBRWhELE9BQU8sb0JBQUMsTUFBTSxDQUFDLGFBQWEsb0JBQUssSUFBSSxDQUFDLEtBQUssR0FBSSxjQUFjLENBQXdCLENBQUE7S0FDdEY7O0FBRU0sMEJBQVksR0FBVTtJQUMzQixpQkFBaUIsRUFBRSxDQUFDO0NBQ3JCLENBQUE7QUFFTSw4QkFBZ0IsR0FBNEI7SUFDakQsY0FBYyxFQUFFO1FBQ2QsSUFBSSxFQUFFLG9CQUFXLENBQUMsaUJBQWlCO1FBQ25DLEtBQUssRUFBRSxRQUFRO0tBQ2hCO0lBQ0QsaUJBQWlCLEVBQUU7UUFDakIsSUFBSSxFQUFFLG9CQUFXLENBQUMsTUFBTTtRQUN4QixLQUFLLEVBQUUsT0FBTztRQUNkLEdBQUcsRUFBRSxDQUFDO0tBQ1A7Q0FDRixDQUFBO0FBeEJILHNDQXlCQztBQUNEIn0=
 
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
+const framer_1 = __webpack_require__(/*! framer */ "framer");
+const framerx_utils_1 = __webpack_require__(/*! ../../design-system-v2.framerfx/node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils */ "./node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils.ts");
 class DataTableHead extends React.Component {
     render() {
         window["__checkBudget__"]();
-        return React.createElement(System.DataTableHead, Object.assign({}, this.props));
+        const _a = this.props, { object, externalObject } = _a, rest = __rest(_a, ["object", "externalObject"]);
+        let objectElements;
+        objectElements = framerx_utils_1.cloneFrameless(externalObject);
+        return React.createElement(System.DataTableHead, Object.assign({}, this.props), objectElements);
     }
 }
-DataTableHead.defaultProps = {};
-DataTableHead.propertyControls = {};
+DataTableHead.defaultProps = {
+    activeObjectIndex: 0
+};
+DataTableHead.propertyControls = {
+    externalObject: {
+        type: framer_1.ControlType.ComponentInstance,
+        title: "object"
+    },
+    activeObjectIndex: {
+        type: framer_1.ControlType.Number,
+        title: "Index",
+        min: 0
+    }
+};
 exports.DataTableHead = DataTableHead;
 exports.__info__ = [{ name: "DataTableHead", children: false, type: "component" }];
 
@@ -43809,7 +44005,7 @@ exports.__info__ = [{ name: "DataTableHead", children: false, type: "component" 
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZENlbGwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9jb2RlL0RhdGFUYWJsZUhlYWRDZWxsLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtCQUE4QjtBQUM5Qiw4Q0FBNkM7QUFDN0MsbUNBQXNEO0FBTXRELE1BQWEsaUJBQWtCLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQzNELE1BQU07O1FBQ0osT0FBTyxvQkFBQyxNQUFNLENBQUMsaUJBQWlCLG9CQUFLLElBQUksQ0FBQyxLQUFLLEVBQUksQ0FBQTtLQUNwRDs7QUFFTSw4QkFBWSxHQUFVLEVBRTVCLENBQUE7QUFFTSxrQ0FBZ0IsR0FBNEI7SUFDakQsUUFBUSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxXQUFXLEVBQUU7SUFDM0QsV0FBVyxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxjQUFjLEVBQUU7SUFDakUsVUFBVSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsT0FBTyxFQUFFLEtBQUssRUFBRSxhQUFhLEVBQUU7SUFDL0QsOERBQThEO0lBQzlELHdFQUF3RTtJQUN4RSxJQUFJLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxNQUFNLEVBQUUsS0FBSyxFQUFFLE1BQU0sRUFBRTtDQUNsRCxDQUFBO0FBaEJILDhDQWlCQztBQUNEIn0=
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZENlbGwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9jb2RlL0RhdGFUYWJsZUhlYWRDZWxsLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtCQUE4QjtBQUM5Qiw4Q0FBNkM7QUFDN0MsbUNBQXNEO0FBTXRELE1BQWEsaUJBQWtCLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQzNELE1BQU07O1FBQ0osT0FBTyxvQkFBQyxNQUFNLENBQUMsaUJBQWlCLG9CQUFLLElBQUksQ0FBQyxLQUFLLEVBQUksQ0FBQTtLQUNwRDs7QUFFTSw4QkFBWSxHQUFVO0lBQzNCLElBQUksRUFBRSxNQUFNO0NBQ2IsQ0FBQTtBQUVNLGtDQUFnQixHQUE0QjtJQUNqRCxRQUFRLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLFdBQVcsRUFBRTtJQUMzRCxXQUFXLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLGNBQWMsRUFBRTtJQUNqRSxVQUFVLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLGFBQWEsRUFBRTtJQUMvRCxlQUFlO0lBQ2YsSUFBSSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsTUFBTSxFQUFFLEtBQUssRUFBRSxhQUFhLEVBQUU7SUFFeEQsSUFBSSxFQUFFLEVBQUUsSUFBSSxFQUFFLG9CQUFXLENBQUMsTUFBTSxFQUFFLEtBQUssRUFBRSxNQUFNLEVBQUU7Q0FDbEQsQ0FBQTtBQWpCSCw4Q0FrQkM7QUFDRCJ9
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
@@ -43821,14 +44017,16 @@ class DataTableHeadCell extends React.Component {
         return React.createElement(System.DataTableHeadCell, Object.assign({}, this.props));
     }
 }
-DataTableHeadCell.defaultProps = {};
+DataTableHeadCell.defaultProps = {
+    text: "Text",
+};
 DataTableHeadCell.propertyControls = {
     alignEnd: { type: framer_1.ControlType.Boolean, title: "Align End" },
     alignMiddle: { type: framer_1.ControlType.Boolean, title: "Align Middle" },
     alignStart: { type: framer_1.ControlType.Boolean, title: "Align Start" },
-    // children: { type: ControlType.Boolean, title: "Children" },
-    // onSortChange: { type: ControlType.Boolean, title: "On Sort Change" },
-    sort: { type: framer_1.ControlType.Number, title: "Sort" },
+    // onSortChange
+    sort: { type: framer_1.ControlType.Number, title: "Align Start" },
+    text: { type: framer_1.ControlType.String, title: "Text" },
 };
 exports.DataTableHeadCell = DataTableHeadCell;
 exports.__info__ = [{ name: "DataTableHeadCell", children: false, type: "component" }];
@@ -43845,23 +44043,47 @@ exports.__info__ = [{ name: "DataTableHeadCell", children: false, type: "compone
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlUm93LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vY29kZS9EYXRhVGFibGVSb3cudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsK0JBQThCO0FBQzlCLDhDQUE2QztBQUM3QyxtQ0FBc0Q7QUFNdEQsTUFBYSxZQUFhLFNBQVEsS0FBSyxDQUFDLFNBQWdCO0lBQ3RELE1BQU07O1FBQ0osT0FBTyxvQkFBQyxNQUFNLENBQUMsWUFBWSxvQkFBSyxJQUFJLENBQUMsS0FBSyxFQUFJLENBQUE7S0FDL0M7O0FBRU0seUJBQVksR0FBVSxFQUU1QixDQUFBO0FBRU0sNkJBQWdCLEdBQTRCO0lBQ2pELDZEQUE2RDtJQUM3RCxTQUFTLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLFdBQVcsRUFBRTtJQUM1RCxRQUFRLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLFVBQVUsRUFBRTtDQUMzRCxDQUFBO0FBYkgsb0NBY0M7QUFDRCJ9
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlUm93LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vY29kZS9EYXRhVGFibGVSb3cudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUEsK0JBQThCO0FBQzlCLDhDQUE2QztBQUM3QyxtQ0FBc0Q7QUFDdEQsOElBQTRJO0FBUTVJLE1BQWEsWUFBYSxTQUFRLEtBQUssQ0FBQyxTQUFnQjtJQUN0RCxNQUFNOztRQUNKLE1BQU0sZUFBZ0QsRUFBaEQsRUFBRSxNQUFNLEVBQUUsY0FBYyxPQUF3QixFQUF0QiwrQ0FBc0IsQ0FBQztRQUV2RCxJQUFJLGNBQWMsQ0FBQztRQUNuQixjQUFjLEdBQUcsOEJBQWMsQ0FBQyxjQUFjLENBQUMsQ0FBQztRQUVoRCxPQUFPLG9CQUFDLE1BQU0sQ0FBQyxZQUFZLG9CQUFLLElBQUksQ0FBQyxLQUFLLEdBQUksY0FBYyxDQUF1QixDQUFBO0tBQ3BGOztBQUVNLHlCQUFZLEdBQVU7SUFDM0IsaUJBQWlCLEVBQUUsQ0FBQztDQUNyQixDQUFBO0FBRU0sNkJBQWdCLEdBQTRCO0lBQ2pELDZEQUE2RDtJQUM3RCxTQUFTLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLFdBQVcsRUFBRTtJQUM1RCxRQUFRLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLFVBQVUsRUFBRTtJQUUxRCxjQUFjLEVBQUU7UUFDZCxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxpQkFBaUI7UUFDbkMsS0FBSyxFQUFFLFFBQVE7S0FDaEI7SUFDRCxpQkFBaUIsRUFBRTtRQUNqQixJQUFJLEVBQUUsb0JBQVcsQ0FBQyxNQUFNO1FBQ3hCLEtBQUssRUFBRSxPQUFPO1FBQ2QsR0FBRyxFQUFFLENBQUM7S0FDUDtDQUNGLENBQUE7QUE1Qkgsb0NBNkJDO0FBQ0QifQ==
 
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const System = __webpack_require__(/*! ../../design-system */ "../design-system/index.tsx");
 const framer_1 = __webpack_require__(/*! framer */ "framer");
+const framerx_utils_1 = __webpack_require__(/*! ../../design-system-v2.framerfx/node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils */ "./node_modules/@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils.ts");
 class DataTableRow extends React.Component {
     render() {
         window["__checkBudget__"]();
-        return React.createElement(System.DataTableRow, Object.assign({}, this.props));
+        const _a = this.props, { object, externalObject } = _a, rest = __rest(_a, ["object", "externalObject"]);
+        let objectElements;
+        objectElements = framerx_utils_1.cloneFrameless(externalObject);
+        return React.createElement(System.DataTableRow, Object.assign({}, this.props), objectElements);
     }
 }
-DataTableRow.defaultProps = {};
+DataTableRow.defaultProps = {
+    activeObjectIndex: 0
+};
 DataTableRow.propertyControls = {
     // children: { type: ControlType.String, title: "Children" },
     activated: { type: framer_1.ControlType.Boolean, title: "Activated" },
     selected: { type: framer_1.ControlType.Boolean, title: "Selected" },
+    externalObject: {
+        type: framer_1.ControlType.ComponentInstance,
+        title: "object"
+    },
+    activeObjectIndex: {
+        type: framer_1.ControlType.Number,
+        title: "Index",
+        min: 0
+    }
 };
 exports.DataTableRow = DataTableRow;
 exports.__info__ = [{ name: "DataTableRow", children: false, type: "component" }];
@@ -43940,6 +44162,73 @@ Elevation.propertyControls = {
 };
 exports.Elevation = Elevation;
 exports.__info__ = [{ name: "Elevation", children: false, type: "component" }];
+
+
+/***/ }),
+
+/***/ "./code/Examples.tsx":
+/*!***************************!*\
+  !*** ./code/Examples.tsx ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRXhhbXBsZXMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9jb2RlL0V4YW1wbGVzLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLG1DQUF1QztBQUV2QyxNQUFNLElBQUksR0FBRyxhQUFJLENBQUM7SUFDZCxNQUFNLEVBQUUsQ0FBQztJQUNULE9BQU8sRUFBRSxDQUFDO0lBQ1YsTUFBTSxFQUFFLElBQUk7Q0FDZixDQUFDLENBQUE7QUFFRixTQUFnQixLQUFLOztJQUNqQixPQUFPO1FBQ0gsVUFBVSxFQUFFLEVBQUUsS0FBSyxFQUFFLEdBQUcsRUFBRTtLQUM3QixDQUFBO0NBQ0o7QUFKRCxzQkFJQztBQUVELFNBQWdCLFNBQVM7O0lBQ3JCLE9BQU87UUFDSCxJQUFJLEVBQUUsSUFBSTtLQUNiLENBQUE7Q0FDSjtBQUpELDhCQUlDO0FBRUQsU0FBZ0IsTUFBTTs7SUFDbEIsT0FBTztRQUNILE9BQU8sRUFBRSxFQUFFLE1BQU0sRUFBRSxJQUFJLENBQUMsTUFBTSxFQUFFO1FBQ2hDLEtBQUs7O1lBQ0QsSUFBSSxDQUFDLE1BQU0sR0FBRyxJQUFJLENBQUMsTUFBTSxHQUFHLEVBQUUsQ0FBQTtTQUNqQztLQUNKLENBQUE7Q0FDSjtBQVBELHdCQU9DO0FBRUQsU0FBZ0IsU0FBUzs7SUFDckIsT0FBTztRQUNILEtBQUs7O1lBQ0QsTUFBTSxNQUFNLEdBQUcsSUFBSSxDQUFDLE1BQU0sQ0FBQTtZQUMxQixJQUFJLENBQUMsT0FBTyxHQUFHLE1BQU0sQ0FBQyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUE7WUFDL0IsSUFBSSxDQUFDLE1BQU0sR0FBRyxDQUFDLE1BQU0sQ0FBQTtTQUN4QjtLQUNKLENBQUE7Q0FDSjtBQVJELDhCQVFDO0FBRUQsU0FBZ0IsVUFBVTs7SUFDdEIsT0FBTztRQUNILE9BQU8sRUFBRSxFQUFFLE9BQU8sRUFBRSxJQUFJLENBQUMsT0FBTyxFQUFFO0tBQ3JDLENBQUE7Q0FDSjtBQUpELGdDQUlDO0FBQ0QifQ==
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const framer_1 = __webpack_require__(/*! framer */ "framer");
+const data = framer_1.Data({
+    rotate: 0,
+    rotateY: 0,
+    toggle: true,
+});
+function Hover() {
+    window["__checkBudget__"]();
+    return {
+        whileHover: { scale: 0.8 },
+    };
+}
+exports.Hover = Hover;
+function Draggable() {
+    window["__checkBudget__"]();
+    return {
+        drag: true,
+    };
+}
+exports.Draggable = Draggable;
+function Rotate() {
+    window["__checkBudget__"]();
+    return {
+        animate: { rotate: data.rotate },
+        onTap() {
+            window["__checkBudget__"]();
+            data.rotate = data.rotate + 90;
+        },
+    };
+}
+exports.Rotate = Rotate;
+function FlipInput() {
+    window["__checkBudget__"]();
+    return {
+        onTap() {
+            window["__checkBudget__"]();
+            const toggle = data.toggle;
+            data.rotateY = toggle ? 180 : 0;
+            data.toggle = !toggle;
+        },
+    };
+}
+exports.FlipInput = FlipInput;
+function FlipOutput() {
+    window["__checkBudget__"]();
+    return {
+        animate: { rotateY: data.rotateY },
+    };
+}
+exports.FlipOutput = FlipOutput;
+exports.__info__ = [{ name: "Hover", type: "override" }, { name: "Draggable", type: "override" }, { name: "Rotate", type: "override" }, { name: "FlipInput", type: "override" }, { name: "FlipOutput", type: "override" }];
 
 
 /***/ }),

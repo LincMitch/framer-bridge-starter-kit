@@ -14,7 +14,9 @@ export type Props = {
   alignStart?: boolean;
   children?: string;
   onSortChange?: string;
-  sort?: boolean;
+  sort?: number;
+
+  text?: string;
 }
 
 // Component
@@ -25,6 +27,8 @@ export const DataTableHeadCell: React.FC<Props> = ({
   children,
   onSortChange,
   sort,
+
+  text,
   ...rest
   
 } = processIconProps(this.props)) =>  (
@@ -38,6 +42,8 @@ export const DataTableHeadCell: React.FC<Props> = ({
       onSortChange={onSortChange}
       sort={sort}
       {...rest} >
+
+      {text}
       </_DataTableHeadCell>
     </FramerXWrapper>
 )
