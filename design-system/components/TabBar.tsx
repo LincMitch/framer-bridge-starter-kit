@@ -1,4 +1,4 @@
-export { Tab, TabProps} from "@rmwc/tabs"
+export { TabBar, TabBarProps} from "@rmwc/tabs"
 import '@material/tab-bar/dist/mdc.tab-bar.css';
 import '@material/tab/dist/mdc.tab.css';
 import '@material/tab-scroller/dist/mdc.tab-scroller.css';
