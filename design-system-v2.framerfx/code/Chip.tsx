@@ -1,5 +1,6 @@
 import * as React from "react"
 import * as System from "../../design-system"
+import FramerXWrapper from "./FramerXWrapper"
 
 type Props = System.ChipProps & {
 }

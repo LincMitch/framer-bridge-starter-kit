@@ -3,20 +3,18 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 import FramerXWrapper from "./FramerXWrapper"
 
-type Props = System.TopAppBarActionItemProps & {
-  icon: string
+type Props = System.FormfieldProps & {
 }
 
-export class TopAppBarActionItem extends React.Component<Props> {
+export class Formfield extends React.Component<Props> {
   render() {
-    return <System.TopAppBarActionItem {...this.props} ></System.TopAppBarActionItem>
+    return <System.Formfield {...this.props} />
   }
 
   static defaultProps: Props = {
-    icon: "star",
   }
 
   static propertyControls: PropertyControls<Props> = {
-    icon: { type: ControlType.String, title: "Icon" },
+    alignEnd: { type: ControlType.Boolean, title: "Align End" },
   }
 }
