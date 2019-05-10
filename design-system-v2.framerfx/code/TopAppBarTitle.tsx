@@ -8,7 +8,7 @@ type Props = System.TopAppBarTitleProps & {
 
 export class TopAppBarTitle extends React.Component<Props> {
   render() {
-    return <System.TopAppBarTitle {...this.props} ></System.TopAppBarTitle>
+    return <System.TopAppBarTitle {...this.props} />
   }
 
   static defaultProps: Props = {

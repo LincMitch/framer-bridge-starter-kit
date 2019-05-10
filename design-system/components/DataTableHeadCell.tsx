@@ -1,11 +1,6 @@
 import * as React from "react"
 import { DataTableHeadCell as _DataTableHeadCell} from "@rmwc/data-table"
 import '@rmwc/data-table/data-table.css';
-import FramerXWrapper from './FramerXWrapper';
-import {
-  processIconProps
-} from "./framerx-integration";
-
 
 // Types
 export type Props = {
@@ -31,9 +26,8 @@ export const DataTableHeadCell: React.FC<Props> = ({
   text,
   ...rest
   
-} = processIconProps(this.props)) =>  (
+} ) =>  (
   
-  <FramerXWrapper>
     <_DataTableHeadCell 
       alignEnd={alignEnd}
       alignMiddle={alignMiddle}
@@ -45,5 +39,4 @@ export const DataTableHeadCell: React.FC<Props> = ({
 
       {text}
       </_DataTableHeadCell>
-    </FramerXWrapper>
 )

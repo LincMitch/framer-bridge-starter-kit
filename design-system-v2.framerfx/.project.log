@@ -10491,3 +10491,420 @@
 [2019-05-09 15:52:58.6020] - DEBUG - [Save session: 11] Completed container.writeChanges
 [2019-05-09 15:52:58.6020] - DEBUG - [Save session: 11] Completed waitUsingRecursiveRunLoop
 [2019-05-09 15:52:58.6050] - DEBUG - [Save session: 11] Completed super.save
+[2019-05-10 10:19:44.2270] - ERROR -    465 modules
+[2019-05-10 10:19:44.2270] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:19:44.2270] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:19:44.2270] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:19:44.2270] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:19:44.2270] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:19:44.2270] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:19:44.3150] - ERROR -    465 modules
+[2019-05-10 10:19:44.3150] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:19:44.3150] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:19:44.3150] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:19:44.3150] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:19:44.3150] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:19:44.3150] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:08.3990] - ERROR -    465 modules
+[2019-05-10 10:20:08.3990] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:08.3990] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:08.3990] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:08.3990] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:08.3990] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:08.3990] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:08.4030] - ERROR -    465 modules
+[2019-05-10 10:20:08.4030] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:08.4030] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:08.4030] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:08.4030] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:08.4030] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:08.4030] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:09.4410] - ERROR -    465 modules
+[2019-05-10 10:20:09.4410] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:09.4410] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:09.4410] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:09.4410] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:09.4410] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:09.4410] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:09.4450] - ERROR -    465 modules
+[2019-05-10 10:20:09.4460] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:09.4460] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:09.4460] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:09.4460] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:09.4460] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:09.4460] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:09.9150] - ERROR -    465 modules
+[2019-05-10 10:20:09.9150] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:09.9150] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:09.9150] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:09.9160] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:09.9160] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:09.9160] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:09.9200] - ERROR -    465 modules
+[2019-05-10 10:20:09.9200] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:09.9200] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:09.9200] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:09.9200] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:09.9200] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:09.9200] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:10.4030] - ERROR -    465 modules
+[2019-05-10 10:20:10.4030] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:10.4030] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:10.4030] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:10.4040] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:10.4040] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:10.4040] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:10.4100] - ERROR -    465 modules
+[2019-05-10 10:20:10.4100] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:10.4100] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:10.4100] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:10.4100] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:10.4100] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:10.4100] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:10.8530] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.20.10.zip
+[2019-05-10 10:20:19.6240] - INFO - Reading from /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-10 10:20:19.6790] - INFO - Done reading
+[2019-05-10 10:20:19.6800] - INFO - Marking changed: false
+[2019-05-10 10:20:19.7640] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-10 10:20:20.8770] - INFO - GET 200 /design/document.json 0 B (1ms)
+[2019-05-10 10:20:23.7250] - ERROR - Project might be incompatible with this Framer X version (1.0.4 is not listed as compatible version in "^0.10")
+[2019-05-10 10:20:23.7250] - ERROR - Try selecting the Built-In Framer Library version from the File menu.
+[2019-05-10 10:20:24.6010] - ERROR - Project might be incompatible with this Framer X version (1.0.4 is not listed as compatible version in "^0.10")
+[2019-05-10 10:20:24.6010] - ERROR - Try selecting the Built-In Framer Library version from the File menu.
+[2019-05-10 10:20:25.3650] - INFO - Marking changed: false
+[2019-05-10 10:20:25.6530] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (5ms)
+[2019-05-10 10:20:26.6850] - ERROR - Project might be incompatible with this Framer X version (1.0.4 is not listed as compatible version in "^0.10")
+[2019-05-10 10:20:26.6850] - ERROR - Try selecting the Built-In Framer Library version from the File menu.
+[2019-05-10 10:20:27.4590] - ERROR - Project might be incompatible with this Framer X version (1.0.4 is not listed as compatible version in "^0.10")
+[2019-05-10 10:20:27.4590] - ERROR - Try selecting the Built-In Framer Library version from the File menu.
+[2019-05-10 10:20:27.8700] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (495ms)
+[2019-05-10 10:20:29.5180] - ERROR -    465 modules
+[2019-05-10 10:20:29.5180] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:29.5180] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:29.5180] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:29.5180] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:29.5180] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:29.5180] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:29.9230] - ERROR -    465 modules
+[2019-05-10 10:20:29.9230] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:29.9230] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:29.9240] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:29.9240] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:29.9240] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:29.9240] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:35.9890] - ERROR -    465 modules
+[2019-05-10 10:20:35.9890] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:35.9890] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:35.9890] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:35.9890] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:35.9890] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:35.9890] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:36.0260] - ERROR -    465 modules
+[2019-05-10 10:20:36.0260] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:36.0260] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:36.0260] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:36.0260] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:36.0270] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:36.0270] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:39.5710] - ERROR -    465 modules
+[2019-05-10 10:20:39.5710] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:39.5710] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:39.5710] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:39.5710] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:39.5710] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:39.5710] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:39.6650] - ERROR -    465 modules
+[2019-05-10 10:20:39.6650] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:20:39.6650] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:20:39.6650] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:39.6650] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:20:39.6650] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:20:39.6650] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:20:41.0880] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-05-10 10:21:19.7990] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.21.19.zip
+[2019-05-10 10:21:48.8500] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2019-05-10 10:22:14.9070] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2019-05-10 10:22:19.9500] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.22.19.zip
+[2019-05-10 10:22:36.9970] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2019-05-10 10:23:20.4510] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.23.20.zip
+[2019-05-10 10:23:22.7160] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-05-10 10:25:06.4500] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-10 10:25:06.4500] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-05-10 10:25:06.4500] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-05-10 10:25:06.4770] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-05-10 10:25:06.4770] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-05-10 10:25:06.4820] - DEBUG - [Save session: 0] Completed super.save
+[2019-05-10 10:25:22.4370] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.25.22.zip
+[2019-05-10 10:26:03.7830] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-10 10:26:03.7830] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-05-10 10:26:03.7830] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-05-10 10:26:03.8130] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-05-10 10:26:03.8130] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-05-10 10:26:03.8170] - DEBUG - [Save session: 1] Completed super.save
+[2019-05-10 10:26:23.3990] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.26.23.zip
+[2019-05-10 10:27:42.6700] - DEBUG - [Save session: 2] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-10 10:27:42.6700] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-05-10 10:27:42.6700] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-05-10 10:27:42.7000] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-05-10 10:27:42.7000] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-05-10 10:27:42.7040] - DEBUG - [Save session: 2] Completed super.save
+[2019-05-10 10:28:25.3940] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.28.25.zip
+[2019-05-10 10:29:26.4200] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.29.26.zip
+[2019-05-10 10:30:27.4170] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.30.27.zip
+[2019-05-10 10:31:28.4650] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.31.28.zip
+[2019-05-10 10:32:29.4630] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.32.29.zip
+[2019-05-10 10:33:28.9470] - DEBUG - [Save session: 3] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-10 10:33:28.9470] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-05-10 10:33:28.9470] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-05-10 10:33:28.9770] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-05-10 10:33:28.9770] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-05-10 10:33:28.9810] - DEBUG - [Save session: 3] Completed super.save
+[2019-05-10 10:33:29.6590] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.33.29.zip
+[2019-05-10 10:34:30.3930] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.34.30.zip
+[2019-05-10 10:35:31.4590] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.35.31.zip
+[2019-05-10 10:37:33.4230] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.37.33.zip
+[2019-05-10 10:38:11.7890] - DEBUG - [Save session: 4] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-10 10:38:11.7890] - DEBUG - [Save session: 4] Before container.writeChanges
+[2019-05-10 10:38:11.7890] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2019-05-10 10:38:11.8190] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2019-05-10 10:38:11.8190] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2019-05-10 10:38:11.8230] - DEBUG - [Save session: 4] Completed super.save
+[2019-05-10 10:38:34.4390] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.38.34.zip
+[2019-05-10 10:38:46.9760] - ERROR -    465 modules
+[2019-05-10 10:38:46.9760] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:38:46.9760] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:38:46.9760] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:38:46.9760] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:38:46.9760] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:38:46.9760] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:38:47.0080] - ERROR -    465 modules
+[2019-05-10 10:38:47.0080] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:38:47.0080] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:38:47.0080] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:38:47.0080] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:38:47.0080] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:38:47.0080] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:40:53.1940] - ERROR -    465 modules
+[2019-05-10 10:40:53.1940] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:40:53.1940] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:40:53.1940] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:40:53.1940] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:40:53.1940] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:40:53.1940] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:40:53.2820] - ERROR -    465 modules
+[2019-05-10 10:40:53.2820] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:40:53.2820] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:40:53.2820] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:40:53.2820] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:40:53.2820] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:40:53.2820] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:41:29.8190] - ERROR -    465 modules
+[2019-05-10 10:41:29.8190] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:41:29.8190] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:41:29.8190] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:29.8190] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:29.8190] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:41:29.8190] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:41:29.8550] - ERROR -    465 modules
+[2019-05-10 10:41:29.8550] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:41:29.8550] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:41:29.8550] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:29.8550] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:29.8550] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:41:29.8550] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:41:43.4830] - ERROR -    465 modules
+[2019-05-10 10:41:43.4840] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:41:43.4840] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:41:43.4840] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:43.4840] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:43.4840] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:41:43.4840] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:41:43.5250] - ERROR -    465 modules
+[2019-05-10 10:41:43.5250] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:41:43.5250] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:41:43.5250] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:43.5250] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:43.5250] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:41:43.5250] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:41:48.6600] - ERROR -    465 modules
+[2019-05-10 10:41:48.6600] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:41:48.6600] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:41:48.6600] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:48.6600] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:48.6600] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:41:48.6600] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:41:48.6960] - ERROR -    465 modules
+[2019-05-10 10:41:48.6960] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:41:48.6960] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:41:48.6960] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:48.6960] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:41:48.6960] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:41:48.6960] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:42:12.4720] - ERROR -    465 modules
+[2019-05-10 10:42:12.4720] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:42:12.4720] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:42:12.4720] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:12.4730] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:12.4730] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:42:12.4730] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:42:12.5550] - ERROR -    465 modules
+[2019-05-10 10:42:12.5550] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:42:12.5550] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:42:12.5550] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:12.5550] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:12.5550] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:42:12.5550] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:42:16.6990] - ERROR -    465 modules
+[2019-05-10 10:42:16.7000] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:42:16.7000] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:42:16.7000] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:16.7000] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:16.7000] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:42:16.7000] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:42:16.7350] - ERROR -    465 modules
+[2019-05-10 10:42:16.7360] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:42:16.7360] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:42:16.7360] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:16.7360] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:16.7360] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:42:16.7360] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:42:48.1100] - ERROR -    465 modules
+[2019-05-10 10:42:48.1100] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:42:48.1100] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:42:48.1100] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:48.1100] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:48.1100] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:42:48.1100] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:42:48.1940] - ERROR -    465 modules
+[2019-05-10 10:42:48.1940] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:42:48.1940] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:42:48.1940] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:48.1950] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:42:48.1950] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:42:48.1950] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:43:11.7660] - ERROR -    465 modules
+[2019-05-10 10:43:11.7660] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:43:11.7660] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:43:11.7660] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:43:11.7660] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:43:11.7660] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:43:11.7670] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:43:11.8610] - ERROR -    465 modules
+[2019-05-10 10:43:11.8610] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:43:11.8610] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:43:11.8610] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:43:11.8610] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:43:11.8610] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:43:11.8610] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:43:39.4570] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.43.39.zip
+[2019-05-10 10:44:05.0810] - DEBUG - [Save session: 5] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-10 10:44:05.0810] - DEBUG - [Save session: 5] Before container.writeChanges
+[2019-05-10 10:44:05.0810] - DEBUG - [Save session: 5] Before waitUsingRecursiveRunLoop
+[2019-05-10 10:44:05.1140] - DEBUG - [Save session: 5] Completed container.writeChanges
+[2019-05-10 10:44:05.1140] - DEBUG - [Save session: 5] Completed waitUsingRecursiveRunLoop
+[2019-05-10 10:44:05.1180] - DEBUG - [Save session: 5] Completed super.save
+[2019-05-10 10:44:37.6160] - ERROR -    465 modules
+[2019-05-10 10:44:37.6160] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:37.6160] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:37.6160] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:37.6160] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:37.6160] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:37.6160] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:44:37.6990] - ERROR -    465 modules
+[2019-05-10 10:44:37.6990] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:37.6990] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:37.6990] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:37.6990] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:37.6990] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:37.6990] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:44:39.9220] - INFO - Backing up to /Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/.backups/2019-05-10 10.44.39.zip
+[2019-05-10 10:44:45.2720] - ERROR -    465 modules
+[2019-05-10 10:44:45.2720] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:45.2720] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:45.2720] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:45.2720] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:45.2720] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:45.2720] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:44:45.3110] - ERROR -    465 modules
+[2019-05-10 10:44:45.3110] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:45.3110] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:45.3110] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:45.3110] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:45.3110] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:45.3110] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:44:49.4840] - ERROR -    465 modules
+[2019-05-10 10:44:49.4840] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:49.4850] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:49.4850] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:49.4850] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:49.4850] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:49.4850] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:44:49.5280] - ERROR -    465 modules
+[2019-05-10 10:44:49.5290] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:49.5290] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:49.5290] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:49.5290] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:49.5290] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:49.5290] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:44:54.5190] - ERROR -    465 modules
+[2019-05-10 10:44:54.5190] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:54.5190] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:54.5190] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:54.5190] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:54.5190] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:54.5190] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:44:54.5540] - ERROR -    465 modules
+[2019-05-10 10:44:54.5540] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:54.5540] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:54.5540] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:54.5540] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:54.5540] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:54.5540] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:44:59.3630] - ERROR -    465 modules
+[2019-05-10 10:44:59.3630] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:59.3630] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:59.3630] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:59.3630] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:59.3630] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:59.3630] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:44:59.4540] - ERROR -    465 modules
+[2019-05-10 10:44:59.4540] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:44:59.4540] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:44:59.4540] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:59.4540] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:44:59.4540] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:44:59.4540] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:45:03.1490] - ERROR -    465 modules
+[2019-05-10 10:45:03.1490] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:45:03.1490] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:45:03.1500] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:45:03.1500] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:45:03.1500] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:45:03.1500] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:45:03.1830] - ERROR -    465 modules
+[2019-05-10 10:45:03.1830] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:45:03.1830] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:45:03.1830] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:45:03.1830] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:45:03.1830] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:45:03.1830] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:45:22.6100] - ERROR -    465 modules
+[2019-05-10 10:45:22.6100] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:45:22.6100] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:45:22.6100] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:45:22.6100] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:45:22.6100] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:45:22.6110] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:45:22.6530] - ERROR -    465 modules
+[2019-05-10 10:45:22.6530] - ERROR - ERROR in ./code/framerx-integration.ts
+[2019-05-10 10:45:22.6530] - ERROR - Module not found: Error: Can't resolve './theme' in '/Users/lincolnmitchell/framer-bridge-starter-kit/design-system-v2.framerfx/code'
+[2019-05-10 10:45:22.6530] - ERROR - ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx
+[2019-05-10 10:45:22.6530] - ERROR - ../design-system/components/CircularProgress.tsx
+[2019-05-10 10:45:22.6530] - ERROR - [tsl] ERROR in /Users/lincolnmitchell/framer-bridge-starter-kit/design-system/components/CircularProgress.tsx(2,78)
+[2019-05-10 10:45:22.6530] - ERROR -       TS1002: Unterminated string literal.
+[2019-05-10 10:57:26.1560] - DEBUG - [Save session: 6] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-10 10:57:26.1560] - DEBUG - [Save session: 6] Before container.writeChanges
+[2019-05-10 10:57:26.1560] - DEBUG - [Save session: 6] Before waitUsingRecursiveRunLoop
+[2019-05-10 10:57:26.1870] - DEBUG - [Save session: 6] Completed container.writeChanges
+[2019-05-10 10:57:26.1870] - DEBUG - [Save session: 6] Completed waitUsingRecursiveRunLoop
+[2019-05-10 10:57:26.1920] - DEBUG - [Save session: 6] Completed super.save

@@ -2457,16 +2457,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const data_table_1 = __webpack_require__(/*! @rmwc/data-table */ "../node_modules/@rmwc/data-table/next/index.js");
 __webpack_require__(/*! @rmwc/data-table/data-table.css */ "../node_modules/@rmwc/data-table/data-table.css");
-const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
-const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
 // Component
-exports.DataTable = (_a = framerx_integration_1.processIconProps(this.props)) => {
+exports.DataTable = (_a) => {
     var { stickyColumns, stickyRows } = _a, rest = __rest(_a, ["stickyColumns", "stickyRows"]);
-    return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(data_table_1.DataTable, Object.assign({ stickyColumns: stickyColumns, stickyRows: stickyRows }, rest))));
+    return (React.createElement(data_table_1.DataTable, Object.assign({ stickyColumns: stickyColumns, stickyRows: stickyRows }, rest)));
 };
 exports.__info__ = [{ name: "DataTable", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL0RhdGFUYWJsZS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsaURBQXlEO0FBQ3pELDJDQUF5QztBQUN6QyxxREFBOEM7QUFDOUMsK0RBRStCO0FBUy9CLFlBQVk7QUFDQyxRQUFBLFNBQVMsR0FBb0IsQ0FBQyxLQUt2QyxzQ0FBZ0IsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLEVBQUUsRUFBRTtRQUxPLEVBQ3pDLGFBQWEsRUFDYixVQUFVLE9BR29CLEVBRjlCLGtEQUFPO0lBRTZCLE9BQUEsQ0FFcEMsb0JBQUMsd0JBQWM7UUFDYixvQkFBQyxzQkFBVSxrQkFDVCxhQUFhLEVBQUUsYUFBYSxFQUM1QixVQUFVLEVBQUUsVUFBVSxJQUNsQixJQUFJLEVBQ0ssQ0FDRSxDQUNwQixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL0RhdGFUYWJsZS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsaURBQXlEO0FBQ3pELDJDQUF5QztBQVF6QyxZQUFZO0FBQ0MsUUFBQSxTQUFTLEdBQW9CLENBQUMsRUFLMUMsRUFBRyxFQUFFO1FBTHFDLEVBQ3pDLGFBQWEsRUFDYixVQUFVLE9BR1gsRUFGQyxrREFBTztJQUVELE9BQUEsQ0FFSixvQkFBQyxzQkFBVSxrQkFDVCxhQUFhLEVBQUUsYUFBYSxFQUM1QixVQUFVLEVBQUUsVUFBVSxJQUNsQixJQUFJLEVBQ0ssQ0FFbEIsQ0FBQTtDQUFBLENBQUE7QUFBQSJ9
 
 /***/ }),
 
@@ -2492,16 +2489,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const data_table_1 = __webpack_require__(/*! @rmwc/data-table */ "../node_modules/@rmwc/data-table/next/index.js");
 __webpack_require__(/*! @rmwc/data-table/data-table.css */ "../node_modules/@rmwc/data-table/data-table.css");
-const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
-const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
 // Component
-exports.DataTableBody = (_a = framerx_integration_1.processIconProps(this.props)) => {
+exports.DataTableBody = (_a) => {
     var rest = __rest(_a, []);
-    return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(data_table_1.DataTableBody, Object.assign({}, rest))));
+    return (React.createElement(data_table_1.DataTableBody, Object.assign({}, rest)));
 };
 exports.__info__ = [{ name: "DataTableBody", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQm9keS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVCb2R5LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBaUU7QUFDakUsMkNBQXlDO0FBQ3pDLHFEQUE4QztBQUM5QywrREFFK0I7QUFRL0IsWUFBWTtBQUNDLFFBQUEsYUFBYSxHQUFvQixDQUFDLEtBRzNDLHNDQUFnQixDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxFQUFFO1FBRmxDLHFCQUFPO0lBRTZCLE9BQUEsQ0FFcEMsb0JBQUMsd0JBQWM7UUFDYixvQkFBQywwQkFBYyxvQkFDVCxJQUFJLEVBQ1MsQ0FDRixDQUNwQixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQm9keS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVCb2R5LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBaUU7QUFDakUsMkNBQXlDO0FBT3pDLFlBQVk7QUFDQyxRQUFBLGFBQWEsR0FBb0IsQ0FBQyxFQUc5QyxFQUFFLEVBQUU7UUFGSCxxQkFBTztJQUVGLE9BQUEsQ0FFSCxvQkFBQywwQkFBYyxvQkFDVCxJQUFJLEVBQ1MsQ0FDdEIsQ0FBQTtDQUFBLENBQUE7QUFBQSJ9
 
 /***/ }),
 
@@ -2527,16 +2521,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const data_table_1 = __webpack_require__(/*! @rmwc/data-table */ "../node_modules/@rmwc/data-table/next/index.js");
 __webpack_require__(/*! @rmwc/data-table/data-table.css */ "../node_modules/@rmwc/data-table/data-table.css");
-const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
-const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
 // Component
-exports.DataTableCell = (_a = framerx_integration_1.processIconProps(this.props)) => {
+exports.DataTableCell = (_a) => {
     var { alignEnd, alignMiddle, alignStart, text } = _a, rest = __rest(_a, ["alignEnd", "alignMiddle", "alignStart", "text"]);
-    return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(data_table_1.DataTableCell, Object.assign({ alignEnd: alignEnd, alignMiddle: alignMiddle, alignStart: alignStart }, rest), text)));
+    return (React.createElement(data_table_1.DataTableCell, Object.assign({ alignEnd: alignEnd, alignMiddle: alignMiddle, alignStart: alignStart }, rest), text));
 };
 exports.__info__ = [{ name: "DataTableCell", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ2VsbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVDZWxsLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBaUU7QUFDakUsMkNBQXlDO0FBQ3pDLHFEQUE4QztBQUM5QywrREFFK0I7QUFZL0IsWUFBWTtBQUNDLFFBQUEsYUFBYSxHQUFvQixDQUFDLEtBUTNDLHNDQUFnQixDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxFQUFFO1FBUlcsRUFDN0MsUUFBUSxFQUNSLFdBQVcsRUFDWCxVQUFVLEVBRVYsSUFBSSxPQUcwQixFQUY5QixvRUFBTztJQUU2QixPQUFBLENBRXBDLG9CQUFDLHdCQUFjO1FBQ2Isb0JBQUMsMEJBQWMsa0JBQ2IsUUFBUSxFQUFFLFFBQVEsRUFDbEIsV0FBVyxFQUFFLFdBQVcsRUFDeEIsVUFBVSxFQUFFLFVBQVUsSUFDbEIsSUFBSSxHQUVQLElBQUksQ0FDWSxDQUNGLENBQ3BCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ2VsbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVDZWxsLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBaUU7QUFDakUsMkNBQXlDO0FBV3pDLFlBQVk7QUFDQyxRQUFBLGFBQWEsR0FBb0IsQ0FBQyxFQVE5QyxFQUFFLEVBQUU7UUFSMEMsRUFDN0MsUUFBUSxFQUNSLFdBQVcsRUFDWCxVQUFVLEVBRVYsSUFBSSxPQUdMLEVBRkMsb0VBQU87SUFFRixPQUFBLENBQ0gsb0JBQUMsMEJBQWMsa0JBQ2IsUUFBUSxFQUFFLFFBQVEsRUFDbEIsV0FBVyxFQUFFLFdBQVcsRUFDeEIsVUFBVSxFQUFFLFVBQVUsSUFDbEIsSUFBSSxHQUVQLElBQUksQ0FDWSxDQUN0QixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
 
 /***/ }),
 
@@ -2562,16 +2553,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const data_table_1 = __webpack_require__(/*! @rmwc/data-table */ "../node_modules/@rmwc/data-table/next/index.js");
 __webpack_require__(/*! @rmwc/data-table/data-table.css */ "../node_modules/@rmwc/data-table/data-table.css");
-const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
-const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
 // Component
-exports.DataTableContent = (_a = framerx_integration_1.processIconProps(this.props)) => {
+exports.DataTableContent = (_a) => {
     var rest = __rest(_a, []);
-    return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(data_table_1.DataTableContent, Object.assign({}, rest))));
+    return (React.createElement(data_table_1.DataTableContent, Object.assign({}, rest)));
 };
 exports.__info__ = [{ name: "DataTableContent", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ29udGVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVDb250ZW50LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBdUU7QUFDdkUsMkNBQXlDO0FBQ3pDLHFEQUE4QztBQUM5QywrREFFK0I7QUFRL0IsWUFBWTtBQUNDLFFBQUEsZ0JBQWdCLEdBQW9CLENBQUMsS0FHOUMsc0NBQWdCLENBQUMsSUFBSSxDQUFDLEtBQUssQ0FBQyxFQUFFLEVBQUU7UUFGbEMscUJBQU87SUFFNkIsT0FBQSxDQUVwQyxvQkFBQyx3QkFBYztRQUNiLG9CQUFDLDZCQUFpQixvQkFDWixJQUFJLEVBQ1ksQ0FDTCxDQUNwQixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlQ29udGVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVDb250ZW50LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBdUU7QUFDdkUsMkNBQXlDO0FBT3pDLFlBQVk7QUFDQyxRQUFBLGdCQUFnQixHQUFvQixDQUFDLEVBR2pELEVBQUUsRUFBRTtRQUZILHFCQUFPO0lBRUYsT0FBQSxDQUVILG9CQUFDLDZCQUFpQixvQkFDWixJQUFJLEVBQ1ksQ0FDekIsQ0FBQTtDQUFBLENBQUE7QUFBQSJ9
 
 /***/ }),
 
@@ -2597,16 +2585,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const data_table_1 = __webpack_require__(/*! @rmwc/data-table */ "../node_modules/@rmwc/data-table/next/index.js");
 __webpack_require__(/*! @rmwc/data-table/data-table.css */ "../node_modules/@rmwc/data-table/data-table.css");
-const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
-const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
 // Component
-exports.DataTableHead = (_a = framerx_integration_1.processIconProps(this.props)) => {
+exports.DataTableHead = (_a) => {
     var rest = __rest(_a, []);
-    return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(data_table_1.DataTableHead, Object.assign({}, rest))));
+    return (React.createElement(data_table_1.DataTableHead, Object.assign({}, rest)));
 };
 exports.__info__ = [{ name: "DataTableHead", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVIZWFkLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBaUU7QUFDakUsMkNBQXlDO0FBQ3pDLHFEQUE4QztBQUM5QywrREFFK0I7QUFPL0IsWUFBWTtBQUNDLFFBQUEsYUFBYSxHQUFvQixDQUFDLEtBRzNDLHNDQUFnQixDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsRUFBRSxFQUFFO1FBRmxDLHFCQUFPO0lBRTZCLE9BQUEsQ0FFcEMsb0JBQUMsd0JBQWM7UUFDYixvQkFBQywwQkFBYyxvQkFDVCxJQUFJLEVBQ1MsQ0FDRixDQUNwQixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL2Rlc2lnbi1zeXN0ZW0vY29tcG9uZW50cy9EYXRhVGFibGVIZWFkLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBLCtCQUE4QjtBQUM5QixpREFBaUU7QUFDakUsMkNBQXlDO0FBTXpDLFlBQVk7QUFDQyxRQUFBLGFBQWEsR0FBb0IsQ0FBQyxFQUc5QyxFQUFHLEVBQUU7UUFGSixxQkFBTztJQUVELE9BQUEsQ0FFSixvQkFBQywwQkFBYyxvQkFDVCxJQUFJLEVBQ1MsQ0FDdEIsQ0FBQTtDQUFBLENBQUE7QUFBQSJ9
 
 /***/ }),
 
@@ -2632,16 +2617,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const data_table_1 = __webpack_require__(/*! @rmwc/data-table */ "../node_modules/@rmwc/data-table/next/index.js");
 __webpack_require__(/*! @rmwc/data-table/data-table.css */ "../node_modules/@rmwc/data-table/data-table.css");
-const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
-const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
 // Component
-exports.DataTableHeadCell = (_a = framerx_integration_1.processIconProps(this.props)) => {
+exports.DataTableHeadCell = (_a) => {
     var { alignEnd, alignMiddle, alignStart, children, onSortChange, sort, text } = _a, rest = __rest(_a, ["alignEnd", "alignMiddle", "alignStart", "children", "onSortChange", "sort", "text"]);
-    return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(data_table_1.DataTableHeadCell, Object.assign({ alignEnd: alignEnd, alignMiddle: alignMiddle, alignStart: alignStart, children: children, onSortChange: onSortChange, sort: sort }, rest), text)));
+    return (React.createElement(data_table_1.DataTableHeadCell, Object.assign({ alignEnd: alignEnd, alignMiddle: alignMiddle, alignStart: alignStart, children: children, onSortChange: onSortChange, sort: sort }, rest), text));
 };
 exports.__info__ = [{ name: "DataTableHeadCell", children: true, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZENlbGwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvRGF0YVRhYmxlSGVhZENlbGwudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUEsK0JBQThCO0FBQzlCLGlEQUF5RTtBQUN6RSwyQ0FBeUM7QUFDekMscURBQThDO0FBQzlDLCtEQUUrQjtBQWUvQixZQUFZO0FBQ0MsUUFBQSxpQkFBaUIsR0FBb0IsQ0FBQyxLQVcvQyxzQ0FBZ0IsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLEVBQUUsRUFBRTtRQVhlLEVBQ2pELFFBQVEsRUFDUixXQUFXLEVBQ1gsVUFBVSxFQUNWLFFBQVEsRUFDUixZQUFZLEVBQ1osSUFBSSxFQUVKLElBQUksT0FHMEIsRUFGOUIsd0dBQU87SUFFNkIsT0FBQSxDQUVwQyxvQkFBQyx3QkFBYztRQUNiLG9CQUFDLDhCQUFrQixrQkFDakIsUUFBUSxFQUFFLFFBQVEsRUFDbEIsV0FBVyxFQUFFLFdBQVcsRUFDeEIsVUFBVSxFQUFFLFVBQVUsRUFDdEIsUUFBUSxFQUFFLFFBQVEsRUFDbEIsWUFBWSxFQUFFLFlBQVksRUFDMUIsSUFBSSxFQUFFLElBQUksSUFDTixJQUFJLEdBRVAsSUFBSSxDQUNnQixDQUNOLENBQ3BCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlSGVhZENlbGwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9kZXNpZ24tc3lzdGVtL2NvbXBvbmVudHMvRGF0YVRhYmxlSGVhZENlbGwudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUEsK0JBQThCO0FBQzlCLGlEQUF5RTtBQUN6RSwyQ0FBeUM7QUFjekMsWUFBWTtBQUNDLFFBQUEsaUJBQWlCLEdBQW9CLENBQUMsRUFXbEQsRUFBRyxFQUFFO1FBWDZDLEVBQ2pELFFBQVEsRUFDUixXQUFXLEVBQ1gsVUFBVSxFQUNWLFFBQVEsRUFDUixZQUFZLEVBQ1osSUFBSSxFQUVKLElBQUksT0FHTCxFQUZDLHdHQUFPO0lBRUQsT0FBQSxDQUVKLG9CQUFDLDhCQUFrQixrQkFDakIsUUFBUSxFQUFFLFFBQVEsRUFDbEIsV0FBVyxFQUFFLFdBQVcsRUFDeEIsVUFBVSxFQUFFLFVBQVUsRUFDdEIsUUFBUSxFQUFFLFFBQVEsRUFDbEIsWUFBWSxFQUFFLFlBQVksRUFDMUIsSUFBSSxFQUFFLElBQUksSUFDTixJQUFJLEdBRVAsSUFBSSxDQUNnQixDQUMxQixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
 
 /***/ }),
 
@@ -2667,16 +2649,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const data_table_1 = __webpack_require__(/*! @rmwc/data-table */ "../node_modules/@rmwc/data-table/next/index.js");
 __webpack_require__(/*! @rmwc/data-table/data-table.css */ "../node_modules/@rmwc/data-table/data-table.css");
-const FramerXWrapper_1 = __webpack_require__(/*! ./FramerXWrapper */ "../design-system/components/FramerXWrapper.tsx");
-const framerx_integration_1 = __webpack_require__(/*! ./framerx-integration */ "../design-system/components/framerx-integration.ts");
 // Component
-exports.DataTableRow = (_a = framerx_integration_1.processIconProps(this.props)) => {
+exports.DataTableRow = (_a) => {
     var { activated, selected } = _a, rest = __rest(_a, ["activated", "selected"]);
-    return (React.createElement(FramerXWrapper_1.default, null,
-        React.createElement(data_table_1.DataTableRow, Object.assign({ activated: activated, selected: selected }, rest))));
+    return (React.createElement(data_table_1.DataTableRow, Object.assign({ activated: activated, selected: selected }, rest)));
 };
 exports.__info__ = [{ name: "DataTableRow", children: false, type: "component" }];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlUm93LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL0RhdGFUYWJsZVJvdy50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsaURBQStEO0FBQy9ELDJDQUF5QztBQUN6QyxxREFBOEM7QUFDOUMsK0RBRStCO0FBUy9CLFlBQVk7QUFDQyxRQUFBLFlBQVksR0FBb0IsQ0FBQyxLQUsxQyxzQ0FBZ0IsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLEVBQUUsRUFBRTtRQUxVLEVBQzVDLFNBQVMsRUFDVCxRQUFRLE9BR3NCLEVBRjlCLDRDQUFPO0lBRTZCLE9BQUEsQ0FFcEMsb0JBQUMsd0JBQWM7UUFDYixvQkFBQyx5QkFBYSxrQkFDWixTQUFTLEVBQUUsU0FBUyxFQUNwQixRQUFRLEVBQUUsUUFBUSxJQUNkLElBQUksRUFDUSxDQUNELENBQ3BCLENBQUE7Q0FBQSxDQUFBO0FBQUEifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YVRhYmxlUm93LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGVzaWduLXN5c3RlbS9jb21wb25lbnRzL0RhdGFUYWJsZVJvdy50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsaURBQStEO0FBQy9ELDJDQUF5QztBQVF6QyxZQUFZO0FBQ0MsUUFBQSxZQUFZLEdBQW9CLENBQUMsRUFLN0MsRUFBRSxFQUFFO1FBTHlDLEVBQzVDLFNBQVMsRUFDVCxRQUFRLE9BR1QsRUFGQyw0Q0FBTztJQUVGLE9BQUEsQ0FFSCxvQkFBQyx5QkFBYSxrQkFDWixTQUFTLEVBQUUsU0FBUyxFQUNwQixRQUFRLEVBQUUsUUFBUSxJQUNkLElBQUksRUFDUSxDQUNyQixDQUFBO0NBQUEsQ0FBQTtBQUFBIn0=
 
 /***/ }),
 
@@ -45168,7 +45147,7 @@ exports.__info__ = [{ name: "TopAppBarSection", children: false, type: "componen
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVG9wQXBwQmFyVGl0bGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9jb2RlL1RvcEFwcEJhclRpdGxlLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtCQUE4QjtBQUM5Qiw4Q0FBNkM7QUFDN0MsbUNBQXNEO0FBTXRELE1BQWEsY0FBZSxTQUFRLEtBQUssQ0FBQyxTQUFnQjtJQUN4RCxNQUFNOztRQUNKLE9BQU8sb0JBQUMsTUFBTSxDQUFDLGNBQWMsb0JBQUssSUFBSSxDQUFDLEtBQUssRUFBMkIsQ0FBQTtLQUN4RTs7QUFFTSwyQkFBWSxHQUFVO0lBQzNCLEtBQUssRUFBRSxPQUFPO0NBQ2YsQ0FBQTtBQUVNLCtCQUFnQixHQUE0QjtJQUNqRCxLQUFLLEVBQUUsRUFBRSxJQUFJLEVBQUUsb0JBQVcsQ0FBQyxNQUFNLEVBQUUsS0FBSyxFQUFFLE9BQU8sRUFBRTtDQUNwRCxDQUFBO0FBWEgsd0NBWUM7QUFDRCJ9
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVG9wQXBwQmFyVGl0bGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9jb2RlL1RvcEFwcEJhclRpdGxlLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtCQUE4QjtBQUM5Qiw4Q0FBNkM7QUFDN0MsbUNBQXNEO0FBTXRELE1BQWEsY0FBZSxTQUFRLEtBQUssQ0FBQyxTQUFnQjtJQUN4RCxNQUFNOztRQUNKLE9BQU8sb0JBQUMsTUFBTSxDQUFDLGNBQWMsb0JBQUssSUFBSSxDQUFDLEtBQUssRUFBSSxDQUFBO0tBQ2pEOztBQUVNLDJCQUFZLEdBQVU7SUFDM0IsS0FBSyxFQUFFLE9BQU87Q0FDZixDQUFBO0FBRU0sK0JBQWdCLEdBQTRCO0lBQ2pELEtBQUssRUFBRSxFQUFFLElBQUksRUFBRSxvQkFBVyxDQUFDLE1BQU0sRUFBRSxLQUFLLEVBQUUsT0FBTyxFQUFFO0NBQ3BELENBQUE7QUFYSCx3Q0FZQztBQUNEIn0=
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
@@ -56267,7 +56246,7 @@ const packages = {}
                         console.log(e)
                     }
                     package.__framer__ = package.__framer__ || {}
-                    package.__framer__.packageJson = {"name":"framer","version":"0.10.10","main":"build/framer.js","author":"Framer","license":"MIT","scripts":{"coverage":"jest --config jest.json --coverage","test":"jest --config jest.json","watch":"jest --config jest.json --watch"},"devDependencies":{"@microsoft/api-documenter":"^1.5.47","@microsoft/api-extractor":"^7","@types/chalk":"^2.2.0","@types/draft-js":"0.10.19","@types/enzyme":"^3.1.10","@types/enzyme-adapter-react-16":"^1.0.3","@types/hsluv":"https://github.com/framer/typed_hsluv#bump","@types/jest":"^23.0.0","@types/jest-diff":"^20.0.0","@types/jest-matcher-utils":"^21.0.1","@types/node":"^9.6.0","@types/react":"^16","@types/react-dom":"^16","cache-loader":"^1.2.2","chalk":"^2.4.1","convert-tsconfig-paths-to-webpack-aliases":"^0.9.2","css.escape":"^1.5.1","draft-js":"0.10.4","enzyme":"^3.3.0","enzyme-adapter-react-16":"^1.1.1","eventemitter3":"^3.1.0","fork-ts-checker-webpack-plugin":"^0.4.1","hoist-non-react-statics":"^2.5.0","hsluv":"^0.0.3","immutable":"^3.8.2","jest":"^23.1.0","jest-diff":"^23.6.0","jest-junit":"^5.2.0","progress-bar-webpack-plugin":"^1.11.0","raf":"^3.4.0","react":"~16.4","react-dev-utils":"^5.0.1","react-dom":"~16.4","semver":"^5.6.0","ts-jest":"^23.10.5","ts-loader":"^4.1.0","typescript":"^3.0.1","watch":"^1.0.2","webpack":"^4.4.1","webpack-cli":"^3.1.2","webpack-dev-server":"^3.1.10","xcssmatrix":"^0.2.2"},"peerDependencies":{"react":"^16.3","react-dom":"^16.3"},"tsdoc":{"tsdocFlavor":"AEDoc"},"framer":{"components":[{"name":"Scroll","children":true,"properties":[{"key":"direction","title":"Direction","kind":"enum","options":["horizontal","vertical","both"]}]},{"name":"Page"},{"name":"Stack"},{"name":"FramerAppleWatch38","type":"device"},{"name":"FramerAppleWatch42","type":"device"},{"name":"FramerSonySmartWatch","type":"device"},{"name":"FramerAppleIPhoneSE","type":"device"},{"name":"FramerAppleIPhone8","type":"device"},{"name":"FramerAppleIPhone8Plus","type":"device"},{"name":"FramerAppleIPhoneXS","type":"device"},{"name":"FramerAppleIPhoneXR","type":"device"},{"name":"FramerAppleIPhoneXSMax","type":"device"},{"name":"FramerGooglePixel2","type":"device"},{"name":"FramerGooglePixel2XL","type":"device"},{"name":"FramerGooglePixel3","type":"device"},{"name":"FramerGooglePixel3XL","type":"device"},{"name":"FramerSamsungNote5","type":"device"},{"name":"FramerSamsungGalaxyS9","type":"device"},{"name":"FramerAppleIPadAir","type":"device"},{"name":"FramerAppleIPadMini","type":"device"},{"name":"FramerAppleIPadPro","type":"device"},{"name":"FramerGoogleNexusTablet","type":"device"},{"name":"FramerMicrosoftSurfacePro3","type":"device"},{"name":"FramerMicrosoftSurfacePro4","type":"device"},{"name":"FramerAppleIMac","type":"device"},{"name":"FramerAppleThunderboltDisplay","type":"device"},{"name":"FramerAppleMacBook","type":"device"},{"name":"FramerAppleMacBookAir","type":"device"},{"name":"FramerAppleMacBookPro","type":"device"},{"name":"FramerDellXPS","type":"device"},{"name":"FramerMicrosoftSurfaceBook","type":"device"},{"name":"FramerSonyW850C","type":"device"},{"name":"FramerStoreArtwork","type":"device"},{"name":"FramerStoreIcon","type":"device"}]}}
+                    package.__framer__.packageJson = {"name":"framer","version":"1.0.4","main":"build/framer.js","author":"Framer","license":"MIT","scripts":{"coverage":"jest --coverage","test":"jest","watch":"jest --watch"},"devDependencies":{"@microsoft/api-documenter":"^1.5.47","@microsoft/api-extractor":"7.0.13","@types/chalk":"^2.2.0","@types/draft-js":"0.10.19","@types/enzyme":"^3.1.10","@types/enzyme-adapter-react-16":"^1.0.3","@types/hsluv":"https://github.com/framer/typed_hsluv#bump","@types/jest":"^23.0.0","@types/jest-diff":"^20.0.0","@types/jest-matcher-utils":"^21.0.1","@types/node":"^10.12.9","@types/react":"16.8.4","@types/react-dom":"^16.8","cache-loader":"^1.2.2","chalk":"^2.4.1","convert-tsconfig-paths-to-webpack-aliases":"^0.9.2","css.escape":"^1.5.1","draft-js":"0.10.4","enzyme":"^3.9.0","enzyme-adapter-react-16":"^1.9.1","eventemitter3":"^3.1.0","fork-ts-checker-webpack-plugin":"^0.4.1","framer-motion":"^0.16.11","hoist-non-react-statics":"^2.5.0","hsluv":"^0.0.3","immutable":"^3.8.2","jest":"^23.1.0","jest-diff":"^23.6.0","jest-dom":"^3.1.3","jest-junit":"^5.2.0","modclean":"^3.0.0-beta.1","progress-bar-webpack-plugin":"^1.11.0","raf":"^3.4.0","react":"^16.8","react-dev-utils":"^5.0.1","react-dom":"^16.8","react-testing-library":"^6.0.0","resize-observer-polyfill":"^1.5.1","semver":"^5.6.0","ts-jest":"^23.10.5","ts-loader":"^4.1.0","tslint":"^5.12.1","tslint-react-hooks":"^1.1.0","typescript":"3.3","watch":"^1.0.2","webpack":"^4.4.1","webpack-cli":"^3.1.2","webpack-dev-server":"^3.1.10","xcssmatrix":"^0.2.2"},"peerDependencies":{"react":"^16.8.2","react-dom":"^16.8.2"},"tsdoc":{"tsdocFlavor":"AEDoc"},"framer":{"components":[{"name":"Scroll","children":true,"properties":[{"key":"direction","title":"Direction","kind":"enum","options":["horizontal","vertical","both"]}]},{"name":"Page"},{"name":"Stack"},{"name":"FramerAppleWatch38","type":"device"},{"name":"FramerAppleWatch42","type":"device"},{"name":"FramerSonySmartWatch","type":"device"},{"name":"FramerAppleIPhoneSE","type":"device"},{"name":"FramerAppleIPhone8","type":"device"},{"name":"FramerAppleIPhone8Plus","type":"device"},{"name":"FramerAppleIPhoneXS","type":"device"},{"name":"FramerAppleIPhoneXR","type":"device"},{"name":"FramerAppleIPhoneXSMax","type":"device"},{"name":"FramerGooglePixel2","type":"device"},{"name":"FramerGooglePixel2XL","type":"device"},{"name":"FramerGooglePixel3","type":"device"},{"name":"FramerGooglePixel3XL","type":"device"},{"name":"FramerSamsungNote5","type":"device"},{"name":"FramerSamsungGalaxyS9","type":"device"},{"name":"FramerAppleIPadAir","type":"device"},{"name":"FramerAppleIPadMini","type":"device"},{"name":"FramerAppleIPadPro","type":"device"},{"name":"FramerGoogleNexusTablet","type":"device"},{"name":"FramerMicrosoftSurfacePro3","type":"device"},{"name":"FramerMicrosoftSurfacePro4","type":"device"},{"name":"FramerAppleIMac","type":"device"},{"name":"FramerAppleThunderboltDisplay","type":"device"},{"name":"FramerAppleMacBook","type":"device"},{"name":"FramerAppleMacBookAir","type":"device"},{"name":"FramerAppleMacBookPro","type":"device"},{"name":"FramerDellXPS","type":"device"},{"name":"FramerMicrosoftSurfaceBook","type":"device"},{"name":"FramerSonyW850C","type":"device"},{"name":"FramerStoreArtwork","type":"device"},{"name":"FramerStoreIcon","type":"device"}]},"dependencies":{"style-value-types":"^3.1.4"}}
                     return package
                 }
 
@@ -56297,7 +56276,7 @@ exports.__framer__ = package
 /*! exports provided: main, license, devDependencies, peerDependencies, version, dependencies, framer, author, name, default */
 /***/ (function(module) {
 
-module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16","framer":"^0.10"},"peerDependencies":{"framer":"^0.10","react":"^16.3.0","react-dom":"^16.3.0"},"version":"1.24.0","dependencies":{"@framer/lintonye.learnreactdesign-ds":"^1.8.0","styled-components":"^4.2.0"},"framer":{"id":"7c15e4fe-2858-41e1-b306-c66029e297e7","displayName":"Design System V2"},"author":"Lincoln Mitchell","name":"@framer/interfacesncreatives.design-system-v2"};
+module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16"},"peerDependencies":{"framer":"^0.10 || ^1","react":"^16.3.0","react-dom":"^16.3.0"},"version":"1.24.0","dependencies":{"@framer/lintonye.learnreactdesign-ds":"^1.8.0","styled-components":"^4.2.0"},"framer":{"id":"7c15e4fe-2858-41e1-b306-c66029e297e7","displayName":"Design System V2"},"author":"Lincoln Mitchell","name":"@framer/interfacesncreatives.design-system-v2"};
 
 /***/ }),
 
