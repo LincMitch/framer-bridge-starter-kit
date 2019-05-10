@@ -1,8 +1,8 @@
-import * as React from "react";
-import { ThemeProvider } from "@rmwc/theme";
-import "@material/theme/dist/mdc.theme.css";
-import theme from "./theme";
-import Helmet from "react-helmet";
+import * as React from "react"
+import { ThemeProvider } from "@rmwc/theme"
+import "@material/theme/dist/mdc.theme.css"
+import theme from "../../design-system/components/theme"
+import Helmet from "react-helmet"
 
 export default function FramerXWrapper({ children }) {
   return (
@@ -12,8 +12,8 @@ export default function FramerXWrapper({ children }) {
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"
         />
-      </Helmet>      
+      </Helmet>
       <ThemeProvider options={theme.options}>{children}</ThemeProvider>
     </>
-  );
+  )
 }
