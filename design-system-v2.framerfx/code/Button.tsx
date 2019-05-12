@@ -36,5 +36,9 @@ export class Button extends React.Component<Props> {
     ripple: { type: ControlType.Boolean, title: "Ripple" },
     trailingIcon: { type: ControlType.String, title: "TrailingIcon" },
     unelevated: { type: ControlType.Boolean, title: "Unelevated" }
+
+
+    // theme: { type: ControlType.String, title: "Theme" }
+
   }
 }

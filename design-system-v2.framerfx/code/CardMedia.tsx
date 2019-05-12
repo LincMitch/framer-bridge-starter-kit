@@ -5,35 +5,37 @@ import { cloneFrameless } from "../../design-system-v2.framerfx/node_modules/@fr
 import FramerXWrapper from "./FramerXWrapper"
 
 type Props = System.CardMediaProps & {
-  cardMediaContent: string[];
-  externalCardMediaContent: React.ReactNode;
-  activeCardMediaContentIndex: number;
+  object: string[];
+  externalObject: React.ReactNode;
+  activeObjectIndex: number;
 }
 
 export class CardMedia extends React.Component<Props> {
   render() {
-    const { cardMediaContent, externalCardMediaContent, ...rest } = this.props;
+    const { object, externalObject, ...rest } = this.props;
 
-    let topAppBarRowElements;
-    topAppBarRowElements = cloneFrameless(externalCardMediaContent); 
-    return <System.CardMedia {...this.props} >{topAppBarRowElements}</System.CardMedia>
+    let objectElements;
+    objectElements = cloneFrameless(externalObject); 
+    return <System.CardMedia {...this.props} style={{
+      backgroundImage: 'url(https://rmwc.io/images/backgrounds/mb-bg-fb-16.png)'
+    }}>{objectElements}</System.CardMedia>
   }
 
   static defaultProps: Props = {
     sixteenByNine: false,
 
-    activeCardMediaContentIndex: 0
+    activeObjectIndex: 0
   }
 
   static propertyControls: PropertyControls<Props> = {
     sixteenByNine: { type: ControlType.Boolean, title: "SixteenByNine" },
     square: { type: ControlType.Boolean, title: "Square" },
-
-    externalCardMediaContent: {
+    
+    externalObject: {
       type: ControlType.ComponentInstance,
-      title: "CardMediaContent"
-    },
-    activeCardMediaContentIndex: {
+      title: "object"
+    },  
+    activeObjectIndex: {
       type: ControlType.Number,
       title: "Index",
       min: 0

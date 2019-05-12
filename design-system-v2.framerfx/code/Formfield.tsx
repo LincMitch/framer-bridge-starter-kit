@@ -3,12 +3,12 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 import FramerXWrapper from "./FramerXWrapper"
 
-type Props = System.FormfieldProps & {
+type Props = System.FormFieldProps & {
 }
 
-export class Formfield extends React.Component<Props> {
+export class FormField extends React.Component<Props> {
   render() {
-    return <System.Formfield {...this.props} />
+    return <System.FormField {...this.props} />
   }
 
   static defaultProps: Props = {

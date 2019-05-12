@@ -1,7 +1,6 @@
 import * as React from "react"
 import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
-import FramerXWrapper from "./FramerXWrapper"
 
 type Props = System.DataTableHeadCellProps & {
   text: string;
@@ -9,7 +8,10 @@ type Props = System.DataTableHeadCellProps & {
 
 export class DataTableHeadCell extends React.Component<Props> {
   render() {
-    return <System.DataTableHeadCell {...this.props} />
+    const { text, ...rest } = this.props;
+    return <System.DataTableHeadCell {...this.props} >
+      {text}
+    </System.DataTableHeadCell>
   }
 
   static defaultProps: Props = {
@@ -21,7 +23,7 @@ export class DataTableHeadCell extends React.Component<Props> {
     alignMiddle: { type: ControlType.Boolean, title: "Align Middle" },
     alignStart: { type: ControlType.Boolean, title: "Align Start" },
     // onSortChange
-    sort: { type: ControlType.Number, title: "Align Start" },
+    sort: { type: ControlType.Number, title: "Sort" },
 
     text: { type: ControlType.String, title: "Text" },
   }

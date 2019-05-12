@@ -1,6 +1,16 @@
 import { PropertyControls, ControlType } from "framer";
-import theme from "./theme";
-import { iconNames, getIconElement } from "../../design-system-v2.framerfx/code/icons";
+import {theme} from "./theme.js";
+// NEED THEME
+// NEED THEME
+// NEED THEME
+// NEED THEME
+// NEED THEME
+// NEED THEME
+// NEED THEME
+// NEED THEME
+// JS and TSX
+
+import { iconNames, getIconElement } from "./icons";
 
 function getOptions(compName) {
   const key = compName + "Themes";

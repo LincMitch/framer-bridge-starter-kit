@@ -24,7 +24,6 @@ export default {
     textHintOnDark: "rgba(255, 255, 255, 0.5)",
     textDisabledOnDark: "rgba(255, 255, 255, 0.5)",
     textIconOnDark: "rgba(255, 255, 255, 0.5)",
-    whitePercent: "lime",
 
     //// Dark theme
     // primary: "#24aee9",

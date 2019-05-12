@@ -5,39 +5,21 @@ import { cloneFrameless } from "../../design-system-v2.framerfx/node_modules/@fr
 import FramerXWrapper from "./FramerXWrapper"
 
 type Props = System.DialogContentProps & {
-  object: string[];
-  externalObject: React.ReactNode;
-  activeObjectIndex: number;
+
 }
 
 export class DialogContent extends React.Component<Props> {
   render() {
-    const { object, externalObject, ...rest } = this.props;
 
-    let objectElements;
-    objectElements = cloneFrameless(externalObject); 
-
-    return <System.DialogContent {...this.props} >{objectElements}</System.DialogContent>
+    return <System.DialogContent {...this.props} />
   }
 
   
   static defaultProps: Props = {
-    activeObjectIndex: 0
   }
 
   static propertyControls: PropertyControls<Props> = {
     // children: { type: ControlType.String, title: "Children" },
     stickyColumns: { type: ControlType.String, title: "Sticky Columns" },
     stickyRows: { type: ControlType.String, title: "Sticky Rows" },
-
-    externalObject: {
-      type: ControlType.ComponentInstance,
-      title: "object"
-    },  
-    activeObjectIndex: {
-      type: ControlType.Number,
-      title: "Index",
-      min: 0
-    }
-  }
 }
