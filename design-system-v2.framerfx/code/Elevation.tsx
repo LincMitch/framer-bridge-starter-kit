@@ -10,7 +10,7 @@ type Props = System.ElevationProps & {
 
 export class Elevation extends React.Component<Props> {
   render() {
-    return <System.Elevation {...this.props} />
+    return <System.Elevation {...this.props}  style={{background: "white"}}>Elevation</System.Elevation>
   }
 
   static defaultProps: Props = {

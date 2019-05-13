@@ -5,14 +5,17 @@ import { cloneFrameless } from "@framer/lintonye.learnreactdesign-ds/code/tools/
 import FramerXWrapper from "./FramerXWrapper"
 
 type Props = System.DrawerTitleProps & {
+  text: string;
 }
 
 export class DrawerTitle extends React.Component<Props> {
   render() {
-    return <System.DrawerTitle {...this.props} />
+    const { text, ...rest } = this.props;
+    return <System.DrawerTitle {...this.props} >{text}</System.DrawerTitle>
   }
 
   static defaultProps: Props = {
+    text: "Text"
   }
 
   static propertyControls: PropertyControls<Props> = {
@@ -21,6 +24,8 @@ export class DrawerTitle extends React.Component<Props> {
     // onStateChange,
     open: { type: ControlType.Boolean, title: "Open" },   
     preventOutsideDismiss: { type: ControlType.Boolean, title: "Prevent Outside Dismiss" },   
+
+    text: { type: ControlType.String, title: "text" },   
 
   }
 }
