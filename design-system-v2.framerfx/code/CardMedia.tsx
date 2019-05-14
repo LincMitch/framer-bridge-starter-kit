@@ -16,14 +16,17 @@ export class CardMedia extends React.Component<Props> {
 
     let objectElements;
     objectElements = cloneFrameless(externalObject); 
-    return <System.CardMedia {...this.props} style={{
-      backgroundImage: 'url(https://rmwc.io/images/backgrounds/mb-bg-fb-16.png)'
-    }}>{objectElements}</System.CardMedia>
+    return (<System.CardMedia {...this.props} style={{
+      backgroundImage: 'url(https://rmwc.io/images/backgrounds/mb-bg-fb-16.png)',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+      height: '300px'
+    }}
+    >{objectElements}</System.CardMedia>)
   }
 
   static defaultProps: Props = {
     sixteenByNine: false,
-
     activeObjectIndex: 0
   }
 
