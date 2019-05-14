@@ -1,7 +1,7 @@
 import * as React from "react"
 import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
-// import FramerXWrapper from "./FramerXWrapper"
+import FramerXWrapper from "./FramerXWrapper"
 
 import {
   themePropertyControls,
@@ -17,11 +17,11 @@ export class Typography extends React.Component<Props> {
     const { text, ...rest } = this.props;
 
     return (
-      // <FramerXWrapper>
+      <FramerXWrapper>
         <System.Typography {...this.props} >
           {text}
         </System.Typography>
-      // </FramerXWrapper>
+      </FramerXWrapper>
     )
   }
 
@@ -33,6 +33,6 @@ export class Typography extends React.Component<Props> {
   static propertyControls: PropertyControls<Props> = {
     use: { type: ControlType.String, title: "Use" },
     text: { type: ControlType.String, title: "Text" },
-    // ...themePropertyControls("button")
+    ...themePropertyControls("typography")
   }
 }
