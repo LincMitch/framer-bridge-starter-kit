@@ -4,19 +4,20 @@ import { ControlType, PropertyControls } from "framer"
 import FramerXWrapper from "./FramerXWrapper"
 
 type Props = System.TopAppBarTitleProps & {
-  title: string;
+  text: string;
 }
 
 export class TopAppBarTitle extends React.Component<Props> {
   render() {
-    return <System.TopAppBarTitle {...this.props} />
+    const { text, ...rest } = this.props;
+    return <System.TopAppBarTitle {...this.props} >{text}</System.TopAppBarTitle>
   }
 
   static defaultProps: Props = {
-    title: "Title",
+    text: "Text",
   }
 
   static propertyControls: PropertyControls<Props> = {
-    title: { type: ControlType.String, title: "Title" },
+    text: { type: ControlType.String, title: "Text" },
   }
 }

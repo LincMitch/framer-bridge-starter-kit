@@ -300,7 +300,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/TopAppBarTitle.tsx_TopAppBarTitle",
             "codeComponentProps" : {
-              "title" : "Header"
+              "text" : "Text"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -427,7 +427,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.40273556231003038,
-            "centerAnchorY" : 0.13247863247863248,
+            "centerAnchorY" : 0.25726141078838172,
             "children" : [
 
             ],
@@ -491,9 +491,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : null,
+            "bottom" : 22,
             "centerAnchorX" : 0.49848024316109424,
-            "centerAnchorY" : 0.33760683760683763,
+            "centerAnchorY" : 0.77178423236514526,
             "children" : [
 
             ],
@@ -551,9 +551,75 @@
             "radiusTopRight" : 0,
             "right" : 32,
             "rotation" : 0,
-            "top" : 125,
+            "top" : null,
             "visible" : true,
             "width" : 266,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.40273556231003038,
+            "centerAnchorY" : 0.49792531120331951,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/TopAppBarSection.tsx_TopAppBarSection",
+            "codeComponentProps" : {
+              "externalTopAppBarTitles" : [
+                {
+                  "enabled" : true,
+                  "type" : "componentinstance",
+                  "value" : "VSjTHiPnp"
+                }
+              ]
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 66,
+            "heightType" : 0,
+            "id" : "AXyatnf1Z",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 26,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "YuMaki3Zz",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 213,
             "widthType" : 0
           }
         ],
@@ -1036,7 +1102,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/TopAppBarTitle.tsx_TopAppBarTitle",
             "codeComponentProps" : {
-              "title" : "Another Row"
+              "text" : "Text"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -9986,6 +10052,66 @@
         "right" : null,
         "rotation" : 0,
         "top" : 7686,
+        "visible" : true,
+        "width" : 200,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/TopAppBarTitle.tsx_TopAppBarTitle",
+        "codeComponentProps" : {
+          "text" : "aSASDASD"
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 200,
+        "heightType" : 0,
+        "id" : "Qx_2hh5Tw",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -436,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 5867,
         "visible" : true,
         "width" : 200,
         "widthType" : 0
