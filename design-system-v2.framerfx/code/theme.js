@@ -79,9 +79,9 @@ export default {
     primary: ["primaryBg", "onPrimary"],
     secondary: ["secondaryBg", "onSecondary"]
   },
-  // topAppBarThemes: {
-  //   primary: ["primaryBg", "onPrimary"],
-  //   secondary: ["secondaryBg", "onSecondary"],
+  topAppBarThemes: {
+    primary: ["primaryBg", "onPrimary"],
+    secondary: ["secondaryBg", "onSecondary"],
 
-  // }
+  }
 };

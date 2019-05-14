@@ -6,8 +6,7 @@ import FramerXWrapper from "./FramerXWrapper"
 
 import {
   themePropertyControls,
-} from "../../design-system/components/framerx-integration";
-
+} from "./framerx-integration";
 
 type Props = System.TopAppBarProps & {
   topAppBarRows: string[];
