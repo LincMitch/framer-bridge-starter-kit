@@ -20,8 +20,12 @@ export class TopAppBar extends React.Component<Props> {
 
     let topAppBarRowElements;
     topAppBarRowElements = cloneFrameless(externalTopAppBarRows); 
-    return <System.TopAppBar {...this.props} >{topAppBarRowElements}</System.TopAppBar>
-  }
+    return (
+        <FramerXWrapper>
+          <System.TopAppBar {...this.props} >{topAppBarRowElements}</System.TopAppBar>
+        </FramerXWrapper>
+      )
+    }
 
   static defaultProps: Props = {
     activeTopAppBarRowsIndex: 0
@@ -29,7 +33,7 @@ export class TopAppBar extends React.Component<Props> {
 
   static propertyControls: PropertyControls<Props> = {
     fixed: { type: ControlType.Boolean, title: "Fixed" },
-    fixedLastrowOnly: { type: ControlType.Boolean, title: "Fixed LastrowOnly" },
+    fixedLastrowOnly: { type: ControlType.Boolean, title: "Fixed Last Row Only" },
     flexible: { type: ControlType.Boolean, title: "Flexible" },
     flexibleDefaultBehavior: { type: ControlType.String, title: "FlexibleDefaultBehavior" },
     waterfall: { type: ControlType.Boolean, title: "Waterfall" },   

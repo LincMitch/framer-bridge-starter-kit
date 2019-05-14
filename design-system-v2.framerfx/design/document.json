@@ -1283,6 +1283,7 @@
           "fixed" : false,
           "fixedLastrowOnly" : false,
           "flexible" : false,
+          "theme" : "primaryBg onPrimary",
           "waterfall" : false
         },
         "codeOverrideEnabled" : false,
@@ -1305,7 +1306,7 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 204,
+        "height" : 130,
         "heightType" : 0,
         "id" : "RrLyvVzft",
         "intrinsicHeight" : null,
