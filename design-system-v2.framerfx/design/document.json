@@ -1553,6 +1553,7 @@
             "codeComponentIdentifier" : ".\/CardMedia.tsx_CardMedia",
             "codeComponentProps" : {
               "activeObjectIndex" : 0,
+              "image" : "url('https:\/\/rmwc.io\/images\/backgrounds\/mb-bg-fb-16.png')",
               "sixteenByNine" : false,
               "square" : false
             },
@@ -3111,6 +3112,7 @@
             "codeComponentIdentifier" : ".\/CardMedia.tsx_CardMedia",
             "codeComponentProps" : {
               "activeObjectIndex" : 0,
+              "image" : "url(https:\/\/rmwc.io\/images\/backgrounds\/mb-bg-fb-16.png)",
               "sixteenByNine" : false
             },
             "codeOverrideEnabled" : false,
