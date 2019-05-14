@@ -3,17 +3,27 @@ import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 import FramerXWrapper from "./FramerXWrapper"
 
+import {
+  themePropertyControls,
+} from "./framerx-integration";
+
+
 type Props = System.FabProps & {
 }
 
 export class Fab extends React.Component<Props> {
   render() {
-    return <System.Fab {...this.props} />
+    return (
+      <FramerXWrapper>
+       <System.Fab {...this.props} />
+      </FramerXWrapper>
+    )
   }
+
+
 
   static defaultProps: Props = {
     icon: "star",
-    theme: "onSecondary"
   }
 
   static propertyControls: PropertyControls<Props> = {
@@ -23,7 +33,6 @@ export class Fab extends React.Component<Props> {
     mini: { type: ControlType.Boolean, title: "Mini" },
     ripple: { type: ControlType.Boolean, title: "Ripple" },
     trailingIcon: { type: ControlType.String, title: "Trailing Icon" },
-
-    theme: { type: ControlType.String, title: "Theme" }
+    ...themePropertyControls("topAppBar")
   }
 }

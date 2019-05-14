@@ -3291,7 +3291,7 @@
           "icon" : "star",
           "label" : "",
           "mini" : false,
-          "theme" : "textSecondaryOnDark",
+          "theme" : "primaryBg onPrimary",
           "trailingIcon" : ""
         },
         "codeOverrideEnabled" : false,
