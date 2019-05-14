@@ -6536,7 +6536,7 @@
         "codeComponentProps" : {
           "transition" : false,
           "wrap" : false,
-          "z" : 4
+          "z" : 19
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -7662,12 +7662,12 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 216,
+        "height" : 156,
         "heightType" : 0,
         "id" : "PsnHwBo_s",
         "intrinsicHeight" : null,
         "intrinsicWidth" : null,
-        "left" : -5981,
+        "left" : -5918,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -7683,9 +7683,9 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 1972,
+        "top" : 2188,
         "visible" : true,
-        "width" : 96,
+        "width" : 293,
         "widthType" : 0
       },
       {
