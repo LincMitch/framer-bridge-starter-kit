@@ -1,7 +1,7 @@
 export default {
   options: {
-    primary: "#0184DB",
-    secondary: "#08183C",
+    primary: "rgb(63, 87, 102)",
+    secondary: "rgb(133, 196, 65)",
     error: "#b00020",
     background: "#fff",
     surface: "#fff",
