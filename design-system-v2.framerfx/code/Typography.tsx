@@ -20,6 +20,7 @@ export class Typography extends React.Component<Props> {
       <FramerXWrapper>
         <System.Typography {...this.props} >
           {text}
+          
         </System.Typography>
       </FramerXWrapper>
     )
