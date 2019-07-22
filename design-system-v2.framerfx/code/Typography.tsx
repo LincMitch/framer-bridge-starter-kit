@@ -1,39 +1,67 @@
-import * as React from "react"
-import * as System from "../../design-system"
-import { ControlType, PropertyControls } from "framer"
-import FramerXWrapper from "./FramerXWrapper"
+import * as React from "react";
+import { PropertyControls, ControlType } from "framer";
+import "@material/typography/dist/mdc.typography.css";
 
+// ***
+// THIS NEEDS TO COME FROM SYSTEM.TYPOGRAPHY. BUT HOW DO YOU AUTO POPULATE VARIANTS?
+// ***
+import { Typography as _Typography, TypographyT } from "@rmwc/typography";
+import FramerXWrapper from "./FramerXWrapper";
 import {
   themePropertyControls,
+  spacingPropertyControls,
+  processSpacingProps
 } from "./framerx-integration";
 
-
-type Props = System.TypographyProps & {
-  text: string;
-}
+type Props = { text: string; variant: TypographyT; tag: string };
 
 export class Typography extends React.Component<Props> {
   render() {
-    const { text, ...rest } = this.props;
-
+    const { text, variant, ...rest } = processSpacingProps(this.props);
     return (
       <FramerXWrapper>
-        <System.Typography {...this.props} >
+        <_Typography use={variant} {...rest}>
           {text}
-          
-        </System.Typography>
+        </_Typography>
       </FramerXWrapper>
-    )
+    );
   }
 
   static defaultProps: Props = {
-    use: "headline6",
-    text: "Text",
-  }
+    variant: "body1",
+    text: "Hello world",
+    tag: "div"
+  };
 
   static propertyControls: PropertyControls<Props> = {
-    use: { type: ControlType.String, title: "Use" },
     text: { type: ControlType.String, title: "Text" },
-    ...themePropertyControls("typography")
-  }
+    variant: {
+      type: ControlType.Enum,
+      title: "variant",
+      options: [
+        "headline1",
+        "headline2",
+        "headline3",
+        "headline4",
+        "headline5",
+        "headline6",
+        "subtitle1",
+        "subtitle2",
+        "body1",
+        "body2",
+        "caption",
+        "button",
+        "overline"
+      ]
+    },
+    tag: {
+      type: ControlType.Enum,
+      title: "Tag",
+      options: ["div", "span", "h1", "h2", "h3", "h4", "h5"]
+    },
+    ...themePropertyControls("typography"),
+    ...spacingPropertyControls()
+  };
 }
+
+_Typography.displayName = "Typography";

@@ -1835,8 +1835,11 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
+              "tag" : "div",
               "text" : "Text",
-              "use" : "headline6"
+              "variant" : "body1"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -1889,8 +1892,11 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
+              "tag" : "div",
               "text" : "Another",
-              "use" : "headline6"
+              "variant" : "body1"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3399,8 +3405,11 @@
         "clip" : true,
         "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
         "codeComponentProps" : {
+          "isMarginPerSide" : false,
+          "isPaddingPerSide" : false,
+          "tag" : "div",
           "text" : "Text",
-          "use" : "headline6"
+          "variant" : "body1"
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -9606,9 +9615,12 @@
         "clip" : true,
         "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
         "codeComponentProps" : {
+          "isMarginPerSide" : false,
+          "isPaddingPerSide" : false,
+          "tag" : "div",
           "text" : "Text",
           "theme" : "textPrimaryOnDark",
-          "use" : "headline6"
+          "variant" : "body1"
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -9767,8 +9779,11 @@
         "clip" : true,
         "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
         "codeComponentProps" : {
+          "isMarginPerSide" : false,
+          "isPaddingPerSide" : false,
+          "tag" : "div",
           "text" : "Text",
-          "use" : "headline6"
+          "variant" : "body1"
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -9861,6 +9876,120 @@
         "top" : 5709,
         "visible" : true,
         "width" : 29,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/TypographyX.tsx_TypographyX",
+        "codeComponentProps" : {
+          "isMarginPerSide" : false,
+          "isPaddingPerSide" : false,
+          "tag" : "h1",
+          "text" : "Hello world"
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 200,
+        "heightType" : 0,
+        "id" : "sn5vyeG_8",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -6831,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -696,
+        "visible" : true,
+        "width" : 200,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
+        "codeComponentProps" : {
+          "isMarginPerSide" : false,
+          "isPaddingPerSide" : false,
+          "tag" : "div",
+          "text" : "Hello world",
+          "theme" : "textSecondaryOnLight",
+          "variant" : "body1"
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 146,
+        "heightType" : 0,
+        "id" : "W0rURJcJQ",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -6983,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -60,
+        "visible" : true,
+        "width" : 334,
         "widthType" : 0
       }
     ],
