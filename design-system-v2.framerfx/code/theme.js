@@ -1,7 +1,10 @@
 export default {
   options: {
-    primary: "rgb(63, 87, 102)",
-    secondary: "rgb(133, 196, 65)",
+// SentientHubs
+    // primary: "rgb(63, 87, 102)",
+    // secondary: "rgb(255, 204, 0)",
+    primary: "rgb(31, 39, 73)",
+    secondary: "rgb(255, 204, 0)",
     error: "#b00020",
     background: "#fff",
     surface: "#fff",

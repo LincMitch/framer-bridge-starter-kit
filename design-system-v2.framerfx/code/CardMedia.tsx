@@ -40,8 +40,10 @@ export class CardMedia extends React.Component<Props> {
   }
 
   static propertyControls: PropertyControls<Props> = {
+    // On selecting sixteenByNine or square the content is pushed below the Frame 
     sixteenByNine: { type: ControlType.Boolean, title: "SixteenByNine" },
     square: { type: ControlType.Boolean, title: "Square" },
+
     image: { type: ControlType.String, title: "Image"},
     
     externalObject: {
