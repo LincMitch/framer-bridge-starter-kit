@@ -47,7 +47,7 @@ type Props = Partial<FrameProps> &
               }}
           >
               {/* <System.TopAppBarNavigationIcon {...this.props} ></System.TopAppBarNavigationIcon> */}
-              <System.TopAppBarNavigationIcon {...rest} ></System.TopAppBarNavigationIcon>
+              <System.TopAppBarNavigationIcon {...rest} ripple></System.TopAppBarNavigationIcon>
           </FramerXWrapper>
       )
   }
