@@ -3,6 +3,7 @@ export default {
 // SentientHubs
     // primary: "rgb(63, 87, 102)",
     // secondary: "rgb(255, 204, 0)",
+    none: "",
     primary: "rgb(31, 39, 73)",
     secondary: "rgb(255, 204, 0)",
     error: "#b00020",
@@ -78,6 +79,33 @@ export default {
     "textDisabledOnDark",
     "textIconOnDark"
   ],
+
+  iconThemes: [
+    "none",
+    "primary",
+    "secondary",
+    "error",
+    "onPrimary",
+    "onSecondary",
+    "onSurface",
+    "onError",
+    "textPrimaryOnBackground",
+    "textSecondaryOnBackground",
+    "textHintOnBackground",
+    "textDisabledOnBackground",
+    "textIconOnBackground",
+    "textPrimaryOnLight",
+    "textSecondaryOnLight",
+    "textHintOnLight",
+    "textDisabledOnLight",
+    "textIconOnLight",
+    "textPrimaryOnDark",
+    "textSecondaryOnDark",
+    "textHintOnDark",
+    "textDisabledOnDark",
+    "textIconOnDark"
+  ],
+
   buttonThemes: {
     primary: ["primaryBg", "onPrimary"],
     secondary: ["secondaryBg", "onSecondary"]
