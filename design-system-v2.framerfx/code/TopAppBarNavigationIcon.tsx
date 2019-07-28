@@ -62,23 +62,22 @@ type Props = Partial<FrameProps> &
         )
     } else
         return (
-          <FramerXWrapper
-                // First, declare any custom props that may be overrided
-              // borderRadius={"100%"}
-              // backgroundColor={"lime"}
-              // Next, spread in all the container props
-              {...rest}
-              // Finally, declare any forced props
-              // backgroundColor={"#0099ff"}
+                <System.TopAppBarNavigationIcon 
+                  // First, declare any custom props that may be overrided
+                  // borderRadius={"100%"}
+                  // backgroundColor={"lime"}
+                  // Next, spread in all the container props
+                  {...rest}
+                  // Finally, declare any forced props
+                  // backgroundColor={"#0099ff"}
 
-              style={{
-                  // color: "#FFF",
-                  // If you're using style, spread in props.style too
-                  ...style,
-              }}
-          >
-                <System.TopAppBarNavigationIcon {...rest} onClick={handleLocation}></System.TopAppBarNavigationIcon>              
-          </FramerXWrapper>
+                  style={{
+                      // color: "#FFF",
+                      // If you're using style, spread in props.style too
+                      ...style,
+                  }}
+                onClick={handleLocation}/>
+
         )
   }
 
