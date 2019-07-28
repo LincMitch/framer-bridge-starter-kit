@@ -236,11 +236,13 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/TopAppBarNavigationIcon.tsx_TopAppBarNavigationIcon",
             "codeComponentProps" : {
+              "animation" : "slideIn",
               "backgroundColor" : "none",
               "borderRadius" : 100,
               "builtInIcon" : "menu",
               "color" : "lime",
-              "icon" : "< Material >"
+              "icon" : "< Material >",
+              "path" : ""
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -635,7 +637,10 @@
             "codeComponentIdentifier" : ".\/TopAppBarActionItem.tsx_TopAppBarActionItem",
             "codeComponentProps" : {
               "animation" : "slideIn",
+              "backgroundColor" : "none",
+              "borderRadius" : 100,
               "builtInIcon" : "home",
+              "color" : "none",
               "icon" : "< Material >",
               "path" : "home"
             },
@@ -691,7 +696,10 @@
             "codeComponentIdentifier" : ".\/TopAppBarActionItem.tsx_TopAppBarActionItem",
             "codeComponentProps" : {
               "animation" : "slideIn",
+              "backgroundColor" : "none",
+              "borderRadius" : 100,
               "builtInIcon" : "star",
+              "color" : "none",
               "path" : "myframe"
             },
             "codeOverrideEnabled" : false,
@@ -746,7 +754,12 @@
             "codeComponentIdentifier" : ".\/TopAppBarActionItem.tsx_TopAppBarActionItem",
             "codeComponentProps" : {
               "animation" : "slideIn",
+              "backgroundColor" : "none",
+              "borderRadius" : 100,
               "builtInIcon" : "more",
+              "checked" : true,
+              "color" : "none",
+              "disabled" : false,
               "path" : ""
             },
             "codeOverrideEnabled" : false,
@@ -9892,7 +9905,10 @@
             "codeComponentIdentifier" : ".\/TopAppBarActionItem.tsx_TopAppBarActionItem",
             "codeComponentProps" : {
               "animation" : "slideIn",
+              "backgroundColor" : "none",
+              "borderRadius" : 100,
               "builtInIcon" : "star",
+              "color" : "none",
               "icon" : "< Material >",
               "path" : ""
             },
@@ -10006,7 +10022,10 @@
             "codeComponentIdentifier" : ".\/TopAppBarActionItem.tsx_TopAppBarActionItem",
             "codeComponentProps" : {
               "animation" : "slideIn",
+              "backgroundColor" : "none",
+              "borderRadius" : 100,
               "builtInIcon" : "star",
+              "color" : "none",
               "icon" : "< Material >",
               "path" : ""
             },

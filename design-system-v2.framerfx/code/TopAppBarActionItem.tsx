@@ -103,32 +103,32 @@ addPropertyControls(TopAppBarActionItem, {
       options: animationsArray,
       optionTitles: animationsArray,
   },
-  // ...themePropertyControls("icon"),
-  // color: {
-  //   title: "Color",
-  //   type: ControlType.Color,
-  //   defaultValue: "none",
-  // },
-  // backgroundColor: {
-  //     title: "Background Color",
-  //     type: ControlType.Color,
-  //     defaultValue: "none",
-  // },
-  // borderRadius: {
-  //   title: "Border Radius",
-  //   type: ControlType.Number,
-  //   defaultValue: 100,
-  // },
-  // checked: {
-  //   title: "Checked",
-  //   type: ControlType.Boolean,
-  //   defaultValue: undefined,
-  // },
-  // disabled: {
-  //   title: "Disabled",
-  //   type: ControlType.Boolean,
-  //   defaultValue: undefined,
-  // },
+  ...themePropertyControls("icon"),
+  color: {
+    title: "Color",
+    type: ControlType.Color,
+    defaultValue: "none",
+  },
+  backgroundColor: {
+      title: "Background Color",
+      type: ControlType.Color,
+      defaultValue: "none",
+  },
+  borderRadius: {
+    title: "Border Radius",
+    type: ControlType.Number,
+    defaultValue: 100,
+  },
+  checked: {
+    title: "Checked",
+    type: ControlType.Boolean,
+    defaultValue: undefined,
+  },
+  disabled: {
+    title: "Disabled",
+    type: ControlType.Boolean,
+    defaultValue: undefined,
+  }
   // onChange: {
   //   title: "On Change",
   //   type: ControlType.,
