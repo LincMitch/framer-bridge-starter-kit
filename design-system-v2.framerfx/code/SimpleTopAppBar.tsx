@@ -20,7 +20,11 @@ type Props = System.SimpleTopAppBarProps & {
 
 export class SimpleTopAppBar extends React.Component<Props> {
   render() {
-    return <System.SimpleTopAppBar {...this.props} ></System.SimpleTopAppBar>
+    return (
+      <FramerXWrapper>
+      <System.SimpleTopAppBar {...this.props} ></System.SimpleTopAppBar>
+      </FramerXWrapper>
+    )
   }
 
   static defaultProps: Props = {
