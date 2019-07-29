@@ -14,7 +14,6 @@ import {
   iconPropertyControls, 
   processIconProps
 } from "./framerx-integration";
-import FramerXWrapper from "./FramerXWrapper"
 
 // Open Preview (CMD + P)
 // API Reference: https://www.framer.com/api
@@ -62,7 +61,7 @@ type Props = Partial<FrameProps> &
         )
     } else
         return (
-                <System.TopAppBarNavigationIcon 
+                <System.TopAppBarNavigationIcon
                   // First, declare any custom props that may be overrided
                   // borderRadius={"100%"}
                   // backgroundColor={"lime"}
@@ -72,9 +71,9 @@ type Props = Partial<FrameProps> &
                   // backgroundColor={"#0099ff"}
 
                   style={{
-                      // color: "#FFF",
-                      // If you're using style, spread in props.style too
-                      ...style,
+                    // color: "#FFF",
+                    // If you're using style, spread in props.style too
+                    ...style,
                   }}
                 onClick={handleLocation}/>
 

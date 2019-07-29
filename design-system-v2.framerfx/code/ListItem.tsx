@@ -1,44 +1,151 @@
 import * as React from "react"
+import {
+  Frame,
+  FrameProps,
+  addPropertyControls,
+  ControlType,
+  RenderTarget
+} from "framer"
+import { useLocation, useRouter } from "wouter"
+import { useData, animations } from "./SharedData"
 import * as System from "../../design-system"
-import { ControlType, PropertyControls } from "framer"
-import { cloneFrameless } from "@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils";
-import FramerXWrapper from "./FramerXWrapper"
+import {
+  themePropertyControls,
+  iconPropertyControls, 
+  processIconProps
+} from "./framerx-integration";
 
-type Props = System.ListItemProps & {
-  object: string[];
-  externalObject: React.ReactNode;
-  activeObjectIndex: number;
-}
+// Open Preview (CMD + P)
+// API Reference: https://www.framer.com/api
+const animationsArray = Object.keys(animations)
+// Set default properties
 
-export class ListItem extends React.Component<Props> {
-  render() {
-    const { object, externalObject, ...rest } = this.props;
 
-    let objectElements;
-    objectElements = cloneFrameless(externalObject); 
-
-    return <System.ListItem {...this.props} >{objectElements}</System.ListItem>
-  }
-
-  static defaultProps: Props = {
-    activeObjectIndex: 0
-  }
-
-  static propertyControls: PropertyControls<Props> = {
-    activated: { type: ControlType.Boolean, title: "activated" },
-    disabled: { type: ControlType.Boolean, title: "disabled" },   
-    // ripple: { type: ControlType.Boolean, title: "ripple" },   
-    selected: { type: ControlType.Boolean, title: "selected" },   
-
-    externalObject: {
-      type: ControlType.ComponentInstance,
-      title: "object"
-    },  
-    activeObjectIndex: {
-      type: ControlType.Number,
-      title: "Index",
-      min: 0
+type Props = Partial<FrameProps> &
+    Partial<{
+        // optional props
+        // photo: string
+    }> & {
+        // required props
+        // icon: string
     }
 
+
+    export const ListItem = (props: Props) => {
+      // Destructure out all the custom props
+      // const { style, ...rest } = props
+      const { text, style, ...rest } = processIconProps(props);
+      const [toggle, setToggle] = useData()
+      const router = useRouter()
+      const [location, setLocation] = useLocation()
+      const handleLocation = () => {
+          router.animation = animations[props.animation]
+          setLocation(`/preview/${props.path.toLowerCase()}`)
+      }
+      if (RenderTarget.current() === RenderTarget.thumbnail) {
+        return (
+            <Frame
+                size={"100%"}
+                background="Black"
+                radius="20%"
+            >
+                <Frame size="70%" background="transparent" center>
+                    <svg width="100%" height="100%" viewBox="0 0 207 213">
+                        <g fill="none" stroke-width="10" stroke="#FFF">
+                            <path d="M56.8 117L54 117C33 117 16 100 16 79L16 79C16 58 33 41 54 41L94 41C115 41 132 58 132 79L132 81C132 100.9 115.9 117 96 117L96 117" />
+                            <path d="M146.5 77L146.5 77C167.2 77 184 93.8 184 114.5L184 115C184 136 167 153 146 153L106 153C85 153 68 136 68 115L68 115C68 94 85 77 106 77L113 77" />
+                        </g>
+                    </svg>
+                </Frame>
+            </Frame>
+        )
+    } else
+        return (
+                <System.ListItem
+                  // First, declare any custom props that may be overrided
+                  // borderRadius={"100%"}
+                  // backgroundColor={"lime"}
+                  // Next, spread in all the container props
+                  {...rest}
+                  // Finally, declare any forced props
+                  // backgroundColor={"#0099ff"}
+                  text="Text"
+                  style={{
+                    // color: "#FFF",
+                    // If you're using style, spread in props.style too
+                    ...style,
+                  }}
+                onClick={handleLocation}>
+                  {text}
+                </System.ListItem>
+
+        )
   }
+
+  ListItem.defaultProps = {
+    height: 48, // set default props to control starting size on canvas
+    width: 48,
+    path: "",
+    text: "text",
+    animation: animationsArray[0],
+    // and set defaults for any required props
 }
+
+addPropertyControls(ListItem, {
+  ...iconPropertyControls(),
+  text: {
+    type: ControlType.String,
+    title: "Text",
+    placeholder: "Text",
+  },
+
+  path: {
+    type: ControlType.String,
+    title: "Path",
+    placeholder: "Artboard name",
+  },
+  animation: {
+      type: ControlType.Enum,
+      defaultValue: animationsArray[0],
+      options: animationsArray,
+      optionTitles: animationsArray,
+  },
+  ...themePropertyControls("icon"),
+  color: {
+    title: "Color",
+    type: ControlType.Color,
+    defaultValue: "none",
+  },
+  backgroundColor: {
+      title: "Background Color",
+      type: ControlType.Color,
+      defaultValue: "none",
+  },
+  borderRadius: {
+    title: "Border Radius",
+    type: ControlType.Number,
+    defaultValue: 100,
+  },
+
+  // RMWC Props
+  activated: {
+    title: "Activated",
+    type: ControlType.Boolean,
+    defaultValue: undefined,
+  },
+  disabled: {
+    title: "Disabled",
+    type: ControlType.Boolean,
+    defaultValue: undefined,
+  },
+  // ripple: {
+  //   title: "Ripple",
+  //   type: ControlType.,
+  //   defaultValue: undefined,
+  // },
+  selected: {
+    title: "Activated",
+    type: ControlType.Boolean,
+    defaultValue: undefined,
+  },
+})
