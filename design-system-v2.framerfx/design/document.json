@@ -10120,79 +10120,7 @@
         "centerAnchorX" : 0,
         "centerAnchorY" : 0,
         "children" : [
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : null,
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.072544642857142863,
-            "children" : [
 
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/TopAppBar.tsx_TopAppBar",
-            "codeComponentProps" : {
-              "activeTopAppBarRowsIndex" : 0,
-              "externalTopAppBarRows" : [
-                {
-                  "enabled" : true,
-                  "type" : "componentinstance",
-                  "value" : "b4u6EcMGI"
-                }
-              ],
-              "fixed" : false,
-              "fixedLastrowOnly" : false,
-              "flexible" : false,
-              "theme" : "primaryBg onPrimary",
-              "waterfall" : false
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 130,
-            "heightType" : 0,
-            "id" : "RrLyvVzft",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : 0,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "AnU6WuiRm",
-            "previewSettings" : {
-              "__class" : "PreviewSettings",
-              "bezel" : false,
-              "deviceType" : null,
-              "responsive" : true,
-              "rotate" : false,
-              "touch" : false,
-              "zoom" : -1
-            },
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : 0,
-            "rotation" : 0,
-            "top" : 0,
-            "visible" : true,
-            "width" : 414,
-            "widthType" : 0
-          }
         ],
         "clip" : true,
         "codeOverrideEnabled" : false,
@@ -10201,7 +10129,7 @@
         "exportOptions" : [
 
         ],
-        "fillColor" : "white",
+        "fillColor" : "hsl(130, 94%, 36%)",
         "fillEnabled" : true,
         "fillImage" : null,
         "fillImagePixelHeight" : null,
@@ -10251,79 +10179,7 @@
         "centerAnchorX" : 0.88418079096045199,
         "centerAnchorY" : 1.4788732394366197,
         "children" : [
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : null,
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.072544642857142863,
-            "children" : [
 
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/TopAppBar.tsx_TopAppBar",
-            "codeComponentProps" : {
-              "activeTopAppBarRowsIndex" : 0,
-              "externalTopAppBarRows" : [
-                {
-                  "enabled" : true,
-                  "type" : "componentinstance",
-                  "value" : "b4u6EcMGI"
-                }
-              ],
-              "fixed" : false,
-              "fixedLastrowOnly" : false,
-              "flexible" : false,
-              "theme" : "primaryBg onPrimary",
-              "waterfall" : false
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 130,
-            "heightType" : 0,
-            "id" : "SIzP39x9Q",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : 0,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "mJehetFBh",
-            "previewSettings" : {
-              "__class" : "PreviewSettings",
-              "bezel" : false,
-              "deviceType" : null,
-              "responsive" : true,
-              "rotate" : false,
-              "touch" : false,
-              "zoom" : -1
-            },
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : 0,
-            "rotation" : 0,
-            "top" : 0,
-            "visible" : true,
-            "width" : 414,
-            "widthType" : 0
-          }
         ],
         "clip" : true,
         "codeOverrideEnabled" : false,
@@ -10387,7 +10243,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.5,
+            "centerAnchorY" : 0.5853794642857143,
             "children" : [
 
             ],
@@ -10399,15 +10255,15 @@
                 {
                   "enabled" : true,
                   "type" : "componentinstance",
-                  "value" : "AnU6WuiRm"
+                  "value" : "mJehetFBh"
                 },
                 {
                   "enabled" : true,
                   "type" : "componentinstance",
-                  "value" : "mJehetFBh"
+                  "value" : "AnU6WuiRm"
                 }
               ],
-              "firstPath" : "home",
+              "firstPath" : "myframe",
               "toggleHotposts" : true
             },
             "codeOverrideEnabled" : false,
@@ -10423,12 +10279,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 1,
+            "height" : 0.8292410714285714,
             "heightType" : 1,
             "id" : "q1FpWTDi4",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 0,
+            "left" : null,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -10453,10 +10309,83 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 0,
+            "top" : null,
             "visible" : true,
             "width" : 1,
             "widthType" : 1
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.072544642857142863,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/TopAppBar.tsx_TopAppBar",
+            "codeComponentProps" : {
+              "activeTopAppBarRowsIndex" : 0,
+              "externalTopAppBarRows" : [
+                {
+                  "enabled" : true,
+                  "type" : "componentinstance",
+                  "value" : "b4u6EcMGI"
+                }
+              ],
+              "fixed" : false,
+              "fixedLastrowOnly" : false,
+              "flexible" : false,
+              "theme" : "primaryBg onPrimary",
+              "waterfall" : false
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 130,
+            "heightType" : 0,
+            "id" : "RrLyvVzft",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 0,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "oCLfECk5J",
+            "previewSettings" : {
+              "__class" : "PreviewSettings",
+              "bezel" : false,
+              "deviceType" : null,
+              "responsive" : true,
+              "rotate" : false,
+              "touch" : false,
+              "zoom" : -1
+            },
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 0,
+            "rotation" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 414,
+            "widthType" : 0
           }
         ],
         "clip" : true,
@@ -10963,6 +10892,61 @@
         "top" : -1919,
         "visible" : true,
         "width" : 250,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Navigation.tsx_Navigation",
+        "codeComponentProps" : {
+          "animation" : "slideIn",
+          "firstPath" : "home",
+          "toggleHotposts" : true
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 200,
+        "heightType" : 0,
+        "id" : "kxQM5_V4S",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : -8567,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -2738,
+        "visible" : true,
+        "width" : 200,
         "widthType" : 0
       }
     ],

@@ -55,7 +55,8 @@ export function Navigation(props) {
         return props.children.map((el, i) => {
             return (
                 el.props.name.toLowerCase() === props.firstPath && (
-                    <Frame size={"100%"} background="transparent" key={i}>
+                    <Frame size={"100%"} background="transparent" key={i}
+                        >
                         {el}
                     </Frame>
                 )
@@ -102,7 +103,7 @@ export function Navigation(props) {
                         loc === "/preview/" + el.props.name.toLowerCase() && (
                             <Frame
                                 size={"100%"}
-                                background="pink"
+                                background="transparent"
                                 key={i}
                                 {...router.animation}
                             >
